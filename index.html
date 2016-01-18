@@ -8,27 +8,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>SEI 15 - Semana da Engenharia Informática</title>
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- Angular things -->
-    <link href="css/angular-carousel.min.css" rel="stylesheet" type="text/css" />
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">W
     <!-- Custom CSS -->
-    <link href="css/template.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/agenda.css" rel="stylesheet">
-    <link href="css/events.css" rel="stylesheet">
-    <link href="css/partners.css" rel="stylesheet">
-    <link href="css/speakers.css" rel="stylesheet">
-    <link href="css/organization.css" rel="stylesheet">
-    <link href="css/map.css" rel="stylesheet">
-    <link href="css/ribbon.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link href="css/challenges.css" rel="stylesheet">
+    <link href="css/import.css" rel="stylesheet">
+
+
     <!-- Custom Fonts -->
-    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <!-- endcut-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,98 +22,34 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body id="page-top" class="index" ng-app="sei-app">
-        <!-- Ribbons -->
-      <div class="ribbon-container">
-        <a href="https://www.facebook.com/SEI.UMinho" target="_blank" class="ribbon facebook">
-            <i class="fa fa-facebook"></i>
-        </a>
-        <a href="https://twitter.com/cesiuminho" target="_blank" class="ribbon twitter">
-            <i class="fa fa-twitter"></i>
-        </a>
-        <a href="http://seium.eventbrite.pt/" target="_blank" class="ribbon signup">
-            <i class="fa fa-calendar-o"></i>
-        </a>
-      </div>
+<body id="page-top" class="index" ng-app="sei-app">
 
-      <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top" id="nav-logo">
-                    <img src="img/nav-logo.png" />
-                    <div>
-                        <span>
-                            SEMANA DA<br>
-                            ENGENHARIA INFORMÁTICA<br>
-                            <strong>UNIVERSIDADE DO MINHO<br>
-                            2015</strong>
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav nav-item">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    {% for post in site.posts %}
-                    <li>
-                      <a class="page-scroll" href="#{{ post.title | prepend: post.title }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    {% include navbar.hmtl %}
+    {% include header.hmtl %}
+    {% include agenda.hmtl %}
+    {% include events.hmtl %}
+    {% include challenges.hmtl %}
+    {% include speakers.hmtl %}
+    {% include sponsors.hmtl %}
+    {% include orga.hmtl %}
+    {% include about.html %}
+    {% include footer.html %}
+
+    
 
 
 
+    <!-- jQuery -->
+    <script src="js/lib/lib.min.js"></script>
+    <script src="js/lib/ohsnap.js"></script>
 
-    <!-- Header -->
-    <header id="home">
-        <div id="ohsnap"><a href="http://seium.eventbrite.pt/" target="_blank"></a></div>
-        <div class="container">
-            <div class="row banner">
-                <div class="col-md-6 col-sm-6 col-xs-6 banner-image">
-                    <img src="img/mascote.png" />
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-6 banner-text">
-                    <div class="col-md-10 banner-date-locale">
-                        <div class="banner-date">14 a 21 Fevereiro</div>
-                        <div class="banner-locale">Universidade do Minho - Departamento de Informática</div>
-                    </div>
-                    <div class="col-md-10">
-                        <span class="banner-title">Semana da Engenharia Informática</span>
-                    </div>
-                    <div class="col-md-10 banner-sponsors">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4 col-xs-4">Organização</div>
-                            <br>
-                            <div class="col-md-4 col-sm-4 col-xs-4 banner-logos">
-                                <a href="http://www.cesium.di.uminho.pt/" target="_blank"><img src="img/logos/cesium.png" /></a>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4 banner-logos">
-                                <a href="http://www.uminho.pt/" target="_blank"><img src="img/logos/ee-um-di-color.png" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <script src="js/nav-var.js"></script>
+    <script src="js/sei.js"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/map.js"></script>
+</body>
 
-
-
-
-  </body>
 </html>

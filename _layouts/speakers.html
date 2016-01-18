@@ -1,0 +1,38 @@
+    <!-- speakers Section -->
+    <section id="speakers" ng-controller="speakerCtrl">
+        <div class="container">
+            <div class="col-md-12 title-container">
+                <div class="speakers-title">Oradores</div>
+            </div>
+            <ul rn-carousel rn-carousel-index="carouselSpeakers" rn-carousel-controls class="carousel1 speakers-carousel">
+                <li ng-repeat="speakers in speakerSlides">
+                    <div ng-repeat="speaker in speakers" class="col-md-4 col-sm-4 col-xs-12">
+                        <div ng-style="{'background-image': 'url(' + speaker.pic + ')'}" class="col-md-12 col-xs-12 col-sm-12 speaker-img"></div>
+                        <span class="col-md-12 col-xs-12 col-sm-12 speaker-name">{{speaker.name}}</span>
+                        <span class="col-md-12 col-xs-12 col-sm-12 speaker-position">{{speaker.position}}</span>
+                        <span class="col-md-12 col-xs-12 col-sm-12 speaker-company">
+                            <a ng-repeat="enterprise in speaker.enterprise" target="_blank" ng-href="{{ enterprise.enterpriseUrl }}">
+                                {{ enterprise.name }}
+                            </a>
+                        </span>
+                        <span class="col-md-12 col-xs-12 col-sm-12 speaker-about">{{speaker.about}}</span>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <ul class="list-inline social-buttons speaker-social">
+                                <li>
+                                    <a ng-if="speaker.web" target="_blank" ng-href="{{ speaker.web }}"><i class="fa fa-globe"></i></a>
+                                </li>
+                                <li>
+                                    <a ng-if="speaker.twitter" target="_blank" ng-href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a ng-if="speaker.github" target="_blank" ng-href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div rn-carousel-indicators class="speaker-indicators col-md-12 col-sm-12 col-xs-12" ng-if="speakerSlides.length > 1" slides="speakerSlides" rn-carousel-index="carouselSpeakers"></div>
+        </div>
+    </section>
