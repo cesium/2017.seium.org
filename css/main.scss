@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+
 
 
 // Our variables
@@ -44,29 +44,29 @@ $on-laptop:        800px;
 
 // Import partials from 'sass_dir' (defaults to '_sass')
 
-@import
-    "base",
-    "layout",
-    "syntax-highlighting",
-    "agenda",
-    "angular-carousel.min",
-    "base",
-    "bootstrap",
-    "challenges",
-    "custom",
-    "events",
-    "footer",
-    "header",
-    "layout",
-    "map",
-    "navbar",
-    "organization",
-    "partners",
-    "ribbon",
-    "speakers",
-    "syntax-highlighting",
-    "template",
-    "font-awesome/css/font-awesome.min",
-    "font-aweomse/css/font-awesome"
-;
 
+@import "base";
+@import "layout";
+@import "syntax-highlighting";
+
+
+@import "agenda";
+@import "angular-carousel.min";
+@import "base";
+@import "map";
+@import "navbar";
+@import "organization";
+@import "partners";
+@import "ribbon";
+@import "speakers";
+@import "syntax-highlighting";
+@import "template";
+@import "bootstrap";
+@import "custom";
+@import "events";
+@import "footer";
+@import "header";
+@import "layout";
+
+
+@import "challenges";
