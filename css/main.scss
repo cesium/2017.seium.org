@@ -11,7 +11,6 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
-
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
@@ -49,10 +48,14 @@ $on-laptop:        800px;
 @import "layout";
 @import "syntax-highlighting";
 
-
+@import "aboutsei";
 @import "agenda";
 @import "angular-carousel.min";
 @import "base";
+@import "bootstrap.min";
+@import "bootstrap";
+@import "font-awesome/css/font-awesome.min";
+@import "font-awesome/css/font-awesome";
 @import "map";
 @import "navbar";
 @import "organization";
@@ -67,6 +70,4 @@ $on-laptop:        800px;
 @import "footer";
 @import "header";
 @import "layout";
-
-
 @import "challenges";
