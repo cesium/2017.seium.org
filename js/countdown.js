@@ -1,3 +1,4 @@
+$(document).ready ( function() {
   function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
@@ -37,5 +38,7 @@
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-  initializeClock('clockdiv', deadline);
+  var deadline = new Date(Date.parse(new Date(2016, 1, 12, 18)));
+  initializeClock('clock', deadline);
+
+});

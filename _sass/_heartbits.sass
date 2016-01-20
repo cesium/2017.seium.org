@@ -1,5 +1,29 @@
+.sei-brand
+  position: fixed
+  padding: 20px
+  font-size: 56.3%
+  color: #fff
+  .sei-logo
+    width: 50px
+  .sei-description
+    opacity: 0
+    line-height: 10px
+    left: -5%
+    vertical-align: middle
+    margin-left: 5px
+    display: inline-table
+  &:hover .sei-description, &:focus .sei-description
+    max-width: 150px
+    opacity: 1
+    left: 0%
+    color: #fff
+    transition: opacity 0.6s ease-out, left 0.6s ease-out
+    -webkit-transition: opacity 0.6s ease-out, left 0.6s ease-out
+    -moz-transition: opacity 0.6s ease-out, left 0.6s ease-out
+
+
 #heartbits
-  .intro
+  .header
     display: table
     width: 100%
     height: auto
@@ -11,37 +35,28 @@
     -moz-background-size: cover
     background-size: cover
     -o-background-size: cover
-    .intro-body
+    .header-body
       display: table-cell
       vertical-align: middle
-      .brand-heading
-        font-size: 40px
-      .intro-text
-        padding: 0
-        font-size: 18px
-        margin-bottom: 35px
-
-#clockdiv
-  font-family: sans-serif
-  color: #fff
-  display: inline-block
-  font-weight: 100
-  text-align: center
-  font-size: 30px
-  > div
-    padding: 10px
-    border-radius: 3px
-    background: #00BF96
-    display: inline-block
-  div > span
-    padding: 15px
-    border-radius: 3px
-    background: #00816A
-    display: inline-block
-
-.smalltext
-  padding-top: 5px
-  font-size: 16px
+      .brand
+        width: 100%
+      #clock
+        display: inline-block
+        text-align: center
+        font-size: 30px
+        .clock-segment
+          padding: 10px
+          display: inline-block
+          .clock-unit
+            padding-top: 5px
+            font-size: 14px
+      .register
+        margin: 20px auto
+        display: inherit
+        background-color: #E0BA19
+        color: #333
+        font-weight: 700
+        text-transform: uppercase
 
 @media (min-width: 767px)
   #heartbits

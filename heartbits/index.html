@@ -1,31 +1,47 @@
 ---
-layout: default
+layout: simple
 ---
+<a class="sei-brand" href="{{ site.url }}">
+  <img class="sei-logo" src="{{ site.baseurl}}/img/nav-logo.png" />
+  <span class="sei-description">
+    SEMANA DA<br>
+    ENGENHARIA INFORMÁTICA<br>
+    <strong>
+    UNIVERSIDADE DO MINHO<br>2015
+    </strong>
+  </span>
+</a>
+
 <div id="heartbits">
-  <header class="intro">
-    <div class="intro-body">
+
+  <header class="header">
+    <div class="header-body">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <img class="brand-heading img-responsive" src="{{ site.baseurl }}/img/heartbits/header.png"/>
+            <img class="brand img-responsive" src="{{ site.baseurl }}/img/heartbits/header.png"/>
+
             <div id="clock">
-              <div>
-                <span class="days"></span>
-                <div class="smalltext">Days</div>
+              <div class="clock-segment">
+                <span class="days">d</span>
+                <div class="clock-unit">Days</div>
               </div>
-              <div>
+              <div class="clock-segment">
                 <span class="hours"></span>
-                <div class="smalltext">Hours</div>
+                <div class="clock-unit">Hours</div>
               </div>
-              <div>
+              <div class="clock-segment">
                 <span class="minutes"></span>
-                <div class="smalltext">Minutes</div>
+                <div class="clock-unit">Minutes</div>
               </div>
-              <div>
+              <div class="clock-segment">
                 <span class="seconds"></span>
-                <div class="smalltext">Seconds</div>
+                <div class="clock-unit">Seconds</div>
               </div>
             </div>
+
+            <button type="button" class="btn btn-default register" src="https://cesium.typeform.com/to/Pqh2lp">Inscreve-te já!</button>
+            
           </div>
         </div>
       </div>
