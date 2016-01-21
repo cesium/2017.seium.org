@@ -7,14 +7,14 @@ layout: simple
     SEMANA DA<br>
     ENGENHARIA INFORMÁTICA<br>
     <strong>
-    UNIVERSIDADE DO MINHO<br>2015
+      UNIVERSIDADE DO MINHO<br>2015
     </strong>
   </span>
 </a>
 
 <div id="heartbits">
 
-  <header class="header">
+  <header id="heartbits-header">
     <div class="header-body">
       <div class="container">
         <div class="row">
@@ -23,28 +23,134 @@ layout: simple
 
             <div id="clock">
               <div class="clock-segment">
-                <span class="days">d</span>
-                <div class="clock-unit">Days</div>
+                <span class="days"></span>
+                <div class="clock-unit">Dias</div>
               </div>
               <div class="clock-segment">
                 <span class="hours"></span>
-                <div class="clock-unit">Hours</div>
+                <div class="clock-unit">Horas</div>
               </div>
               <div class="clock-segment">
                 <span class="minutes"></span>
-                <div class="clock-unit">Minutes</div>
+                <div class="clock-unit">Minutos</div>
               </div>
               <div class="clock-segment">
                 <span class="seconds"></span>
-                <div class="clock-unit">Seconds</div>
+                <div class="clock-unit">Segundos</div>
               </div>
             </div>
 
-            <button type="button" class="btn btn-default register" src="https://cesium.typeform.com/to/Pqh2lp">Inscreve-te já!</button>
-            
+            <h3 class="register btn-green"> <a src="https://cesium.typeform.com/to/Pqh2lp"> INSCREVE-TE JÁ!</a></h3>
+
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <div id="heartbits-info">
+    <div class="container">
+
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div role="tab" id="headingOne">
+          <h5>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <i class="fa fa-angle-down"></i> O que é?
+            </a>
+          </h5>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            A Hackathon HeartBits powered by Subvisual é um evento do Centro de Estudantes de Informática da Universidade do Minho (CeSIUM) e da Associação Nacional de Estudantes de Medicina (ANEM) com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual.<br>
+            O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a "Promoção da Saúde e Prevenção da Doença". <br>
+            Serão proporcionados momentos de relaxamento, dinâmicas de grupo e oportunidades de aprendizagem a todos os participantes, como talks, desafios e outras sessões, que terão lugar paralelamente ao trabalho das equipas, sendo muito delas opcionais.
+          </div>
+        </div>
+        <div role="tab" id="headingTwo">
+          <h5>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <i class="fa fa-angle-down"></i> Quando e onde ocorre?
+            </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            Este evento será realizado a partir das 18h do dia 12 de Fevereiro até às 20h do dia 13 de Fevereiro, na Escola de Ciências da Saúde-Universidade do Minho, com o apoio da presidência.
+          </div>
+        </div>
+      </div>
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div role="tab" id="headingThree">
+          <h5>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              <i class="fa fa-angle-down"></i> Quem pode participar?
+            </a>
+          </h5>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Estudantes do ensino superior português, público ou privado e profissionais recèm licenciados, ligados à área da Saúde ou Programação. No entanto, os estudantes têm prioridade na obtenção de vagas.
+          </div>
+        </div>
+      </div>
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div role="tab" id="headingFour">
+          <h5>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              <i class="fa fa-angle-down"></i> Mais informações
+            </a>
+          </h5>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="panel-body">
+            Consulte o regulamento disponível:
+            <a  href="https://drive.google.com/open?id=0B3_r_ZU5WoqwVEJMbFFhNlRMM0E" target="_blank">
+              <button class="btn btn-info btn-sei btn-left">Regulamento</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="heartbits-awards">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-trophy fa-4x"></i>
+          <p>1.º Prémio</p>
+
+          <p class="activities-description">Todos os elementos da equipa vencedora recebem 1 Fitbit</p>
+          <a  href="https://www.fitbit.com/eu/flex" target="_blank">
+            <button class="btn btn-info btn-sei">Fitbits</button>
+          </a>
+        </div>
+
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          <p>2.º Prémio</p>
+
+          <p class="activities-description">Todos os elementos da equipa que ficar em 2.º lugar recebem 1 Chromecast</p>
+          <a  href="https://www.google.com/intl/pt_pt/chromecast/tv/#?discover" target="_blank">
+            <button class="btn btn-info btn-sei">Chromecasts</button>
+          </a>
+        </div>
+
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          <p>Surpresas</p>
+
+          <p class="activities-description">Vários outros prémios disponíveis ao longo do evento! </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="heartbits-partners">
+
+  </div>
 </div>

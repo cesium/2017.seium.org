@@ -23,7 +23,7 @@
 
 
 #heartbits
-  .header
+  #heartbits-header
     display: table
     width: 100%
     height: auto
@@ -41,6 +41,7 @@
       .brand
         width: 100%
       #clock
+        font-family: 'Oswald'
         display: inline-block
         text-align: center
         font-size: 30px
@@ -51,12 +52,29 @@
             padding-top: 5px
             font-size: 14px
       .register
-        margin: 20px auto
-        display: inherit
-        background-color: #E0BA19
-        color: #333
+        cursor: pointer
+        font-size: 16px
+        font-family: 'Lato', sans-serif
         font-weight: 700
-        text-transform: uppercase
+        text-decoration: none
+        color: #EAEAEA
+        transition: 0.5s ease
+        border-bottom: 1px solid transparent
+        &:hover a
+          color: #fff
+          border-bottom: 1px solid #EAEAEA
+  #heartbits-info
+    padding: 100px 0
+    background-image: url(../img/stuff-dark.png)
+    background-size: cover
+    .btn-left
+      margin: 10px 0
+
+  #heartbits-awards
+    background-image: url(../img/../img/background_1.png)
+    padding: 100px 0
+
+
 
 @media (min-width: 767px)
   #heartbits
