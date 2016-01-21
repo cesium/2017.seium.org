@@ -3,6 +3,7 @@
   padding: 20px
   font-size: 56.3%
   color: #fff
+  z-index: 999
   .sei-logo
     width: 50px
   .sei-description
@@ -53,7 +54,7 @@
             font-size: 14px
       .register
         cursor: pointer
-        font-size: 16px
+        font-size: 20px
         font-family: 'Lato', sans-serif
         font-weight: 700
         text-decoration: none
@@ -71,10 +72,25 @@
       margin: 10px 0
 
   #heartbits-awards
-    background-image: url(../img/../img/background_1.png)
     padding: 100px 0
+    background-image: url(/img/background_1.png)
+  #heartbits-organisation
+    padding: 100px 0
+    background-image: url(../img/background_prometeu.png)
+    background-size: cover
+    .heartbits-partner
+      .partner-img
+        img
+          width: 70%
+        #subvisual-logo img
+          width: 35%
 
-
+@media (max-width: 991px)
+  #heartbits
+    #heartbits-organisation
+      .heartbits-partner
+        .partner-img
+          display: block !important
 
 @media (min-width: 767px)
   #heartbits
