@@ -1,4 +1,3 @@
-
 #speakers
   text-align: center
   background-attachment: scroll
@@ -63,21 +62,7 @@
   color: #0098ff
   font-weight: bold
 
-.speaker-about
-  color: #fff
-  text-align: justify
-  line-height: 150%
-  font-weight: bold
-  font-size: 12px
-  &::before, &::after
-    color: #0098ff
-    font-weight: bold
-    font-size: 22px
-    font-family: serif
-  &::before
-    content: "\201C\00a0"
-  &::after
-    content: "\00a0\201D"
+
 
 .speaker-social
   margin-top: 15px
@@ -150,15 +135,7 @@ div.organization-indicators span
     font-size: 16px
     &::after
       border-bottom: 2px solid #fff
-  .speaker-about
-    padding: 0
-  section ul.social-buttons li a
-    height: 30px
-    width: 30px
-    font-size: 14px
-    line-height: 30px
-  ul.speakers-carousel
-    height: 400px
+
 
 @media (max-width: 507px)
   section ul.social-buttons li a
@@ -180,3 +157,26 @@ div.organization-indicators span
   span.speaker-about
     font-size: 10px
     padding: 0
+
+.speakers-list
+  max-width: 1360px
+  min-width: 280px
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+  margin: 25px auto
+  @media(min-width: 1200px)
+    margin: 0 auto
+    flex-direction: row
+
+
+.speakers-list-cell
+  text-align: center
+  align-self: flex-start
+  margin: 25px auto
+  max-width: 350px
+  @media(max-width: 768px)
+    max-width: 320px
+  @media(min-width: 1200px)
+    margin: 0 0 20 0

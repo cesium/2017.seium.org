@@ -1,15 +1,21 @@
     <!-- speakers Section -->
-    <section id="speakers" controller="speakerCtrl">
+    <section id="aboutspeakers" controller="speakerCtrl">
         <div class="container">
             <div class="col-md-12 title-container">
                 <div class="speakers-title">Oradores</div>
             </div>
-                <div class="speakers-list">
-            
+
+                    <div class="col-md-12">
+                    </br></br>
+                        Junta te a nós durante esta semana e conhece os orados das atividades que temos preparadas para ti.
+                    </br></br></br></br>
+                    </div>
+                
                     {% for speaker in site.data.speakers %}
-                    <div repeat="speaker in speakers" class="speakers-list-cell">
+                    <div class="col-md-12">
+                    <div repeat="speaker in speakers" class="col-md-3">
                         <div class="speaker-img" style="border-radious:50%">
-                            <img style="width:200px;height:200px" src="{{ speaker.pic }}"/>
+                            <img style="width:200px;height:200px" src="../{{ speaker.pic }}"/>
                         </div>
                         <span class="speaker-name">{{ speaker.name }}</span>
                         <span class="speaker-position">{{speaker.position}}</span>
@@ -31,10 +37,18 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
 
-                {% endfor %}
+                    </div></br></br>
+                    <div class="col-md-9">
+                        <span class="aboutspeaker">{{ speaker.about }}</span>
+                    </div>
                 </div>
+
+                <div class="col-md-12"> 
+                </br></br>
+                </br></br>
+                </div>
+                {% endfor %}
             </ul>
 
         </div>
