@@ -6,88 +6,25 @@
   web: https://developer.ibm.com/clouddataservices/author/mike-elsmore/
   twitter: https://twitter.com/ukmadlz
   github: https://github.com/ukmadlz
-  about: Mike spends his days as Developer Advocate at IBM Cloud Data Services, using his time to share knowledge on rapid development and different databases. Most of the time he can be found in the middle of a prototype in some combination of JavaScript, server tech and odd APIs. Mike also happens to be an active part of the hacker subculture, taking part in hackathons and development conferences.
+  about: Mike é um Developer Advocate na IBM. É também parte ativa da subcultura hacker, participando em várias hackathons e conferências sobre desenvolvimento.
 
 
-- name: Luís Fonseca
+- name: João Silva
   pic: img/speakers/joaosilva.jpg
-  position: Lead Interactive Developer
-  enterprise: X-Team
-  enterpriseUrl: http://x-team.com/
-  web: http://luispedrofonseca.com/
-  twitter: https://twitter.com/lpfonseca
+  position: Junior Concept Artist
+  enterprise: Crytek
+  enterpriseUrl: http://www.crytek.com/
+  web: https://www.artstation.com/artist/silva
+  twitter:
   github: 
-  about: Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.
+  about: Estudou Design de multimédia no Porto mas sempre com a sensação de que haveria algo mais além. Até que um dia descobriu Concept Art e lhe foi recomendada a FZD School of Design em Singapura, uma escola onde o foco era design industrial para entretenimento. Após um ano intenso de trabalho e revelação desenvolveu um portfólio para se candidatar à posições de Concept Art na indústria de cinema e jogos, assegurando assim um lugar na Crytek.
 
-- name: Francisco Mendes
-  pic: img/speakers/fmendes.jpg
-  position: Entrepreneur & Creator
-  enterprise: Bee Very Creative
-  enterpriseUrl: https://beeverycreative.com/
-  web: https://www.beeverycreative.com
-  twitter: https://twitter.com/fmendes75/
+- name: Roberto Cortez
+  pic: img/speakers/radcortez.jpg
+  position: Java Freelancer
+  enterprise:
+  enterpriseUrl:
+  web: http://www.radcortez.com/
+  twitter:
   github:
-  about: Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como diretor de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems na incubadora de empresas da Universidade de Aveiro, que mais tarde tornou-se na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.
-
-- name: Mike Elsmore
-  pic: img/speakers/tmike_hackconeu.jpg 
-  position: Developer Advocate
-  enterprise: IBM  
-  enterpriseUrl: https://www.ibm.com/us-en/  
-  web: https://developer.ibm.com/clouddataservices/author/mike-elsmore/
-  twitter: https://twitter.com/ukmadlz
-  github: https://github.com/ukmadlz
-  about: Mike spends his days as Developer Advocate at IBM Cloud Data Services, using his time to share knowledge on rapid development and different databases. Most of the time he can be found in the middle of a prototype in some combination of JavaScript, server tech and odd APIs. Mike also happens to be an active part of the hacker subculture, taking part in hackathons and development conferences.
-
-
-- name: Luís Fonseca
-  pic: img/speakers/joaosilva.jpg
-  position: Lead Interactive Developer
-  enterprise: X-Team
-  enterpriseUrl: http://x-team.com/
-  web: http://luispedrofonseca.com/
-  twitter: https://twitter.com/lpfonseca
-  github: 
-  about: Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.
-
-- name: Francisco Mendes
-  pic: img/speakers/fmendes.jpg
-  position: Entrepreneur & Creator
-  enterprise: Bee Very Creative
-  enterpriseUrl: https://beeverycreative.com/
-  web: https://www.beeverycreative.com
-  twitter: https://twitter.com/fmendes75/
-  github:
-  about: Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como diretor de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems na incubadora de empresas da Universidade de Aveiro, que mais tarde tornou-se na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.
-
-- name: Mike Elsmore
-  pic: img/speakers/tmike_hackconeu.jpg 
-  position: Developer Advocate
-  enterprise: IBM  
-  enterpriseUrl: https://www.ibm.com/us-en/  
-  web: https://developer.ibm.com/clouddataservices/author/mike-elsmore/
-  twitter: https://twitter.com/ukmadlz
-  github: https://github.com/ukmadlz
-  about: Mike spends his days as Developer Advocate at IBM Cloud Data Services, using his time to share knowledge on rapid development and different databases. Most of the time he can be found in the middle of a prototype in some combination of JavaScript, server tech and odd APIs. Mike also happens to be an active part of the hacker subculture, taking part in hackathons and development conferences.
-
-
-- name: Luís Fonseca
-  pic: img/speakers/joaosilva.jpg
-  position: Lead Interactive Developer
-  enterprise: X-Team
-  enterpriseUrl: http://x-team.com/
-  web: http://luispedrofonseca.com/
-  twitter: https://twitter.com/lpfonseca
-  github: 
-  about: Com mais de uma década de experiência num leque muito variado de tecnologias, desde Unity a Objective-C passando pelo Javascript e Flash, focou-se fortemente, nos últimos anos, em desenvolvimento de jogos e aplicações mobile. Faz parte da X-Team desde 2008 onde trabalha, em parceria, para empresas como RIOT Games, Dreamworks, FOX Broadcasting, Microsoft, etc., criando projectos que alcançam todos os dias milhões de utilizadores.
-
-- name: Francisco Mendes
-  pic: img/speakers/fmendes.jpg
-  position: Entrepreneur & Creator
-  enterprise: Bee Very Creative
-  enterpriseUrl: https://beeverycreative.com/
-  web: https://www.beeverycreative.com
-  twitter: https://twitter.com/fmendes75/
-  github:
-  about: Empreendedor apaixonado por tecnologia. Licenciado em Engenharia Electrónica e Telecomunicações e pós-graduado em Engenharia de Automação Industrial, ambos pela Universidade de Aveiro, começou a sua carreira profissional como Engenheiro de I&D e posteriormente como diretor de Hardware. No final de 2010, juntou-se a Jorge Pinto e fundaram a bitBOX Electronic Systems na incubadora de empresas da Universidade de Aveiro, que mais tarde tornou-se na BEEVERYCREATIVE, a empresa que criou a primeira impressora 3D portuguesa.
-  
+  about: Roberto Cortez é um Java Developer profissional, com mais de 9 anos de experiência a trabalhar em áreas como Finanças, Seguros e Instituições Governamentais. O seu primeiro contacto com Java foi em 1998 e desde então nunca mais olhou para trás. Trabalhando principalmente com tecnologias Java EE, Roberto está bastante envolvido com a comunidade, ajudando a espalhar o conhecimento ou apenas partilhando histórias e experiências. O facto de trabalhar como Freelancer deu-lhe grande liberdade para viajar pelo mundo e falar em conferências como JavaOne Conference, Devoxx, JFokus, GeeCon, Java2Days, entre outras. Encontra-se a trabalhar com a Tomitribe, e é agora o líder do JUG (Java User Group) de Coimbra, assim como um blogger regular sobre tecnologias Java.
