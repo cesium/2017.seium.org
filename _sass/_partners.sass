@@ -7,6 +7,7 @@
   -o-background-size: cover
   background-attachment: scroll
   color: #fff
+  padding-bottom: 20px
 
 #partners-heading
   border: 5px solid
@@ -58,8 +59,10 @@
 .gold
   height: 250px
 
-.silver
-  max-height: 150px
+
+@media(min-width: 1200px)
+  .silver
+    max-height: 150px
 
 .bronze
   height: auto
@@ -78,3 +81,56 @@
     margin-bottom: 3%
   .partners-title
     letter-spacing: 0px
+
+#gold
+  background: url(../img/background_parceiros.png) no-repeat center center
+  color: #fff
+  margin-top: 0px
+  padding-top: 0px
+  height: 350px
+
+#silver
+  background: url(../img/background_parceiros.png) no-repeat center center
+  color: #fff
+  margin-top: 0px
+  padding-top: 0px
+
+
+@media(min-width: 992px)
+  #silver
+    height: 400px
+
+
+@media (max-width: 992px)
+  #silver
+    height: 650px  
+
+
+@media (max-width: 767px)
+  #silver
+    height: 400px
+
+@media (max-width: 721px)
+  #silver
+    height: 500px
+
+@media (max-width: 767px)
+  #silver
+    height: 670px
+
+#bronze
+  background: url(../img/background_parceiros.png) no-repeat center center
+  color: #fff
+  margin-top: 0px
+  padding-top: 0px
+  height: 300px
+
+
+
+@media (max-width: 760px)
+  #bronze
+    height: 360px
+
+@media (max-width: 530px)
+  #bronze
+    height: 550px
