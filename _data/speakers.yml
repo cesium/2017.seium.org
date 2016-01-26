@@ -1,5 +1,5 @@
 - name: Mike Elsmore
-  pic: img/speakers/tmike_hackconeu.jpg 
+  pic: img/speakers/mike.jpg 
   position: Developer Advocate
   enterprise: IBM  
   enterpriseUrl: https://www.ibm.com/us-en/  
@@ -29,3 +29,12 @@
   github: https://github.com/radcortez
   about: Roberto Cortez é um Java Developer profissional, com mais de 9 anos de experiência a trabalhar em áreas como Finanças, Seguros e Instituições Governamentais. O seu primeiro contacto com Java foi em 1998 e desde então nunca mais olhou para trás. Trabalhando principalmente com tecnologias Java EE, Roberto está bastante envolvido com a comunidade, ajudando a espalhar o conhecimento ou apenas partilhando histórias e experiências. O facto de trabalhar como Freelancer deu-lhe grande liberdade para viajar pelo mundo e falar em conferências como JavaOne Conference, Devoxx, JFokus, GeeCon, Java2Days, entre outras. Encontra-se a trabalhar com a Tomitribe, e é agora o líder do JUG (Java User Group) de Coimbra, assim como um blogger regular sobre tecnologias Java.
 
+- name: Belén Albeza
+  pic: img/speakers/belen.jpg
+  position: Computer Engineer & Game Developer
+  enterprise: Mozilla
+  enterpriseUrl: https://www.mozilla.org/en-US/
+  web: http://www.belenalbeza.com/
+  twitter: https://twitter.com/ladybenko
+  github: https://github.com/belen-albeza
+  about: Belén é uma engenheira e game developer a trabalhar no desenvolvimento de relações na Mozilla. Preocupa se com padrões em web, codigo de alta qualidade, acessibilidade e desenvolvimento de jogos. Trabalhou em start-up's tal como em grandes empresas, desenvolvendo  prototipos R&D, jogos sociais e websites. Belén neste momento vive em Barcelona e gosta de heavy metal, de se juntar a game jams, rollerblading e "Mass Effect".

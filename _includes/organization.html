@@ -8,15 +8,10 @@
             {% for staff in site.data.staff %}
                 {% if staff.pic %}
                     <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
-                        <div class="staff-info-container" style="background-image: url({{ staff.pic }}) ">
+                        <div class="staff-info-container" style="background-image: url({{ staff.pic }})">
                             <div class="staff-info">
                                 <span class="col-md-12 staff-name">{{ staff.name }}</span>
                                     <ul class="list-inline social-buttons">
-                                        {% if staff.facebook %}
-                                            <li>
-                                                <a href="{{ staff.facebook }}" target="_blank"><i class="fa fa-facebook"/></i></a>
-                                            </li>
-                                        {% endif %}
                                         {% if staff.twitter %}
                                             <li>
                                                 <a href="{{ staff.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
