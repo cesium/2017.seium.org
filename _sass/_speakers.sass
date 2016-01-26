@@ -1,4 +1,3 @@
-
 #speakers
   text-align: center
   background-attachment: scroll
@@ -15,10 +14,6 @@
 .speakers-title
   float: right
 
-.speakers-carousel
-  height: 600px
-  margin-bottom: 0
-  padding-left: 5px
 
 .speaker-img
   border-radius: 50%
@@ -63,21 +58,7 @@
   color: #0098ff
   font-weight: bold
 
-.speaker-about
-  color: #fff
-  text-align: justify
-  line-height: 150%
-  font-weight: bold
-  font-size: 12px
-  &::before, &::after
-    color: #0098ff
-    font-weight: bold
-    font-size: 22px
-    font-family: serif
-  &::before
-    content: "\201C\00a0"
-  &::after
-    content: "\00a0\201D"
+
 
 .speaker-social
   margin-top: 15px
@@ -110,73 +91,146 @@ div.organization-indicators span
     font-size: 24px
     color: #0098ff
 
-@media (max-width: 1200px)
-  ul.speakers-carousel
-    height: 700px
-  #speakers
-    height: 950px
+.speakers-list
+  max-width: 1360px
+  min-width: 280px
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+  margin: 25px auto
+  @media(min-width: 1200px)
+    margin: 0 auto
+    flex-direction: row
 
-@media (max-width: 992px)
-  #speakers
-    height: 1000px
-  ul.speakers-carousel
-    height: 750px
-  .speaker-img
-    width: 150px
-    height: 150px
-  #speakers
-    padding-bottom: 50px
-  .speaker-name
-    font-size: 22px
-  .speaker-position
-    font-size: 14px
-  .speaker-company
-    font-size: 12px
-  section ul.social-buttons li
-    a
-      height: 40px
-      width: 40px
-      font-size: 18px
-      line-height: 40px
-    padding: 0
 
-@media (max-width: 767px)
+.speakers-list-cell
+  text-align: center
+  align-self: flex-start
+  margin: 25px auto
+  max-width: 350px
+  @media(max-width: 768px)
+    max-width: 320px
+  @media(min-width: 1200px)
+    margin: 0 0 20 0
+
+
+/* Large*/
+@media (min-width: 1200px)
   #speakers
     height: 600px
-  .speaker-img
-    width: 100px
-    height: 100px
-  .speaker-name
+
+/* Medium*/
+@media (min-width: 992px) and (max-width: 1199px)
+  div.staff-info-container
+    height: 162px
+    width: 162px
+  span.staff-name
     font-size: 16px
-    &::after
-      border-bottom: 2px solid #fff
-  .speaker-about
-    padding: 0
-  section ul.social-buttons li a
+  .staff-position
+    font-size: 12px
+  section .staff-info ul.social-buttons li a
     height: 30px
     width: 30px
     font-size: 14px
     line-height: 30px
-  ul.speakers-carousel
-    height: 400px
 
-@media (max-width: 507px)
-  section ul.social-buttons li a
+/* Small*/
+@media (min-width: 768px) and (max-width: 991px)
+  div.staff-info-container
+    height: 124px
+    width: 124px
+  section .staff-info ul.social-buttons li a
+    height: 18px
+    width: 18px
+    font-size: 9px
+    line-height: 18px
+    margin-bottom: -10px
+  span
+    &.staff-name
+      font-size: 14px
+    &.staff-position
+      font-size: 9px
+
+@media (max-width: 767px)
+  div.staff-info-container
+    height: 186px
+    width: 186px
+  section .staff-info ul.social-buttons
+    li a
+      height: 30px
+      width: 30px
+      font-size: 14px
+      line-height: 30px
+    margin-bottom: 5px
+  span
+    &.staff-name
+      font-size: 14px
+    &.staff-position
+      font-size: 11px
+
+@media (max-width: 717px)
+  div.staff-info-container
+    height: 170px
+    width: 170px
+
+@media (max-width: 667px)
+  div.staff-info-container
+    height: 160px
+    width: 160px
+  section .staff-info ul.social-buttons li a
     height: 20px
     width: 20px
-    font-size: 12px
+    font-size: 11px
     line-height: 20px
 
-@media (max-width: 447px)
-  .speaker-img
-    width: 75px
-    height: 75px
-  .speaker-name
-    font-size: 14px
-  .speaker-position
-    font-size: 12px
-  .speaker-company
-    font-size: 10px
-  span.speaker-about
-    font-size: 10px
-    padding: 0
+@media (max-width: 617px)
+  div.staff-info-container
+    height: 145px
+    width: 145px
+
+@media (max-width: 567px)
+  div.staff-info-container
+    height: 130px
+    width: 130px
+
+@media (max-width: 517px)
+  div.staff-info-container
+    height: 117px
+    width: 117px
+  span
+    &.staff-name
+      font-size: 12px
+    &.staff-position
+      font-size: 8px
+
+@media (max-width: 467px)
+  div.staff-info-container
+    height: 105px
+    width: 105px
+  span
+    &.staff-name
+      font-size: 7px
+    &.staff-position
+      display: none
+
+@media (max-width: 417px)
+  div.staff-info-container
+    height: 93px
+    width: 93px
+
+
+@media (max-width: 387px)
+  div.staff-info-container
+    height: 85px
+    width: 85px
+
+@media (max-width: 357px)
+  div.staff-info-container
+    height: 77px
+    width: 77px
+
+@media (max-width: 337px)
+  div.staff-info-container
+    height: 72px
+    width: 72px

@@ -8,6 +8,8 @@
   -moz-background-size: cover
   background-size: cover
   -o-background-size: cover
+  height: 100%
+  padding-bottom: 15%
   a
     &:hover, &:focus
       color: #fec503
@@ -22,6 +24,7 @@
 .activities-container
   margin-bottom: 20px
   max-height: 500px
+  text-align: center
   img
     max-width: 125px
     display: block
@@ -31,8 +34,9 @@
   p::before
     font-weight: bold
     font-size: 16px
-
-
+  h1
+    text-transform: uppercase
+    font-size: 14px
 
 .activities-description
   text-align: justify
@@ -40,3 +44,34 @@
 
 .activities-container
   text-align: center
+
+@media (max-width: 991px)
+  #activities
+    height: 1000px
+
+
+@media (max-width: 377px)
+  #activities
+    height: 1100px
+
+
+@media (max-width: 310px)
+  #activities
+    height: 1200px
+
+
+@media (max-width: 277px)
+  #activities
+    height: 1300px
+
+
+
+
+@media (max-width: 259px)
+  #activities
+    height: 1400px
+
+
+@media (max-width: 240px)
+  #activities
+    height: 1500px
