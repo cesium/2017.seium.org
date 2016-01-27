@@ -8,8 +8,8 @@
             
                     {% for speaker in site.data.speakers %}
                     <div repeat="speaker in speakers" class="speakers-list-cell speakers-container">
-                        <div class="speaker-img" style="border-radious:50%">
-                            <img style="max-width:100%;max-height:100%" src="{{ speaker.pic }}"/>
+                        <div class="speaker-img">
+                            <img class="speaker-pic" src="{{ speaker.pic }}"/>
                         </div>
                         <span class="speaker-name">{{ speaker.name }}</span>
                         <span class="speaker-position">{{speaker.position}}</span>

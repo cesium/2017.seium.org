@@ -1,5 +1,5 @@
 - name: Mike Elsmore
-  pic: img/speakers/tmike_hackconeu.jpg 
+  pic: img/speakers/mike.jpg 
   position: Developer Advocate
   enterprise: IBM  
   enterpriseUrl: https://www.ibm.com/us-en/  
@@ -19,6 +19,16 @@
   github: 
   about: Estudou Design de multimédia no Porto mas sempre com a sensação de que haveria algo mais além. Até que um dia descobriu Concept Art e lhe foi recomendada a FZD School of Design em Singapura, uma escola onde o foco era design industrial para entretenimento. Após um ano intenso de trabalho e revelação desenvolveu um portfólio para se candidatar à posições de Concept Art na indústria de cinema e jogos, assegurando assim um lugar na Crytek.
 
+- name: Belén Albeza
+  pic: img/speakers/belen.jpg
+  position: Computer Engineer & Game Developer
+  enterprise: Mozilla
+  enterpriseUrl: https://www.mozilla.org/en-US/
+  web: http://www.belenalbeza.com/
+  twitter: https://twitter.com/ladybenko
+  github: https://github.com/belen-albeza
+  about: Belén é uma engenheira e game developer a trabalhar no desenvolvimento de relações na Mozilla. Preocupa se com padrões em web, codigo de alta qualidade, acessibilidade e desenvolvimento de jogos. Trabalhou em start-up's tal como em grandes empresas, desenvolvendo  prototipos R&D, jogos sociais e websites. Belén neste momento vive em Barcelona e gosta de heavy metal, de se juntar a game jams, rollerblading e "Mass Effect".
+
 - name: Roberto Cortez
   pic: img/speakers/radcortez.jpg
   position: Java Freelancer
@@ -28,4 +38,3 @@
   twitter: https://twitter.com/radcortez?ref_src=twsrc^tfw
   github: https://github.com/radcortez
   about: Roberto Cortez é um Java Developer profissional, com mais de 9 anos de experiência a trabalhar em áreas como Finanças, Seguros e Instituições Governamentais. O seu primeiro contacto com Java foi em 1998 e desde então nunca mais olhou para trás. Trabalhando principalmente com tecnologias Java EE, Roberto está bastante envolvido com a comunidade, ajudando a espalhar o conhecimento ou apenas partilhando histórias e experiências. O facto de trabalhar como Freelancer deu-lhe grande liberdade para viajar pelo mundo e falar em conferências como JavaOne Conference, Devoxx, JFokus, GeeCon, Java2Days, entre outras. Encontra-se a trabalhar com a Tomitribe, e é agora o líder do JUG (Java User Group) de Coimbra, assim como um blogger regular sobre tecnologias Java.
-

@@ -4,11 +4,11 @@
   number: +351 707 299 707    
   web: http://www.meliabraga.com/
 
-- name: Basic Braga by Axis
-  pic: img/hoteis/axis.jpg
-  email: reservas@basichotelbraga.com
-  number: +351  253 148 000
-  web: http://www.axishoteis.com/
+- name: Pousada da Juventude Braga
+  pic: img/hoteis/pousada.jpg 
+  email: braga@movijovem.pt
+  number: +351 253 263 279
+  web: http://microsites.juventude.gov.pt/Portal/pt/PBraga.htm
 
 - name: Hotel Bracara Augusta
   pic: img/hoteis/bracara.jpg 
@@ -22,8 +22,10 @@
   number: +351 253 603 680 
   web: http://www.hotel-lamacaes.com/
 
-- name: Pousada da Juventude Braga
-  pic: img/hoteis/pousada.jpg 
-  email: braga@movijovem.pt
-  number: +351 253 263 279
-  web: http://microsites.juventude.gov.pt/Portal/pt/PBraga.htm
+- name: Basic Braga by Axis
+  pic: img/hoteis/axis.jpg
+  email: reservas@basichotelbraga.com
+  number: +351  253 148 000
+  web: http://www.axishoteis.com/
+
+
