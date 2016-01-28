@@ -1,176 +1,126 @@
 - name: Miguel Pinto
-  pic:  https://avatars3.githubusercontent.com/u/3854939?v=3&s=460
+  pic:  miguel-pinto.jpg
   twitter: https://twitter.com/mcpinto98
   github: https://github.com/miguelpinto98
-  linkedin: pt.linkedin.com/in/miguelpinto98
+  linkedin: https://pt.linkedin.com/in/miguelpinto98
 
 - name: Pedro Duarte
-  pic: https://dl.dropboxusercontent.com/u/15091626/Photo.jpg";"https://dl.dropboxusercontent.com/u/15091626/Photo.jpg
+  pic: pedro-duarte.jpg
   twitter: https://twitter.com/ṕedroduarte87
   github: https://github.com/pedrodpduarte870
 
 - name: Fernando Mendes
-  pic: https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xtp1/t31.0-8/10872961_1597046720526292_8054547367506420466_o.jpg
+  pic: fernando-mendes.jpg
   twitter: https://twitter.com/fribmendes
   github: https://github.com/frmendes
+  linkedin: https://pt.linkedin.com/in/fribmendes
 
 - name: Sandra Ferreira
-  pic:  
-  twitter: 
-  github: 
+  pic: sandra-ferreira.jpg
+  github: https://github.com/Sandra95
+  linkedin: https://www.linkedin.com/in/sandra-ferreira-77bba697?trk=hp-identity-name
 
 - name: Patricia Barros
-  pic:  https://scontent-mad1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/402414_2960164810911_1072556148_n.jpg?oh=1ad2e54ac3cb53de3e571f577c01e8d5&oe=570F07D4
-  twitter: 
+  pic: patricia-barros.jpg
+  linkedin: https://pt.linkedin.com/in/7patricia
   github: https://github.com/7patricia
 
+- name: Jorge Simão
+  pic: jorge-simao.jpg
+
+- name: Lisandro Alves
+  pic: lisandro.jpg
+
 - name: Martinho Aragão
-  pic: https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fmedia%2Fp%2F4%2F005%2F0a1%2F1f3%2F144a857.jpg&f=1
-  twitter: https://twitter.com/martinhoaragao
+  pic: martinho-aragao.jpg
+  website: http://martinhoaragao.me
   github: https://github.com/martinhoaragao
-  linkedin: pt.linkedin.com/in/martinhoaragao
+  linkedin: https://pt.linkedin.com/in/martinhoaragao
 
 - name: André Gonçalves
-  pic: https://scontent.flis1-1.fna.fbcdn.net/hphotos-xaf1/v/t1.0-9/10494706_791975127509931_6536258764033352244_n.jpg?oh=457d80d06f43e98810d2b910e0f2f063&oe=57189FA7
+  pic: andre-goncalves.jpg
   github: https://github.com/Simbs38
 
 - name: Paulo Sousa
-  pic: 
-  github: https://github.com/SusanaMendes
+  pic: paulo-sousa.jpg
+  github: https://github.com/prsousa/
 
 - name: João Costa
-  pic: https://i.imgur.com/L64TYH9.png
+  pic: joao-costa.jpg
   github: https://github.com/JoaoFCosta
 
 - name: Gil Gonçalves
-  pic: https://i.imgur.com/Dqov3Gh.png
+  pic: gil-goncalves.jpg
   github: https://github.com/GIlGoncalves
+  linkedin: https://www.linkedin.com/profile/view?id=AAMAABuOz5YBiDT6gTHn9ugA4OCrTqW1ezGPQYc&trk=hp-identity-photo
 
 - name: Ricardo Certo
-  pic: https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/10592775_1049180208427504_1569138427380921746_n.jpg?oh=78adda25642421899252235fc726abbd&oe=570A0DAA
-
-- name: João Aleixo
-  pic:  
-  twitter: 
-  github: 
+  pic: ricardo-certo.jpg
 
 - name: Joana Arantes
-  pic:  
-  github: https://github.com/joanaarantes 
-
-- name: Célia Figueiredo
-  pic:   
-  twitter: 
-  github: 
-
-
-- name: Jorge Simão
-  pic:  
-  twitter: 
-  github: 
-
-- name: Lisandro ALves
-  pic:  
-  twitter: 
-  github: 
-
+  pic: joana-arantes.jpg
+  github: https://github.com/joanaarantes
 
 - name: Duarte Araújo
-  pic: https://i.imgur.com/gWI4pmf.jpg 
+  pic: duarte-araujo.jpg
   twitter: https://twitter.com/PMDAraujo
   github: https://github.com/PMDA
   linkedin: pt.linkedin.com/in/pmda95
 
 - name: Paulo Cardoso
-  pic:  
+  pic: paulo-cardoso.jpg
+  website: https://about.me/pcardoso.lei
   twitter: https://twitter.com/HeadlessHeader
-  github: 
+  github: https://github.com/pcardosolei
 
 
 - name: Mário Santos
-  pic:   
-  twitter: 
-  github: 
-
-- name: Tiago Cunha
-  pic:   
-  twitter: 
-  github: 
-
-
-- name: Filipe Oliveira
-  pic:   
-  twitter: 
-  github: 
-
-
-- name: Daniel Carvalho
-  pic:   
-  twitter: 
-  github: 
-
-- name: Xavier Franscisco
-  pic:   
-  twitter: 
-  github: 
-
-
-- name: Mário Leite
-  pic:   
-  twitter: 
-  github: 
-
-- name: Inês Sampaio
-  pic:   
-  twitter: 
-  github: 
-
+  pic: mario-santos.jpg
+  twitter: https://twitter.com/MarioSantos125
+  github: https://github.com/Galay125
+  linkedin: https://lnkd.in/A7mvHm
 
 - name: André Teixeira
-  pic: http://i.imgur.com/DtNZaBu.png?1
+  pic: andre-teixeira.jpg
+
 
 - name: Susana Mendes
-  pic: https://imgur.com/P0oExte.jpg
+  pic: susana-mendes.jpg
   github: https://github.com/SusanaMendes
-  linkedin: https://www.linkedin.com/profile/view?id=AAIAAAk1xhYBsJcz63TfWasU1qUW3GfCmfeD_GM&trk=nav_responsive_tab_profile
+  linkedin: https://pt.linkedin.com/in/susana-mendes-9068b843
 
 
-- name: Franscisco Lira
-  pic:  
+- name: Francisco Lira
+  pic:
+  twitter: https://twitter.com/franlira12
+  github: https://github.com/FranciscoLira
 
 - name: José Bastos
-  pic: https://scontent-mrs1-1.xx.fbcdn.net/hphotos-xta1/v/t34.0-12/12571210_1184075061620526_92037470_n.jpg?oh=9a919b8583a21bf2a3f48a675aa2ba8e&oe=56A8E6FC
+  pic:
 
 - name: Eduardo Semanas
-  pic: https://i.imgur.com/xY8MPcN.png
-  twitter: 
-  github: 
+  pic: eduardo-semanas.jpg
 
-
-- name: Pedro Fontes
-  pic: https://trello-avatars.s3.amazonaws.com/33a88b4115e85adba42c3475683122a6/170.png
-  twitter: 
-  github: 
+- name: Pedro Fortes
+  pic: pedro-fortes.png
 
 - name: Jéssica Pereira
-  pic: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/11737802_1022331174457923_4667669846246785031_n.jpg?oh=7270a86fe35df4c24d78fe878743cddc&oe=5746F710
+  pic: jessica-pereira.jpg
   twitter: https://twitter.com/OJessycah
   github: https://github.com/Jessycah
-  linkedin: pt.linkedin.com/in/jessicap3
+  linkedin: https://pt.linkedin.com/in/jessicap3
 
 - name: Bruno Azevedo
-  pic: https://imgur.com/7M10JHE.jpg
+  pic: bruno-azevedo.jpg
   github: https://github.com/BrunoJAzevedo
 
 - name: Daniel Tinoco
-  pic: http://i.imgur.com/P7U7ZBJ.png
+  pic: daniel-tinoco.jpg
   github: https://github.com/0urobor0s/
 
 - name: Miguel Santos
-  pic: https://scontent-mad1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-0/p480x480/12140704_973160029413179_6621994575190473942_n.jpg?oh=670814ae87776f3865b352ff777204f4&oe=570269DA
+  pic: miguel-santos.jpg
   github: https://github.com/jmss29
 
 - name: Luis Fonseca
-  pic: https://imgur.com/k6Yg1ID.jpg
-
-
+  pic: luis-fonseca.png
