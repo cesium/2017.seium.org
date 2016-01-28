@@ -1,203 +1,202 @@
-<!-- Agenda -->
-    <section id="agenda">
-            <div class="container">
-                <div class="col-md-12">
-                    <div class="container">
-                        <div class="col-md-12 title-container">
-                            <div class="agenda-title">Agenda</div>
-                        </div>
-                    </div>
+<section id="agenda">
+  <div class="container">
+    <div class="col-md-12">
+      <div class="container">
+        <div class="col-md-12 title-container">
+          <div class="agenda-title">Agenda</div>
+        </div>
+      </div>
 
 
 
-    <div class="Agenda-wrapper">
+      <div class="Agenda-wrapper">
         <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">6 FEV. <br><span>SÁBADO</span></h4>
-            {% for act in site.data.sabado1 %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">7 FEV. <br><span>DOMINGO</span></h4>
-             {% for act in site.data.domingo %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">8 FEV. <br><span>SEGUNDA</span></h4>
-             {% for act in site.data.segunda %}
-                <div>
-                    {% if act.notfill %}
-                    <div class="text-left">
-                        <div class="cal-hour">10:00 - 12:00</div>
-                    </div>
-                    <div class="AgendaItem">
-                        {{ act.name }}
-                    </div>
-                    <div class="Agendaloc"> {{ act.speaker }} </div>
-                    <div class="Agendatype"> {{ act.local }} </div>
-                    {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">9 FEV. <br><span>TERÇA</span></h4>
-             {% for act in site.data.terca %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-    
-    </div>
-
-    <div class="Agenda-wrapper">
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">10 FEV. <br><span>QUARTA</span></h4>
-             {% for act in site.data.quarta %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-
-
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">11 FEV. <br><span>QUINTA</span></h4>
-            {% for act in site.data.quinta %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-        
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">12 FEV. <br><span>SEXTA</span></h4>
-             {% for act in site.data.sexta %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-
-
-        <div class="Agenda-column">
-            <h4 class="cal-day AgendaDay">13 FEV. <br><span>SÁBADO</span></h4>
-             {% for act in site.data.sabado2 %}
-                <div>
-                {% if act.notfill %}
-                <div class="text-left">
-                    <div class="cal-hour">10:00 - 12:00</div>
-                </div>
-                <div class="AgendaItem">
-                    {{ act.name }}
-                </div>
-                <div class="Agendaloc"> {{ act.speaker }} </div>
-                <div class="Agendatype"> {{ act.local }} </div>
-                {% endif %}
-                    {% if act.fill %}
-                    <div class="filler"></div>
-                    {% endif %}
-                </div>
-        {% endfor %}
-    </div>
-
-
-
-
-
-                </div>
+          <h4 class="cal-day AgendaDay">6 FEV. <br><span>SÁBADO</span></h4>
+          {% for act in site.data.sabado1 %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
             </div>
-        </section>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">7 FEV. <br><span>DOMINGO</span></h4>
+          {% for act in site.data.domingo %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">8 FEV. <br><span>SEGUNDA</span></h4>
+          {% for act in site.data.segunda %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">9 FEV. <br><span>TERÇA</span></h4>
+          {% for act in site.data.terca %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+
+      <div class="Agenda-wrapper">
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">10 FEV. <br><span>QUARTA</span></h4>
+          {% for act in site.data.quarta %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+
+
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">11 FEV. <br><span>QUINTA</span></h4>
+          {% for act in site.data.quinta %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">12 FEV. <br><span>SEXTA</span></h4>
+          {% for act in site.data.sexta %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+
+
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay">13 FEV. <br><span>SÁBADO</span></h4>
+          {% for act in site.data.sabado2 %}
+          <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">10:00 - 12:00</div>
+            </div>
+            <div class="AgendaItem">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc"> {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.local }} </div>
+            {% endif %}
+            {% if act.fill %}
+            <div class="filler"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
