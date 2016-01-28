@@ -1,0 +1,27 @@
+- name:  Hackathon Heartbit
+  time: 00:00-20:00
+  place: DI
+  image:
+  text: TBA
+  class: twentyhour
+  fill:
+  notfill: true
+
+- name: 
+  time: 20:00-21:00
+  place: DI
+  image:
+  text: TBA
+  class: hourf
+  fill: true
+  notfill: 
+
+- name: Jantar & Post-Conf Party
+  time: 21:30-24:00
+  place: DI
+  class: threehour
+  image:
+  text: TBA
+  fill:
+  notfill: true
+

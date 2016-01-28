@@ -4,14 +4,15 @@
     speaker: TBA
     image: TBA
     text: TBA
+    class: hourf
     fill: true
     notfill: 
 
   - name: Rails Girls
     time: 10:00-13:00
     place: tba
-    speaker: TBA
     image: 
     text: tba
+    class: railsgirls
     fill:
     notfill: true

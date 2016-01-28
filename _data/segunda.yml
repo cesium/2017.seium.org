@@ -1,20 +1,21 @@
 - name: Sessão de abertura
   time: 9:00-9:30
   place: DI
-  speaker: TBA
   image:
   text: TBA
+  class: halfhour
   fill:
   notfill: true
 
 - name: Coffee Break
   time: 9:30-10:00
   place: DI
-  speaker:
-  image: TBA
+  image: ../img/coffee-break.png
   text: TBA
-  fill:
-  notfill: true
+  class: halfhour
+  fill: 
+  notfill:
+  coffee: true
 
 - name: Farfetch- Introdução ao desenvolvimento de aplicações de iOS em Swift
   time: 10:00-13:00
@@ -22,16 +23,17 @@
   speaker: TBA
   image: TBA
   text: TBA
+  class: threehour
   fill:
   notfill: true
 
 
-- name: act1
+- name: 
   time: 13:00-14:00
   place: TBA
-  speaker: TBA
   image: TBA
   text: TBA
+  class: hourf
   fill: true
   notfill:
 
@@ -41,6 +43,7 @@
   speaker: TBA
   image: TBA
   text: TBA
+  class: plux
   fill:
   notfill: true
 
@@ -50,17 +53,19 @@
   speaker: Celso Martinho
   image: TBA
   text: TBA
+  class: celso
   fill:
   notfill: true
 
 - name: Coffee Break
   time: 16:00-16:30
   place: DI
-  speaker: TBA
   image: TBA
   text: TBA
+  class: halfhour
   fill:
-  notfill: true
+  notfill:
+  coffee: true
 
 
 - name: Seegno- Moderm web app development with react and redux
@@ -69,23 +74,24 @@
   speaker: TBA
   image: TBA
   text: TBA
+  class: threehour
   fill:
   notfill: true
 
-- name: act1
+- name: 
   time: 19:30-21:00
   place: TBA
-  speaker: TBA
   image: TBA
   text: TBA
+  class: segundafill
   fill: true
   notfill:
 
 - name: Jogos Ba
   time: 21:00-24:00
   place: BA
-  speaker: TBA
   image: TBA
   text: TBA
+  class: threehour
   fill:
   notfill: true

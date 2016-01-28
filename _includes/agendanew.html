@@ -14,18 +14,22 @@
           <h4 class="cal-day AgendaDay">6 FEV. <br><span>SÁBADO</span></h4>
           {% for act in site.data.sabado1 %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
-            <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendaloc">
+             {{ act.speaker }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="{{act.class }}"></div>
             {% endif %}
           </div>
           {% endfor %}
@@ -36,44 +40,52 @@
           <h4 class="cal-day AgendaDay">7 FEV. <br><span>DOMINGO</span></h4>
           {% for act in site.data.domingo %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
+
 
 
         <div class="Agenda-column">
           <h4 class="cal-day AgendaDay">8 FEV. <br><span>SEGUNDA</span></h4>
           {% for act in site.data.segunda %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
+
 
 
 
@@ -81,46 +93,52 @@
           <h4 class="cal-day AgendaDay">9 FEV. <br><span>TERÇA</span></h4>
           {% for act in site.data.terca %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
 
-      </div>
 
       <div class="Agenda-wrapper">
         <div class="Agenda-column">
           <h4 class="cal-day AgendaDay">10 FEV. <br><span>QUARTA</span></h4>
           {% for act in site.data.quarta %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
+
 
 
 
@@ -129,22 +147,26 @@
           <h4 class="cal-day AgendaDay">11 FEV. <br><span>QUINTA</span></h4>
           {% for act in site.data.quinta %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype">{{ act.place }}</div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
+
 
 
 
@@ -152,22 +174,26 @@
           <h4 class="cal-day AgendaDay">12 FEV. <br><span>SEXTA</span></h4>
           {% for act in site.data.sexta %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
+
 
 
 
@@ -176,22 +202,26 @@
           <h4 class="cal-day AgendaDay">13 FEV. <br><span>SÁBADO</span></h4>
           {% for act in site.data.sabado2 %}
           <div>
+            {% if act.coffee %}
+            <img src="../img/coffee-break.png" class="coffee">
+            {% endif %}
             {% if act.notfill %}
             <div class="text-left">
-              <div class="cal-hour">10:00 - 12:00</div>
+              <div class="cal-hour">{{ act.time }}</div>
             </div>
-            <div class="AgendaItem">
+            <div class="AgendaItem hour">
               {{ act.name }}
             </div>
             <div class="Agendaloc"> {{ act.speaker }} </div>
-            <div class="Agendatype"> {{ act.local }} </div>
+            <div class="Agendatype"> {{ act.place }} </div>
             {% endif %}
             {% if act.fill %}
-            <div class="filler"></div>
+            <div class="hour"></div>
             {% endif %}
           </div>
           {% endfor %}
         </div>
+
 
 
 

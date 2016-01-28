@@ -1,0 +1,129 @@
+- name: Subvisual -Ruby on Raisl Workshop
+  time: 9:00-10:30
+  place: DI
+  speaker: TBA
+  class: hourandhalf
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+- name: Coffee Break
+  time: 10:30-11:00
+  place: DI
+  class: halfhour
+  image:
+  text: TBA
+  fill:
+  notfill:
+  coffee: true
+
+- name: OutSystems- U.sa.bi.li.da.de.
+  time: 11:00-12:00
+  place: DI
+  speaker: TBA
+  class: hour
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+
+- name: OutSystems-Negocio vs tecnologia
+  time: 12:00-13:00
+  place: DI
+  speaker: TBA
+  class: hour
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+- name: 
+  time: 13:00-14:00
+  place: DI
+  class: hourf
+  image:
+  text: TBA
+  fill: true
+  notfill: 
+
+
+- name: Imobilemagic -Mobile testing with Calabash and Cucumber
+  time: 14:00-15:30
+  place: DI
+  speaker: TBA
+  class: imobilemagic
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+- name: Belen Albeza - Game development with JavaScript and Phaser
+  time: 15:30-16:30
+  place: DI
+  speaker: TBA
+  class: hour
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+
+- name: Coffee Break
+  time: 16:30-17:00
+  place: DI
+  class: halfhour
+  image:
+  text: TBA
+  fill:
+  notfill:
+  coffee: true
+
+- name: BloomIdea - Digital Markting
+  time: 17:00-18:00
+  place: DI
+  speaker: TBA
+  class: hour
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+- name: 
+  time: 18:00-19:00
+  place: DI
+  class: hour
+  image:
+  text: TBA
+  fill: true
+  notfill:
+
+
+- name: Catarina Campos- Lean Startup
+  time: 19:00-20:00
+  place: DI
+  speaker: TBA
+  class: catcampos
+  image:
+  text: TBA
+  fill:
+  notfill: true
+
+- name: 
+  time: 20:00-21:00
+  place: DI
+  class: hourf
+  image:
+  text: TBA
+  fill: true
+  notfill:
+
+- name: Arraial & Jam Session
+  time: 21:00-24:00
+  place: Carpe
+  class: threehour
+  image:
+  text: TBA
+  fill:
+  notfill: true
