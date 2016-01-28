@@ -1,0 +1,17 @@
+  - name: act1
+    time: 1:00-1:00
+    place: TBA
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill: true
+    notfill: 
+
+  - name: Rails Girls
+    time: 10:00-13:00
+    place: tba
+    speaker: TBA
+    image: 
+    text: tba
+    fill:
+    notfill: true

@@ -1,0 +1,17 @@
+  - name: act1
+    time: 1:00-1:00
+    place: TBA
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill: true
+    notfill: 
+
+  - name: CoderDojo
+    time: 10:00-12:00
+    place: GNRATION
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true

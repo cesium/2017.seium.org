@@ -7,14 +7,14 @@
                 <div class="accommodation-list">
                     {% for hotel in site.data.hoteis %}
                     <div class="accommodation-list-cell">
-                        <a href="{{ hotel.web }}">
+                        
                         <div class="hote-pic">
-                            <img style="width:200px;height:200px" src="../{{ hotel.pic }}"/>
+                            <img src="../{{ hotel.pic }}" class="hotelpic"/>
                         </div>
-                        </a>
+                        
                         <span class="hotel-name">{{ hotel.name }}</span>
-                        <span class="hotel-contact">{{ hotel.email }}</span>
-                        <br>
+                        <span class="hotel-mail"><a href="{{ hotel.web }}"> <i class="fa fa-globe fa-2x"></i></a></span>
+                        </br> 
                         <span class="hotel-contact">{{ hotel.number }}</span>
                         
                     </div>

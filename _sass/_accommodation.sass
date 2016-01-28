@@ -13,11 +13,12 @@
 
 .accommodation-title
   float: right
+  margin: 50px 0 0 0
 
 .hotel-name
   text-transform: uppercase
   font-weight: bold
-  font-size: 26px
+  font-size: 14px
   color: #0098ff
   letter-spacing: 1px
   &::after
@@ -26,13 +27,21 @@
     clear: both
     width: 80%
     max-width: 170px
-    margin: 0 auto
-    border-bottom: 4px solid #fff
+    margin: 5px auto
+    margin-bottom: 10px
+    border-bottom: 2px solid #fff
 
 .hotel-contact
   margin-top: 5px
-  font-size: 16px
+  font-size: 14px
   color: #fff
+
+.hotelpic
+  border: 4px solid #fff
+  width: 200px 
+  height: 200px
+  margin: 0px 0px 10px 0px
+
 
 @media (max-width: 1200px)
   #accommodation
@@ -111,7 +120,7 @@
 .accommodation-list-cell
   text-align: center
   align-self: flex-start
-  margin: 25px auto
+  margin: 25px 50px 25px 50px
   max-width: 350px
   @media(max-width: 768px)
     max-width: 320px

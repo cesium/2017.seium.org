@@ -1,0 +1,91 @@
+  - name: Sessão de abertura
+    time: 9:00-9:30
+    place: DI
+    speaker: TBA
+    image: 
+    text: TBA
+    fill:
+    notfill: true
+
+- name: Coffee Break
+    time: 9:30-10:00
+    place: DI
+    speaker: 
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true
+
+- name: Farfetch- Introdução ao desenvolvimento de aplicações de iOS em Swift
+    time: 10:00-13:00
+    place: DI
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true
+
+
+- name: act1
+    time: 13:00-14:00
+    place: TBA
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill: true
+    notfill:
+
+- name: Plux/Bitalino -...a biosignal (r)evolucion
+    time: 14:00-15:00
+    place: DI
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true
+
+- name: Celso Martinho
+    time: 15:00-16:00
+    place: DI
+    speaker: Celso Martinho
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true
+
+- name: Coffee Break
+    time: 16:00-16:30
+    place: DI
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true
+
+
+- name: Seegno- Moderm web app development with react and redux
+    time: 16:30-19:30
+    place: DI
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true
+
+- name: act1
+    time: 19:30-21:00
+    place: TBA
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:true
+    notfill: 
+
+- name: Jogos Ba
+    time: 21:00-24:00
+    place: BA
+    speaker: TBA
+    image: TBA
+    text: TBA
+    fill:
+    notfill: true

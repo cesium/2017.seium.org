@@ -10,433 +10,189 @@
 
 
 
-                    <div class="Agenda-wrapper">
+    <div class="Agenda-wrapper">
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">6 FEV. <br><span>SÁBADO</span></h4>
+            {% for act in site.data.sabado1 %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
 
 
-            <div class="text-left">
-                <div class="cal-hour">10:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                CoderDojo
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">7 FEV. <br><span>DOMINGO</span></h4>
-            <div class="text-left">
-                <div class="cal-hour">9:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                Rails Girls
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
-
+             {% for act in site.data.domingo %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
 
 
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">8 FEV. <br><span>SEGUNDA</span></h4>
-            <div class="text-left">
-                <div class="cal-hour">8:00 - 8:30</div>
-            </div>
-            <div class="AgendaItem">
-                Sessão De abertura
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">8:30 - 9:00</div>
-            </div>
-            <div >
-                <img src="../img/coffee-break.png" class="coffee">
-            </div>
-            <div class="text-left">
-                <div class="cal-hour three">9:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                Farfetch-Introdução ao Desenvolvimento de aplicações de iOS em Swift 
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour hour">12:00 - 13:00</div>
-            </div>
-            <div class="AgendaItem almoço">
-                Almoço
-            </div>
-            <div class="text-left">
-                <div class="cal-hour hour">13:00 - 14:00</div>
-            </div>
-            <div class="AgendaItem">
-                Plux/Bitalino-A biosignal
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour hour">14:00 - 15:00</div>
-            </div>
-            <div class="AgendaItem">
-                Celso Martins
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour 30min">15:00 - 15:30</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-
-            <div class="text-left">
-                <div class="cal-hour hourandhalf">15:30 - 17:00</div>
-            </div>
-            <div class="AgendaItem">
-                Seegno-Modern web app development with react and redux
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-
-            <div class="text-left">
-                <div class="cal-hour">20:00 - 23:00</div>
-            </div>
-            <div class="AgendaItem">
-                Jogos no BA
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
+             {% for act in site.data.segunda %}
+                <div>
+                    {% if act.notfill %}
+                    <div class="text-left">
+                        <div class="cal-hour">10:00 - 12:00</div>
+                    </div>
+                    <div class="AgendaItem">
+                        {{ act.name }}
+                    </div>
+                    <div class="Agendaloc"> {{ act.speaker }} </div>
+                    <div class="Agendatype"> {{ act.local }} </div>
+                    {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
 
 
 
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">9 FEV. <br><span>TERÇA</span></h4>
-            <div class="text-left">
-                <div class="cal-hour">6:00 - 7:00</div>
-            </div>
-            <div class="AgendaItem">
-                Sage
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">8:00 - 9:30</div>
-            </div>
-            <div class="AgendaItem">
-                TBA-MS
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">9:30 - 10:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">10:00 - 11:00</div>
-            </div>
-            <div class="AgendaItem">
-                UbiWhere-Intelligent solucions for today's citys
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">11:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                Joana Almeida-Game Developer
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">12:00 - 13:00</div>
-            </div>
-            <div class="AgendaItem almoço">
-                Almoço
-            </div>
-            <div class="text-left">
-                <div class="cal-hour">13:00 - 14:00</div>
-            </div>
-            <div class="AgendaItem">
-                João Silva(Crytek)- Introdução a concept art e a industria de jogos
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">14:00 - 15:30</div>
-            </div>
-            <div class="AgendaItem">
-                FaberVentures-TBA
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">15:30 - 16:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">16:00 - 17:00</div>
-            </div>
-            <div class="AgendaItem">
-                GCC- Virtual Reality
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="filler"></div>
-            <div class="text-left">
-                <div class="cal-hour">20:00 - 23:00</div>
-            </div>
-            <div class="AgendaItem">
-                BragaRB
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
+             {% for act in site.data.terca %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
+    
+    </div>
 
-
-
-
+    <div class="Agenda-wrapper">
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">10 FEV. <br><span>QUARTA</span></h4>
-            <div class="text-left">
-                <div class="cal-hour">8:00 - 9:30</div>
-            </div>
-            <div class="AgendaItem">
-                Eurotux- Segurança web
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">9:30 - 10:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">10:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                Blip - {{ AngularJs }} and {{ me }}
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">12:00 - 1:00</div>
-            </div>
-            <div class="AgendaItem almoço">
-                Almoço
-            </div>
-            <div class="text-left">
-                <div class="cal-hour">13:00 - 14:00</div>
-            </div>
-            <div class="AgendaItem">
-                Carlos Soares -The Rise and Fall of the Big Data (and why you shouldn't care)
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">14:00 - 16:00</div>
-            </div>
-            <div class="AgendaItem">
-                RGA
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">16:00 - 16:30</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-                <div class="filler"></div>
-                <div class="filler"></div>
-                <div class="filler"></div>
-                <div class="filler"></div>
-            <div class="text-left">
-                <div class="cal-hour">8:00 - 23:00</div>
-            </div>
-            <div class="AgendaItem">
-                Rally das tascas
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
-
+             {% for act in site.data.quarta %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
 
 
 
 
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">11 FEV. <br><span>QUINTA</span></h4>
-            <div class="text-left">
-                <div class="cal-hour">8:00 - 9:30</div>
-            </div>
-            <div class="AgendaItem">
-                Subvisual-Ruby on rails workshop
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">9:30 - 10:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">10:00 - 11:00</div>
-            </div>
-            <div class="AgendaItem">
-                Outsystems- U.sa.bi.li.da.de
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">11:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                Outsystems- Négocio vs Tecnologia
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">12:00 - 13:00</div>
-            </div>
-            <div class="AgendaItem almoço">
-                Almoço
-            </div>
-            <div class="text-left">
-                <div class="cal-hour">13:00 - 14:30</div>
-            </div>
-            <div class="AgendaItem">
-                Imobilemagic-Mobile testing with Calabash and Cucumber
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">14:30 - 15:30</div>
-            </div>
-            <div class="AgendaItem">
-                Bélen Albeza - Game development with a Javascript phaser
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">15:30 - 16:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">16:00 - 17:00</div>
-            </div>
-            <div class="AgendaItem">
-                BloomIdea- Digital Markting
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">18:00 - 19:00</div>
-            </div>
-            <div class="AgendaItem">
-                Catarina Santos -Lean StartUp
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">20:00 - 23:00</div>
-            </div>
-            <div class="AgendaItem">
-                Arrail & Jam Session
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
-
-
+            {% for act in site.data.quinta %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
 
 
         
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">12 FEV. <br><span>SEXTA</span></h4>
-            <div class="text-left">
-                <div class="cal-hour">8:00 - 10:30</div>
-            </div>
-            <div class="AgendaItem">
-                Nutrium- Android 6.0
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">10:30 - 11:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">11:00 - 12:00</div>
-            </div>
-            <div class="AgendaItem">
-                Mike Eslmore(IBM)- Offline WebApps
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">12:00 - 13:00</div>
-            </div>
-            <div class="AgendaItem almoço">
-                Almoço
-            </div>
-            <div class="text-left">
-                <div class="cal-hour">13:00 - 14:30</div>
-            </div>
-            <div class="AgendaItem">
-                Roberto Cortez - Java EE7 & Java 8
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">14:30 - 16:00</div>
-            </div>
-            <div class="AgendaItem">
-                iTGROW- TBA
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">16:00 - 17:00</div>
-            </div>
-                <img src="../img/coffee-break.png" class="coffee">
-            <div class="text-left">
-                <div class="cal-hour">17:00 - 24:00</div>
-            </div>
-            <div class="AgendaItem">
-                Hackathon HeartBit
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-        </div>
-
-
+             {% for act in site.data.sexta %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
+    </div>
 
 
 
 
         <div class="Agenda-column">
             <h4 class="cal-day AgendaDay">13 FEV. <br><span>SÁBADO</span></h4>
-            
-            <div class="text-left">
-                <div class="cal-hour">00:00 - 17:00</div>
-            </div>
-            <div class="AgendaItem">
-                Hackathon HeartBit
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-            <div class="text-left">
-                <div class="cal-hour">20:00 - 23:00</div>
-            </div>
-            <div class="AgendaItem">
-                Jantar & Post-Conf Party
-            </div>
-            <div class="Agendaloc"> GNRATION </div>
-            <div class="Agendatype"> Social </div>
-
-        </div>
+             {% for act in site.data.sabado2 %}
+                <div>
+                {% if act.notfill %}
+                <div class="text-left">
+                    <div class="cal-hour">10:00 - 12:00</div>
+                </div>
+                <div class="AgendaItem">
+                    {{ act.name }}
+                </div>
+                <div class="Agendaloc"> {{ act.speaker }} </div>
+                <div class="Agendatype"> {{ act.local }} </div>
+                {% endif %}
+                    {% if act.fill %}
+                    <div class="filler"></div>
+                    {% endif %}
+                </div>
+        {% endfor %}
     </div>
-
 
 
 
