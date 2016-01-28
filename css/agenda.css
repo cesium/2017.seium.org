@@ -1,0 +1,30 @@
+.Agenda-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Agenda-column {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.AgendaItem {
+    max-height: 50px;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: blue;
+    color: white;
+}
+
+.AgendaDay {
+    font-weight: bold;
+    font-size: 14px;
+}

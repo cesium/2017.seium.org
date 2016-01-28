@@ -1,0 +1,64 @@
+saturday1:
+  - title: Hackathon
+    time: 9h-18h
+    place: DI A1
+    image: hackathon.png
+    text: Junta uma equipa, prepara-te para o tema e participa neste concurso de programação onde vais num só dia desenvolver um projeto do início ao fim. O tema será anunciado brevemente.
+
+monday:
+  - title: DI Goes Retro
+    time: 9h-18h
+    place: DI A1
+    image: retro.png
+    text: É durante este dia que o Departamento de Informática entra numa máquina do tempo. Os computadores são substituídos pelos seus antecessores dos anos 80 e 90. Parece para relembrar as raízes da computação através de jogos arcade e um museu aberto!
+  - title: Bash Introduction
+    time: 16h-18h
+    place: DI A1
+    image: bash.png
+    text: Especialmente preparada para os novos utilizadores de Linux, esta palestra para iniciantes, prepara-te para a utilização produtiva do terminal.
+
+tuesday:
+  - title: Segurança
+    time: 16h-18h
+    place: DI A1
+    image: segurança.png
+    text: É sempre importante ter os nosso dados seguros. Hackers e invasores andam a solta e se tu não queres ficar para trás, aparece. Aprende um pouco sobre segurança informática com a <a href="http://eurotux.com/">Eurotux</a>.
+  - title: Geek Night
+    time: 20h30-22h
+    place: Velha-a-branca
+    image: geenorbertk.png
+    text: Estamos ainda a meio da semana, e como programar não é tarefa fácil, vem desanuviar um pouco. Vamos criar o ambiente ideal para te divertires. Vem ter connosco para conversas sobre programação e informática.
+
+wednesday:
+  - title: "Elixir: A Talk for College Students"
+    time: 14h-16h
+    place: DI A1
+    image: elixir.png
+    text: Elixir é uma das linguagens do momento! Escalável, funcional e tolerante a falhas. Connosco terás uma palestra preparada para ti, com várias comparações com linguagens mais conhecidas.
+  - title: JavaScript
+    time: 16h-18h
+    place: DI A1
+    image: javascript.png
+    text: JavaScript é uma das linguagens em maior desenvolvimento, com várias frameworks a surgir! Junta-te a <a href="https://github.com/pfac">Pedro Costa</a> para aprenderes os básicos desta linguagem essencial para o desenvolvimento web.
+
+thursday:
+  - title: Ionic
+    time: 16h-18h
+    place: DI A1
+    image: ionic.png
+    text: Estás interessado em criar apps? Então aprende sobre esta framework open-source para desenvolver aplicações mobile para iOS e Android em HTML5, CSS e JavaSript. Aparece nesta talk pela <a href="http://subvisual.co/">Subvisual</a>.
+
+friday:
+  - title: Retro Strikes Again
+    time: 9h-18h
+    place: DI A1
+    image: red.png
+    text: Se no início da semana ainda estavas a pensar no que fazer, e ainda não passaste pelo DI aproveita agora, passa por cá e relembra a informática de outrora bem como os bons sons 8-bits que temos para ti.
+
+saturday2:
+  - title: CoderDojo
+    time: 9h-18h
+    place: DI A1
+    image: coderdojo.png
+    text: O CoderDojo Minho é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Partilha e aparece caso tenhas interesse em informática.
+
