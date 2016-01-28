@@ -57,11 +57,19 @@
   #subvisual-logo img
     width: 40%
 
-.sponsor-img
-  display: inline-block !important
-  vertical-align: middle
-  float: none
-  margin-bottom: 5%
+.partners-carousel
+  margin-bottom: 50px
+  .slick-track
+    display: flex
+    align-items: center
+    .slick-arrow::before
+      font-size: 25px
+  .slick-dots li
+    &.slick-active button, button
+      &::before
+        color: #fff
+        font-size: 20px
+
 
 #critical
   width: 100px
