@@ -4,17 +4,17 @@ layout: default
 
 <section id="agenda">
   <div class="container">
-    <div class="col-md-12">
-      <div class="container">
-        <div class="col-md-12 title-container">
+    <div class="container">
+              <div class="title-container">
           <div class="agenda-title">Agenda</div>
         </div>
       </div>
 
-      <div class="Agenda-wrapper">
+
+      <div class="agenda-wrapper">
         {% for day in site.data.agenda %}
-        <div class="Agenda-column">
-          <h4 class="cal-day AgendaDay"> {{ day.date }}. <br><span>{{ day.dayOfWeek }}</span></h4>
+        <div class="col-sm-3 agenda-day">
+          <h4 class="center-block agenda-date"> {{ day.date }}. <br><span>{{ day.dayOfWeek }}</span></h4>
           {% for act in day.activities %}
             {% if act.coffee %}
             <div class="break">
@@ -25,22 +25,20 @@ layout: default
               </div>
             </div>
             {% endif %}
-            <div>
             {% if act.notfill %}
-            <div class="text-left">
-              <div class="cal-hour">{{ act.time }}</div>
-            </div>
-            <div class="AgendaItem hour">
-              {{ act.name }}
-            </div>
-            <div class="Agendaloc">
-              {{ act.speaker }}
-            </div>
-            <div class="Agendatype">
-              {{ act.place }}
+            <div class="agenda-activity">
+              <div class="activity-time">{{ act.time }}</div>
+              <a href="#events">
+                <div class="activity-block cal-four-thirty text-left">
+                  <div class="activity-border"></div>
+                  <div class="activity-name"><b>{{ act.name }}</b>
+                  </div>
+                  <div class="activity-speaker">{{ act.speaker }}</div>
+                  <div class="activity-location">{{ act.place }}</div>
+                </div>
+              </a>
             </div>
             {% endif %}
-          </div>
           {% endfor %}
         </div>
         {% endfor %}
