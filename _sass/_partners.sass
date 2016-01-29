@@ -9,6 +9,9 @@
   color: #fff
   padding-bottom: 20px
   text-align: center
+  .title-container
+    @media (max-width: 992px)
+      margin-bottom: 40px
 
 #partners-heading
   border: 5px solid
@@ -64,11 +67,13 @@
     align-items: center
     .slick-arrow::before
       font-size: 25px
-  .slick-dots li
-    &.slick-active button, button
-      &::before
-        color: #fff
-        font-size: 20px
+  .slick-dots
+    margin-bottom: 30px
+    li
+      &.slick-active button, button
+        &::before
+          color: #fff
+          font-size: 20px
 
 
 #critical

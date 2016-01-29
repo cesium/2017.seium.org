@@ -27,6 +27,7 @@
 
 - name: Jorge Simão
   pic: jorge-simao.jpg
+  linkedin: https://pt.linkedin.com/in/jorgepedrosimao
 
 - name: Lisandro Alves
   pic: lisandro.jpg
@@ -91,12 +92,12 @@
 
 
 - name: Francisco Lira
-  pic:
+  pic: francisco-lira.jpg
   twitter: https://twitter.com/franlira12
   github: https://github.com/FranciscoLira
 
 - name: José Bastos
-  pic:
+  pic: jose-bastos.jpg
 
 - name: Eduardo Semanas
   pic: eduardo-semanas.jpg

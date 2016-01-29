@@ -2,4 +2,50 @@
 layout: default
 ---
 
-{% include agendanew.html %}
+<section id="agenda">
+  <div class="container">
+    <div class="col-md-12">
+      <div class="container">
+        <div class="col-md-12 title-container">
+          <div class="agenda-title">Agenda</div>
+        </div>
+      </div>
+
+      <div class="Agenda-wrapper">
+        {% for day in site.data.agenda %}
+        <div class="Agenda-column">
+          <h4 class="cal-day AgendaDay"> {{ day.date }}. <br><span>{{ day.dayOfWeek }}</span></h4>
+          {% for act in day.activities %}
+            {% if act.coffee %}
+            <div class="break">
+              <div class="hour">
+                <p>
+                  <span class="fancy"></span>
+                </p>
+              </div>
+            </div>
+            {% endif %}
+            <div>
+            {% if act.notfill %}
+            <div class="text-left">
+              <div class="cal-hour">{{ act.time }}</div>
+            </div>
+            <div class="AgendaItem hour">
+              {{ act.name }}
+            </div>
+            <div class="Agendaloc">
+              {{ act.speaker }}
+            </div>
+            <div class="Agendatype">
+              {{ act.place }}
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+
+
+      </div>
+    </div>
+  </section>

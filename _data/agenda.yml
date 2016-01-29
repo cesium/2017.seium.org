@@ -1,64 +1,596 @@
-saturday1:
-  - title: Hackathon
-    time: 9h-18h
-    place: DI A1
-    image: hackathon.png
-    text: Junta uma equipa, prepara-te para o tema e participa neste concurso de programação onde vais num só dia desenvolver um projeto do início ao fim. O tema será anunciado brevemente.
+- saturday6:
+  date: 6 FEV
+  dayOfWeek: SÁBADO
+  activities:
+    - name: act1
+      time: 1:00-1:00
+      place: TBA
+      image:
+      class: hourf
+      text: TBA
+      fill: true
+      notfill:
 
-monday:
-  - title: DI Goes Retro
-    time: 9h-18h
-    place: DI A1
-    image: retro.png
-    text: É durante este dia que o Departamento de Informática entra numa máquina do tempo. Os computadores são substituídos pelos seus antecessores dos anos 80 e 90. Parece para relembrar as raízes da computação através de jogos arcade e um museu aberto!
-  - title: Bash Introduction
-    time: 16h-18h
-    place: DI A1
-    image: bash.png
-    text: Especialmente preparada para os novos utilizadores de Linux, esta palestra para iniciantes, prepara-te para a utilização produtiva do terminal.
+    - name: CoderDojo
+      time: 15:00-17:00
+      place: GNRATION
+      image: TBA
+      fill:
+      class: twohour
+      notfill: true
 
-tuesday:
-  - title: Segurança
-    time: 16h-18h
-    place: DI A1
-    image: segurança.png
-    text: É sempre importante ter os nosso dados seguros. Hackers e invasores andam a solta e se tu não queres ficar para trás, aparece. Aprende um pouco sobre segurança informática com a <a href="http://eurotux.com/">Eurotux</a>.
-  - title: Geek Night
-    time: 20h30-22h
-    place: Velha-a-branca
-    image: geenorbertk.png
-    text: Estamos ainda a meio da semana, e como programar não é tarefa fácil, vem desanuviar um pouco. Vamos criar o ambiente ideal para te divertires. Vem ter connosco para conversas sobre programação e informática.
+- sunday:
+  date: 7 FEV
+  dayOfWeek: DOMINGO
+  activities:
+    - name: act1
+      time: 1:00-1:00
+      place: TBA
+      speaker: TBA
+      image: TBA
+      text: TBA
+      class: hourf
+      fill: true
+      notfill:
 
-wednesday:
-  - title: "Elixir: A Talk for College Students"
-    time: 14h-16h
-    place: DI A1
-    image: elixir.png
-    text: Elixir é uma das linguagens do momento! Escalável, funcional e tolerante a falhas. Connosco terás uma palestra preparada para ti, com várias comparações com linguagens mais conhecidas.
-  - title: JavaScript
-    time: 16h-18h
-    place: DI A1
-    image: javascript.png
-    text: JavaScript é uma das linguagens em maior desenvolvimento, com várias frameworks a surgir! Junta-te a <a href="https://github.com/pfac">Pedro Costa</a> para aprenderes os básicos desta linguagem essencial para o desenvolvimento web.
+    - name: Rails Girls
+      time: 10:00-13:00
+      place: tba
+      image:
+      text: tba
+      class: railsgirls
+      fill:
+      notfill: true
 
-thursday:
-  - title: Ionic
-    time: 16h-18h
-    place: DI A1
-    image: ionic.png
-    text: Estás interessado em criar apps? Então aprende sobre esta framework open-source para desenvolver aplicações mobile para iOS e Android em HTML5, CSS e JavaSript. Aparece nesta talk pela <a href="http://subvisual.co/">Subvisual</a>.
+- monday:
+  date: 8 FEV
+  dayOfWeek: SEGUNDA
+  activities:
+    - name: Sessão de abertura
+      time: 9:00-9:30
+      place: DI
+      image:
+      text: TBA
+      class: halfhour
+      fill:
+      notfill: true
 
-friday:
-  - title: Retro Strikes Again
-    time: 9h-18h
-    place: DI A1
-    image: red.png
-    text: Se no início da semana ainda estavas a pensar no que fazer, e ainda não passaste pelo DI aproveita agora, passa por cá e relembra a informática de outrora bem como os bons sons 8-bits que temos para ti.
+    - name: Coffee Break
+      time: 9:30-10:00
+      place: DI
+      image: ../img/coffee-break.png
+      text: TBA
+      class: halfhour
+      fill:
+      notfill:
+      coffee: true
 
-saturday2:
-  - title: CoderDojo
-    time: 9h-18h
-    place: DI A1
-    image: coderdojo.png
-    text: O CoderDojo Minho é um movimento aberto e sem fins lucrativos para ensinar jovens dos 7 aos 17 a programar. Partilha e aparece caso tenhas interesse em informática.
+    - name: Farfetch- Introdução ao desenvolvimento de aplicações de iOS em Swift
+      time: 10:00-13:00
+      place: DI
+      speaker: TBA
+      image: TBA
+      text: TBA
+      class: threehour
+      fill:
+      notfill: true
 
+    - name:
+      time: 13:00-14:00
+      place: TBA
+      image: TBA
+      text: TBA
+      class: hourf
+      fill: true
+      notfill:
+
+    - name: Plux/Bitalino -...a biosignal (r)evolucion
+      time: 14:00-15:00
+      place: DI
+      speaker: TBA
+      image: TBA
+      text: TBA
+      class: plux
+      fill:
+      notfill: true
+
+    - name: Celso Martinho
+      time: 15:00-16:00
+      place: DI
+      speaker: Celso Martinho
+      image: TBA
+      text: TBA
+      class: celso
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 16:00-16:30
+      place: DI
+      image: TBA
+      text: TBA
+      class: halfhour
+      fill:
+      notfill:
+      coffee: true
+
+    - name: Seegno- Moderm web app development with react and redux
+      time: 16:30-19:30
+      place: DI
+      speaker: TBA
+      image: TBA
+      text: TBA
+      class: threehour
+      fill:
+      notfill: true
+
+    - name:
+      time: 19:30-21:00
+      place: TBA
+      image: TBA
+      text: TBA
+      class: segundafill
+      fill: true
+      notfill:
+
+    - name: Jogos Ba
+      time: 21:00-24:00
+      place: BA
+      image: TBA
+      text: TBA
+      class: threehour
+      fill:
+      notfill: true
+
+- tuesday:
+  date: 9 FEV
+  dayOfWeek: TERÇA
+  activities:
+    - name: MS- TBA
+      time: 9:00-10:30
+      place: DI
+      speaker: TBA
+      image:
+      text: TBA
+      class: hourandhalf
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 10:30-11:00
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: Ubiwhere - Intelligent solucions for today's cities
+      time: 11:00-12:00
+      place: DI
+      speaker: TBA
+      image:
+      text: TBA
+      class: hour
+      fill:
+      notfill: true
+
+    - name: Joana Almeida -Game Development
+      time: 12:00-13:00
+      place: DI
+      speaker: TBA
+      image:
+      text: TBA
+      class: hour
+      fill:
+      notfill: true
+
+    - name:
+      time: 13:00-14:00
+      place: DI
+      image:
+      text: TBA
+      class: hourf
+      fill: true
+      notfill:
+
+    - name: João Silva (Crytek)- Introdução a concept art e a industria dos jogos
+      time: 14:00-15:00
+      place: DI
+      speaker: TBA
+      class: plux
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Faber Ventures -TBA
+      time: 15:00-16:30
+      place: DI
+      speaker: TBA
+      class: faber
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 16:30-17:00
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: GCG - Virtual Reality
+      time: 17:00-18:00
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name:
+      time: 18:00-21:00
+      place: DI
+      speaker: TBA
+      class: threehourf
+      image:
+      fill: true
+      notfill:
+
+
+    - name: BragaRB
+      time: 21:00-24:00
+      place: DI
+      speaker: TBA
+      class: threehour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+- wednesday:
+  date: 10 FEV
+  dayOfWeek: QUARTA
+  activities:
+    - name: Eurotux-Segurança Web
+      time: 9:00-10:30
+      place: DI
+      speaker: TBA
+      class: hourandhalf
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 10:30-11:00
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: Blip- AngularJS and me
+      time: 11:00-13:00
+      place: DI
+      speaker: TBA
+      class: blip
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name:
+      time: 13:00-14:00
+      place: DI
+      class: hourf
+      image:
+      text: TBA
+      fill: true
+      notfill:
+
+
+    - name: Carlos Soares - The rise and fall of big data (and why you shouldn't care)
+      time: 14:00-15:00
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: RGA
+      time: 15:00-17:00
+      place: DI
+      speaker: TBA
+      class: rga
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+
+    - name: Coffee Break
+      time: 17:00-17:30
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name:
+      time: 17:30-21:00
+      place: DI
+      class: threehourandhalff
+      image:
+      text: TBA
+      fill: true
+      notfill:
+
+    - name: Rally das Tascas
+      time: 21:00-24:00
+      place: Carpe
+      class: threehour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+- thursday:
+  date: 11 FEV
+  dayOfWeek: QUINTA
+  activities:
+    - name: Subvisual -Ruby on Raisl Workshop
+      time: 9:00-10:30
+      place: DI
+      speaker: TBA
+      class: hourandhalf
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 10:30-11:00
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: OutSystems- U.sa.bi.li.da.de.
+      time: 11:00-12:00
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+
+    - name: OutSystems-Negocio vs tecnologia
+      time: 12:00-13:00
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name:
+      time: 13:00-14:00
+      place: DI
+      class: hourf
+      image:
+      text: TBA
+      fill: true
+      notfill:
+
+
+    - name: Imobilemagic -Mobile testing with Calabash and Cucumber
+      time: 14:00-15:30
+      place: DI
+      speaker: TBA
+      class: imobilemagic
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Belen Albeza - Game development with JavaScript and Phaser
+      time: 15:30-16:30
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+
+    - name: Coffee Break
+      time: 16:30-17:00
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: BloomIdea - Digital Markting
+      time: 17:00-18:00
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name:
+      time: 18:00-19:00
+      place: DI
+      class: hour
+      image:
+      text: TBA
+      fill: true
+      notfill:
+
+
+    - name: Catarina Campos- Lean Startup
+      time: 19:00-20:00
+      place: DI
+      speaker: TBA
+      class: catcampos
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name:
+      time: 20:00-21:00
+      place: DI
+      class: hourf
+      image:
+      text: TBA
+      fill: true
+      notfill:
+
+    - name: Arraial & Jam Session
+      time: 21:00-24:00
+      place: Carpe
+      class: threehour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+- friday:
+  date: 12 FEV
+  dayOfWeek: SEXTA
+  activities:
+    - name: Nutrium -Android 6.0
+      time: 9:00-11:30
+      place: DI
+      speaker: TBA
+      class: twohoursandhalf
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 11:30-12:00
+      place: DI
+      class: halfhour
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: Mike Elsmore(IBM)- Offline Webapps
+      time: 12:00-13:00
+      place: DI
+      speaker: TBA
+      class: hour
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name:
+      time: 13:00-14:00
+      place: DI
+      class: hourf
+      image:
+      text: TBA
+      fill: true
+      notfill:
+
+    - name: Roberto Cortez-Java EE7 & Java 8
+      time: 14:00-15:30
+      place: DI
+      speaker: TBA
+      class: imobilemagic
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: iTGROW-TBA
+      time: 15:30-17:00
+      place: DI
+      class: itgrow
+      speaker: TBA
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+    - name: Coffee Break
+      time: 17:00-18:00
+      class: sextacof
+      place: DI
+      image:
+      text: TBA
+      fill:
+      notfill:
+      coffee: true
+
+    - name: Hackathon Heartbit
+      time: 18:00-24:00
+      place: DI
+      class: hacksexta
+      image:
+      text: TBA
+      fill:
+      notfill: true
+
+- saturday13:
+  date: 13 FEV
+  dayOfWeek: SÁBADO
+  activities:
+    - name:  Hackathon Heartbit
+      time: 00:00-20:00
+      place: DI
+      image:
+      text: TBA
+      class: twentyhour
+      fill:
+      notfill: true
+
+    - name:
+      time: 20:00-21:00
+      place: DI
+      image:
+      text: TBA
+      class: hourf
+      fill: true
+      notfill:
+
+    - name: Jantar & Post-Conf Party
+      time: 21:30-24:00
+      place: DI
+      class: threehour
+      image:
+      text: TBA
+      fill:
+      notfill: true
