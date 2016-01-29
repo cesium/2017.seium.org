@@ -66,6 +66,32 @@
           bottom: 0
           text-align: right
           padding-right: 5%
+    .agenda-coffee, .agenda-lunch
+      text-align: center
+      width: 100%
+      padding-bottom: 5px
+      overflow: hidden
+      span
+        line-height: 0.5
+        display: inline-block
+        position: relative
+        overflow: visible
+        &:before, &:after
+          content: ""
+          position: absolute
+          height: 5px
+          border-bottom: 1px solid
+          top: 0
+          width: 400px
+        &:before
+          right: 100%
+          margin-right: 15px
+        &:after
+          left: 100%
+          margin-left: 15px
+    .agenda-lunch span
+      &:before, &:after
+        border-top: 1px solid
 
 .cal-label
   font-size: 0.7em
@@ -82,29 +108,6 @@
   padding-left: 7.5
   padding-right: 0
 
-.cal-lunch
-  margin: 5px
-  padding-bottom: 5px
-  overflow: hidden
-  span
-    line-height: 0.5
-    display: inline-block
-    position: relative
-    overflow: visible
-    &:before, &:after
-      content: ""
-      position: absolute
-      height: 5px
-      border-bottom: 1px solid
-      top: 0
-      width: 400px
-    &:before
-      right: 100%
-      margin-right: 15px
-    &:after
-      left: 100%
-      margin-left: 15px
-
 #cal-coffee img
   margin-top: 5px
   margin-bottom: 5px
@@ -115,28 +118,34 @@
 .section-heading h1
   font-size: 150%
 
-.cal-one-thirty
+.cal-one-thirty, .half-hour
   min-height: 20px
 
-.cal-two-thirty
+.cal-two-thirty, .one-hour
   min-height: 43px
   padding-left: 0px
   padding-right: 0px
 
-.cal-three-thirty
+.cal-three-thirty, .one-hour-and-half
   min-height: 64px
 
-.cal-four-thirty
+.cal-four-thirty, .two-hours
   min-height: 86px
 
-.cal-five-thirty
+.cal-five-thirty, .two-hours-and-half
   min-height: 107px
 
-.cal-six-thirty
+.cal-six-thirty, .three-hours
   min-height: 129px
 
-.cal-ten-thirty
+.cal-ten-thirty, .five-hours
   min-height: 302px
+
+.cal-twelve-thirty, .six-hours
+  min-height: 366px
+
+.twenty-hours
+  min-height: 700px
 
 .cal-coffee-filler
   height: 42px
@@ -178,7 +187,7 @@
     height: auto
   .cal-coffee-filler
     height: 25px
-  .cal-one-thirty, .cal-two-thirty, .cal-three-thirty, .cal-four-thirty, .cal-five-thirty, .cal-six-thirty, .cal-ten-thirty, .cal-coffee-filler, .cal-labels-filler
+  .cal-one-thirty, .cal-two-thirty, .cal-three-thirty, .cal-four-thirty, .cal-five-thirty, .cal-six-thirty, .cal-ten-thirty, .cal-coffee-filler, .cal-labels-filler, .half-hour, .one-hour, .one-hour-and-half, .two-hours, .two-hours-and-half, .three-hours, .five-hours, .six-hours, .twenty-hours
     min-height: 0
     height: auto
   .cal-parallel-left

@@ -2,45 +2,22 @@
   date: 6 FEV
   dayOfWeek: SÁBADO
   activities:
-    - name: act1
-      time: 1:00-1:00
-      place: DI A2
-      image:
-      class: hourf
-      text: TBA
-      fill: true
-      notfill:
-
     - name: CoderDojo
       time: 15:00-17:00
       place: GNRation
-      image: TBA
-      fill:
-      class: twohour
-      notfill: true
+      image:
+      duration: two-hours
 
 - sunday:
   date: 7 FEV
   dayOfWeek: DOMINGO
   activities:
-    - name: act1
-      time: 1:00-1:00
-      place: DI A2
-      speaker: TBA
-      image: TBA
-      text: TBA
-      class: hourf
-      fill: true
-      notfill:
-
     - name: Rails Girls
       time: 10:00-13:00
       place: DI A2
       image:
       text: tba
-      class: railsgirls
-      fill:
-      notfill: true
+      duration: three-hours
 
 - monday:
   date: 8 FEV
@@ -51,209 +28,118 @@
       place: DI A2
       image:
       text: TBA
-      class: halfhour
-      fill:
-      notfill: true
+      duration: half-hour
 
-    - name: Coffee Break
-      time: 9:30-10:00
-      place: DI A2
-      image: ../img/coffee-break.png
-      text: TBA
-      class: halfhour
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
-    - name: Farfetch- Introdução ao desenvolvimento de aplicações de iOS em Swift
+    - name: Introdução ao desenvolvimento de aplicações de iOS em Swift
       time: 10:00-13:00
       place: DI A2
-      speaker: TBA
+      speaker: Adelino Faria
+      enterprise: Farfetch
       image: TBA
       text: TBA
-      class: threehour
-      fill:
-      notfill: true
+      duration: three-hours
 
-    - name:
-      time: 13:00-14:00
-      place: DI A2
-      image: TBA
-      text: TBA
-      class: hourf
-      fill: true
-      notfill:
+    - lunch: true
 
-    - name: Plux/Bitalino -...a biosignal (r)evolucion
+    - name: BITalino… a biosignals (r)evolution
       time: 14:00-15:00
       place: DI A2
-      speaker: TBA
+      speaker: Hugo Silva
+      enterprise: Plux
       image: TBA
       text: TBA
-      class: plux
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name: Celso Martinho
+    - name: TBA
       time: 15:00-16:00
       place: DI A2
       speaker: Celso Martinho
       image: TBA
       text: TBA
-      class: celso
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name: Coffee Break
-      time: 16:00-16:30
-      place: DI A2
-      image: TBA
-      text: TBA
-      class: halfhour
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
-    - name: Seegno- Moderm web app development with react and redux
+    - name: Modern web app development with react and redux
       time: 16:30-19:30
       place: DI A2
       speaker: TBA
+      enterprise: Seegno
       image: TBA
       text: TBA
-      class: threehour
-      fill:
-      notfill: true
-
-    - name:
-      time: 19:30-21:00
-      place: DI A2
-      image: TBA
-      text: TBA
-      class: segundafill
-      fill: true
-      notfill:
-
-    - name: Jogos Ba
-      time: 21:00-24:00
-      place: DI A2
-      image: TBA
-      text: TBA
-      class: threehour
-      fill:
-      notfill: true
+      duration: three-hours
 
 - tuesday:
   date: 9 FEV
   dayOfWeek: TERÇA
   activities:
-    - name: MS- TBA
+    - name: Workshop de Unity
       time: 9:00-10:30
       place: DI A2
       speaker: TBA
       image:
       text: TBA
-      class: hourandhalf
-      fill:
-      notfill: true
+      duration: one-hour-and-half
 
-    - name: Coffee Break
-      time: 10:30-11:00
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
-    - name: Ubiwhere - Intelligent solucions for today's cities
+    - name: Intelligent Solutions for today's cities
       time: 11:00-12:00
       place: DI A2
       speaker: TBA
+      enterprise: Ubiwhere
       image:
       text: TBA
-      class: hour
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name: Joana Almeida -Game Development
+    - name: Being Independent - Making games from Code to Art
       time: 12:00-13:00
       place: DI A2
-      speaker: TBA
+      speaker: Joana Almeida
       image:
       text: TBA
-      class: hour
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name:
-      time: 13:00-14:00
-      place: DI A2
-      image:
-      text: TBA
-      class: hourf
-      fill: true
-      notfill:
+    - lunch: true
 
-    - name: João Silva (Crytek)- Introdução a concept art e a industria dos jogos
+    - name: Introdução a concept art e a industria dos jogos
       time: 14:00-15:00
       place: DI A2
-      speaker: TBA
-      class: plux
+      speaker: João Silva
+      enterprise: Crytek
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name: Faber Ventures -TBA
+
+    - name: Workshop Sails.js
       time: 15:00-16:30
       place: DI A2
       speaker: TBA
-      class: faber
+      enterprise: Faber Ventures
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour-and-half
 
-    - name: Coffee Break
-      time: 16:30-17:00
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
     - name: GCG - Virtual Reality
       time: 17:00-18:00
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
-
-    - name:
-      time: 18:00-21:00
-      place: DI A2
-      speaker: TBA
-      class: threehourf
-      image:
-      fill: true
-      notfill:
-
+      duration: one-hour
 
     - name: BragaRB
       time: 21:00-24:00
       place: DI A2
       speaker: TBA
-      class: threehour
+      duration: three-hour
       image:
       text: TBA
-      fill:
-      notfill: true
 
 - wednesday:
   date: 10 FEV
@@ -263,90 +149,46 @@
       time: 9:00-10:30
       place: DI A2
       speaker: TBA
-      class: hourandhalf
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour-and-half
 
-    - name: Coffee Break
-      time: 10:30-11:00
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
     - name: Blip- AngularJS and me
       time: 11:00-13:00
       place: DI A2
       speaker: TBA
-      class: blip
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: two-hours
 
-    - name:
-      time: 13:00-14:00
-      place: DI A2
-      class: hourf
-      image:
-      text: TBA
-      fill: true
-      notfill:
-
+    - lunch: true
 
     - name: Carlos Soares - The rise and fall of big data (and why you shouldn't care)
       time: 14:00-15:00
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour
 
     - name: RGA
       time: 15:00-17:00
       place: DI A2
       speaker: TBA
-      class: rga
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: two-hours
 
-
-    - name: Coffee Break
-      time: 17:00-17:30
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
-
-    - name:
-      time: 17:30-21:00
-      place: DI A2
-      class: threehourandhalff
-      image:
-      text: TBA
-      fill: true
-      notfill:
+    - coffee: true
 
     - name: Rally das Tascas
       time: 21:00-24:00
       place: DI A2
-      class: threehour
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: three-hours
 
 - thursday:
   date: 11 FEV
@@ -356,131 +198,70 @@
       time: 9:00-10:30
       place: DI A2
       speaker: TBA
-      class: hourandhalf
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: three-hours
 
-    - name: Coffee Break
-      time: 10:30-11:00
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
     - name: OutSystems- U.sa.bi.li.da.de.
       time: 11:00-12:00
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
-
+      duration: one-hour
 
     - name: OutSystems-Negocio vs tecnologia
       time: 12:00-13:00
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name:
-      time: 13:00-14:00
-      place: DI A2
-      class: hourf
-      image:
-      text: TBA
-      fill: true
-      notfill:
-
+    - lunch: true
 
     - name: Imobilemagic -Mobile testing with Calabash and Cucumber
       time: 14:00-15:30
       place: DI A2
       speaker: TBA
-      class: imobilemagic
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour-and-half
 
     - name: Belen Albeza - Game development with JavaScript and Phaser
       time: 15:30-16:30
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour
 
-
-    - name: Coffee Break
-      time: 16:30-17:00
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
     - name: BloomIdea - Digital Markting
       time: 17:00-18:00
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
-
-    - name:
-      time: 18:00-19:00
-      place: DI A2
-      class: hour
-      image:
-      text: TBA
-      fill: true
-      notfill:
-
+      duration: one-hour
 
     - name: Catarina Campos- Lean Startup
       time: 19:00-20:00
       place: DI A2
       speaker: TBA
-      class: catcampos
       image:
       text: TBA
-      fill:
-      notfill: true
-
-    - name:
-      time: 20:00-21:00
-      place: DI A2
-      class: hourf
-      image:
-      text: TBA
-      fill: true
-      notfill:
+      duration: one-hour
 
     - name: Arraial & Jam Session
       time: 21:00-24:00
       place: DI A2
-      class: threehour
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: three-hours
 
 - friday:
   date: 12 FEV
@@ -490,79 +271,47 @@
       time: 9:00-11:30
       place: DI A2
       speaker: TBA
-      class: twohoursandhalf
+      duration: two-hours-and-half
       image:
       text: TBA
-      fill:
-      notfill: true
 
-    - name: Coffee Break
-      time: 11:30-12:00
-      place: DI A2
-      class: halfhour
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
     - name: Mike Elsmore(IBM)- Offline Webapps
       time: 12:00-13:00
       place: DI A2
       speaker: TBA
-      class: hour
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour
 
-    - name:
-      time: 13:00-14:00
-      place: DI A2
-      class: hourf
-      image:
-      text: TBA
-      fill: true
-      notfill:
+    - lunch: true
 
     - name: Roberto Cortez-Java EE7 & Java 8
       time: 14:00-15:30
       place: DI A2
       speaker: TBA
-      class: imobilemagic
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour-and-half
 
     - name: iTGROW-TBA
       time: 15:30-17:00
       place: DI A2
-      class: itgrow
       speaker: TBA
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: one-hour-and-half
 
-    - name: Coffee Break
-      time: 17:00-18:00
-      class: sextacof
-      place: DI A2
-      image:
-      text: TBA
-      fill:
-      notfill:
-      coffee: true
+    - coffee: true
 
     - name: Hackathon Heartbit
       time: 18:00-24:00
       place: DI A2
-      class: hacksexta
+      duration: hacksexta
       image:
       text: TBA
-      fill:
-      notfill: true
+      duration: six-hours
 
 - saturday13:
   date: 13 FEV
@@ -573,24 +322,11 @@
       place: DI A2
       image:
       text: TBA
-      class: twentyhour
-      fill:
-      notfill: true
-
-    - name:
-      time: 20:00-21:00
-      place: DI A2
-      image:
-      text: TBA
-      class: hourf
-      fill: true
-      notfill:
+      duration: twenty-hours
 
     - name: Jantar & Post-Conf Party
       time: 21:30-24:00
       place: DI A2
-      class: threehour
+      duration: two-hours-and-half
       image:
       text: TBA
-      fill:
-      notfill: true
