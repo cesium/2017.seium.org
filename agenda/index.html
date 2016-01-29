@@ -16,10 +16,16 @@ layout: default
         <div class="Agenda-column">
           <h4 class="cal-day AgendaDay"> {{ day.date }}. <br><span>{{ day.dayOfWeek }}</span></h4>
           {% for act in day.activities %}
-          <div>
             {% if act.coffee %}
-            <img src="../img/coffee-break.png" class="coffee">
+            <div class="break">
+              <div class="hour">
+                <p>
+                  <span class="fancy"></span>
+                </p>
+              </div>
+            </div>
             {% endif %}
+            <div>
             {% if act.notfill %}
             <div class="text-left">
               <div class="cal-hour">{{ act.time }}</div>
@@ -33,9 +39,6 @@ layout: default
             <div class="Agendatype">
               {{ act.place }}
             </div>
-            {% endif %}
-            {% if act.fill %}
-            <div class="{{act.class }}"></div>
             {% endif %}
           </div>
           {% endfor %}

@@ -1,4 +1,4 @@
-#agenda 
+#agenda
   background-image: url(../img/stuff-dark.png)
   background-position: center center
   -webkit-background-size: cover
@@ -29,7 +29,7 @@
 
 
 
-.agenda-title 
+.agenda-title
   float: left
   margin: 50px 0px 50px 0px
 
@@ -53,13 +53,13 @@
 
 .Agendatype
   text-align: right
-  width: 100%  
+  width: 100%
   color: red
 
 
 .Agendaplace
   text-align: right
-  width: 100%  
+  width: 100%
   color: red
 
 .filler
@@ -84,6 +84,31 @@
 
 .twohourf
   height: 175px
+
+
+.break
+  width: 100%
+  .hour p
+    font-size: 20px
+    margin: 0
+    text-align: center
+    span.fancy
+      display: inline-block
+      position: relative
+      &:before, &:after
+        content: ""
+        position: absolute
+        height: 5px
+        border-bottom: 1px solid white
+        border-top: 1px solid white
+        top: 15px
+        min-width: 100%
+      &:before
+        right: 100%
+        margin-right: 15px
+      &:after
+        left: 100%
+        margin-left: 15px
 
 .threehourf
   height: 300px

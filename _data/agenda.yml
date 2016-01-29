@@ -12,11 +12,9 @@
       notfill:
 
     - name: CoderDojo
-      time: 10:00-12:00
+      time: 15:00-17:00
       place: GNRATION
-      speaker: TBA
       image: TBA
-      text: TBA
       fill:
       class: twohour
       notfill: true
