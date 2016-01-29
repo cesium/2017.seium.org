@@ -3,46 +3,111 @@ layout: default
 ---
 
 
-<section id="aboutspeakers">
-    <div class="container col-md-12">
+<section id="activities">
+    <div class="container">
       
 
     {% for day in site.data.agenda %}
 
         <div class="container">
             <div class="col-md-12 title-container">
-                <div class="agenda-title">{{ day.dayOfWeek }} / {{ day.date }}</div>
+                <div class="agenda-title">{{ day.date }}</div>
             </div>
         </div>
 
-        {% for act in day.activities %}
-        {% if act.notfill %}
-
         <div class="container">
 
-                    <div class="col-md-12 speak-list">
+        {% for act in day.activities %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        
+        
+        {% if act.notfill %}
+            
+            {% if thecycle == 'odd' %}
 
+
+
+                <div class="col-md-12">
                     
-                    <div repeat="speaker in speakers" class="col-md-3 col-md-offset-1">
-                        <div class="speaker-img" style="border-radious:50%">
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="speaker-img">
                             <img style="max-width:100%;max-height:100%" src="../img/speakers/mike.jpg"/>
                         </div>
-                        <span class="speaker-name">{{ act.name }}</span></br>
-                        <span class="speaker-position">{{ act.speaker }}</span>
-                        
+                        <div class="center">
+                        <span class="actname">{{ act.name }}</span>
+                        {% if act.speaker %}
+                        <span class="speaker-position">{{ act.speaker }}</span></br>
+                        {% endif %}
+                        {% if act.type %}
+                        <span class="speaker-position">{{ act.type }}</span>
+                        {% endif %}
+                        </div>
                         
                         
                     </div>
-                    <div class="col-md-6">
-                        <span class="aboutspeaker">{{ act.text }}</span>
+                    <div class="col-md-5">
+                        <div class="text-left col-md-6">
+                        <span class="acthour"><i class="fa fa-clock-o"></i> {{ act.time }}</span></div>
+                        
+                        <div class="actplace col-md-6">
+                        <i class="fa fa-map-marker"></i> {{ act.place }}
+                        </div>
+                
+                        <div class="acttext">{{ act.text }}</div>
+                        
                     </div>
-                    {% endif %}
+
                 </div>
+                    {% endif %}
+
+            {% if thecycle == 'even' %}
+
+
+
+                <div class="col-md-12">
+                    
+
+                    <div class="col-md-5 col-md-offset-2">
+                        <div class="text-left col-md-6">
+                        <span class="acthour"><i class="fa fa-clock-o"></i> {{ act.time }}</span></div>
+                        
+                        <div class="actplace col-md-6">
+                        <i class="fa fa-map-marker"></i> {{ act.place }}
+                        </div>
                 
-        </div>
-        {% endfor %}
+                        <div class="acttext">{{ act.text }}</div>
+                        
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="speaker-img">
+                            <img style="max-width:100%;max-height:100%" src="../img/speakers/mike.jpg"/>
+                        </div>
+                        <div class="center">
+                        <span class="actname">{{ act.name }}</span>
+                        {% if act.speaker %}
+                        <span class="speaker-position">{{ act.speaker }}</span></br>
+                        {% endif %}
+                        {% if act.type %}
+                        <span class="speaker-position">{{ act.type }}</span>
+                        {% endif %}
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+                    {% endif %}
+
+
                 
+                {% endif %}
+                
+
         {% endfor %}
+            </div>    
+        {% endfor %}
+
 
 
       </div>
