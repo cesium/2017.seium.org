@@ -3,21 +3,21 @@
   dayOfWeek: SÁBADO
   activities:
     - name: CoderDojo
+      duration: two-hours
       time: 15:00-17:00
       place: GNRation
       image:
-      duration: two-hours
 
 - sunday:
   date: 7 FEV
   dayOfWeek: DOMINGO
   activities:
     - name: Rails Girls
+      duration: three-hours
       time: 10:00-13:00
       place: DI A2
       image:
       text: tba
-      duration: three-hours
 
 - monday:
   date: 8 FEV
@@ -25,119 +25,119 @@
   activities:
     - name: Sessão de abertura
       time: 9:00-9:30
+      duration: half-hour
       place: DI A2
       image:
       text: TBA
-      duration: half-hour
 
     - coffee: true
 
     - name: Introdução ao desenvolvimento de aplicações de iOS em Swift
       time: 10:00-13:00
+      duration: three-hours
       place: DI A2
       speaker: Adelino Faria
       enterprise: Farfetch
       image: TBA
       text: TBA
-      duration: three-hours
 
     - lunch: true
 
     - name: BITalino… a biosignals (r)evolution
       time: 14:00-15:00
+      duration: one-hour
       place: DI A2
       speaker: Hugo Silva
       enterprise: Plux
       image: TBA
       text: TBA
-      duration: one-hour
 
     - name: TBA
       time: 15:00-16:00
+      duration: one-hour
       place: DI A2
       speaker: Celso Martinho
       image: TBA
       text: TBA
-      duration: one-hour
 
     - coffee: true
 
     - name: Modern web app development with react and redux
       time: 16:30-19:30
+      duration: three-hours
       place: DI A2
       speaker: TBA
       enterprise: Seegno
       image: TBA
       text: TBA
-      duration: three-hours
 
 - tuesday:
   date: 9 FEV
   dayOfWeek: TERÇA
   activities:
-    - name: Workshop de Unity
+    - name: Unity - 2D Platformer
       time: 9:00-10:30
+      duration: one-hour-and-half
       place: DI A2
-      speaker: TBA
+      speaker: Michael Matias
       image:
       text: TBA
-      duration: one-hour-and-half
 
     - coffee: true
 
     - name: Intelligent Solutions for today's cities
       time: 11:00-12:00
+      duration: one-hour
       place: DI A2
-      speaker: TBA
+      speaker: Ricardo Vitorino e Francisco Monsanto
       enterprise: Ubiwhere
       image:
       text: TBA
-      duration: one-hour
 
     - name: Being Independent - Making games from Code to Art
       time: 12:00-13:00
+      duration: one-hour
       place: DI A2
       speaker: Joana Almeida
       image:
       text: TBA
-      duration: one-hour
 
     - lunch: true
 
     - name: Introdução a concept art e a industria dos jogos
       time: 14:00-15:00
+      duration: one-hour
       place: DI A2
       speaker: João Silva
       enterprise: Crytek
       image:
       text: TBA
-      duration: one-hour
 
 
     - name: Workshop Sails.js
       time: 15:00-16:30
+      duration: one-hour-and-half
       place: DI A2
-      speaker: TBA
+      speaker: João Horta
       enterprise: Faber Ventures
       image:
       text: TBA
-      duration: one-hour-and-half
 
     - coffee: true
 
-    - name: GCG - Virtual Reality
+    - name: Virtual Reality
       time: 17:00-18:00
+      duration: one-hour
       place: DI A2
-      speaker: TBA
+      speaker: Rui Guedes
+      enterprise: Ground Control
       image:
       text: TBA
-      duration: one-hour
 
     - name: BragaRB
       time: 21:00-24:00
-      place: DI A2
-      speaker: TBA
       duration: three-hour
+      place: DI A2
       image:
       text: TBA
 
@@ -145,173 +145,180 @@
   date: 10 FEV
   dayOfWeek: QUARTA
   activities:
-    - name: Eurotux-Segurança Web
+    - name: Segurança Web
       time: 9:00-10:30
+      duration: one-hour-and-half
       place: DI A2
       speaker: TBA
+      enterprise: Eurotux
       image:
       text: TBA
-      duration: one-hour-and-half
 
     - coffee: true
 
-    - name: Blip- AngularJS and me
+    - name: AngularJS and me
       time: 11:00-13:00
+      duration: two-hours
       place: DI A2
-      speaker: TBA
+      enterprise: Blip
       image:
       text: TBA
-      duration: two-hours
 
     - lunch: true
 
-    - name: Carlos Soares - The rise and fall of big data (and why you shouldn't care)
+    - name: The rise and fall of big data (and why you shouldn't care)
       time: 14:00-15:00
+      duration: one-hour
       place: DI A2
-      speaker: TBA
+      speaker: Carlos Soares
       image:
       text: TBA
-      duration: one-hour
 
     - name: RGA
       time: 15:00-17:00
+      duration: two-hours
       place: DI A2
-      speaker: TBA
       image:
       text: TBA
-      duration: two-hours
 
     - coffee: true
 
     - name: Rally das Tascas
       time: 21:00-24:00
+      duration: three-hours
       place: DI A2
       image:
       text: TBA
-      duration: three-hours
 
 - thursday:
   date: 11 FEV
   dayOfWeek: QUINTA
   activities:
-    - name: Subvisual -Ruby on Raisl Workshop
+    - name: Ruby on Rails Workshop
       time: 9:00-10:30
+      duration: three-hours
       place: DI A2
-      speaker: TBA
+      speaker: Luís Zamith
+      enterprise: Subvisual
       image:
       text: TBA
-      duration: three-hours
 
     - coffee: true
 
-    - name: OutSystems- U.sa.bi.li.da.de.
+    - name: U.sa.bi.li.da.de.
       time: 11:00-12:00
+      duration: one-hour
       place: DI A2
-      speaker: TBA
+      speaker: Rúben Gonçalves
+      enteprise: OutSystems
       image:
       text: TBA
-      duration: one-hour
 
-    - name: OutSystems-Negocio vs tecnologia
+    - name: Negócio vs Tecnologia
       time: 12:00-13:00
       place: DI A2
-      speaker: TBA
+      speaker: Daniel Luz
+      enterprise: OutSystems
       image:
       text: TBA
       duration: one-hour
 
     - lunch: true
 
-    - name: Imobilemagic -Mobile testing with Calabash and Cucumber
+    - name:  Mobile testing with Calabash and Cucumber
       time: 14:00-15:30
-      place: DI A2
-      speaker: TBA
-      image:
-      text: TBA
       duration: one-hour-and-half
-
-    - name: Belen Albeza - Game development with JavaScript and Phaser
-      time: 15:30-16:30
       place: DI A2
-      speaker: TBA
+      speaker: Hugo Ribeiro
+      enterprise: iMobileMagic
       image:
       text: TBA
+
+    - name:  Game development with JavaScript and Phaser
+      time: 15:30-16:30
       duration: one-hour
+      place: DI A2
+      speaker: Belén Albeza
+      enterprise: Mozilla
+      image:
+      text: TBA
 
     - coffee: true
 
-    - name: BloomIdea - Digital Markting
+    - name: Digital Marketing
       time: 17:00-18:00
+      duration: one-hour
       place: DI A2
-      speaker: TBA
+      speaker: José Fernandes
+      enterprise: BloomIdea
       image:
       text: TBA
-      duration: one-hour
 
-    - name: Catarina Campos- Lean Startup
+    - name: Lean Startup
       time: 19:00-20:00
-      place: DI A2
-      speaker: TBA
-      image:
-      text: TBA
       duration: one-hour
-
-    - name: Arraial & Jam Session
-      time: 21:00-24:00
       place: DI A2
       image:
       text: TBA
+
+    - name: Arraial
+      time: 21:00-24:00
       duration: three-hours
+      place: DI A2
+      image:
+      text: TBA
 
 - friday:
   date: 12 FEV
   dayOfWeek: SEXTA
   activities:
-    - name: Nutrium -Android 6.0
+    - name: Android 6.0
       time: 9:00-11:30
-      place: DI A2
-      speaker: TBA
       duration: two-hours-and-half
+      place: DI A2
+      speaker: André Santos
+      enterprise: Healthium
       image:
       text: TBA
 
     - coffee: true
 
-    - name: Mike Elsmore(IBM)- Offline Webapps
+    - name: Offline Webapps
       time: 12:00-13:00
+      duration: one-hour
       place: DI A2
-      speaker: TBA
+      speaker: Mike Elsmore
+      enterprise: IBM
       image:
       text: TBA
-      duration: one-hour
 
     - lunch: true
 
-    - name: Roberto Cortez-Java EE7 & Java 8
+    - name: Java EE7 & Java 8
       time: 14:00-15:30
+      duration: one-hour-and-half
       place: DI A2
-      speaker: TBA
+      speaker: Roberto Cortez
       image:
       text: TBA
-      duration: one-hour-and-half
 
-    - name: iTGROW-TBA
+    - name: From University to the real world - what does a Technical Support Engineer do?
       time: 15:30-17:00
+      duration: one-hour-and-half
       place: DI A2
-      speaker: TBA
+      speaker: David Teixeira
+      enterprise: iTGrow
       image:
       text: TBA
-      duration: one-hour-and-half
 
     - coffee: true
 
-    - name: Hackathon Heartbit
+    - name: Hackathon Heartbits
       time: 18:00-24:00
+      duration: six-hours
       place: DI A2
-      duration: hacksexta
       image:
       text: TBA
-      duration: six-hours
 
 - saturday13:
   date: 13 FEV
@@ -319,14 +326,14 @@
   activities:
     - name:  Hackathon Heartbit
       time: 00:00-20:00
+      duration: twenty-hours
       place: DI A2
       image:
       text: TBA
-      duration: twenty-hours
 
     - name: Jantar & Post-Conf Party
       time: 21:30-24:00
-      place: DI A2
       duration: two-hours-and-half
+      place: DI A2
       image:
       text: TBA
