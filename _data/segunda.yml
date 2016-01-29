@@ -1,8 +1,8 @@
 - name: Sessão de abertura
   time: 9:00-9:30
   place: DI
-  image: img/speakers/mike.jpg
-  text: asdasdasdasda fahsdbashdabs kasdkj aksdj akjsd akjsd kajsdh kajsdhk ajsdhkash dkaskdk ajsd kasjdk kasd aksd ak
+  image:
+  text: TBA
   class: halfhour
   fill:
   notfill: true
@@ -10,7 +10,8 @@
 - name: Coffee Break
   time: 9:30-10:00
   place: DI
-  text: asdasdasdasda fahsdbashdabs kasdkj aksdj akjsd akjsd kajsdh kajsdhk ajsdhkash dkaskdk ajsd kasjdk kasd aksd ak
+  image: ../img/coffee-break.png
+  text: TBA
   class: halfhour
   fill: 
   notfill:
@@ -21,7 +22,7 @@
   place: DI
   speaker: TBA
   image: TBA
-  text: asdasdasdasda fahsdbashdabs kasdkj aksdj akjsd akjsd kajsdh kajsdhk ajsdhkash dkaskdk ajsd kasjdk kasd aksd ak
+  text: TBA
   class: threehour
   fill:
   notfill: true
@@ -41,7 +42,7 @@
   place: DI
   speaker: TBA
   image: TBA
-  text: asdasdasdasda fahsdbashdabs kasdkj aksdj akjsd akjsd kajsdh kajsdhk ajsdhkash dkaskdk ajsd kasjdk kasd aksd ak
+  text: TBA
   class: plux
   fill:
   notfill: true
