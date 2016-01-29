@@ -4,24 +4,30 @@
             <div class="col-md-12 title-container">
                 <div class="aboutspeakers-title">Oradores</div>
             </div>
-                
+
+
+                    <div class="speakers-def col-md-8 col-md-offset-2">
+
+                        Durante esta semana vais ter a oportunidade de conhecer muitos oradores nacionais e internacionais reconhecidos e de empresas notorias, mas até lá, vai dando uma vista de olhos para saberes o que podes esperar desta edição.
+                    </div>
+
                     {% for speaker in site.data.speakers %}
                     <div class="col-md-12 speak-list">
                     <div repeat="speaker in speakers" class="col-md-3 col-md-offset-1">
                         <div class="speaker-img" style="border-radious:50%">
-                            <img style="max-width:100%;max-height:100%" src="../{{ speaker.pic }}"/>
+                            <img class="speaker-pic" src="../{{ speaker.pic }}"/>
                         </div>
                         <span class="speaker-name">{{ speaker.name }}</span>
-                        
+
                         {% if speaker.position %}
                         <span class="speaker-position">{{ speaker.position }}</span>
                         {% endif %}
                         {% if speaker.enterprise %}
-                        <span class="speaker-company">
-                            <a repeat="enterprise in speaker.enterprise" target="_blank" href="{{ enterprise.enterpriseUrl }}">
-                                {{ speakers.enterprise }}
-                            </a>
-                        </span>
+                            <span class="speaker-company">
+                                <a target="_blank" href="{{ enterprise.enterpriseUrl }}">
+                                    {{ speaker.enterprise }}
+                                </a>
+                            </span>
                         {% endif %}
                         <div class="col-lg-12 ">
                             <ul class="list-inline social-buttons speaker-social">
@@ -48,7 +54,7 @@
                         <span class="aboutspeaker">{{ speaker.about }}</span>
                     </div>
                 </div>
-                    
+
                 {% endfor %}
 
         </div>
