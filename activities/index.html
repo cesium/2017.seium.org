@@ -14,40 +14,52 @@ layout: default
 
         <div class="container">
         {% for act in day.activities %}
-        {% if act.notfill %}
+          {% unless act.coffee or act.meal %}
           <div class="row">
-            <div class="activity-box col-md-8 col-md-offset-2">
-                <div class="activity-img col-md-3">
-                  <img src="../img/act/{{ act.image }}"/>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 activity-box">
+                <div class="col-sm-3 hidden-xs activity-img">
+                  <img src="/img/act/{{ act.image }}"/>
                   <div class="activity-info">
                     <p class="activity-datetime">
-                      <i class="fa fa-map-marker"></i> {{ act.place }}
-                      <i class="fa fa-clock-o"></i> {{ act.time }}
+                      <i class="fa fa-map-marker"></i><span> {{ act.place }} </span>
+                      <i class="fa fa-clock-o"></i><span> {{ act.time }}</span>
                     </p>
                     <div class="activity-speaker">
-                      <p>Test Speaker</p>
-                      <p class="activity-enterprise">Enterprise</p>
+                      {% if act.speaker %}
+                      <p>{{ act.speaker }}</p>
+                      {% endif %}
+                      {% if act.enterprise %}
+                      <p class="activity-enterprise">{{ act.enterprise }}</p>
+                      {% endif %}
                     </div>
                   </div>
-                  <!--
-                  {% if act.speaker %}
-                  <p class="activity-speaker">{{ act.speaker }}</p>
-                  {% endif %}
-                  -->
-
                 </div>
-                <div class="col-md-9 activity-text">
+                <div class="col-sm-9 activity-text">
                   <p class="activity-title">{{ act.name }}</p>
                   {% if act.type %}
                   <div class="activity-type">
                     <p>{{ act.type }}</p>
                   </div>
+                  <div class="hidden-lg hidden-md hidden-sm activity-info">
+                    <p class="col-xs-6 activity-datetime">
+                      <i class="fa fa-map-marker"></i><span> {{ act.place }} </span>
+                      <i class="fa fa-clock-o"></i><span> {{ act.time }}</span>
+                    </p>
+                    <div class="col-xs-6 text-right activity-speaker">
+                      {% if act.speaker %}
+                      <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
+                      {% endif %}
+                      {% if act.enterprise %}
+                      <i class="fa fa-building-o"></i><span class="activity-enterprise">{{ act.enterprise }}</span>
+                      {% endif %}
+                    </div>
+                  </div>
                   {% endif %}
-                 <p class="activity-text">{{ act.text }}</p>
+                 <p class="col-xs-12 activity-text">{{ act.text }}</p>
                 </div>
             </div>
           </div>
-          {% endif %}
+          {% endunless %}
         {% endfor %}
         <div class="activity-filler"></div>
         </div>

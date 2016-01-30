@@ -63,10 +63,20 @@
 .activity-datetime
   text-align: left
   color: white
-  & i
+
+.activity-speaker, .activity-datetime
+  i
+    font-size: 12px
     color: #3c3e44
+  span
+    margin-right: 5px
+
+.activity-speaker
+  i
+    margin-right: 5px
 
 .activity-text
+  width: 100%
   align-self: flex-start
 
 .center
@@ -149,34 +159,3 @@
 
 .activities-container
   text-align: center
-
-@media (max-width: 991px)
-  #activities
-    height: 1000px
-
-
-@media (max-width: 377px)
-  #activities
-    height: 1100px
-
-
-@media (max-width: 310px)
-  #activities
-    height: 1200px
-
-
-@media (max-width: 277px)
-  #activities
-    height: 1300px
-
-
-
-
-@media (max-width: 259px)
-  #activities
-    height: 1400px
-
-
-@media (max-width: 240px)
-  #activities
-    height: 1500px
