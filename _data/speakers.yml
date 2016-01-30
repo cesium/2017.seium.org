@@ -1,5 +1,5 @@
 - name: Mike Elsmore
-  pic: img/speakers/mike.jpg
+  pic: mike.jpg
   position: Developer Advocate
   enterprise: IBM
   enterpriseUrl: https://www.ibm.com/us-en/
@@ -13,7 +13,7 @@
 
 
 - name: João Silva
-  pic: img/speakers/joaosilva.jpg
+  pic: joaosilva.jpg
   position: Junior Concept Artist
   enterprise: Crytek
   enterpriseUrl: http://www.crytek.com/
@@ -23,7 +23,7 @@
   about: Estudou Design de multimédia no Porto mas sempre com a sensação de que haveria algo mais além. Até que um dia descobriu Concept Art e lhe foi recomendada a FZD School of Design em Singapura, uma escola onde o foco era design industrial para entretenimento. Após um ano intenso de trabalho e revelação desenvolveu um portfólio para se candidatar à posições de Concept Art na indústria de cinema e jogos, assegurando assim um lugar na Crytek.
 
 - name: Belén Albeza
-  pic: img/speakers/belen.jpg
+  pic: belen.jpg
   position: Computer Engineer & Game Developer
   enterprise: Mozilla
   enterpriseUrl: https://www.mozilla.org/en-US/
@@ -34,7 +34,7 @@
   about: Belén é uma engenheira e game developer a trabalhar no desenvolvimento de relações na Mozilla. Preocupa se com padrões em web, codigo de alta qualidade, acessibilidade e desenvolvimento de jogos. Trabalhou em start-up's tal como em grandes empresas, desenvolvendo  prototipos R&D, jogos sociais e websites. Belén neste momento vive em Barcelona e gosta de heavy metal, de se juntar a game jams, rollerblading e "Mass Effect".
 
 - name: Roberto Cortez
-  pic: img/speakers/radcortez.jpg
+  pic: radcortez.jpg
   position: Java Developer
   enterprise:
   enterpriseUrl:
@@ -45,7 +45,7 @@
   about: Roberto Cortez é um Java Developer profissional, com mais de 9 anos de experiência a trabalhar em áreas como Finanças, Seguros e Instituições Governamentais. O seu primeiro contacto com Java foi em 1998 e desde então nunca mais olhou para trás. Trabalhando principalmente com tecnologias Java EE, Roberto está bastante envolvido com a comunidade, ajudando a espalhar o conhecimento ou apenas partilhando histórias e experiências. O facto de trabalhar como Freelancer deu-lhe grande liberdade para viajar pelo mundo e falar em conferências como JavaOne Conference, Devoxx, JFokus, GeeCon, Java2Days, entre outras. Encontra-se a trabalhar com a Tomitribe, e é agora o líder do JUG (Java User Group) de Coimbra, assim como um blogger regular sobre tecnologias Java.
 
 - name: Carlos Soares
-  pic: img/speakers/carlos.jpeg
+  pic: carlos.jpeg
   position: Professor & Researcher
   enterprise: FEUP
   enterpriseUrl: https://sigarra.up.pt
@@ -55,7 +55,7 @@
   about: Carlos Soares licenciou-se em Engenharia de Sistemas e Informática pela Universidade do Minho, obteve o mestrado em Inteligência Artificial e o doutoramento em Ciência de Computadores pela Universidade do Porto. Depois de 15 anos na Faculdade de Economia, é agora Professor Associado na Faculdade de Engenharia da Universidade do Porto. É investigador do INESC TEC, com interesses em Data Science & Engineering, Business Intelligence e Computação Evolutiva e já participou em mais de 20 projetos nacionais e internacionais de I&DI, bem como projetos de consultadoria. Em 2009, recebeu o Prémio de Mérito Científico e de Excelência da Associação Portuguesa para a Inteligência Artificial.
 
 - name: Joana Almeida
-  pic: img/speakers/joana.jpg
+  pic: joana.jpg
   position: Indie Game Developer
   enterprise:
   enterpriseUrl:
@@ -65,7 +65,7 @@
   about: Joana é uma indie game developer que trabalhou em desenvolvimento de software e em jogos sérios antes de decidir avançar em nome próprio para fazer as suas ideias de jogos realidade. Participou em algumas Game Jams, tanto sozinha como em grupos, a maioria dos seus projetos mais conhecidos começaram aí. Recentemente, ela e um grupo de amigos juntaram-se durante o Indies VS Gamers Jam e o seu jogo, Super Nanny Sleepytime, ficou em 3.º lugar. Consequentemente, foi jogado por youtubers populares e ficou conhecido muito rapidamente. Quando não está a trabalhar com os seus amigos no Space Pajamas ou a ajudar outros indie game developers com os seus jogos, está a trabalhar nos seus próprios e noutros projetos pessoais em Sorceress' Spell.
 
 - name: Luís Zamith
-  pic: img/speakers/zamith.jpg
+  pic: zamith.jpg
   position: Developer
   enterprise: SubVisual
   enterpriseUrl: https://subvisual.co/
@@ -75,7 +75,7 @@
   about: Nos últimos 4 anos o Luís trabalhou na web, utilizando principalmente Ruby e RoR. Ele gosta de open source e de estar junto das comunidades. Ensinou Rails a mais de 500 pessoas, com workshops, aulas universitárias, mentoring e até 1-1 coaching. Adora experimentar novas e divertidas linguagens de programação, desde Haskell até Elixir ou até mesmo Crystal.
 
 - name: Adelino Faria
-  pic: img/speakers/adelino.jpg
+  pic: adelino.jpg
   position: iOS Software Engineer
   enterprise: Farfetch
   enterpriseUrl: http://www.farfetch.com/pt/
@@ -85,7 +85,7 @@
   about: É um entusiasta por iOS desde que começou, há mais de quatro anos, e o crescimento exponencial a que assistiu na altura ainda se mantém. Mobile é o foco em qualquer grande negócio e com a influência da IoT em tudo o que nos rodeia, irá em breve explodir em termos de casos de uso.
 
 - name: Rúben Gonçalves
-  pic: img/speakers/ruben.jpg
+  pic: ruben.jpg
   position: Senior Consultant
   enterprise: OutSystems
   enterpriseUrl: https://www.outsystems.com
@@ -95,7 +95,7 @@
   about: Trabalha na OutSystems há 6 anos, estando neste momento a liderar a equipa de experts mobile e front-end. Cruzou-se com usabilidade pouco depois de chegar à OutSystems e desde então nunca mais deixou de se interessar pelo tema e de o aprofundar. Está sempre pronto para um aventura e para partilhar os seus conhecimentos.
 
 - name: Daniel Luz
-  pic: img/speakers/daniel.jpg
+  pic: daniel.jpg
   position: Senior Consultant
   enterprise: OutSystems
   enterpriseUrl: https://www.outsystems.com
@@ -105,7 +105,7 @@
   about: Com uma paixão por C e C++, o Daniel tem estado envolvido em muitos projetos que vão desde call centers até high-end console gaming. É um programador, arquiteto, API builder, bem como um ávido jogador e ex-músico. Desde que entrou para o mundo da OutSystems, ele também é um business thinker e value provider.
 
 - name: David Teixeira
-  pic: img/speakers/david.png
+  pic: david.png
   position: Software Engineer
   enterprise: iTGROW
   enterpriseUrl: http://www.itgrow.pt/
@@ -115,7 +115,7 @@
   about: Licenciado em Engenharia Informática pela Universidade do Minho, está a viver a sua primeira experiência profissional na iTGrow, inserido num projeto da Critical Manufacturing ligado à indústria dos semicondutores. Considera que a experiência tem sido muito positiva, num trabalho essencialmente focado nos desafios de otimização de ferramentas de suporte em ambiente produtivo, assim como na capacidade de identificar e resolver problemas em situações críticas.
 
 - name: João Horta
-  pic: img/speakers/horta.png
+  pic: horta.png
   position: Software Developer
   enterprise: Faber Ventures
   enterpriseUrl: http://www.faber-ventures.com/
@@ -125,7 +125,7 @@
   about: João é Software Developer na Faber Ventures, onde ele ajudou a construir mais de 7 empresas como Backend & Frontend Developer. Adora jogos de vídeo, festivais e é adepto do Benfica.
 
 - name: José Fernandes
-  pic: img/speakers/jose.jpg
+  pic: jose.jpg
   position: Co-Founder & CEO
   enterprise: BloomIdea
   enterpriseUrl: http://bloomidea.com/en
@@ -135,7 +135,7 @@
   about: Apaixonado por tecnologia, marketing e desenvolvimento de negócios. Gosta de ler e de ser intelectualmente desafiado. É muito exigente com quem trabalha e prefere estar rodeado dos melhores profissionais e jogadores de equipa. É co-fundador das empresas BloomIdea, O Nosso Casamento, ByCool, Genehome, bem como investidor em outras empresas de sucesso. Há mais de 10 anos que ajuda a fazer florescer novos e excitantes projetos na web e na área mobile.
 
 - name: Hugo Silva
-  pic: img/speakers/hugo.jpg
+  pic: hugo.jpg
   position: Chief Innovation Officer
   enterprise: Plux
   enterpriseUrl: http://www.plux.info/
@@ -145,27 +145,27 @@
   about: Hugo acredita que é um dos únicos sortudos que pode dizer que trabalhou muitos poucos dias na sua vida... não devido à falta de trabalho (felizmente), mas porque quando se é apaixonado pelo que se faz, não há barreira entre trabalho e pura diversão.
 
 - name: Rui Guedes
-  pic: img/speakers/rui.jpg
+  pic: rui.jpg
   position: Founder
   enterprise: Ground Control
   enterpriseUrl: http://www.gcontrolgames.com/
   web:
   twitter: https://twitter.com/rflguedes
   github:
-  about: I have worked for a few years on corporate solutions development, some R&D on the field of robotics and AI (subject of my master's thesis). Then I've decided that I needed some excitement on my life and turned to Indie game dev. First on mobile and now on PC/Consoles. I've also been tinkering with VR immersion (Kinect+Rift) and EEG control applied to games/interaction.
+  about: Trabalhei durante alguns anos no desenvolvimento de soluções empresariais, e fiz algum desenvolvimento e investigação no campo de robótica e inteligência artificial (tema do meu Mestrado). Depois decidi que precisava de mais animação na vida e virei-me para Indie game dev. Primeiro em telemóveis e agora em PC/Consolas. Também tenho experimentado imersão em realidade virtual (Kinect+Rift) e controlo EEG aplicado aos jogos/interação.
 
-- name: Hugo Ribeiro
-  pic: img/speakers/ribeiro.jpg
+- name: Hélder Ribeiro
+  pic: ribeiro.jpg
   position: Software Architect
   enterprise: iMobileMagic
   enterpriseUrl: http://imobilemagic.com/
   web:
   twitter:
   github:
-  about: Hélder is an IT professional with experience managing, designing and implementing software solutions in online services and mobile applications with worldwide impact like Microsoft MyPhone, windowsphone.com, PhoneNear Family Safety, MobileKeeper, My Magic Songs and Vodafone Portugal music festivals official apps. Currently, he’d the Project Manager and Software Architect at iMobileMagic, being a member of the company's senior team. Previously, Hélder worked at Microsoft as Software Development Engineer and in MobiComp as Product Software Engineer.
+  about: Hélder é um profissional de informática com experiência em gestão, desenhando e implementando soluções de software em serviços online e aplicações móveis com impacto mundial como Microsoft MyPhone, windowsphone.com, PhoneNear Family Safety, MobileKeeper, My Magic Songs e as aplicações oficiais dos festivais de música Vodafone Portugal. NEste momento, é o Project Manager e Arquiteto de Software na ImobileMagic, sendo um membro da equipa senior da empresa. No passado, o Hélder trabalhou na Microsoft como um Engenheiro de Desenvolvimento de Software e na MobiComp como Engenheiro de Produto de Software.
 
 - name: André Santos
-  pic: img/speakers/andre.jpg
+  pic: andre.jpg
   position: Founder & CEO
   enterprise: Healthium
   enterpriseUrl: http://healthium.pt/
@@ -175,21 +175,31 @@
   about: Licenciado em Engenharia Informática pela Universidade do Minho, encontra-se no último ano do Mestrado em Engenharia Informática. No último ano co-fundou a Healthium, uma empresa dedicada ao desenvolvimento de soluções avançadas de software para profissionais da área da saúde, onde desempenha funções de diretor executivo. Anteriormente desempenhou funções de engenheiro informático na KEEP SOLUTIONS onde pertenceu à equipa do projeto do RCAAP (Repositório Científico de Acesso Aberto de Portugal).
 
 - name: Ricardo Vitorino
-  pic: img/speakers/ricardo.png
+  pic: ricardo.png
   position: Software Engineer
   enterprise: Ubiwhere
   enterpriseUrl: http://www.ubiwhere.com/
   web:
   twitter:
   github:
-  about: Ricardo holds an MSc. Degree in Computer Science from the University of Coimbra, Portugal. He started working in 2011, in a three-year nationally funded project in the Smart Cities and Mobility area, where he helped creating an open-data platform for urban mobility called One.Stop.Transport (OST). Since then, he has worked on projects related to the smart cities context and had some experience with FIWARE technology, mainly in the FIWARE Lisbon pilot, where he helped publishing data from OST into CKAN, FIWARE’s open data portal. He joined Ubiwhere in early 2015 to work on its Smart Cities solutions (Citibrain), mainly the backend services (REST APIs) regarding mobility.
+  about: Ricardo detém um Mestrado em Engenharia Informática da Universidade de Coimbra, Portugal. Começou a trabalhar em 2011, num projeto nacional financiado sobre Cidades Inteligidades e Mobilidade, onde ele ajudou a criar uma plataforma de informação aberta para mobilidade urbana apelidada One.Stop.Transport (OST). Desde então, ele tem trabalhado em projetos relacionados com o contexto das cidades inteligentes e teve alguma experiência com a tecnologia FIWARE, principalmente  no FIWARE Lisbon pilot, onde ajudou a publicar informação desde POST até CKAN, o portal de informação aberto da FIWARE. Juntou-se à UBIWhere no início de 2015 para trabalhar nas suas soluções para Cidades Inteligentes (Citibrain), focando nos serviços backend (REST APIs) relacionadas com mobilidade.
 
 - name: Francisco Monsanto
-  pic: img/speakers/monsanto.png
+  pic: monsanto.png
   position: Software Engineer
   enterprise: Ubiwhere
   enterpriseUrl: http://www.ubiwhere.com/
   web:
   twitter:
   github:
-  about: Francisco has experience in web development, particularly backend development, in designing, implementing and testing RESTful APIs, and also maintaining and deploying applications as micro-services in modern infrastructures using automation and virtualization tools. He has been developing Ubiwhere's backend platform for the Citibrain product in the Smart Cities area since 2014 and was involved in the development of the "Porto as a FIWARE-enabled city" project, where he integrated Citibrain backend technology with the Porto’s FIWARE platform. Francisco holds an MSc. Degree in Computer Science from the University of Coimbra, Portugal.
+  about: Francisco tem experiência em desenvolvimento web, em especial desenvolvimento backend, em conceber, implementar e testar APIs RESTful e também em manter e instalar aplicações como micro-serviços em infraestruturas modernas através de automatização e ferramentas de virtualização. Ele tem vindo a desenvolver a plataforma backend da UBIWhere para o produto Citibrain na área de Cidades Inteligentes desde 2014 e esteve envolvido no desenvolvimento do projecto "Porto as a FIWARE-enabled city" onde integrou a tecnologia backend de Citibrain com a plataforma FIWARE do Porto. Francisco tem um Mestrado em Engenharia Informática da Universidade de Coimbra, Portugal. 
+
+- name: Michael Matias
+  pic: michael.jpg
+  position: Game Developer
+  enterprise: siosLIFE
+  enterpriseUrl: http://sioslife.com/
+  web:
+  twitter:
+  github:
+  about: Licenciado em Engenharia em Desenvolvimento de Jogos Digitais do IPCA, trabalha actualmente em desenvolvimento de aplicações windows e de jogos sérios para idosos para a siosLIFE. Desenvolve aplicações mobile em Xamarin nos tempos livres para todas as plataformas.

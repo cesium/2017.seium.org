@@ -17,13 +17,6 @@ $(function() {
         });
     }
 
-
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: $('.navbar-header').height() + 1
-    });
-
     // jQuery to collapse the navbar on scroll
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
