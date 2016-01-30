@@ -58,25 +58,25 @@
   margin: 100px
 
 .activity-enterprise
+  display: block
   font-weight: bold
 
 .activity-datetime
   text-align: left
   color: white
 
-.activity-speaker, .activity-datetime
+.activity-speaker, .activity-datetime, .activity-datetime div
   i
+    margin-right: 5px
     font-size: 12px
     color: #3c3e44
   span
     margin-right: 5px
 
-.activity-speaker
-  i
-    margin-right: 5px
-
 .activity-text
   width: 100%
+  margin-top: 10px
+  text-align: justify
   align-self: flex-start
 
 .center
@@ -96,6 +96,9 @@
     max-width: 170px
     margin: 0 auto
     border-bottom: 4px solid #3c3e44
+  @media (max-width: 991px)
+    font-size: 24px
+    line-height: 1.6
 
 .acthour
   font-size: 14px

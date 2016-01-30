@@ -20,16 +20,22 @@ layout: default
                 <div class="col-sm-3 hidden-xs activity-img">
                   <img src="/img/act/{{ act.image }}"/>
                   <div class="activity-info">
-                    <p class="activity-datetime">
-                      <i class="fa fa-map-marker"></i><span> {{ act.place }} </span>
-                      <i class="fa fa-clock-o"></i><span> {{ act.time }}</span>
-                    </p>
+                    <div class="activity-datetime">
+                      <p>
+                        <i class="fa fa-map-marker"></i><span> {{ act.place }} </span>
+                      </p>
+                      <p>
+                        <i class="fa fa-clock-o"></i><span> {{ act.time }}</span>
+                      </p>
+                    </div>
                     <div class="activity-speaker">
                       {% if act.speaker %}
-                      <p>{{ act.speaker }}</p>
+                      <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
                       {% endif %}
                       {% if act.enterprise %}
-                      <p class="activity-enterprise">{{ act.enterprise }}</p>
+                      <div class="activity-enterprise">
+                        <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span>
+                      </div>
                       {% endif %}
                     </div>
                   </div>
@@ -41,16 +47,22 @@ layout: default
                     <p>{{ act.type }}</p>
                   </div>
                   <div class="hidden-lg hidden-md hidden-sm activity-info">
-                    <p class="col-xs-6 activity-datetime">
-                      <i class="fa fa-map-marker"></i><span> {{ act.place }} </span>
-                      <i class="fa fa-clock-o"></i><span> {{ act.time }}</span>
-                    </p>
-                    <div class="col-xs-6 text-right activity-speaker">
+                    <div class="activity-datetime">
+                      <div class="col-xs-5">
+                        <i class="fa fa-map-marker"></i><span>{{ act.place }}</span>
+                      </div>
+                      <div class="col-xs-7 text-right">
+                        <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 activity-speaker">
                       {% if act.speaker %}
                       <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
                       {% endif %}
                       {% if act.enterprise %}
-                      <i class="fa fa-building-o"></i><span class="activity-enterprise">{{ act.enterprise }}</span>
+                      <div class="activity-enterprise">
+                        <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span>
+                      </div>
                       {% endif %}
                     </div>
                   </div>
