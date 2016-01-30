@@ -10,8 +10,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="SEI 16 - Semana da Engenharia Informática">
 
-
-{% if page.url == '/heartbits/index.html'}
+{% if page.path == 'heartbits/index.html' %}
 <title>SEI 16 - Hackathon HeartBits</title>
 
 <meta property="og:title" content="SEI 16 - Hackathon HeartBits">
@@ -22,24 +21,21 @@ O objetivo é a construção em equipa de uma plataforma (website, app, ou outro
 <meta property="og:description" content="Um concurso do (CeSIUM) e da ANEM com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual.
 O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a Promoção da Saúde e Prevenção da Doença.">
 <meta property="og:url" content="http://seium.org/heartbits">
-<meta property="og:image" content="http://seium.org/img/heartbits/header.png">
+<meta property="og:image" content="http://seium.org/img/heartbits/banner.png">
+
 {% else %}
 
 <title>SEI 16 - Semana da Engenharia Informática</title>
 
 <meta property="og:title" content="SEI 16 - Semana da Engenharia Informática">
-<meta name="description" content="Um concurso do (CeSIUM) e da ANEM com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual.
-O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a Promoção da Saúde e Prevenção da Doença.">
-<meta name="keywords" content="cesium, anem, hackathon, sei, subvisual, dgs">
+<meta name="description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocobrre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
+<meta name="keywords" content="cesium, hackathon, sei, sei16, uminho">
 
-<meta property="og:description" content="Um concurso do (CeSIUM) e da ANEM com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual.
-O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a Promoção da Saúde e Prevenção da Doença.">
-<meta property="og:url" content="http://seium.org/heartbits">
-<meta property="og:image" content="http://seium.org/img/heartbits/header.png">
+<meta property="og:description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocorre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
+<meta property="og:url" content="http://seium.org{{ page.url }}">
+<meta property="og:image" content="http://seium.org/img/banner.png">
 
 {% endif %}
-
-
 
 <link rel="shortcut icon" href="/img/favicon.ico">
 
