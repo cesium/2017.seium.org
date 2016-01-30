@@ -14,10 +14,11 @@ layout: default
 
         <div class="container">
         {% for act in day.activities %}
+        {% if act.notfill %}
           <div class="row">
             <div class="activity-box col-md-8 col-md-offset-2">
                 <div class="activity-img col-md-3">
-                  <img src="../img/speakers/mike.jpg"/>
+                  <img src="../img/act/{{ act.image }}"/>
                   <div class="activity-info">
                     <p class="activity-datetime">
                       <i class="fa fa-map-marker"></i> {{ act.place }}
@@ -46,6 +47,7 @@ layout: default
                 </div>
             </div>
           </div>
+          {% endif %}
         {% endfor %}
         <div class="activity-filler"></div>
         </div>

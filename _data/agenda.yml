@@ -17,7 +17,7 @@
       text: O CoderDojo é uma atividade que leva os mais novos a entrar no mundo da informatica.....etc
       speaker:
       type: social
-      image: TBA
+      image: coderdojo.png
       fill:
       class: twohour
       notfill: true
@@ -39,7 +39,7 @@
     - name: Rails Girls
       time: 10:00-13:00
       place: tba
-      image:
+      image: rails.png
       text: tba
       class: railsgirls
       fill:
@@ -52,7 +52,7 @@
     - name: Sessão de abertura
       time: 9:00-9:30
       place: DI
-      image:
+      image: abertura.png
       text:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.  In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
       class: halfhour
       type: social
@@ -73,7 +73,7 @@
       time: 10:00-13:00
       place: DI
       speaker: TBA
-      image: TBA
+      image: swift.png
       type: talk
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.  In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
       class: threehour
@@ -93,7 +93,7 @@
       time: 14:00-15:00
       place: DI
       speaker: TBA
-      image: TBA
+      image: devops.png
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.  In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
       class: plux
       fill:
@@ -123,7 +123,7 @@
       time: 16:30-19:30
       place: DI
       speaker: TBA
-      image: TBA
+      image: react.png
       text: TBA
       class: threehour
       fill:
@@ -155,7 +155,7 @@
       time: 9:00-10:30
       place: DI
       speaker: TBA
-      image:
+      image: unity.png
       text: TBA
       class: hourandhalf
       fill:
@@ -175,7 +175,7 @@
       time: 11:00-12:00
       place: DI
       speaker: TBA
-      image:
+      image: today.png
       text: TBA
       class: hour
       fill:
@@ -185,7 +185,7 @@
       time: 12:00-13:00
       place: DI
       speaker: TBA
-      image:
+      image: gamedev.png
       text: TBA
       class: hour
       fill:
@@ -205,7 +205,7 @@
       place: DI
       speaker: TBA
       class: plux
-      image:
+      image: conceptart.png
       text: TBA
       fill:
       notfill: true
@@ -215,7 +215,7 @@
       place: DI
       speaker: TBA
       class: faber
-      image:
+      image: sailsjs.png
       text: TBA
       fill:
       notfill: true
@@ -235,7 +235,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: virtual.png
       text: TBA
       fill:
       notfill: true
@@ -269,7 +269,7 @@
       place: DI
       speaker: TBA
       class: hourandhalf
-      image:
+      image: security.png
       text: TBA
       fill:
       notfill: true
@@ -289,7 +289,7 @@
       place: DI
       speaker: TBA
       class: blip
-      image:
+      image: angular.png
       text: TBA
       fill:
       notfill: true
@@ -309,7 +309,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: data.png
       text: TBA
       fill:
       notfill: true
@@ -319,7 +319,7 @@
       place: DI
       speaker: TBA
       class: rga
-      image:
+      image: rga.png
       text: TBA
       fill:
       notfill: true
@@ -362,7 +362,7 @@
       place: DI
       speaker: TBA
       class: hourandhalf
-      image:
+      image: ruby.png
       text: TBA
       fill:
       notfill: true
@@ -382,7 +382,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: ux.png
       text: TBA
       fill:
       notfill: true
@@ -393,7 +393,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: tec.png
       text: TBA
       fill:
       notfill: true
@@ -413,7 +413,7 @@
       place: DI
       speaker: TBA
       class: imobilemagic
-      image:
+      image: cucumber.png
       text: TBA
       fill:
       notfill: true
@@ -423,7 +423,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: gaming.png
       text: TBA
       fill:
       notfill: true
@@ -444,7 +444,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: marketing.png
       text: TBA
       fill:
       notfill: true
@@ -496,7 +496,7 @@
       place: DI
       speaker: TBA
       class: twohoursandhalf
-      image:
+      image: android.png
       text: TBA
       fill:
       notfill: true
@@ -516,7 +516,7 @@
       place: DI
       speaker: TBA
       class: hour
-      image:
+      image: offwebapps.png
       text: TBA
       fill:
       notfill: true
@@ -535,7 +535,7 @@
       place: DI
       speaker: TBA
       class: imobilemagic
-      image:
+      image: java.png
       text: TBA
       fill:
       notfill: true
@@ -545,7 +545,7 @@
       place: DI
       class: itgrow
       speaker: TBA
-      image:
+      image: realworld.png
       text: TBA
       fill:
       notfill: true
@@ -564,7 +564,7 @@
       time: 18:00-24:00
       place: DI
       class: hacksexta
-      image:
+      image: hackathon.png
       text: TBA
       fill:
       notfill: true
@@ -576,7 +576,7 @@
     - name:  Hackathon Heartbit
       time: 00:00-20:00
       place: DI
-      image:
+      image: hackathon.png
       text: TBA
       class: twentyhour
       fill:
@@ -595,7 +595,7 @@
       time: 21:30-24:00
       place: DI
       class: threehour
-      image:
+      image: diner.png
       text: TBA
       fill:
       notfill: true

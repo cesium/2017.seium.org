@@ -3,7 +3,7 @@
 <script src="/js/lib/lib.min.js"></script>
 <script src="/js/lib/ohsnap.js"></script>
 
-{% if page.url == '/' %}
+{% if page.path == 'index.html' %}
 <!-- Google Maps -->
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="/js/map.js"></script>
@@ -15,9 +15,8 @@
 <!-- Custom -->
 <script src="/js/nav-var.js"></script>
 <script src="/js/sei.js"></script>
-{{ page.path }}
 <script src="/js/carousel.js"></script>
 <script src="/js/about-text.js"></script>
-{% if page.url == '/heartbits/' %}
+{% if page.path == 'heartbits/index.html' %}
 <script src="/js/countdown.js"></script>
 {% endif %}
