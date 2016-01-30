@@ -1,8 +1,3 @@
----
-layout: default
----
-
-
 <section id="activities">
     <div class="container">
     {% for day in site.data.agenda %}
@@ -15,22 +10,24 @@ layout: default
         <div class="container">
         {% for act in day.activities %}
           {% if act.image %}
-          <div class="row">
+          <div id="{{ act.name | slugify }}" class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 activity-box">
                 <div class="col-sm-3 hidden-xs activity-img">
                   <img src="/img/act/{{ act.image }}"/>
                   <div class="activity-info">
                     <div class="activity-datetime">
                       <p>
-                        <i class="fa fa-map-marker"></i><span> {{ act.place }} </span>
+                        <i class="fa fa-map-marker"></i><span> {{ act.place }}</span>
                       </p>
                       <p>
-                        <i class="fa fa-clock-o"></i><span> {{ act.time }}</span>
+                        <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
                       </p>
                     </div>
                     <div class="activity-speaker">
                       {% if act.speaker %}
-                      <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
+                      <a href="/speakers/#{{ act.speaker | slugify }}">
+                        <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
+                      </a>
                       {% endif %}
                       {% if act.enterprise %}
                       <div class="activity-enterprise">

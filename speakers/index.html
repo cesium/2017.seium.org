@@ -13,7 +13,7 @@ layout: default
     </div>
 
     {% for speaker in site.data.speakers %}
-    <div class="col-md-12 speak-list">
+    <div id="{{ speaker.name | slugify }}" class="col-md-12 speak-list">
       <div class="col-md-3 col-md-offset-1">
         <div class="speaker-img">
           <img class="speaker-pic" src="/img/speakers/{{ speaker.pic }}"/>
@@ -25,7 +25,7 @@ layout: default
         {% endif %}
         {% if speaker.enterprise %}
         <p class="speaker-company">
-          <a target="_blank" href="{{ enterprise.enterpriseUrl }}">
+          <a href="#{{ speaker.name | slugify }}">
             {{ speaker.enterprise }}
           </a>
         </p>

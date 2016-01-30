@@ -56,7 +56,7 @@
     font-size: 12px
 
 .activity-filler
-  margin: 100px
+  margin: 50px
 
 .activity-enterprise
   display: block
@@ -73,6 +73,10 @@
     color: #3c3e44
   span
     margin-right: 5px
+  a
+    &:hover, &:focus
+      color: #fff
+      text-decoration: underline
 
 .activity-text
   width: 100%
@@ -85,8 +89,9 @@
   margin: 0px 0px 50px 0px
 
 .activity-title
+  text-transform: uppercase
   text-align: center
-  font-size: 28px
+  font-size: 24px
   font-weight: bold
   color:white
   &::after
@@ -98,7 +103,7 @@
     margin: 0 auto
     border-bottom: 4px solid #3c3e44
   @media (max-width: 991px)
-    font-size: 24px
+    font-size: 20px
     line-height: 1.6
 
 .acthour

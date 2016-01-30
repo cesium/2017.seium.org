@@ -11,7 +11,6 @@
   local: TBA
   about: Mike passa os seus dias como developer advocate na IBM Cloud Data Services, usando o seu tempo para partilhar conhecimento sobre desemvolvimento rapido e bases de dados diferentes. Na maior parte do tempo ele pode ser encontrado no meio de um prototipo de alguma combinação de JavaScript, tecnologia de servidores e estranhas API's.
 
-
 - name: João Silva
   pic: joaosilva.jpg
   position: Junior Concept Artist
@@ -63,6 +62,16 @@
   twitter: https://twitter.com/SorceryStory
   github: https://github.com/SorceryStory
   about: Joana é uma indie game developer que trabalhou em desenvolvimento de software e em jogos sérios antes de decidir avançar em nome próprio para fazer as suas ideias de jogos realidade. Participou em algumas Game Jams, tanto sozinha como em grupos, a maioria dos seus projetos mais conhecidos começaram aí. Recentemente, ela e um grupo de amigos juntaram-se durante o Indies VS Gamers Jam e o seu jogo, Super Nanny Sleepytime, ficou em 3.º lugar. Consequentemente, foi jogado por youtubers populares e ficou conhecido muito rapidamente. Quando não está a trabalhar com os seus amigos no Space Pajamas ou a ajudar outros indie game developers com os seus jogos, está a trabalhar nos seus próprios e noutros projetos pessoais em Sorceress' Spell.
+
+- name: Michael Matias
+  pic: michael.jpg
+  position: Game Developer
+  enterprise: siosLIFE
+  enterpriseUrl: http://sioslife.com/
+  web:
+  twitter:
+  github:
+  about: Licenciado em Engenharia em Desenvolvimento de Jogos Digitais do IPCA, trabalha actualmente em desenvolvimento de aplicações windows e de jogos sérios para idosos para a siosLIFE. Desenvolve aplicações mobile em Xamarin nos tempos livres para todas as plataformas.
 
 - name: Luís Zamith
   pic: zamith.jpg
@@ -192,14 +201,4 @@
   web:
   twitter:
   github:
-  about: Francisco tem experiência em desenvolvimento web, em especial desenvolvimento backend, em conceber, implementar e testar APIs RESTful e também em manter e instalar aplicações como micro-serviços em infraestruturas modernas através de automatização e ferramentas de virtualização. Ele tem vindo a desenvolver a plataforma backend da UBIWhere para o produto Citibrain na área de Cidades Inteligentes desde 2014 e esteve envolvido no desenvolvimento do projecto "Porto as a FIWARE-enabled city" onde integrou a tecnologia backend de Citibrain com a plataforma FIWARE do Porto. Francisco tem um Mestrado em Engenharia Informática da Universidade de Coimbra, Portugal. 
-
-- name: Michael Matias
-  pic: michael.jpg
-  position: Game Developer
-  enterprise: siosLIFE
-  enterpriseUrl: http://sioslife.com/
-  web:
-  twitter:
-  github:
-  about: Licenciado em Engenharia em Desenvolvimento de Jogos Digitais do IPCA, trabalha actualmente em desenvolvimento de aplicações windows e de jogos sérios para idosos para a siosLIFE. Desenvolve aplicações mobile em Xamarin nos tempos livres para todas as plataformas.
+  about: Francisco tem experiência em desenvolvimento web, em especial desenvolvimento backend, em conceber, implementar e testar APIs RESTful e também em manter e instalar aplicações como micro-serviços em infraestruturas modernas através de automatização e ferramentas de virtualização. Ele tem vindo a desenvolver a plataforma backend da UBIWhere para o produto Citibrain na área de Cidades Inteligentes desde 2014 e esteve envolvido no desenvolvimento do projecto "Porto as a FIWARE-enabled city" onde integrou a tecnologia backend de Citibrain com a plataforma FIWARE do Porto. Francisco tem um Mestrado em Engenharia Informática da Universidade de Coimbra, Portugal.

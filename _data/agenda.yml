@@ -16,8 +16,8 @@
   activities:
     - name: Rails Girls
       type: social
-      time: 10:00-13:00
-      duration: three-hours
+      time: 10:00-18:00
+      duration: eight-hours
       place: TBA
       image: rails.png
       text: Gostavas de aprender a programar? Junta-te a nós neste workshop gratuito, onde irás aprender a desenvolver uma App em Ruby on Rails! Não precisas de saber programar.
@@ -98,7 +98,7 @@
       time: 11:00-12:00
       duration: one-hour
       place: DI A2
-      speaker: Ricardo Vitorino e Francisco Monsanto
+      speaker: Ricardo e Francisco
       enterprise: UBIWhere
       image: today.png
       text: Uma palestra focada nas soluções IoT unificadas da UBIWhere para Cidades Inteligentes. Estas soluções procuram tornar as cidades mais inteligentes em vez de mais tecnológicas.
@@ -364,11 +364,3 @@
       place: Escola de Saúde
       image: hackathon.png
       text: A Hackathon HeartBits powered by Subvisual é um evento do Centro de Estudantes de Informática da Universidade do Minho (CeSIUM) e da Associação Nacional de Estudantes de Medicina (ANEM) com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual. <br> O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a "Promoção da Saúde e Prevenção da Doença".
-
-    - name: Jantar & Post-Conf Party
-      type: social
-      time: 21:30-24:00
-      duration: two-hours-and-half
-      place: TBA
-      image:
-      text: TBA
