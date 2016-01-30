@@ -4,11 +4,7 @@
   margin-left: auto
   float: none
 
-ul.carousel1
-  width: 100%
-
 .title-container
-  margin-top: -70px
   margin-bottom: 20px
   font-family: 'Oswald', sans-serif
   div
@@ -96,16 +92,6 @@ button
         -moz-transform: translateY(0px)
         transform: translateY(0px)
 
-@media (min-width: 992px)
-  .event-day:not(.last-circle) .events-circle::after
-    content: ""
-    position: absolute
-    height: 10px
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8)
-    left: 55%
-    width: 90%
-    cursor: auto
-
 @media (max-width: 992px)
   div.title-container div
     font-size: 35px
@@ -141,42 +127,3 @@ button
     width: 20px
     font-size: 12px
     line-height: 20px
-
-/* OhSnap ALERTS
-/* inspired by Twitter Bootstrap
-
-.alert
-  padding: 15px
-  width: 300px
-  height: 75px
-  margin-bottom: 20px
-  border: 1px solid #eed3d7
-  border-radius: 4px
-  position: fixed
-  bottom: 0px
-  right: 21px
-  /* Each alert has its own width
-  float: right
-  clear: right
-  z-index: 98
-  cursor: pointer
-
-.alert-white
-  color: #0098ff
-  background-color: #fff
-
-.alert-green
-  color: white
-  background-color: #37BC9B
-
-.alert-blue
-  color: white
-  background-color: #4A89DC
-
-.alert-yellow
-  color: white
-  background-color: #F6BB42
-
-.alert-orange
-  color: white
-  background-color: #E9573F

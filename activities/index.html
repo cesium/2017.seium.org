@@ -14,7 +14,7 @@ layout: default
 
         <div class="container">
         {% for act in day.activities %}
-          {% unless act.coffee or act.meal %}
+          {% if act.image %}
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 activity-box">
                 <div class="col-sm-3 hidden-xs activity-img">
@@ -71,7 +71,7 @@ layout: default
                 </div>
             </div>
           </div>
-          {% endunless %}
+          {% endif %}
         {% endfor %}
         <div class="activity-filler"></div>
         </div>
