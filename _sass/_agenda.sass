@@ -7,6 +7,8 @@
   -o-background-size: cover
   background-color: #222
   background-attachment: fixed
+  .agenda-title
+    margin-top: 50px
   .agenda-wrapper
     display: flex
     flex-direction: row
@@ -14,194 +16,121 @@
     justify-content: flex-start
     align-items: flex-start
     justify-content: center
-  .agenda-day
-    width: 277.5px
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
-    justify-content: center
-    align-items: flex-start
-    margin: 20px 0
-    .agenda-date
-      text-align: center
-      color: #2180f9
-      span
-        color: white
-    .agenda-activity
-      width: 100%
-      .activity-time
-        text-align: left
+    .agenda-day
+      width: 277.5px
+      display: flex
+      flex-direction: column
+      flex-wrap: wrap
+      justify-content: center
+      align-items: flex-start
+      margin: 20px 0
+      .agenda-date
+        text-align: center
         color: #2180f9
-        padding-left: 5%
-        font-weight: bold
-      .activity-block
-        position: relative
-        color: white
-        /* Fallback for web browsers that doesn't support RGBa
-        background: #616161
-        /* RGBa with 0.6 opacity
-        background: rgba(97, 97, 97, 0.6)
-        /* For IE 5.5 - 7
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)
-        /* For IE 8
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"
-        &:hover
-          background-color: #2180f9
-          opacity: 1
-        .activity-border
-          position: absolute
-          background-color: #5E5E5E
-          height: 100%
-          width: 4%
-        .activity-name
+        span
+          color: white
+      .agenda-activity
+        width: 100%
+        .activity-time
+          text-align: left
+          color: #2180f9
           padding-left: 5%
-          padding-top: 3px
           font-weight: bold
-          z-index: 5
-        .activity-speaker
-          padding-left: 5%
-        .activity-location
-          right: 0
-          position: absolute
-          bottom: 0
-          text-align: right
-          padding-right: 5%
-    .agenda-coffee, .agenda-lunch
-      text-align: center
-      width: 100%
-      padding-bottom: 5px
-      overflow: hidden
-      span
-        line-height: 0.5
-        display: inline-block
-        position: relative
-        overflow: visible
-        &:before, &:after
-          content: ""
-          position: absolute
-          height: 5px
-          border-bottom: 1px solid
-          top: 0
-          width: 400px
-        &:before
-          right: 100%
-          margin-right: 15px
-        &:after
-          left: 100%
-          margin-left: 15px
-    .agenda-lunch span
-      &:before, &:after
-        border-top: 1px solid
-
-.cal-label
-  font-size: 0.7em
-  font-weight: bold
-  position: relative
-  color: #dc2325
-  padding-right: 5%
-
-.cal-parallel-left
-  padding-left: 0
-  padding-right: 7.5
-
-.cal-parallel-right
-  padding-left: 7.5
-  padding-right: 0
-
-#cal-coffee img
-  margin-top: 5px
-  margin-bottom: 5px
-  width: 60%
-  height: auto
-  max-width: 80%
-
-.section-heading h1
-  font-size: 150%
-
-.cal-one-thirty, .half-hour
-  min-height: 20px
-
-.cal-two-thirty, .one-hour
-  min-height: 43px
-  padding-left: 0px
-  padding-right: 0px
-
-.cal-three-thirty, .one-hour-and-half
-  min-height: 64px
-
-.cal-four-thirty, .two-hours
-  min-height: 86px
-
-.cal-five-thirty, .two-hours-and-half
-  min-height: 107px
-
-.cal-six-thirty, .three-hours
-  min-height: 129px
-
-.cal-ten-thirty, .five-hours
-  min-height: 302px
-
-.cal-twelve-thirty, .six-hours
-  min-height: 366px
-
-.twenty-hours
-  min-height: 700px
-
-.cal-coffee-filler
-  height: 42px
-
-.cal-labels-filler
-  height: 34px
-
-
-.break
-  width: 100%
-  .hour p
-    font-size: 20px
-    margin: 0
-    text-align: center
-    span.fancy
-      display: inline-block
-      position: relative
-      &:before, &:after
-        content: ""
-        position: absolute
+        .activity-block
+          position: relative
+          color: white
+          /* Fallback for web browsers that doesn't support RGBa
+          background: #616161
+          /* RGBa with 0.6 opacity
+          background: rgba(97, 97, 97, 0.6)
+          /* For IE 5.5 - 7
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)
+          /* For IE 8
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"
+          &:hover
+            background-color: #2180f9
+            opacity: 1
+          .activity-border
+            position: absolute
+            background-color: #5E5E5E
+            height: 100%
+            width: 4%
+          .activity-name
+            text-transform: uppercase
+            padding-left: 5%
+            padding-top: 3px
+            font-weight: bold
+            z-index: 5
+          .activity-speaker
+            padding-left: 5%
+          .activity-location
+            right: 0
+            position: absolute
+            bottom: 0
+            text-align: right
+            padding-right: 5%
+      .agenda-coffee
+        text-align: center
+        width: 100%
+        padding-bottom: 5px
+        overflow: hidden
+        span
+          line-height: 0.5
+          display: inline-block
+          position: relative
+          overflow: visible
+          &:before, &:after
+            content: ""
+            position: absolute
+            height: 5px
+            border-bottom: 1px solid
+            top: 0
+            width: 400px
+          &:before
+            right: 100%
+            margin-right: 15px
+          &:after
+            left: 100%
+            margin-left: 15px
+      .agenda-meal
+        margin: 15px 0
         height: 5px
-        border-bottom: 1px solid white
+        width: 100%
         border-top: 1px solid white
-        top: 15px
-        min-width: 100%
-      &:before
-        right: 100%
-        margin-right: 15px
-      &:after
-        left: 100%
-        margin-left: 15px
+        border-bottom: 1px solid white
 
+#agenda .agenda-wrapper .agenda-day .agenda-activity
+  .half-hour
+    min-height: 20px
+  .one-hour
+    min-height: 43px
+  .one-hour-and-half
+    min-height: 64px
+  .two-hours
+    min-height: 86px
+  .two-hours-and-half
+    min-height: 107px
+  .three-hours
+    min-height: 129px
+  .five-hours
+    min-height: 302px
+  .six-hours
+    min-height: 320px
+  .twenty-hours
+    min-height: 680px
 
 @media screen and (max-width: 991px)
-  #cal-coffee img
-    min-width: 86px
-    min-height: 19px
-    width: 25%
-    height: auto
-  .cal-coffee-filler
-    height: 25px
-  .cal-one-thirty, .cal-two-thirty, .cal-three-thirty, .cal-four-thirty, .cal-five-thirty, .cal-six-thirty, .cal-ten-thirty, .cal-coffee-filler, .cal-labels-filler, .half-hour, .one-hour, .one-hour-and-half, .two-hours, .two-hours-and-half, .three-hours, .five-hours, .six-hours, .twenty-hours
-    min-height: 0
-    height: auto
-  .cal-parallel-left
-    padding-right: 0
-  .cal-parallel-right
-    padding-left: 0
+  #agenda .agenda-wrapper .agenda-day .agenda-activity
+    .half-hour, .one-hour, .one-hour-and-half, .two-hours, .two-hours-and-half, .three-hours, .five-hours, .six-hours, .twenty-hours
+      min-height: 0
+      height: auto
 
 @media screen and (max-width: 626px)
-  .cal-label
-    font-size: 0.6em
-  .activity-name, .activity-location, .activity-speaker, h5
-    font-size: 0.7em
-  .activity-time
-    font-size: 0.8em
-  .cal-day
-    margin: 0
+  #agenda .agenda-wrapper .agenda-day
     font-size: 0.9em
+    .agenda-activity
+      .activity-time
+        font-size: 0.8em
+      .activity-block
+        .activity-name, .activity-location, .activity-speaker, h5
+          font-size: 0.7em

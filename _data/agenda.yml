@@ -41,7 +41,7 @@
       image: TBA
       text: TBA
 
-    - lunch: true
+    - meal: true
 
     - name: BITalino… a biosignals (r)evolution
       time: 14:00-15:00
@@ -56,7 +56,7 @@
       time: 15:00-16:00
       duration: one-hour
       place: DI A2
-      speaker: Celso Martinho
+      speaker: TBA
       image: TBA
       text: TBA
 
@@ -90,7 +90,7 @@
       duration: one-hour
       place: DI A2
       speaker: Ricardo Vitorino e Francisco Monsanto
-      enterprise: Ubiwhere
+      enterprise: UBIWhere
       image:
       text: TBA
 
@@ -102,7 +102,7 @@
       image:
       text: TBA
 
-    - lunch: true
+    - meal: true
 
     - name: Introdução a concept art e a industria dos jogos
       time: 14:00-15:00
@@ -134,6 +134,8 @@
       image:
       text: TBA
 
+    - meal: true
+
     - name: BragaRB
       time: 21:00-24:00
       duration: three-hour
@@ -164,7 +166,7 @@
       image:
       text: TBA
 
-    - lunch: true
+    - meal: true
 
     - name: The rise and fall of big data (and why you shouldn't care)
       time: 14:00-15:00
@@ -182,6 +184,8 @@
       text: TBA
 
     - coffee: true
+
+    - meal: true
 
     - name: Rally das Tascas
       time: 21:00-24:00
@@ -210,7 +214,7 @@
       duration: one-hour
       place: DI A2
       speaker: Rúben Gonçalves
-      enteprise: OutSystems
+      enterprise: OutSystems
       image:
       text: TBA
 
@@ -223,7 +227,7 @@
       text: TBA
       duration: one-hour
 
-    - lunch: true
+    - meal: true
 
     - name:  Mobile testing with Calabash and Cucumber
       time: 14:00-15:30
@@ -261,6 +265,8 @@
       image:
       text: TBA
 
+    - meal: true
+
     - name: Arraial
       time: 21:00-24:00
       duration: three-hours
@@ -292,15 +298,15 @@
       image:
       text: TBA
 
-    - lunch: true
+    - meal: true
 
-    - name: Java EE7 & Java 8
+    - name: Java EE 7 meets Java 8
       time: 14:00-15:30
       duration: one-hour-and-half
       place: DI A2
       speaker: Roberto Cortez
       image:
-      text: TBA
+      text: The last few years have been pretty exciting for Java. New versions of the Java EE and Java SE platforms have been introduced in 2013 and 2014. For Java EE, we now have first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. On the other hand, Java SE brought us the long awaited lambda expressions to simplify functional programming; the new powerful Streams API allows you to perform operations on a sequence of elements, like filtering, mapping, sorting and many others; a brand new Date Time API, makes it easier to deal with Timezones and date periods. Let's combine all of these elements together and see how fun it is to develop Java Applications.
 
     - name: From University to the real world - what does a Technical Support Engineer do?
       time: 15:30-17:00

@@ -4,12 +4,9 @@ layout: default
 
 <section id="agenda">
   <div class="container">
-    <div class="container">
-      <div class="title-container">
-        <div class="agenda-title">Agenda</div>
-      </div>
+    <div class="title-container">
+      <div class="agenda-title">Agenda</div>
     </div>
-
 
     <div class="agenda-wrapper">
       {% for day in site.data.agenda %}
@@ -20,17 +17,15 @@ layout: default
         <h5 class="agenda-coffee">
             <span>COFFEE-BREAK</span>
         </h5>
-        {% elsif act.lunch %}
-        <h5 class="agenda-lunch">
-            <span>ALMOÇO</span>
-        </h5>
+        {% elsif act.meal %}
+        <div class="agenda-meal"></div>
         {% else %}
         {% if act.offset %}
         <div class="{{ act.offset }}"></div>
         {% endif %}
         <div class="agenda-activity">
           <div class="activity-time">{{ act.time }}</div>
-          <a href="#events">
+          <a href="">
             <div class="activity-block {{ act.duration }} text-left">
               <div class="activity-border"></div>
               <div class="activity-name"><b>{{ act.name }}</b></div>
