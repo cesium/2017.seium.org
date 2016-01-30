@@ -20,7 +20,8 @@
       duration: eight-hours
       place: TBA
       image: rails.png
-      text: Gostavas de aprender a programar? Junta-te a nós neste workshop gratuito, onde irás aprender a desenvolver uma App em Ruby on Rails! Não precisas de saber programar.
+      register: https://cesium.typeform.com/to/TooARO
+      text: Rails Girls é um evento de programação em Ruby on Rails para mulheres com o objetivo de se criar uma app num ambiente divertido, com pessoas entusiasmadas e coaches fantásticos que não vão deixar ninguém sair com dúvidas! Desde 2010 que este movimento mundial tem crescido. O principal objetivo é tornar o mundo da tecnologia aberto e acessível a mulheres e raparigas!
 
 - monday:
   date: 8 FEV
