@@ -57,7 +57,7 @@
       speaker: Hugo Silva
       enterprise: Plux
       image: devops.png
-      text: In this talk we will focus on BITalino (r)evolution, a unique toolkit composed of low-cost hardware and software, and created to enable anyone to create cool projects and applications involving physiological data. The hardware consists of a modular wireless biosignal acquisition system that can be used to acquire data in real time, interface with other devices (e.g. Arduino or Raspberry PI), or perform rapid prototyping of end-user applications. The software comprehends a set of programming APIs, a biosignal processing toolbox, and a framework for real time data acquisition and postprocessing.
+      text: Nesta talk vamos abordar BITalino (r)evolution, um conjuto de ferramentas unico composto por hardware e software de baixo preço, e criada para permitir que qualquer um crie projetos interessantes e aplicações involventes dados fisiológicos. O hardware consiste num sistema de aquisição de sinais biológicos sem fios que pode ser usado para armazenar dados em tempo real, interface com outros dispositivos (por exemplo Arduino's ou Raspberry PI's), ou realizar portotipagem rápida de aplicativos de usuário final. O software compreende uma serie de API's programaveis, um conjunto de ferramentas de processo biológico, e uma framework para aquisição de dados e pós-processamento em tempo real.
 
     - name: TBA
       type: talk
@@ -266,7 +266,7 @@
       speaker: Belén Albeza
       enterprise: Mozilla
       image: gaming.png
-      text: HTML 5 brings us the technology and API's we need to create games for the web. In this talk we will cover basic techniques of 2D game development and how we can use them with the aid of Phaser, a JavaScript game framework.
+      text: HTML 5 oferece nos a tecnologia e API's que precisamos para criar jogos para web. Nesta talk vamos falar sobre tecnicas basicas de desenvolvimento de jogos em 2D e como podemos usar los com a ajuda de phaser, uma framework de jogos de JavaScript.
 
     - coffee: true
 
@@ -321,7 +321,7 @@
       speaker: Mike Elsmore
       enterprise: IBM
       image: offwebapps.png
-      text: No matter where you look in technology, everything has an online component. But with the advancement of web technologies and mobile apps, offline is becoming a key characteristic. This talk is a whistle stop tour on taking advantage of replication to achieve harmony between your application and your datalayer.
+      text: Para qualquer lado que olhemos na area da tecnologia, todo tem uma componente online. Mas com o avanço das tecnologias web e e apps moveis, offline esta se a tornar uma caracteristica chave. Esta talk é paragem para um alerta nas vantagens de replicação para armazenar harmonia entre as aplicações e os dados.
 
     - meal: true
 
@@ -332,7 +332,7 @@
       place: DI A2
       speaker: Roberto Cortez
       image: java.png
-      text: The last few years have been pretty exciting for Java. New versions of the Java EE and Java SE platforms have been introduced in 2013 and 2014. For Java EE, we now have first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. On the other hand, Java SE brought us the long awaited lambda expressions to simplify functional programming; the new powerful Streams API allows you to perform operations on a sequence of elements, like filtering, mapping, sorting and many others; a brand new Date Time API, makes it easier to deal with Timezones and date periods. Let's combine all of these elements together and see how fun it is to develop Java Applications.
+      text: Os ultimos anos tem sido bastante excitantes para Java. Novas versões de Java EE e plataformas Java SE foram introduzias em 2013 e 2014. Para Java EE, temos agora suporte de primeira class para padrões web, incluindo uma nova API para construir WebSockets, uma nova API para analisar, processar e generar JSON e um novo Cliente API em JAX-RS 2 para invocar serviços RESTful. O muito esperado processador API Batch esta agora disponivel para construir aplicações de processos batch usando todas as capacidades da propria plataforma. Por outro lado, Java SE trouxe nos as muito esperadas expressões lambda para simplificar programação funcional; a nova e poderosa Streams API permite executar operações numa sequencia de elementos, como filtragem, mapeamento, ordenação e muitas outras; uma novissima Date Time API, torna mais facil para lidar como fusos horarios e periodos de tempo. Vamos combinar todos os elementos e ver como é divertido desemvolver aplicações em Java.
 
     - name: From University to the real world - what does a Technical Support Engineer do?
       type: workshop
