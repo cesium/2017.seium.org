@@ -18,7 +18,7 @@
       type: social
       time: 10:00-18:00
       duration: eight-hours
-      place: TBA
+      place: DI A2
       image: rails.png
       register: https://cesium.typeform.com/to/TooARO
       text: Rails Girls é um evento de programação em Ruby on Rails para mulheres com o objetivo de se criar uma app num ambiente divertido, com pessoas entusiasmadas e coaches fantásticos que não vão deixar ninguém sair com dúvidas! Desde 2010 que este movimento mundial tem crescido. O principal objetivo é tornar o mundo da tecnologia aberto e acessível a mulheres e raparigas!
@@ -152,7 +152,7 @@
     - name: BragaRB
       time: 21:00-24:00
       duration: three-hour
-      place: DI A2
+      place: Velha a Branca
       image:
       text: TBA
 
@@ -196,7 +196,7 @@
       type: social
       time: 15:00-17:00
       duration: two-hours
-      place: DI A2
+      place: CP1
       image: rga.png
       text: À semelhança do ano passado, haverá uma reunião de duas horas para debater o estado atual do curso. Gostaríamos de contar com presença de todos os alunos, para podermos ouvir a opinião de cada um e assim ajudar a melhorar MiEI. A reunião contará com a presença da direção de curso.
 
@@ -208,7 +208,7 @@
       type: social
       time: 21:00-24:00
       duration: three-hours
-      place: DI A2
+      place: Carpe
 
 - thursday:
   date: 11 FEV
@@ -284,7 +284,7 @@
       type: talk
       time: 19:00-20:00
       duration: one-hour
-      place: DI A2
+      place: GNRation
       image:
       text: TBA
 
@@ -294,7 +294,7 @@
       type: social
       time: 21:00-24:00
       duration: three-hours
-      place: DI A2
+      place: Carpe
       text: TBA
 
 - friday:
@@ -350,7 +350,7 @@
 
       time: 18:00-24:00
       duration: six-hours
-      place: DI A2
+      place: Escola de Saúde
       image: hackathon.png
       text: A Hackathon HeartBits powered by Subvisual é um evento do Centro de Estudantes de Informática da Universidade do Minho (CeSIUM) e da Associação Nacional de Estudantes de Medicina (ANEM) com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual. <br> O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a "Promoção da Saúde e Prevenção da Doença".
 
