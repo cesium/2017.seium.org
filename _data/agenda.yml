@@ -59,13 +59,14 @@
       image: devops.png
       text: Nesta talk vamos abordar BITalino (r)evolution, um conjunto de ferramentas único composto por hardware e software de baixo preço, e criada para permitir que qualquer um crie projetos interessantes e aplicações envolventes dados fisiológicos. O hardware consiste num sistema de aquisição de sinais biológicos sem fios que pode ser usado para armazenar dados em tempo real, interface com outros dispositivos (por exemplo Arduino's ou Raspberry PI's), ou realizar portotipagem rápida de aplicativos de usuário final. O software compreende uma serie de API's programaveis, um conjunto de ferramentas de processo biológico, e uma framework para aquisição de dados e pós-processamento em tempo real.
 
-    - name: TBA
+    - name: So you want to be an entrepreneur?
       type: talk
       time: 15:00-16:00
       duration: one-hour
       place: DI A2
-      speaker: TBA
-      text: TBA
+      speaker: Celso Martinho
+      image: celso.jpg
+      text: Como a SAPO foi de uma startup com 6 pessoas na universidade a uma gigante da internet. Que lições aprendi ao desenvolver e gerir num ambiente altamente criativo e tecnologico durante 20 anos? Agora estou de volta a ser um empreendedor e decidi criar a Bright Pixel do zero, quais são as lições tomadas e como vou usar las no futuro ?
 
     - coffee: true
 
