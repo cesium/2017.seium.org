@@ -25,13 +25,13 @@
             <div class="activity-block {{ act.duration }} text-left">
               <div class="activity-border"></div>
               <div class="activity-name"><b>{{ act.name }}</b></div>
-              {% if act.speaker %}
-              <div class="activity-speaker">{{ act.speaker }}</div>
-              {% elsif act.enterprise %}
-              <div class="activity-speaker"><b>{{ act.enterprise }}</b></div>
-              {% else %}
-              <div class="activity-speaker">{{ act.speaker }}</div>
-              {% endif %}
+              {% if (act.speaker and act.enterprise) %}
+             <div class="activity-speaker">{{ act.speaker }} - {{ act.enterprise }}</div>
+             {% elsif act.enterprise %}
+             <div class="activity-speaker">{{ act.enterprise }}</div>
+             {% else %}
+             <div class="activity-speaker">{{ act.speaker }}</div>
+            {% endif %}
             </div>
           </a>
           <div class="activity-location">{{ act.place }}</div>
