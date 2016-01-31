@@ -1,0 +1,80 @@
+#heartbits
+  font-family: "Lato", sans-serif
+  font-size: 1.1em
+  #heartbits-header
+    display: table
+    width: 100%
+    height: auto
+    padding: 100px 0
+    text-align: center
+    color: #fff
+    background-color: #0d1a23
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    background-size: cover
+    -o-background-size: cover
+    .header-body
+      display: table-cell
+      vertical-align: middle
+      .brand
+        width: 100%
+      #clock
+        font-family: 'Oswald'
+        display: inline-block
+        text-align: center
+        font-size: 30px
+        .clock-segment
+          padding: 10px
+          display: inline-block
+          .clock-unit
+            padding-top: 5px
+            font-size: 14px
+      .register
+        margin-top: 10px
+        text-transform: uppercase
+        font-size: 20px
+        font-weight: 700
+        color: #0d1a23
+        transition: 0.5s ease
+        border-bottom: 1px solid transparent
+        &:hover a
+          color: #fff
+          border-bottom: 1px solid #EAEAEA
+
+  #heartbits-info
+    text-align: justify
+    padding: 100px 0
+    background: url(image_path("backgrounds/dark-stuff.png")) no-repeat center center
+    background-size: cover
+    background-attachment: scroll
+    .btn-left
+      margin: 10px 0
+    .info-text
+      line-height: 2.05em
+
+  #heartbits-awards
+    padding: 100px 0
+    background: url(image_path("backgrounds/light-stuff.png")) no-repeat center center
+    background-size: cover
+    background-attachment: fixed
+    .activities-description
+      font-size: 1.1em
+
+  #heartbits-organisation
+    padding: 100px 0
+    background: url(image_path("backgrounds/prometeu.png")) no-repeat center center
+    background-size: cover
+    background-attachment: scroll
+    .heartbits-partners
+      width: 100%
+
+@media (min-width: 767px)
+  #heartbits
+    .intro
+      height: 100vh
+      padding: 0
+      .intro-body
+        .brand-heading
+          font-size: 100px
+        .intro-text
+          font-size: 25px

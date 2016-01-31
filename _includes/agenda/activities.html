@@ -13,7 +13,7 @@
           <div id="{{ act.name | slugify }}" class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 activity-box">
                 <div class="col-sm-3 hidden-xs activity-img">
-                  <img src="/img/act/{{ act.image }}"/>
+                  {% image 'activities/{{ act.image }}' %}
                   <div class="activity-info">
                     <div class="activity-datetime">
                       <p>

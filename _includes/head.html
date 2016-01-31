@@ -21,7 +21,7 @@ O objetivo é a construção em equipa de uma plataforma (website, app, ou outro
 <meta property="og:description" content="Um concurso do (CeSIUM) e da ANEM com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual.
 O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a Promoção da Saúde e Prevenção da Doença.">
 <meta property="og:url" content="http://seium.org/heartbits">
-<meta property="og:image" content="http://seium.org/img/heartbits/banner.png">
+<meta property="og:image" content="http://seium.org{% asset_path heartbits/banner.png %}">
 
 {% else %}
 
@@ -33,11 +33,11 @@ O objetivo é a construção em equipa de uma plataforma (website, app, ou outro
 
 <meta property="og:description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocorre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
 <meta property="og:url" content="http://seium.org{{ page.url }}">
-<meta property="og:image" content="http://seium.org/img/banner.png">
+<meta property="og:image" content="http://seium.org{% asset_path banner.png %}">
 
 {% endif %}
 
-<link rel="shortcut icon" href="/img/favicon.ico">
+<link rel="shortcut icon" href="{% asset_path favicon.ico %}">
 
 <!-- Custom Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@ O objetivo é a construção em equipa de uma plataforma (website, app, ou outro
 <![endif]-->
 
 <!-- Custom CSS -->
-<link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
+{% stylesheet main %}
 
 <!-- Google Analytics -->
 <script>

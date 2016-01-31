@@ -7,7 +7,7 @@
     {% for staff in site.data.staff %}
     {% if staff.pic %}
     <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
-      <div class="staff-info-container" style="background-image: url(/img/staff/{{ staff.pic }})">
+      <div class="staff-info-container" style="background-image: url( {% asset_path 'staff/{{ staff.pic }}' %} )">
         <div class="staff-info">
           <span class="col-md-12 staff-name">{{ staff.name }}</span>
           <ul class="list-inline social-buttons">

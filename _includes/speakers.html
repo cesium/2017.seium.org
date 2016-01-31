@@ -8,7 +8,7 @@
             {% for speaker in site.data.speakers %}
             <div class="speakers-list-cell speakers-container">
                 <div class="speaker-img">
-                    <img class="speaker-pic" src="/img/speakers/{{ speaker.pic }}" />
+                    {% image 'speakers/{{ speaker.pic }}' class:speaker-pic %}
                 </div>
                 <span class="speaker-name">{{ speaker.name }}</span>
                 <span class="speaker-position">{{speaker.position}}</span>
