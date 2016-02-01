@@ -43,16 +43,6 @@
   notlast:
   about: Roberto Cortez é um Java Developer profissional, com mais de 9 anos de experiência a trabalhar em áreas como Finanças, Seguros e Instituições Governamentais. O seu primeiro contacto com Java foi em 1998 e desde então nunca mais olhou para trás. Trabalhando principalmente com tecnologias Java EE, Roberto está bastante envolvido com a comunidade, ajudando a espalhar o conhecimento ou apenas partilhando histórias e experiências. O facto de trabalhar como Freelancer deu-lhe grande liberdade para viajar pelo mundo e falar em conferências como JavaOne Conference, Devoxx, JFokus, GeeCon, Java2Days, entre outras. Encontra-se a trabalhar com a Tomitribe, e é agora o líder do JUG (Java User Group) de Coimbra, assim como um blogger regular sobre tecnologias Java.
 
-- name: Carlos Soares
-  pic: carlos.jpeg
-  position: Professor & Researcher
-  enterprise: FEUP
-  enterpriseUrl: https://sigarra.up.pt
-  web: https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=235847
-  twitter: https://twitter.com/csoares
-  github:
-  about: Carlos Soares licenciou-se em Engenharia de Sistemas e Informática pela Universidade do Minho, obteve o mestrado em Inteligência Artificial e o doutoramento em Ciência de Computadores pela Universidade do Porto. Depois de 15 anos na Faculdade de Economia, é agora Professor Associado na Faculdade de Engenharia da Universidade do Porto. É investigador do INESC TEC, com interesses em Data Science & Engineering, Business Intelligence e Computação Evolutiva e já participou em mais de 20 projetos nacionais e internacionais de I&DI, bem como projetos de consultadoria. Em 2009, recebeu o Prémio de Mérito Científico e de Excelência da Associação Portuguesa para a Inteligência Artificial.
-
 - name: Celso Martinho
   pic: celso.jpg
   position: CEO and Founder at Bright Pixel
@@ -63,6 +53,15 @@
   github: https://github.com/celso
   about: Celso Martinho é uma pessoa que encontra motivação nos desafios, um geek tecnologico optimista, um homem de produto, uma alma empresarial, eventualmente atirado na carreira de gestão. Fundador da SAPO, o maior projeto de internet de Portugal, agora uma empresa mídia e conteudo da fabrica de inovação da Portugal Telecom, constrói serviços B2C em grande escala em áreas desde cloud, e-commerce e e-payments ate interatividade IPTV. Ele tem um combinado passado em gestão de alto nível, gestão de projetos software, arquitetura de sistemas e desenvolvimento de produto técnico e varias decadas de experiencia nas industrias telecom e internet. Celso é também CEO e fundador da Bright Pixel, um estúdio de software, casa de uma equipa de experts da industria com vasta experiencia em usar tecnologia e criatividade para criar produtos com alcance mundial e serviços num ambiente diverso de áreas desde desenvolvimento web, segurança, e-payment, tecnologias big-data e design de interfaces e usabilidade.  
 
+- name: Carlos Soares
+  pic: carlos.jpeg
+  position: Professor & Researcher
+  enterprise: FEUP
+  enterpriseUrl: https://sigarra.up.pt
+  web: https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=235847
+  twitter: https://twitter.com/csoares
+  github:
+  about: Carlos Soares licenciou-se em Engenharia de Sistemas e Informática pela Universidade do Minho, obteve o mestrado em Inteligência Artificial e o doutoramento em Ciência de Computadores pela Universidade do Porto. Depois de 15 anos na Faculdade de Economia, é agora Professor Associado na Faculdade de Engenharia da Universidade do Porto. É investigador do INESC TEC, com interesses em Data Science & Engineering, Business Intelligence e Computação Evolutiva e já participou em mais de 20 projetos nacionais e internacionais de I&DI, bem como projetos de consultadoria. Em 2009, recebeu o Prémio de Mérito Científico e de Excelência da Associação Portuguesa para a Inteligência Artificial.
 
 - name: Joana Almeida
   pic: joana.jpg
