@@ -212,3 +212,23 @@
   twitter:
   github:
   about: Francisco tem experiência em desenvolvimento web, em especial desenvolvimento backend, em conceber, implementar e testar APIs RESTful e também em manter e instalar aplicações como micro-serviços em infraestruturas modernas através de automatização e ferramentas de virtualização. Ele tem vindo a desenvolver a plataforma backend da UBIWhere para o produto Citibrain na área de Cidades Inteligentes desde 2014 e esteve envolvido no desenvolvimento do projecto "Porto as a FIWARE-enabled city" onde integrou a tecnologia backend de Citibrain com a plataforma FIWARE do Porto. Francisco tem um Mestrado em Engenharia Informática da Universidade de Coimbra, Portugal.
+
+- name: Nuno Rafael Rocha
+  pic: nuno-rafael-rocha.jpg
+  position: Software Engineer
+  enterprise: Seegno
+  enterpriseUrl: http://seegno.com/
+  web:
+  twitter: https://twitter.com/nunorafael
+  github: https://github.com/nunorafaelrocha
+  about: O Nuno Rafael é o Lead Backend Developer Seegno. Além de gerir a equipa de desenvolvimento e infra­estrutura, participa ativamente na concepção do produto e contribuição para projetos open­source.
+
+- name: João Granado
+  pic: joao-granado.jpg
+  position: Software Engineer
+  enterprise: Seegno
+  enterpriseUrl: http://seegno.com/
+  web:
+  twitter: https://twitter.com/STERILE_A
+  github: https://github.com/joaogranado
+  about: O João Granado é o Lead Frontend Developer na Seegno. Dedica o seu tempo a encontrar soluções simples para resolver problemas complexos, especialmente em aplicações web de larga escala.
