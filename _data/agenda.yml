@@ -134,7 +134,7 @@
       speaker: João Horta
       enterprise: Faber Ventures
       image: sailsjs.png
-      text: Neste workshop vais aprender como cruar rapidamente uma aplicação web de tempo real usando SAils.js, uma framework MVC em Node.js, através de web-sockets e third-party APIs.
+      text: Neste workshop vais aprender como criar rapidamente uma aplicação web de tempo real usando SAils.js, uma framework MVC em Node.js, através de web-sockets e third-party APIs.
 
     - coffee: true
 
