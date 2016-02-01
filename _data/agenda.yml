@@ -193,7 +193,7 @@
       image: data.png
       text: Depois de muito buzz e expectativas exageradas, começam a aparecer os primeiros sinais de desilusão com o Big Data. Nada disto é novo, já que a aplicação de técnicas avançadas de análise de dados nas organizações tem tido uma história turbulenta de entusiasmo e declínio. Tivemos o data mining nos anos 90, depois business intelligence, analytics e big data, que parece agora estar a ser substituído pelo renascido machine learning. Esta nova tendência está em grande parte relacionada com o desenvolvimento das novas abordagens de redes neuronais, conhecidas como deep learning. No entanto, mais buzz, menos hype, parece ser indiscutível que esta área, cujo nome mais preciso talvez deva ser "data science and engineering”, está cá para ficar. Nesta apresentação vamos tentar dar uma visão tão objetiva quanto possível da área, dos problemas que podem ser tratados, dos dados que podem ser usados, dos desafios e dos fatores que favorecem ou prejudicam o sucesso dos projetos.
 
-    - name: RGA
+    - name: Reunião Geral Alunos
       type: social
       time: 15:00-17:00
       duration: two-hours
@@ -254,10 +254,10 @@
       time: 14:00-15:30
       duration: one-hour-and-half
       place: DI A2
-      speaker: Hugo Ribeiro
+      speaker: Hélder Ribeiro
       enterprise: iMobileMagic
       image: cucumber.png
-      text: TBA
+      text: Tal como acontece em qualquer outro software, o desenvolvimento de aplicações móveis exige ter um conjunto de processos automatizados de forma a garantir a qualidade do código. Calabash é uma framework UI automatizada de testes de aceitação que  permite escrever e executar testes que validam a funcionalidade do iOS e Android. Neste workshop vamos falar sobre os princípios básicos desta framework, como configurar os projetos para serem testados, como escrever os testes e mostrar alguns exemplos.
 
     - name:  Game development with JavaScript and Phaser
       type: talk
