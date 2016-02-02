@@ -138,7 +138,7 @@
 
     - coffee: true
 
-    - name: Virtual Reality
+    - name: Introdução à Realidade Virtual
       type: talk
       time: 17:00-18:00
       duration: one-hour
@@ -146,7 +146,7 @@
       speaker: Rui Guedes
       enterprise: Ground Control
       image: virtual.png
-      text: TBA
+      text: O objectivo da talk será cobrir o estado da arte do VR, tecnologias e hardware associado, as suas aplicações e analisar alguns case-studies.
 
     - meal: true
 
@@ -161,7 +161,7 @@
   date: 10 FEV
   dayOfWeek: QUARTA
   activities:
-    - name: Segurança Web
+    - name: Segurança Informática
       type: workshop
       time: 9:00-10:30
       duration: one-hour-and-half
@@ -169,7 +169,7 @@
       speaker: TBA
       enterprise: Eurotux
       image: security.png
-      text: TBA
+      text: Será apresentado o estado da segurança informática do ponto de vista dos principais vectores de ataque e transporte, tecnologias, bem como a experiência relativa aos incidentes de segurança que acompanhamos em Portugal e no estrangeiro.
 
     - coffee: true
 
@@ -271,7 +271,7 @@
 
     - coffee: true
 
-    - name: Digital Marketing
+    - name: Growth Hacking- O marketing das startups
       type: talk
       time: 17:00-18:00
       duration: one-hour
@@ -279,7 +279,7 @@
       speaker: José Fernandes
       enterprise: BloomIdea
       image: marketing.png
-      text: TBA
+      text: Serão apresentados exemplos das técnicas utilizadas por algumas das empresas tecnológicas com maior sucesso actualmente, como por exemplo o Airbnb, Uber, Dropox, entre muitas outras.
 
     - name: Girls Lean In
       type: talk
