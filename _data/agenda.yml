@@ -80,6 +80,17 @@
       image: react.png
       text: Gerir o estado de uma aplicação em termos de estrutura de dados é um problema complexo. Novos paradigmas como Flux ou Redux tentam resolver este problema de uma forma mais explicita. Neste workshop procura­se explorar o desenvolvimento de aplicações web através da implementação de uma aplicação de chat com ReactJS. O principal propósito do workshop será demonstrar como Redux e a sua abordagem explicita pode resolver problemas complexos como processos assíncronos, comunicação em tempo real com um servidor e gestão de uma estrutura de dados, de uma forma simples, clara e objetiva.
 
+    - meal: true
+
+    - name: Jantar de abertura
+      type: Social
+      time: 21:00-23:30
+      duration: 
+      place: Panoramico
+      speaker: 
+      image: 
+      text:
+
 - tuesday:
   date: 9 FEV
   dayOfWeek: TERÇA
