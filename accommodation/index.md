@@ -11,7 +11,7 @@ layout: default
       <div class="accommodation-list-cell">
 
         <div class="hote-pic">
-          {% image 'hotels/{{hotel.pic}}' class:hotelpic %}
+          {% image 'hotels/{{hotel.pic}}' class:'hotelpic' %}
         </div>
 
         <span class="hotel-name">{{ hotel.name }}</span>

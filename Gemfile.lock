@@ -16,7 +16,7 @@ GEM
     ffi (1.9.10)
     font-awesome-sass (4.5.0)
       sass (>= 3.2)
-    jekyll (3.1.0)
+    jekyll (3.1.1)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -31,7 +31,7 @@ GEM
       sprockets (~> 3.3)
       sprockets-helpers (~> 1.2)
       tilt (~> 2.0)
-    jekyll-multiple-languages-plugin (1.3.0)
+    jekyll-polyglot (1.1.1)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-watch (1.3.1)
@@ -56,6 +56,9 @@ GEM
     sprockets-helpers (1.2.1)
       sprockets (>= 2.2)
     tilt (2.0.2)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
 
 PLATFORMS
   ruby
@@ -63,9 +66,9 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   font-awesome-sass
-  jekyll
   jekyll-assets
-  jekyll-multiple-languages-plugin
+  jekyll-polyglot
+  uglifier
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
