@@ -26,6 +26,7 @@ namespace :site do
         system "git checkout --orphan gh-pages"   # create new branch with no history
       end
       abort if $?.exitstatus != 0      # abort if checkout failed
+      system "git pull origin gh-pages"
       system "rm -rf *"
       system "mv #{tmp}/* ."
       message = "Site updated at #{Time.now.utc}"
