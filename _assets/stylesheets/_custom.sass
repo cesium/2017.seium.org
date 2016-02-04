@@ -4,18 +4,13 @@
   margin-left: auto
   float: none
 
-.title-container
-  margin-bottom: 20px
-  font-family: 'Oswald', sans-serif
-  div
-    display: inline-block
-    padding: 0px 5px
-    text-align: center
-    text-transform: uppercase
-    font-size: 40px
-    font-weight: bold
-    letter-spacing: 4px
+.section-title-container
+  .section-title
     border: 4px solid #0098ff
+    display: inline-block
+    padding: 4px
+    text-transform: uppercase
+    margin-bottom: 20px
 
 button
   a
@@ -93,11 +88,7 @@ button
         transform: translateY(0px)
 
 @media (max-width: 992px)
-  div.title-container div
-    font-size: 35px
   section
-    div.title-container
-      margin-bottom: 100px
     ul.social-buttons li
       a
         height: 40px
@@ -109,17 +100,11 @@ button
     font-size: 12px
 
 @media (max-width: 768px)
-  div.title-container div
-    font-size: 30px
   section ul.social-buttons li a
     height: 30px
     width: 30px
     font-size: 14px
     line-height: 30px
-
-@media (max-width: 447px)
-  div.title-container div
-    font-size: 24px
 
 @media (max-width: 507px)
   section ul.social-buttons li a

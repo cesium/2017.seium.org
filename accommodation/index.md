@@ -3,8 +3,8 @@ layout: default
 ---
 <section id="accommodation">
   <div class="container">
-    <div class="col-md-12 title-container">
-      <div class="accommodation-title">Alojamento</div>
+    <div class="section-title-container">
+      <h1 class="section-title">Alojamento</h1>
     </div>
     <div class="accommodation-list">
       {% for hotel in site.data.hoteis %}
