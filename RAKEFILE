@@ -12,6 +12,7 @@ namespace :site do
       system "git checkout master"
     end
     abort if $?.exitstatus != 0      # abort if checkout failed
+    system "rm -r .asset-cache"
     system "JEKYLL_ENV=production jekyll build"
   end
 
@@ -30,6 +31,7 @@ namespace :site do
       message = "Site updated at #{Time.now.utc}"
       system "git add --all ."
       system "git commit -am #{message.shellescape}"
+      system "git push origin gh-pages"
       system "git checkout master"
       puts "Site published successfully."
     end
