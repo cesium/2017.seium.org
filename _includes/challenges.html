@@ -1,7 +1,7 @@
   <div id="main">
     {% for page in site.data %}
       {% capture id %}{{ page.id }}{% endcapture %}
-      <div id="{{id}}" class="section p-{{id}}">
+      <div id="{{ id }}" class="section p-{{ id }}">
         {% if page.icon %}
         <div class="subtlecircle sectiondivider">
           <span class="fa-stack">
