@@ -1,0 +1,38 @@
+#contacts
+  background: url(image_path("backgrounds/prometeu.png")) no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-attachment: fixed
+  color: #fff
+  padding: 25px
+  a
+    &:hover, &:focus
+      color: #fec503
+
+  #cesium-circle
+    margin: 0 auto 20px auto
+    border-radius: 50%
+    border: 4px solid white
+    width: 6em
+    height: 6em
+    display: flex
+    align-items: center
+    justify-content: center
+    overflow: hidden
+    #logo
+      height: 80%
+      width: auto
+
+  .cesium-info
+    float: left
+    text-align: center
+    margin-bottom: 15px
+
+  #google-map
+    margin-top: 15px
+    width: 80%
+    height: 400px
+    @media (max-width: 767px)
+      width: 100%
