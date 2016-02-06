@@ -3,7 +3,7 @@ layout: default
 ---
 <section id="accommodation">
   <div class="container">
-    <div class="section-title-container">
+    <div class="section-title-container text-center">
       <h1 class="section-title">Alojamento</h1>
     </div>
     <div class="accommodation-list">
