@@ -1,33 +1,28 @@
-<section id="about-map">
+<section id="about">
   <div class="container">
-    <div class="col-md-12">
-      <div id="icon-map">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
-        </span>
+    <div class="section-title-container">
+      <h1 class="section-title">ABOUT</h1>
+    </div>
+    <div class="flex-wrapper">
+      <div class="col-sm-3 hidden-xs">
+        {% image logo_sei.png class:'img-responsive aboutsei-img' %}
       </div>
-      <div class="col-md-6 col-sm-12 col-xs-12 cesium-info">
-        <div class="col-md-3">
-          <a href="http://www.cesium.di.uminho.pt/" target="_blank">
-            <div id="cesium-circle">
-              {% image logos/cesium-icon-white.png id:'logo' %}
-            </div>
-          </a>
+      <div class="col-sm-9">
+        <div class="about-container">
+          <div class="about-bracket">
+            [
+          </div>
+          <div class="change-text">
+            <span class="about-info active">8 dias de atividades</span>
+            <span class="about-info">completamente gratuita</span>
+            <span class="about-info">Vários desafios e concursos</span>
+            <span class="about-info">Palestras, Workshops e Hackathon</span>
+            <span class="about-info">oradores nacionais e internacionais </span>
+          </div>
+          <div class="about-bracket">
+            ]
+          </div>
         </div>
-        <div class="col-md-9">
-          <h5>Centro de Estudantes de Engenharia Informática </h5>
-          <p class="cesium-location">Universidade do Minho </p>
-          <p class="cesium-location">Departamento de Informática, Campus de Gualtar 4710-057 Braga</p>
-          <p> <strong>WEB: </strong> <a href="http://www.cesium.di.uminho.pt/" target="_blank">www.cesium.di.uminho.pt</a></p>
-          <p> <strong>EMAIL: </strong> <a href="mailto:cesium@di.uminho.pt">cesium@di.uminho.pt </a></p>
-          <p> <strong>FACEBOOK: </strong> <a href="https://www.facebook.com/cesiuminho/" target="_blank">www.facebook.com/cesiuminho </a></p>
-          <p> <strong>TELEFONE: </strong> 253 604 448 </p>
-          <p> A participação na SEI é completamente grátis. É organizada por voluntários do Centro de Estudantes de Engenharia Informática da Universidade do Minho</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12 col-xs-12 cesium-map">
-        <div id="map-canvas"></div>
       </div>
     </div>
   </div>
