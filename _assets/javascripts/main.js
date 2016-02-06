@@ -1,10 +1,10 @@
-//= require lib/jquery.js
-//= require lib/bootstrap.js
+//= require vendor/jquery.js
+//= require vendor/bootstrap.js
 
-//= require lib/slick.js
+//= require vendor/slick.js
 //= require carousel.js
 
-//= require lib/map-api.js
+//= require vendor/map-api.js
 //= require map.js
 
 //= require nav-var.js
