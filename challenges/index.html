@@ -10,7 +10,7 @@ layout: default
       </div>
 
 
-      <div class="col-md-offset-3 col-md-12 def-text">
+      <div class="col-md-offset-2 col-md-8 def-text">
 
       Durante a semana vais ter oportunidade de participar nos desafios que te temos para ti, participa e habitita te a ganhar varios premios!
 
@@ -19,7 +19,7 @@ layout: default
       </div>
     </section>
 
-        {% for challenge in site.data.challenges %}
+    {% for challenge in site.data.challenges %}
 
         <section class="{{ challenge.class }} col-md-12">
 
@@ -27,12 +27,12 @@ layout: default
         <div class="col-md-8 col-md-offset-2">
 
         <div class=" container des-subtitle col-md-12">
-          Desafio 
+          {{ challenge.name }}
         </div>
 
 
 
-          <span class="def-text">
+          <span class="col-md-offset-2 def-text col-md-8">
           {{ challenge.desc }}
           </span>
         
@@ -40,13 +40,16 @@ layout: default
       {% if challenge.enunciado %}
       <div class="col-md-5 col-md-offset-1 ac-container">
         <div>
-          <input id="ac-{{ challeng.num }}" name="accordion-1" type="checkbox"/>
-          <label class="title" for="ac-{{ challeng.num }}"> <span class="deftit"> Enunciado</span></label>
+          <input id="ac-1" name="accordion-1" type="checkbox"/>
+          <label class="title" for="ac-1"> <button class="btn btn-info btn-sei disabled deftit" tip="Coming Soon!" >Enunciado</button></label>
           <article class="ac-small">
             <p>{{ challenge.enunciado }}</p>
-
+            Input
             {% highlight plaintext %}
             {{ challenge.input }}
+            {% endhighlight %}
+            Output
+            {% highlight plaintext %}
             {{ challenge.output }}
             {% endhighlight %}
 
@@ -56,7 +59,7 @@ layout: default
         </div>
       </div>
 
-      {% else %}
+      {% elsif challenge.sub %}
       <div class="col-md-5 col-md-offset-1 ac-container">
         <div>
 
@@ -66,7 +69,30 @@ layout: default
         </div>
       </div>
       {% endif %}
-    </div>
+
+      </div>
+
+    <div id="heartbits-awards">
+    <div class="container">
+      <div class="row">
+          {% for prize in challenge.prizes %}
+                <div class="col-md-4 activities-container">
+
+                  <i class="fa {{ prize.img }} fa-4x"></i>
+                  <h5>{{ prize.num }}.º Prémio</h5>
+
+                  <a href="{{ prize.link }}" target="_blank">
+                    <button class="btn btn-info btn-sei">{{ prize.name }}</button>
+                  </a>
+                </div>
+                
+
+          {% endfor %}
+      </div>
+    </div>  
+  </div>
+
+
     </section>
 
     {% endfor %}
