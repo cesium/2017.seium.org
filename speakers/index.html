@@ -25,7 +25,7 @@ layout: default
         {% endif %}
         {% if speaker.enterprise %}
         <p class="speaker-company">
-          <a href="#{{ speaker.name | slugify }}">
+          <a href="{{ speaker.enterpriseUrl }}" target="_blank">
             {{ speaker.enterprise }}
           </a>
         </p>
