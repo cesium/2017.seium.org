@@ -24,6 +24,7 @@
   background-repeat: none
   padding-bottom: 20px
 
+
 .lastdark
   background-image: url(image_path("backgrounds/dark-stuff.png"))
   background-attachment: fixed
@@ -33,7 +34,10 @@
   -o-background-size: cover
   background-repeat: none
   padding-bottom: 20px
-  margin-bottom: 20px
+
+@media (min-width: 992px)
+  .lastdark
+    margin-bottom: 20px
 
 .light
   background-image: url(image_path("backgrounds/light-stuff.png"))
