@@ -1,6 +1,6 @@
-- name: Maior Numero de Badges
-  desc: Durante a semana temos um numero enorme de badges para ti, participa nas atividades, fala com as empresas e diverte te a procura de bagdes, os verdadeiros colecionadores da semana terão direito a a vários prêmios, junta te a procura!
-  class: light
+- name: Maior Número de Badges
+  desc: Durante a semana temos várias badges que podes obter participando nas atividades, falando com as empresas, vencendo desafios e concursos mas também com algumas surpresas! Diverte-te à procura das badges, os verdadeiros colecionadores irão obter prémios muito tentadores para adicionar à coleção!
+  class: dark
   prizes:
     - name: Alcatel One Touch
       num: 1
@@ -17,7 +17,7 @@
       link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
       img: fa-gift
 
-    - name: Vale Fnac 20 euros 
+    - name: Vale Fnac 20 euros
       num: 4
       link: http://www.fnac.pt/
       img: fa-gift
@@ -30,10 +30,10 @@
 
 
 - name: Melhor Fotografia/ Publicação
-  desc: Gostas de tirar fotografias? Tens jeito para escrever? Então este desafio é para ti, publica uma foto ou um texto no facebook da SEI e habilita te aos prêmios que temos para ti! Para isso usa a hashtag #SEI16 e não te esqueças de por a publicação publica no teu facebook.
-  class: dark
+  desc: Gostas de tirar fotografias? Ou tens jeito para a escrita? Então este desafio é para ti, publica uma foto ou um texto no facebook da SEI vence este desafio! Para isso usa a hashtag '#SEI16' em publicações públicas.
+  class: light
   prizes:
-    - name: Raspberry Pi 2 B 
+    - name: Raspberry Pi 2 B
       num: 1
       link: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
       img: fa-trophy
@@ -49,11 +49,11 @@
       img: fa-gift
 
 
-- name: Declaração de Amor 
-  desc: E porque o dia dos namorados esta a porta, expressa o teu amor, mostra nos o amor que tens pela SEI, se fores dos melhores pertendentes, a SEI expressa o seu amor por ti também com estes prêmios! Para isso usa a hashtag #SEI16 e não te esqueças de por a publicação publica no teu facebook.
-  class: light
+- name: Declaração de Amor
+  desc: E porque o dia dos namorados está à porta, mostra-nos o amor que tens pela SEI. Caso sejas um dos melhores pretendentes, a SEI expressa o seu amor por ti também com estes prémios! Para isso usa a hashtag '#SEI16' em publicações públicas no teu facebook.
+  class: dark
   prizes:
-    - name: Ramo de Rosas + Arduino Lisbon MakerFair
+    - name: Arduino Lisbon MakerFair + Rosas
       num: 1
       link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
       img: fa-trophy
@@ -68,10 +68,27 @@
       link: https://i.imgur.com/1bMVVUU.jpg
       img: fa-gift
 
+- name: Eurotux Desafio de Segurança
+  desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para caos@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. No primeiro passo, deverão aceder a dois elementos numa máquina. Mais informação brevemente!
+  enunciado: TBA
+  input: TBA
+  output: TBA
+  class: light
+  sub: yes
+  prizes:
+    - name: Vale Fnac 100 euros
+      num: 1
+      link: http://www.fnac.pt
+      img: fa-trophy
 
-- name: DPUM 
-  desc:  E como não podia deixar de ser, temos mais desafio algorítmico para ti durante esta semana, usa a linguagem que domina e resolve o problema que temos para ti.
-  enunciado:  TBA 
+    - name: Vale Fnac 50 euros
+      num: 2
+      linK: http://www.fnac.pt
+      img: fa-star
+
+- name: DPUM
+  desc: E como não podia deixar de ser, temos mais um desafio algorítmico para ti durante esta semana, usa a linguagem em que te sentes mais comfortável e resolve o problema. O enunciado será divulgado em breve, mas segue a primeira pista - "haversine".
+  enunciado:  TBA
   input: TBA
   output: TBA
   class: lastdark
@@ -87,9 +104,7 @@
       linK: https://i.imgur.com/r9PLuFW.jpg
       img: fa-star
 
-    - name: Mochila PT 
+    - name: Mochila PT
       num: 3
       link: https://i.imgur.com/1bMVVUU.jpg
       img: fa-gift
-
-
