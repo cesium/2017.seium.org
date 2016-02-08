@@ -6,3 +6,5 @@ gem 'jekyll-polyglot'
 
 gem 'font-awesome-sass'
 gem 'bootstrap-sass'
+
+gem 'rouge'
