@@ -99,7 +99,7 @@
       type: workshop
       time: 9:00-10:30
       duration: one-hour-and-half
-      place: CP1
+      place: CP2 B1
       speaker: Michael Matias
       image: unity.png
       text: Conhecer a interface do Unity e desenvolver um jogo em 2D com recurso a físicas do motor e gravação do estado do jogo.
@@ -110,7 +110,7 @@
       type: talk
       time: 11:00-12:00
       duration: one-hour
-      place: CP1
+      place: CP2 B1
       speaker: Ricardo e Francisco
       enterprise: UBIWhere
       image: today.png
@@ -120,7 +120,7 @@
       type: talk
       time: 12:00-13:00
       duration: one-hour
-      place: CP1
+      place: CP2 B1
       speaker: Joana Almeida
       image: gamedev.png
       text: Começar a fazer jogos pode parecer uma tarefa assustadora. Especialmente se não tiveres ajuda ou tenhas de ocupar várias funções. De código, a arte, a música, há muito que é preciso fazer. <br> Mas não precisa de ser difícil! Se alguma vez te perguntaste sobre como fazer um jogo, ou simplesmente queres aprender a começar, esta palestra é para ti! <br> Para tal, iremos abordar algumas dicas que te vão ajudar a entrar no mundo de desenvolvimento de jogos.
@@ -131,7 +131,7 @@
       type: talk
       time: 14:00-15:00
       duration: one-hour
-      place: CP1
+      place: CP2 B1
       speaker: João Silva
       enterprise: Crytek
       image: conceptart.png
@@ -141,7 +141,7 @@
       type: workshop
       time: 15:00-16:30
       duraton: one-hour-and-half
-      place: CP1
+      place: CP2 B1
       speaker: João Horta
       enterprise: Faber Ventures
       image: sailsjs.png
@@ -153,7 +153,7 @@
       type: talk
       time: 17:00-18:00
       duration: one-hour
-      place: CP1
+      place: CP2 B1
       speaker: Rui Guedes
       enterprise: Ground Control
       image: virtual.png
