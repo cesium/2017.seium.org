@@ -29,8 +29,8 @@
 
 
 
-- name: Melhor Fotografia/ Publicação
-  desc: Gostas de tirar fotografias? Ou tens jeito para a escrita? Então este desafio é para ti, publica uma foto ou um texto no facebook da SEI vence este desafio! Para isso usa a hashtag '#SEI16' em publicações públicas.
+- name: Melhor Fotografia
+  desc: Gostas de tirar fotografias? Então este desafio é para ti, publica a melhor foto no facebook da SEI para vencer este desafio! Para isso usa a hashtag '#SEI16' em publicações públicas.
   class: light
   prizes:
     - name: Raspberry Pi 2 B
