@@ -99,7 +99,7 @@
       type: workshop
       time: 9:00-10:30
       duration: one-hour-and-half
-      place: CP2 B1
+      place: CP2-B1
       speaker: Michael Matias
       image: unity.png
       text: Conhecer a interface do Unity e desenvolver um jogo em 2D com recurso a físicas do motor e gravação do estado do jogo.
