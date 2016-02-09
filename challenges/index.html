@@ -39,9 +39,8 @@ layout: default
     {% if challenge.enunciado %}
     <div class="col-md-5 col-md-offset-1 ac-container">
       <div>
-        <input id="ac-{{ challenge.name | slugify }}" name="accordion-{{ challenge.name | slugify }}" type="checkbox"/>
-        <label class="title" for="ac-{{ challenge.name | slugify }}"> <button class="btn btn-info btn-sei">Enunciado</button></label>
-        <article class="ac-small">
+        <button data-toggle="collapse" data-target="#{{ challenge.name | slugify }}" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="{{ challenge.name | slugify }}">
           <p>{{ challenge.enunciado }}</p>
           {% if challenge.input %}
           <a href="{{ challenge.input }}" target="_blank"><button class="btn btn-info btn-sei btn-des">INPUT</button></a>
@@ -51,7 +50,7 @@ layout: default
           <a href="{{ challenge.submit }}" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
           {% endif %}
 
-        </article>
+      </div>
       </div>
     </div>
 
