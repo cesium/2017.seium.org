@@ -86,8 +86,8 @@
       img: fa-star
 
 - name: DPUM
-  desc: E como não podia deixar de ser, temos mais um desafio algorítmico para ti durante esta semana, usa a linguagem em que te sentes mais confortável e resolve o problema. O enunciado será divulgado em breve, mas segue a primeira pista - "haversine".
-  enunciado: Uma agência de viagens, está a organizar uma volta ao mundo e para tal o roteiro deve passar por vários pontos turísticos. No entanto, de forma a rentabilizar esta viagem, o trajeto deve ser o mais curto possível, regressando ainda assim ao ponto de partida. Os pontos são descritos por coordenadas geográficas em graus. As submissões abrem em breve.
+  desc: E como não podia deixar de ser, temos mais um desafio algorítmico para ti durante esta semana, usa a linguagem em que te sentes mais confortável e resolve o problema. O enunciado está disponível, as submissões abrem em breve.
+  enunciado: Uma agência de viagens, está a organizar uma volta ao mundo e para tal o roteiro deve passar por vários pontos turísticos. No entanto, de forma a rentabilizar esta viagem, o trajeto deve ser o mais curto possível, regressando ainda assim ao ponto de partida. Os pontos são descritos por coordenadas geográficas em graus. O cálculo das distâncias entre as localidades é feito pela fórmula de 'haversine' e deverá imprimir as localidades pela ordem correta. Desempates serão realizado pela eficiência do código.
   input: https://drive.google.com/open?id=0B3_r_ZU5WoqwRTNMcmdFcVRvVUU
   class: lastdark
   sub: yes
