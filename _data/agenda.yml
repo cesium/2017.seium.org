@@ -347,8 +347,8 @@
       text: Os últimos anos tem sido bastante excitantes para Java. Novas versões de Java EE e plataformas Java SE foram introduzias em 2013 e 2014. Para Java EE, temos agora suporte de primeira class para padrões web, incluindo uma nova API para construir WebSockets, uma nova API para analisar, processar e criar JSON e um novo Cliente API em JAX-RS 2 para invocar serviços RESTful. O muito esperado processador API Batch esta agora disponível para construir aplicações de processos batch usando todas as capacidades da propria plataforma. Por outro lado, Java SE trouxe nos as muito esperadas expressões lambda para simplificar programação funcional; a nova e poderosa Streams API permite executar operações numa sequencia de elementos, como filtragem, mapeamento, ordenação e muitas outras; uma novíssima Date Time API, torna mais fácil para lidar como fusos horarios e periodos de tempo. Vamos combinar todos os elementos e ver como é divertido desemvolver aplicações em Java.
 
     - name: From University to the real world - what does a Technical Support Engineer do?
-      type: workshop
-      time: 15:30-17:00
+      type: talk
+      time: 15:30-16:30
       duration: one-hour-and-half
       place: DI A2
       speaker: David Teixeira
