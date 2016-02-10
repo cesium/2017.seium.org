@@ -42,6 +42,18 @@ layout: default
         <button data-toggle="collapse" data-target="#{{ challenge.name | slugify }}" class="btn btn-info btn-sei">Enunciado</button>
       <div class="panel-collapse collapse" id="{{ challenge.name | slugify }}">
           <p>{{ challenge.enunciado }}</p>
+          {% if challenge.points %}
+          <h5> Pontuação </h5>
+          <ul>
+            {% for task in challenge.points %}
+              <li> {{ task.task }} </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% if challenge.rules %}
+          <h5> Regulamento </h5>
+          <p>{{ challenge.rules }}</p>
+          {% endif %}
           {% if challenge.input %}
           <a href="{{ challenge.input }}" target="_blank"><button class="btn btn-info btn-sei btn-des">INPUT</button></a>
           {% endif %}
