@@ -70,7 +70,7 @@
 
 - name: Eurotux Desafio de Segurança
   desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP ( 193.136.19.37 ). Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail.
-  enunciado: <ul> <li> Passo 1 e 2 - Obtem dois elementos que estão no servidor! </li> <li> Aqui está a dica para acederes ao segundo elemento '4d6527d41b79c16a74dafd495ffb2634', este elemento deverá ser transformado em texto limpo para ser contabilizado. </li> <li> Passo 3 - Existe ainda um terceiro elemento/ficheiro de bónus. Procura bem que vale a pena! </li> <li> Passo 4 - "-- . ...-- - -.-. -. --.. -.-- --. -... .-. .-- .. --- .-.. -... -- --.- --..<br>.-- -.-. --.. - -.-. --. .. --.. .-- --. -- -... ... -- ...- - -.. .- -- .-.<br>-.-- --. .- ..--- -.. -- -.-- --.. .-. --. . --.. --.- ..-" </li> <li> Serão anunciados mais passos ao desafio em breve </li> </ul>
+  enunciado: <ul> <li> Passo 1 e 2 - Obtem dois elementos que estão no servidor! </li> <li> Aqui está a dica para acederes ao segundo elemento '4d6527d41b79c16a74dafd495ffb2634', este elemento deverá ser transformado em texto limpo para ser contabilizado. </li> <li> Passo 3 - Existe ainda um terceiro elemento/ficheiro de bónus. Procura bem que vale a pena! </li> <li> Passo 4 - "-- . ...-- - -.-. -. --.. -.-- --. -... .-. .-- .. --- .-.. -... -- --.- --..<br>.-- -.-. --.. - -.-. --. .. --.. .-- --. -- -... ... -- ...- - -.. .- -- .-.<br>-.-- --. .- ..--- -.. -- -.-- --.. .-. --. . --.. --.- ..-" </li> <li> Serão anunciados mais passos ao desafio em breve </li> <li> Às vezes tens de ser rápido. Chegas ao restaurante e trazem-te as bolachas. Entre amigos, não sejas o último a apanhar as bolachas. <a href="https://people.eurotux.com/npf/ctf.php"> People Eurotux </a> </li> </ul>
   rules: Apenas pessoas ligadas à universidade poderão concorrer (alunos, bolseiros, etc). Não é permitido qualquer tipo de ataque de negação de serviço, vulgo DoS. Não é permitido o acesso físico ao servidor (onde quer que esteja). Não é permitido após aceder ao servidor e efetuar ataques a outros servidores. Não é permitido desligar o servidor ou impedir que outras equipas lá acedam.
   points:
     - task: Demonstração que conseguiram aceder ao conteúdo privado do servidor
@@ -97,9 +97,10 @@
       img: fa-star
 
 - name: DPUM
-  desc: E como não podia deixar de ser, temos mais um desafio algorítmico para ti durante esta semana, usa a linguagem em que te sentes mais confortável e resolve o problema. O enunciado está disponível, as submissões abrem em breve.
-  enunciado: Uma agência de viagens, está a organizar uma volta ao mundo e para tal o roteiro deve passar por vários pontos turísticos. No entanto, de forma a rentabilizar esta viagem, o trajeto deve ser o mais curto possível, regressando ainda assim ao ponto de partida. Os pontos são descritos por coordenadas geográficas em graus. O cálculo das distâncias entre as localidades é feito pela fórmula de 'haversine' e deverá imprimir as localidades pela ordem correta. Desempates serão realizado pela eficiência do código.
+  desc: E como não podia deixar de ser, temos mais um desafio algorítmico para ti durante esta semana, usa a linguagem em que te sentes mais confortável e resolve o problema. A submissão está disponível. Não é necessário incluir o pdf.
+  enunciado: Uma agência de viagens, está a organizar uma volta ao mundo e para tal o roteiro deve passar por vários pontos turísticos. No entanto, de forma a rentabilizar esta viagem, o trajeto deve ser o mais curto possível, regressando ainda assim ao ponto de partida. Os pontos são descritos por coordenadas geográficas em graus. O cálculo das distâncias entre as localidades é feito pela fórmula de 'haversine' e deverá imprimir as localidades pela ordem correta. Desempates serão realizado pela eficiência do código. Revejam o ficheiro de input, pois pode ter sido alterado.
   input: https://drive.google.com/open?id=0B3_r_ZU5WoqwRTNMcmdFcVRvVUU
+  submit: http://dpum.seium.org
   class: lastdark
   sub: yes
   prizes:
