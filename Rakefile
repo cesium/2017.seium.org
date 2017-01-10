@@ -4,6 +4,7 @@ require "rubygems"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
+require "shellwords"
 
 namespace :site do
   desc "Generate build"
