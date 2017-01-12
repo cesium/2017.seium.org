@@ -14,10 +14,8 @@ layout: default
           {% image 'hotels/{{hotel.pic}}' class:'hotelpic' %}
         </div>
 
-        <span class="hotel-name">{{ hotel.name }}</span>
-        <span class="hotel-mail"><a href="{{ hotel.web }}"> <i class="fa fa-globe fa-2x"></i></a></span>
-      </br>
-      <span class="hotel-contact">{{ hotel.number }}</span>
+        <span class="hotel-name"><a href="{{ hotel.web }}">{{ hotel.name }}</a></span>
+        <span class="hotel-contact">{{ hotel.number }}</span>
 
     </div>
     {% endfor %}
