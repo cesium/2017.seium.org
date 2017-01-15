@@ -1,379 +1,47 @@
-- saturday6:
-  date: 6 FEV
+- saturday4:
+  date: 4 FEV
   dayOfWeek: SÁBADO
   activities:
-    - name: CoderDojo
-      type: social
-      time: 15:00-17:00
-      duration: two-hours
-      place: GNRation
-      image: coderdojo.png
-      text: O CoderDojo é uma rede global de clubes de programação gratuitos e sem fins lucrativos com o objetivo de ensinar jovens dos 7 aos 17 a programar. Fundado em 2011 este movimento conta já com mais de 600 Dojos (clubes) dispersos por 60 países. <br> Em Braga, desde 2013 que o CoderDojo Minho tem trabalhado de perto com vários jovens criando pequenas apps, websites, jogos, e outras plataformas. Os participantes, apelidados “ninjas”, aprendem assim com a ajuda de vários mentores que a programação é uma força capaz de mudar o mundo.
 
 - sunday:
-  date: 7 FEV
+  date: 5 FEV
   dayOfWeek: DOMINGO
   activities:
-    - name: Rails Girls
-      type: social
-      time: 10:00-18:00
-      duration: eight-hours
-      place: DI A2
-      image: rails.png
-      register: https://cesium.typeform.com/to/TooARO
-      text: Rails Girls é um evento de programação em Ruby on Rails para mulheres com o objetivo de se criar uma app num ambiente divertido, com pessoas entusiasmadas e coaches fantásticos que não vão deixar ninguém sair com dúvidas! Desde 2010 que este movimento mundial tem crescido. O principal objetivo é tornar o mundo da tecnologia aberto e acessível a mulheres e raparigas!
 
 - monday:
-  date: 8 FEV
+  date: 6 FEV
   dayOfWeek: SEGUNDA
   activities:
-    - name: Sessão de abertura
-      type: social
-      time: 9:00-9:30
-      duration: half-hour
-      place: DI A2
-      image: abertura.png
-      text: Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas.
-
-    - coffee: true
-
-    - name: Introdução ao desenvolvimento de aplicações de iOS em Swift
-      type: workshop
-      time: 10:00-13:00
-      duration: three-hours
-      place: DI A2
-      speaker: Adelino Faria
-      enterprise: Farfetch
-      image: swift.png
-      text: É missão deste workshop apresentar a plataforma iOS e a linguagem Swift enquanto criamos uma app iOS. Vais entrar em contacto com os software design patterns mais recorrentes, boas práticas e uma abordagem hands-on para introduzirmos a tecnologia. <br> Para este workshop, vais precisar de trazer a tua máquina com OS X, último Xcode com Command Line Tools (v7.2) e Cocoapods.
-
-    - meal: true
-
-    - name: BITalino… a biosignals (r)evolution
-      type: talk
-      time: 14:00-15:00
-      duration: one-hour
-      place: DI A2
-      speaker: Hugo Silva
-      enterprise: Plux
-      image: devops.png
-      text: Nesta talk vamos abordar BITalino (r)evolution, um conjunto de ferramentas único composto por hardware e software de baixo preço, e criada para permitir que qualquer um crie projetos interessantes e aplicações envolventes dados fisiológicos. O hardware consiste num sistema de aquisição de sinais biológicos sem fios que pode ser usado para armazenar dados em tempo real, interface com outros dispositivos (por exemplo Arduino's ou Raspberry PI's), ou realizar portotipagem rápida de aplicativos de usuário final. O software compreende uma serie de API's programaveis, um conjunto de ferramentas de processo biológico, e uma framework para aquisição de dados e pós-processamento em tempo real.
-
-    - name: So you want to be an entrepreneur?
-      type: talk
-      time: 15:00-16:00
-      duration: one-hour
-      place: DI A2
-      speaker: Celso Martinho
-      image: celso.png
-      text: Como a SAPO foi de uma startup com 6 pessoas na universidade a uma gigante da internet. Que lições aprendi ao desenvolver e gerir num ambiente altamente criativo e tecnologico durante 20 anos? Agora estou de volta a ser um empreendedor e decidi criar a Bright Pixel do zero, quais são as lições tomadas e como vou usar las no futuro ?
-
-    - coffee: true
-
-    - name: Modern web app development with react and redux
-      type: workshop
-      time: 16:30-18:00
-      duration: one-hour-and-half
-      place: DI A2
-      speaker: João Granado & Nuno Rafael Rocha
-      enterprise: Seegno
-      image: react.png
-      text: Gerir o estado de uma aplicação em termos de estrutura de dados é um problema complexo. Novos paradigmas como Flux ou Redux tentam resolver este problema de uma forma mais explicita. Neste workshop procura­-se explorar o desenvolvimento de aplicações web através da implementação de uma aplicação de chat com ReactJS. O principal propósito do workshop será demonstrar como Redux e a sua abordagem explicita pode resolver problemas complexos como processos assíncronos, comunicação em tempo real com um servidor e gestão de uma estrutura de dados, de uma forma simples, clara e objetiva.
-
-    - meal: true
-
-    - name: Jantar de abertura
-      type: Social
-      time: 20:30-23:30
-      duration:
-      place: Panoramico
-      speaker:
-      image:
-      text:
 
 - tuesday:
-  date: 9 FEV
+  date: 7 FEV
   dayOfWeek: TERÇA
   activities:
-    - name: Unity - 2D Platformer
-      type: workshop
-      time: 9:00-10:30
-      duration: one-hour-and-half
-      place: CP2 - B1
-      speaker: Michael Matias
-      image: unity.png
-      text: Conhecer a interface do Unity e desenvolver um jogo em 2D com recurso a físicas do motor e gravação do estado do jogo.
-
-    - coffee: true
-
-    - name: Intelligent Solutions for today's cities
-      type: talk
-      time: 11:00-12:00
-      duration: one-hour
-      place: CP2 - B1
-      speaker: Ricardo e Francisco
-      enterprise: UBIWhere
-      image: today.png
-      text: Uma palestra focada nas soluções IoT unificadas da UBIWhere para Cidades Inteligentes. Estas soluções procuram tornar as cidades mais inteligentes em vez de mais tecnológicas.
-
-    - name: Being Independent - Making games from Code to Art
-      type: talk
-      time: 12:00-13:00
-      duration: one-hour
-      place: CP2 - B1
-      speaker: Joana Almeida
-      image: gamedev.png
-      text: Começar a fazer jogos pode parecer uma tarefa assustadora. Especialmente se não tiveres ajuda ou tenhas de ocupar várias funções. De código, a arte, a música, há muito que é preciso fazer. <br> Mas não precisa de ser difícil! Se alguma vez te perguntaste sobre como fazer um jogo, ou simplesmente queres aprender a começar, esta palestra é para ti! <br> Para tal, iremos abordar algumas dicas que te vão ajudar a entrar no mundo de desenvolvimento de jogos.
-
-    - meal: true
-
-    - name: Introdução a concept art e a industria dos jogos
-      type: talk
-      time: 14:00-15:00
-      duration: one-hour
-      place: CP2 - B1
-      speaker: João Silva
-      enterprise: Crytek
-      image: conceptart.png
-      text: Desde o trajecto académico e pessoal até alcançar uma posição de concept art numa empresa de jogos. Mas também uma análise sobre design, o que é concept art e os seus mitos.
-
-    - name: Sails.js
-      type: workshop
-      time: 15:00-16:30
-      duraton: one-hour-and-half
-      place: CP2 - B1
-      speaker: João Horta
-      enterprise: Faber Ventures
-      image: sailsjs.png
-      text: Neste workshop vais aprender como criar rapidamente uma aplicação web de tempo real usando SAils.js, uma framework MVC em Node.js, através de web-sockets e third-party APIs.
-
-    - coffee: true
-
-    - name: Introdução à Realidade Virtual
-      type: talk
-      time: 17:00-18:00
-      duration: one-hour
-      place: CP2 - B1
-      speaker: Rui Guedes
-      enterprise: Ground Control
-      image: virtual.png
-      text: O objectivo da talk será cobrir o estado da arte do VR, tecnologias e hardware associado, as suas aplicações e analisar alguns case-studies.
-
-    - meal: true
-
-    - name: BragaRB
-      time: 21:00-24:00
-      duration: three-hour
-      place: Velha a Branca
-      image:
-      text: TBA
 
 - wednesday:
-  date: 10 FEV
+  date: 8 FEV
   dayOfWeek: QUARTA
   activities:
-    - name: Segurança Informática
-      type: workshop
-      time: 9:00-10:30
-      duration: one-hour-and-half
-      place: DI A2
-      speaker: Ricardo Oliveira
-      enterprise: Eurotux
-      image: security.png
-      text: Será apresentado o estado da segurança informática do ponto de vista dos principais vectores de ataque e transporte, tecnologias, bem como a experiência relativa aos incidentes de segurança que acompanhamos em Portugal e no estrangeiro.
-
-    - coffee: true
-
-    - name: AngularJS and me
-      type: workshop
-      time: 11:00-13:00
-      duration: two-hours
-      place: DI A2
-      enterprise: Blip
-      image: angular.png
-      text: AngularJS é uma framework incrível no que toca ao desenvolvimento Web. Poderíamos escrever 10.000 palavras sobre isso mas preferimos mostrar-te como é que uma aplicação nesta ferramenta funciona. Para isso iremos construir uma aplicação modelo e focar no que é essencial para o seu funcionamento. <br> Finalmente, iremos mostrar-te como usamos AngularJS na Blip para resolver problemas.
-
-    - meal: true
-
-    - name: The rise and fall of big data (and why you shouldn't care)
-      type: talk
-      time: 14:00-15:00
-      duration: one-hour
-      place: DI A2
-      speaker: Carlos Soares
-      image: data.png
-      text: Depois de muito buzz e expectativas exageradas, começam a aparecer os primeiros sinais de desilusão com o Big Data. Nada disto é novo, já que a aplicação de técnicas avançadas de análise de dados nas organizações tem tido uma história turbulenta de entusiasmo e declínio. Tivemos o data mining nos anos 90, depois business intelligence, analytics e big data, que parece agora estar a ser substituído pelo renascido machine learning. Esta nova tendência está em grande parte relacionada com o desenvolvimento das novas abordagens de redes neuronais, conhecidas como deep learning. No entanto, mais buzz, menos hype, parece ser indiscutível que esta área, cujo nome mais preciso talvez deva ser "data science and engineering”, está cá para ficar. Nesta apresentação vamos tentar dar uma visão tão objetiva quanto possível da área, dos problemas que podem ser tratados, dos dados que podem ser usados, dos desafios e dos fatores que favorecem ou prejudicam o sucesso dos projetos.
-
-    - name: Reunião Geral Alunos
-      type: social
-      time: 15:00-17:00
-      duration: two-hours
-      place: CP1
-      image: rga.png
-      text: À semelhança do ano passado, haverá uma reunião de duas horas para debater o estado atual do curso. Gostaríamos de contar com presença de todos os alunos, para podermos ouvir a opinião de cada um e assim ajudar a melhorar MiEI. A reunião contará com a presença da direção de curso.
-
-    - coffee: true
-
-    - meal: true
-
-    - name: Rally das Tascas
-      type: social
-      time: 21:00-24:00
-      duration: three-hours
-      place: Carpe
+    - name: Dupla palestra
+      speaker: UNU-EGOV
+      time: 15:00-15:50
+      duration: fifty-minutes
 
 - thursday:
-  date: 11 FEV
+  date: 9 FEV
   dayOfWeek: QUINTA
   activities:
-    - name: Ruby on Rails
-      type: workshop
-      time: 9:00-10:30
-      duration: three-hours
-      place: DI A2
-      speaker: Luís Zamith
-      enterprise: Subvisual
-      image: ruby.png
-      text: Aprende sobre a web através da framework Ruby on Rails. Iremos criar um projeto de raiz até ao deployment para que possas aceder a partir de qualquer lado!
-
-    - coffee: true
-
-    - name: U.sa.bi.li.da.de.
-      type: talk
-      time: 11:00-12:00
+    - name: HTTP/2
+      speaker: Daniela Matos
+      time: 15:00-16:00
       duration: one-hour
-      place: DI A2
-      speaker: Rúben Gonçalves
-      enterprise: OutSystems
-      image: ux.png
-      text: Porque é que algumas aplicações se espalham como fogo e outras não ganham tracção? <br> Nesta sessão, iremos começar por perceber quais são os riscos de se criar uma aplicação com má usabilidade, tentando depois perceber um poucoda ciência por detrás da Usabilidade.
-
-    - name: Negócio vs Tecnologia
-      type: talk
-      time: 12:00-13:00
-      duration: one-hour
-      place: DI A2
-      speaker: Daniel Luz
-      enterprise: OutSystems
-      image: tec.png
-      text: Porque razão os profissionais de IT devem pensar nos resultados de negócio como o objectivo e a tecnologia como uma ferramenta, e não o inverso.
-
-    - meal: true
-
-    - name:  Mobile testing with Calabash and Cucumber
-      type: workshop
-      time: 14:00-15:30
-      duration: one-hour-and-half
-      place: DI A2
-      speaker: Hélder Ribeiro
-      enterprise: iMobileMagic
-      image: cucumber.png
-      text: Tal como acontece em qualquer outro software, o desenvolvimento de aplicações móveis exige ter um conjunto de processos automatizados de forma a garantir a qualidade do código. Calabash é uma framework UI automatizada de testes de aceitação que  permite escrever e executar testes que validam a funcionalidade do iOS e Android. Neste workshop vamos falar sobre os princípios básicos desta framework, como configurar os projetos para serem testados, como escrever os testes e mostrar alguns exemplos.
-
-    - name:  Game development with JavaScript and Phaser
-      type: talk
-      time: 15:30-16:30
-      duration: one-hour
-      place: DI A2
-      speaker: Belén Albeza
-      enterprise: Mozilla
-      image: gaming.png
-      text: HTML 5 oferece nos a tecnologia e API's que precisamos para criar jogos para web. Nesta talk vamos falar sobre técnicas básicas de desenvolvimento de jogos em 2D e como podemos usar los com a ajuda de phaser, uma framework de jogos de JavaScript.
-
-    - coffee: true
-
-    - name: Growth Hacking- O marketing das startups
-      type: talk
-      time: 17:00-18:00
-      duration: one-hour
-      place: DI A2
-      speaker: José Fernandes
-      enterprise: BloomIdea
-      image: marketing.png
-      text: Serão apresentados exemplos das técnicas utilizadas por algumas das empresas tecnológicas com maior sucesso actualmente, como por exemplo o Airbnb, Uber, Dropox, entre muitas outras.
-
-    - name: Girls Lean In
-      type: talk
-      time: 19:00-20:00
-      duration: one-hour
-      place: GNRation
-      image: girls.png
-      text: Neste meetup teremos Ana Anjo, Engenheira de Sistemas Informáticos, para nos partilhar o seu percurso tecnológico muito inspirador. Ana vai-nos falar sobre a razão que a levou a seguir uma carreia na área de informática, e mostrar-nos como a tecnologia é fundamental para o nosso dia-a-dia.
-
-    - meal: true
-
-    - name: Arraial
-      type: social
-      time: 21:00-24:00
-      duration: three-hours
-      place: Carpe
-      text: TBA
 
 - friday:
-  date: 12 FEV
+  date: 10 FEV
   dayOfWeek: SEXTA
   activities:
-    - name: Android 6.0
-      type: social
-      time: 9:00-11:30
-      duration: two-hours-and-half
-      place: DI A2
-      speaker: André Santos
-      enterprise: Healthium
-      image: android.png
-      text: Neste workshop, vais desenvolver uma aplicação funcional aplicando as melhores práticas de desenvolvimento, vais conhecer e utilizar várias bibliotecas que vão simplificar e acelerar o desenvolvimento das tuas aplicações e ainda vais a ficar a par das principais novidades da última versão do Android. <br> O nosso objetivo é passar a nossa recente experiência de desenvolvimento da aplicação do Nutrium. Vais assim conhecer alguns dos métodos que utilizamos para acelerar o desenvolvimento e as práticas que seguimos para garantir a qualidade da aplicação.
 
-    - coffee: true
-
-    - name: Offline Webapps
-      type: talk
-      time: 12:00-13:00
-      duration: one-hour
-      place: DI A2
-      speaker: Mike Elsmore
-      enterprise: IBM
-      image: offwebapps.png
-      text: Para qualquer lado que olhemos na área da tecnologia, todo tem uma componente online. Mas com o avanço das tecnologias web e e apps moveis, offline esta se a tornar uma característica chave. Esta talk é paragem para um alerta nas vantagens de replicação para armazenar harmonia entre as aplicações e os dados.
-
-    - meal: true
-
-    - name: Java EE 7 meets Java 8
-      type: workshop
-      time: 14:00-15:30
-      duration: one-hour-and-half
-      place: DI A2
-      speaker: Roberto Cortez
-      image: java.png
-      text: Os últimos anos tem sido bastante excitantes para Java. Novas versões de Java EE e plataformas Java SE foram introduzias em 2013 e 2014. Para Java EE, temos agora suporte de primeira class para padrões web, incluindo uma nova API para construir WebSockets, uma nova API para analisar, processar e criar JSON e um novo Cliente API em JAX-RS 2 para invocar serviços RESTful. O muito esperado processador API Batch esta agora disponível para construir aplicações de processos batch usando todas as capacidades da propria plataforma. Por outro lado, Java SE trouxe nos as muito esperadas expressões lambda para simplificar programação funcional; a nova e poderosa Streams API permite executar operações numa sequencia de elementos, como filtragem, mapeamento, ordenação e muitas outras; uma novíssima Date Time API, torna mais fácil para lidar como fusos horarios e periodos de tempo. Vamos combinar todos os elementos e ver como é divertido desemvolver aplicações em Java.
-
-    - name: From University to the real world - what does a Technical Support Engineer do?
-      type: talk
-      time: 15:30-16:30
-      duration: one-hour-and-half
-      place: DI A2
-      speaker: David Teixeira
-      enterprise: iTGrow
-      image: realworld.png
-      text:  Nesta palestra terás a oportunidade de ouvir o testemunho pessoal de alguém que entrou recentemente no mundo de trabalho nas TI, a experiência de integrar uma equipa de trabalho, a adaptação aos processos produtivos de uma empresa e as expectativas criadas versus realidade. <br> Destaque ainda para a apresentação de algumas ferramentas, desenvolvidas com o intuito de agilizar a resolução de problemas enquanto Engenheiro de Suporte Técnico.
-
-    - coffee: true
-
-    - name: Hackathon Heartbits
-
-      time: 18:00-24:00
-      duration: six-hours
-      place: Escola de Saúde
-      image: hackathon.png
-      text: A Hackathon HeartBits powered by Subvisual é um evento do Centro de Estudantes de Informática da Universidade do Minho (CeSIUM) e da Associação Nacional de Estudantes de Medicina (ANEM) com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual. <br> O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a "Promoção da Saúde e Prevenção da Doença".
-
-- saturday13:
-  date: 13 FEV
+- saturday11:
+  date: 11 FEV
   dayOfWeek: SÁBADO
   activities:
-    - name:  Hackathon Heartbits
-      type: concurso
-      time: 00:00-20:00
-      duration: twenty-hours
-      place: Escola de Saúde
-      image: hackathon.png
-      text: A Hackathon HeartBits powered by Subvisual é um evento do Centro de Estudantes de Informática da Universidade do Minho (CeSIUM) e da Associação Nacional de Estudantes de Medicina (ANEM) com o apoio técnico da Direção-Geral da Saúde (DGS) e patrocínio da Subvisual. <br> O objetivo é a construção em equipa de uma plataforma (website, app, ou outro sistema), que tenha como finalidade a "Promoção da Saúde e Prevenção da Doença".
