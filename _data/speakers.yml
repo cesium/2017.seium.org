@@ -1,3 +1,11 @@
+- name: Boris Tchikoulaev
+  pic: boris.png
+  position: Software Consultant & Project Manager
+  enterprise: Xpand IT
+  enterpriseURL: http://www.xpand-it.com/
+  twitter: https://twitter.com/bvtchikoulaev  
+  about: Boris Tchikoulaev é ex-aluno da Universidade do Minho e um profissional de IT com 7 anos de experiência em vários ramos, tais como BI e soluções Big Data (Pentaho, Cloudera), Processos de Integração de Dados, Administração de Bases de Dados (MS SQL Server, MySQL, PostgreSQL) e Web/Software Development (Java, JavaScript). Para além de consultadoria de software, é também responsável pela gestão de vários projetos durante todo o seu ciclo de vida, construindo relacionamentos confiáveis com clientes e liderando equipes internas de desenvolvimento, usando as melhores práticas das metodologias Agile.
+
 - name: Soumaya Ben Dhaou
   pic: soumaya.png
   position: Researcher
@@ -6,8 +14,7 @@
   web:
   twitter:
   github:
-  about: Soumaya is currently a Research Fellow at the United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV), located in Guimarães, Portugal. She is also an Assistant Professor at South Mediterranean University where she was appointed as Management of Information Systems Discipline lead. She coordinates the program of Master Business Management in Big Data and Business Analytics at the Mediterranean School of Business (MSB). Soumaya was previously an assistant professor at Nipissing University where she started as a Postdoctoral Research Fellow in innovation technology. She holds a PhD in Information Systems and Technology from the joint program in business administration at the University of Quebec in Montreal in affiliation with Concordia University, HEC Montreal and McGill University. She obtained at the same time a PhD in Management of Information Systems from the Paris-Dauphine University in France with a thesis titled “Building Change Capabilities for e-Government Continuous Development”. Soumaya research interests include, among others, e-Government, innovation, management of information systems, business process management, modelling and analytics, organizational and digital transformation, and organizational and dynamic capabilities.
-
+  about: Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada "Building Change Capabilities for e-Government Continuous Development". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas.
 - name: Nuno Lopes
   pic: nuno_lopes.jpg
   position: Researcher
@@ -16,28 +23,26 @@
   web:
   twitter:
   github:
-  about: Nuno Vasco Lopes is graduated in Electrical Engineering by the University of Trás-os-Montes e Alto Douro in 1998, and obtained an MSc Degree in Telematics at the University of Vigo in 2003, a Phd in Computer Science at the University of Minho in 2011 and a Post-Doc in Computer Science at the University of Coimbra in 2013. He is professor at public and private universities since 1998 and he is currently working at the University of Minho and at the United Nations University. His current research interests are Smart Cities, Mobile Networks, Quality of Service, Real-Time Services, Vehicular Networks, Nano-Communication and Internet of Things. He is an IEEE Member within the IEEE Computer Society and IEEE Communications Society, Editor-in-Chief of the ACEEE (Ass. Computer Electronics and Electrical Engineers) International Journal on Communication, and Guest Editor in a Special Issue about Cloud Computing and Internet of Things in the Cluster Computing Journal, the Journal of Networks, Software Tools and Applications.
+  about: Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University. Os seus atuais interesses de pesquisa centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal.
 
 - name: Pedro Vilaça
   pic: pedro_vilaca.png
   position: Hacker
   enterprise: SentinelOne
-  enterpriseURL: https://sentinelone.com
-  about: A leading expert in the field of not being an expert, plays with computers for more than 30 years, holds a degree in Economics and a MBA, writes a somewhat famous OS X related blog, breaks DRM protections for fun and profit, annoys HackingTeam, trolls Apple's product security team, loves to solve weird problems, and tries to spread some knowledge. Lately very interested in improving OS X security and malware research. Wrote a long OS X rootkits article for Phrack a few years ago. Currently working at SentinelOne, a next-generation anti-virus company, where I co-authored its initial Mac product version. These days I break random stuff and create proof of concept security technology.
-
+  enterpriseUrl: https://sentinelone.com
+  about: Pedro Vilaça, autor de um blog de OS X, é um especialista líder no campo de não ser um especialista, brinca com computadores a mais de 30 anos, possui um diploma em Economia e um MBA e demonstra um interesse em melhorar a segurança do OS X e em investigar malware. Faz atualmente parte da SentinelOne, uma empresa dedicada a produtos anti-vírus, onde co-criou o seu produto inicial Mac.
 - name: Luís Calado
   pic: luis_calado.jpg
   position: Technical Evangelist
   enterprise: Microsoft Portugal
   enterpriseURL: https://www.microsoft.com/pt-pt/
-  about: Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema Startup. Tem formação em Ciências de Computação, acumulando 20 anos de experiência na área das Tecnologias da Informação. Para além da Microsoft, é também um entusiasta developer, fotógrafo e cozinheiro.
+  about: Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema startup. Tem formação em Engenharia Informática e de Computadores pelo Instituto Superior Técnico, acumulando 20 anos de experiência na área das Tecnologias da Informação. Para além de uma vasta experiência em tecnologias Microsoft (C#, SQL Server, Azure), é também um entusiasta developer, fotógrafo e cozinheiro.
 
 - name: Miguel Regedor
   pic: miguel-regedor.jpg
   position: Team Leader
   enterprise: Freeletics
-  enterpriseURL: https://www.freeletics.com
-  github: https://github.com/regedor
+  enterpriseURL: https://www.freeletics.com/en
   about: Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova York enquanto participava na escrita do livro "Getting Started with Ruby on Rails (IBM free ebook)". Trabalhou em diversos projetos de investigação, com a Universidade Aberta, FEUP, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, actualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada) criou o "Cá Vou EU", "Blue Heart Explosion", é atualmente líder das equipas de Backend e Technical Operations da Freeletics, start-up que em 4 anos chegou aos 14 milhões de utilizadores.
 
 - name: Daniela Matos
@@ -47,8 +52,7 @@
   enterpriseURL: https://www.yld.io
   twitter: https://twitter.com/sericaia
   github: https://github.com/sericaia
-  about: A Daniela é uma developer de JavaScript que está sempre a procura de aprender algo novo. Correr, dançar e fotografar nos tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!
-
+  about: A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup Require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!
 - name: TBA
   pic: tba.png
   position: TBA

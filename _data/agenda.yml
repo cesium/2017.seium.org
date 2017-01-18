@@ -31,6 +31,10 @@
   date: 8 FEV
   dayOfWeek: QUARTA
   activities:
+    - name: BI & Big Data – Solving Real World Problems with Pentaho & Tableau
+      speaker: Boris Tchikoulaev
+      time: 11:30-13:00
+
     - name: Dupla palestra
       speaker: UNU-EGOV
       time: 15:00-15:50
