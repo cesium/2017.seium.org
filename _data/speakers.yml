@@ -2,7 +2,7 @@
   pic: soumaya.png
   position: Researcher
   enterprise: United Nations University
-  enterpriseUrl: https://unu.edu
+  enterpriseURL: https://unu.edu
   web:
   twitter:
   github:
@@ -12,7 +12,7 @@
   pic: nuno_lopes.jpg
   position: Researcher
   enterprise: United Nations University
-  enterpriseUrl: https://unu.edu
+  enterpriseURL: https://unu.edu
   web:
   twitter:
   github:
@@ -22,7 +22,7 @@
   pic: pedro_vilaca.png
   position: Hacker
   enterprise: SentinelOne
-  enterpriseUrl: https://sentinelone.com
+  enterpriseURL: https://sentinelone.com
   about: A leading expert in the field of not being an expert, plays with computers for more than 30 years, holds a degree in Economics and a MBA, writes a somewhat famous OS X related blog, breaks DRM protections for fun and profit, annoys HackingTeam, trolls Apple's product security team, loves to solve weird problems, and tries to spread some knowledge. Lately very interested in improving OS X security and malware research. Wrote a long OS X rootkits article for Phrack a few years ago. Currently working at SentinelOne, a next-generation anti-virus company, where I co-authored its initial Mac product version. These days I break random stuff and create proof of concept security technology.
 
 - name: Luís Calado
@@ -35,8 +35,9 @@
 - name: Miguel Regedor
   pic: miguel-regedor.jpg
   position: Team Leader
-  enterprise: Freelics
-  enterpriseURL:
+  enterprise: Freeletics
+  enterpriseURL: https://www.freeletics.com
+  github: https://github.com/regedor
   about: Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova York enquanto participava na escrita do livro "Getting Started with Ruby on Rails (IBM free ebook)". Trabalhou em diversos projetos de investigação, com a Universidade Aberta, FEUP, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, actualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada) criou o "Cá Vou EU", "Blue Heart Explosion", é atualmente líder das equipas de Backend e Technical Operations da Freeletics, start-up que em 4 anos chegou aos 14 milhões de utilizadores.
 
 - name: Daniela Matos
@@ -50,9 +51,9 @@
 
 - name: TBA
   pic: tba.png
-  position: TBA 
+  position: TBA
   enterprise: TBA
-  enterpriseUrl:
+  enterpriseURL:
   web:
   twitter:
   github:
