@@ -18,6 +18,36 @@
   github:
   about: Nuno Vasco Lopes is graduated in Electrical Engineering by the University of Trás-os-Montes e Alto Douro in 1998, and obtained an MSc Degree in Telematics at the University of Vigo in 2003, a Phd in Computer Science at the University of Minho in 2011 and a Post-Doc in Computer Science at the University of Coimbra in 2013. He is professor at public and private universities since 1998 and he is currently working at the University of Minho and at the United Nations University. His current research interests are Smart Cities, Mobile Networks, Quality of Service, Real-Time Services, Vehicular Networks, Nano-Communication and Internet of Things. He is an IEEE Member within the IEEE Computer Society and IEEE Communications Society, Editor-in-Chief of the ACEEE (Ass. Computer Electronics and Electrical Engineers) International Journal on Communication, and Guest Editor in a Special Issue about Cloud Computing and Internet of Things in the Cluster Computing Journal, the Journal of Networks, Software Tools and Applications.
 
+- name: Pedro Vilaça
+  pic: pedro_vilaca.png
+  position: Hacker
+  enterprise: SentinelOne
+  enterpriseUrl: https://sentinelone.com
+  about: A leading expert in the field of not being an expert, plays with computers for more than 30 years, holds a degree in Economics and a MBA, writes a somewhat famous OS X related blog, breaks DRM protections for fun and profit, annoys HackingTeam, trolls Apple's product security team, loves to solve weird problems, and tries to spread some knowledge. Lately very interested in improving OS X security and malware research. Wrote a long OS X rootkits article for Phrack a few years ago. Currently working at SentinelOne, a next-generation anti-virus company, where I co-authored its initial Mac product version. These days I break random stuff and create proof of concept security technology.
+
+- name: Luís Calado
+  pic: luis_calado.jpg
+  position: Technical Evangelist
+  enterprise: Microsoft Portugal
+  enterpriseURL: https://www.microsoft.com/pt-pt/
+  about: Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema Startup. Tem formação em Ciências de Computação, acumulando 20 anos de experiência na área das Tecnologias da Informação. Para além da Microsoft, é também um entusiasta developer, fotógrafo e cozinheiro.
+
+- name: Miguel Regedor
+  pic: miguel-regedor.jpg
+  position: Team Leader
+  enterprise: Freelics
+  enterpriseURL:
+  about: Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova York enquanto participava na escrita do livro "Getting Started with Ruby on Rails (IBM free ebook)". Trabalhou em diversos projetos de investigação, com a Universidade Aberta, FEUP, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, actualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada) criou o "Cá Vou EU", "Blue Heart Explosion", é atualmente líder das equipas de Backend e Technical Operations da Freeletics, start-up que em 4 anos chegou aos 14 milhões de utilizadores.
+
+- name: Daniela Matos
+  pic: daniela.png
+  position: JS Developer
+  enterprise: YLD
+  enterpriseURL: https://www.yld.io
+  twitter: https://twitter.com/sericaia
+  github: https://github.com/sericaia
+  about: A Daniela é uma developer de JavaScript que está sempre a procura de aprender algo novo. Correr, dançar e fotografar nos tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!
+
 - name: TBA
   pic: tba.png
   position: TBA 
