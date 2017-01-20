@@ -1,6 +1,6 @@
 - name: Boris Tchikoulaev
   pic: boris.png
-  position: Software Consultant & Project Manager
+  position: Senior BI & Dig Data Consultant
   enterprise: Xpand IT
   enterpriseURL: http://www.xpand-it.com/
   twitter: https://twitter.com/bvtchikoulaev  
@@ -15,6 +15,7 @@
   twitter:
   github:
   about: Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada "Building Change Capabilities for e-Government Continuous Development". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas.
+
 - name: Nuno Lopes
   pic: nuno_lopes.jpg
   position: Researcher
@@ -27,10 +28,11 @@
 
 - name: Pedro Vilaça
   pic: pedro_vilaca.png
-  position: Hacker
+  position: Mac Malware Hunter
   enterprise: SentinelOne
   enterpriseUrl: https://sentinelone.com
   about: Pedro Vilaça, autor de um blog de OS X, é um especialista líder no campo de não ser um especialista, brinca com computadores a mais de 30 anos, possui um diploma em Economia e um MBA e demonstra um interesse em melhorar a segurança do OS X e em investigar malware. Faz atualmente parte da SentinelOne, uma empresa dedicada a produtos anti-vírus, onde co-criou o seu produto inicial Mac.
+
 - name: Luís Calado
   pic: luis_calado.jpg
   position: Technical Evangelist
@@ -40,7 +42,7 @@
 
 - name: Miguel Regedor
   pic: miguel-regedor.jpg
-  position: Team Leader
+  position: Lead of Backend Engineering
   enterprise: Freeletics
   enterpriseURL: https://www.freeletics.com/en
   about: Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova York enquanto participava na escrita do livro "Getting Started with Ruby on Rails (IBM free ebook)". Trabalhou em diversos projetos de investigação, com a Universidade Aberta, FEUP, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, actualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada) criou o "Cá Vou EU", "Blue Heart Explosion", é atualmente líder das equipas de Backend e Technical Operations da Freeletics, start-up que em 4 anos chegou aos 14 milhões de utilizadores.
@@ -53,6 +55,7 @@
   twitter: https://twitter.com/sericaia
   github: https://github.com/sericaia
   about: A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup Require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!
+
 - name: TBA
   pic: tba.png
   position: TBA
