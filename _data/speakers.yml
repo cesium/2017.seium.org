@@ -56,6 +56,16 @@
   github: https://github.com/sericaia
   about: A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup Require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!
 
+- name: João Sardinha
+  pic: sardinha.jpg
+  position: Front-end developer
+  enterprise: Unbabel
+  enterpriseURL: https://unbabel.com
+  web: http://johnsardine.com/ 
+  twitter: http://twitter.com/johnsardine 
+  github: https://github.com/johnsardine 
+  about: João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel.
+
 - name: TBA
   pic: tba.png
   position: TBA

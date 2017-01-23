@@ -20,7 +20,7 @@
       speaker: Luís Calado
       time: 16:30-17h30
       duration: one-hour
-      about: Hoje em dia, é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial. Submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações.
+      about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
 
 - tuesday:
   date: 7 FEV
@@ -34,11 +34,33 @@
     - name: BI & Big Data – Solving Real World Problems with Pentaho & Tableau
       speaker: Boris Tchikoulaev
       time: 11:30-13:00
+      duration: one-hour
+    
+    - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
+      speaker: Luis Soares Barbosa
+      time: 15:00-15:05
+      duration: five-minutes
 
-    - name: Dupla palestra
-      speaker: UNU-EGOV
-      time: 15:00-15:50
-      duration: fifty-minutes
+    - name: E-Government Development Complexity and Continuous Change Challenge
+      speaker: Soumaya Ben Dhaou
+      time: 15:05-15:25
+      duration: twenty-minutes
+      about: "O objetivo da palestra é entender como os projetos de governo eletrónico envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do governo eletrónico, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica.
+
+Com base num estudo de caso estruturado, abordagem iterativa da pesquisa IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de governo eletrónico em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento do governo eletrónico: uma perspetiva convencional 'de cima para baixo' de um projeto de desenvolvimento de governo eletrónico e comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento do governo eletrónico."
+
+    - name: Urbanization Challenges, Smart Solutions and Smart Measurements
+      speaker: Nuno Lopes
+      time: 15:25-18:00
+      duration: thirty-minutes
+      about: "A rápida taxa de urbanização traz desafios sem precedentes para a obtenção de cidades sustentáveis e prósperas. Soluções inteligentes estão a ser adotadas em todo o mundo para enfrentar esses desafios. Tais soluções são fortemente apoiadas pelos novos avanços da tecnologia como forma de melhorar a eficiência das operações das cidades e otimizar os recursos humanos e naturais.
+
+Inovações transversais estão a inspirar outras cidades em todo o mundo a adotar melhores práticas semelhantes em soluções.
+Contudo, ainda não é possível saber exatamente quais os benefícios alcançados e em que medida.
+
+Portanto, indicadores-padrão para medir os benefícios de soluções inteligentes são necessários para comparar diferentes soluções em termos de resultados e também avaliar a sua eficiência e eficácia.
+
+Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO."
 
 - thursday:
   date: 9 FEV
@@ -52,7 +74,13 @@
       speaker: Daniela Matos
       time: 15:00-16:00
       duration: one-hour
-      about: Esta talk pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas features do protocolo em comparação com HTTP/1.x. Também vamos perceber que acções para melhorar a performance estamos a fazer e que não são mais necessárias. A talk tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!
+      about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
+
+    - name: Front-end Foundations - Folder structure, grids, naming conventions and best practices
+      speaker: João Sardinha
+      time: 17:30-18:30
+      duration: one-hour 
+      about: "Aprender como estruturar o teu projeto front-end, entender a importância de nomear e a semântica ao escrever o teu código, aprender como delegar o teu layout num sistema de rede, entender porque deves escrever o menor CSS possível, introdução à especificidade do seletor."
 
 - friday:
   date: 10 FEV
