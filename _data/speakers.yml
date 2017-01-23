@@ -30,7 +30,7 @@
   pic: pedro_vilaca.png
   position: Mac Malware Hunter
   enterprise: SentinelOne
-  enterpriseUrl: https://sentinelone.com
+  enterpriseURL: https://sentinelone.com/
   about: Pedro Vilaça, autor de um blog de OS X, é um especialista líder no campo de não ser um especialista, brinca com computadores a mais de 30 anos, possui um diploma em Economia e um MBA e demonstra um interesse em melhorar a segurança do OS X e em investigar malware. Faz atualmente parte da SentinelOne, uma empresa dedicada a produtos anti-vírus, onde co-criou o seu produto inicial Mac.
 
 - name: Luís Calado
