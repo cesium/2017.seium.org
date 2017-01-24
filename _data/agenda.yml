@@ -12,9 +12,9 @@
   date: 6 FEV
   dayOfWeek: SEGUNDA
   activities:
-    - speaker: Pedro Vilaça 
-      time: 14:00-15:00
-      duration: one-hour
+      #- speaker: Pedro Vilaça 
+      #      time: 14:00-15:00
+      #      duration: one-hour
           
     - name: How cognitive services are changing the world
       speaker: Luís Calado
@@ -37,7 +37,7 @@
       duration: one-hour
     
     - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
-      speaker: Luis Soares Barbosa
+      speaker: Luís Soares Barbosa
       time: 15:00-15:05
       duration: five-minutes
 
@@ -66,9 +66,9 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 9 FEV
   dayOfWeek: QUINTA
   activities:
-    - speaker: Miguel Regedor
-      time: 14:00-15:00
-      duration: one-hour
+      #- speaker: Miguel Regedor
+      #time: 14:00-15:00
+      #      duration: one-hour
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
       speaker: Daniela Matos
