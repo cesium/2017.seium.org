@@ -9923,6 +9923,7 @@ button.btn.btn-info.btn-sei {
   padding: 100px 0;
   text-align: center;
   color: #fff;
+  background: url("/assets/backgrounds/hackathon-light-stuff.jpg") no-repeat center center;
   background-color: #0d1a23;
   background-size: cover;
   -o-background-size: cover; }
@@ -9957,6 +9958,8 @@ button.btn.btn-info.btn-sei {
       #hackathon #hackathon-header .header-body .register:hover a {
         color: #fff;
         border-bottom: 1px solid #EAEAEA; }
+    #hackathon #hackathon-header .header-body #registerbutton {
+      margin-top: 30px; }
 #hackathon #hackathon-info {
   text-align: justify;
   padding: 100px 0;
@@ -9984,6 +9987,11 @@ button.btn.btn-info.btn-sei {
   background-attachment: scroll; }
   #hackathon #hackathon-organisation .hackathon-partners {
     width: 100%; }
+#hackathon a:hover,
+#hackathon a:focus {
+  color: #d5445c; }
+#hackathon .btn-hackathon:hover {
+  color: #d5445c; }
 
 #activities {
   background-attachment: fixed;
