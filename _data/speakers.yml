@@ -78,8 +78,8 @@
   web: http://johnsardine.com/ 
   twitter: http://twitter.com/johnsardine 
   github: https://github.com/johnsardine 
-  about-small: "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
-  about-long:
+  about-small: "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel."
+  about-long:  "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
   id: 8
 
 - name: TBA
