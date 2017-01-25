@@ -54,7 +54,18 @@ layout: default
 
       </div>
       <div class="col-md-6">
-        <span class="aboutspeaker">{{ speaker.about }}</span>
+        <div id="demo1{{ speaker.id }}" class="collapse in">
+        <span class="aboutspeaker">{{ speaker.about-small }}</span>
+        </div>
+        <div id="demo2{{ speaker.id }}" class="collapse out">
+          <span class="aboutspeaker">{{ speaker.about-long }}</span>
+        </div>
+          {% if speaker.about-long %}
+            <button type="button" class="btn-readMore btn btn-info btn-sei" data-toggle="collapse"                  data-target="#demo1{{ speaker.id }} , #demo2{{ speaker.id }}">
+              <input onclick="change({{ speaker.id }})" type="button" value="Read More.." id="but{{ speaker.id }}"
+              class="btn-readMore btn btn-info btn-sei btn-more"></input>
+            </button>
+          {% endif %}
       </div>
     </div>
 
