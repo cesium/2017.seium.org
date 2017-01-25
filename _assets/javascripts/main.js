@@ -7,3 +7,4 @@
 //= require about-text.js
 //= require scrolldiv.js
 //= require countdown.js
+//= require change.js
