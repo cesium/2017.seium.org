@@ -8688,6 +8688,9 @@ img::selection, img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0098ff; }
 
+.navbar-custom.navbar-hackathon.top-nav-collapse {
+  background-color: rgba(156, 9, 35, 0.9); }
+
 .page-scroll.disabled {
   opacity: 0.1; }
 
@@ -9489,7 +9492,7 @@ div.organization-indicators span:hover, div.organization-indicators span:focus {
 
 .hcenter {
   display: block;
-  margin: 25px auto 25px auto; }
+  margin: 0 auto; }
 
 .narrow-logo {
   width: 250px;
@@ -9499,7 +9502,7 @@ div.organization-indicators span:hover, div.organization-indicators span:focus {
 
 .wide-logo {
   width: 250px;
-  margin: 10px 10px 10px 10px; }
+  margin: auto; }
 
 .partners-carousel {
   margin-bottom: 50px; }
@@ -9783,11 +9786,17 @@ section .staff-info ul.social-buttons {
 
 /* Footer Styles */
 footer {
-  background: #191919 url("/assets/backgrounds/footer.png") no-repeat bottom;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #191919;
   padding-bottom: 11%;
   background-size: 100%;
   width: 100%; }
+  footer.hackathon {
+    background-image: url("/assets/backgrounds/hackathon-footer.png"); }
+  footer.sei {
+    background-image: url("/assets/backgrounds/footer.png"); }
   footer h4 {
     color: #227ff0; }
   footer h6 {
@@ -9927,7 +9936,7 @@ button.btn.btn-info.btn-sei {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url("/assets/backgrounds/hackathon-light-stuff.jpg") no-repeat center center;
+  background-image: url("/assets/backgrounds/hackathon-light-stuff.jpg");
   background-color: #0d1a23;
   background-size: cover;
   -o-background-size: cover; }
@@ -9979,7 +9988,7 @@ button.btn.btn-info.btn-sei {
       margin: 10px 0; }
 #hackathon #hackathon-awards {
   padding: 100px 0;
-  background: url("/assets/backgrounds/light-stuff.png") no-repeat center center;
+  background-image: url("/assets/backgrounds/hackathon-light-stuff.jpg");
   background-size: cover;
   background-attachment: fixed; }
   #hackathon #hackathon-awards .activities-description {
@@ -9992,7 +10001,7 @@ button.btn.btn-info.btn-sei {
   #hackathon #hackathon-organisation .hackathon-partners {
     width: 100%; }
 #hackathon #hackathon-partners {
-  background: url("/assets/backgrounds/hackathon-light-touch.png") no-repeat center center;
+  background-image: url("/assets/backgrounds/hackathon-light-touch.png");
   background-size: cover;
   -o-background-size: cover;
   background-attachment: scroll;
