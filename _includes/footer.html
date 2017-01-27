@@ -11,9 +11,11 @@
       <a href="http://www.github.com/cesium"><i class="fa fa-github fa-2x"></i></a>
       <a href="https://twitter.com/cesiuminho"><i class="fa fa-twitter fa-2x"></i></a>
 
-
-      <p><a href="http://2016.seium.org" target="_blank"> Previous edition</a> || <a href="/codeofconduct" target="_blank">Code of Conduct</a> </p> 
-
+	  {% if page.path == 'hackathon/index.html' %}    
+      <p><a href="http://2016.seium.org" target="_blank"> Previous edition</a> || <a href="https://drive.google.com/open?id=0B98jlL4oJiLlUHpnOENrTTM4bkU" target="_blank">Code of Conduct</a> </p> 
+      {% else %}
+      <p><a href="http://2016.seium.org" target="_blank"> Previous edition</a> || <a href="/codeofconduct" target="_blank">Code of Conduct</a> </p>
+	  {% endif %}
     </div>
 
   </div>
