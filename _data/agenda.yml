@@ -57,21 +57,62 @@
   date: 7 FEV
   dayOfWeek: TERÇA
   activities:
-     
+    - name: Altice Labs 
+      time: 9:30-10:30
+      duration: one-hour
 
+    - name: Farfetch 
+      time: 10:30-11:30
+      duration: one-hour
+
+    - name: Coffe Break 
+      time: 11:30-12:00
+      duration: half-hour
+
+    - speaker: Teddy E
+      time: 12:00-13:00
+      duration: one-hour
+
+    - speaker: Marco Vale 
+      time: 14:00-15:00
+      duration: one-hour
+
+    - speaker: Tiago Loureiro 
+      time: 15:00-16:00 
+      duration: one-hour
+
+    - name: Microsoft Holo Lens 
+      time: 16:30-17:30 
+      duration: one-hour
+
+    - name: Game Dev Meetup
+      time: 21:00-00:00
+      duration: three-hours
+
+    - name: Arraial 
+      time: 21:00-00:00
+      duration: three-hours
 - wednesday:
   date: 8 FEV
   dayOfWeek: QUARTA
   activities:
+    - name: SmithMicro
+      time: 9:30-10:30
+      duration: one-hour
+
+    - name: Coffe Break 
+      time: 11:00-11:30
+      duration: half-hour
+
     - name: BI & Big Data – Solving Real World Problems with Pentaho & Tableau
       speaker: Boris Tchikoulaev
       time: 11:30-13:00
-      duration: one-hour
+      duration: one-and-half-hour
     
     - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
-      duration: five-minutes
+      duration: two-hours 
 
     - name: E-Government Development Complexity and Continuous Change Challenge
       speaker: Soumaya Ben Dhaou
