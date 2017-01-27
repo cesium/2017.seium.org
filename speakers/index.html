@@ -73,21 +73,13 @@ layout: default
                         </button>
                     </div>
 
-                    <div class="modal" id="animatedModal{{ speaker.id }}">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div id="btn-close-modal" class="close-animatedModal{{ speaker.id }}
-                                " data-dismiss="modal">  
-                                    Read Less..
-                                </div>
-                                <div class ="modal-header">
-                                    header
-                                </div>
-                                <div class = "modal-body">
-                                    {% include speakers-content.html %}
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+
+            <div class="modal" id="animatedModal{{ speaker.id }}">
+                <div class="modal-dialog  speaker-about-modal">
+                    <div class="modal-content speaker-about-modal">
+                            {% include speakers-content.html %}
                     </div>
                 </div>
             </div>
