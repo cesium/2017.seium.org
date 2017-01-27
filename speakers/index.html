@@ -57,6 +57,16 @@ layout: withModals
                         </button>
                     </div>
                 {% endif %}
+
+                </div>
+            </div>
+
+            <div class="modal" id="animatedModal{{ speaker.id }}">
+                <div class="modal-dialog  speaker-about-modal">
+                    <div class="modal-content speaker-about-modal">
+                            {% include speakers-content.html %}
+                    </div>
+                </div>
             </div>
         {% endfor %}
         </div>

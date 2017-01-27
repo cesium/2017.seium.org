@@ -1,5 +1,6 @@
+<div class="speakers-content-span"></div>
 <div id="{{ speaker.name | slugify }}" class="col-md-12 speak-list">
-    <div class="col-md-offset-1">
+    <div class="col-md-offset-1 col-md-4">
         <div class="speaker-img">
             {% image 'speakers/{{ speaker.pic }}' class:'speaker-pic' %}
         </div>
@@ -46,7 +47,7 @@
         </div>
     
     </div>      
-    <div class="col-md-6">
+    <div class="col-md-5">
         <div>
             <span class="aboutspeaker">{{ speaker.about-long }}</span>
         </div>        
