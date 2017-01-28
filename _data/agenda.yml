@@ -38,16 +38,18 @@
     - speaker: Francisco Franco
       time: 15:00-16:00
       duration: one-hour
-          
+  
     - name: How cognitive services are changing the world
       speaker: Luís Calado
       time: 16:30-17h30
       duration: one-hour
       about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
 
-    - speaker: João Pena Gil
+    - name: Hacking an Application with a Browser and a Zebra
+      speaker: João Pena Gil
       time: 17:30-18:30
-      duration: one-hour     
+      duration: one-hour 
+      about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
@@ -57,9 +59,11 @@
   date: 7 FEV
   dayOfWeek: TERÇA
   activities:
-    - name: Altice Labs 
+    - name: "DevOps: A journey, not an event"
+      speaker: José Bonnet
       time: 9:30-10:30
       duration: one-hour
+      about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
 
     - name: Farfetch 
       time: 10:30-11:30
@@ -69,11 +73,12 @@
       time: 11:30-12:00
       duration: half-hour
 
-    - speaker: Teddy E
-      time: 12:00-13:00
-      duration: one-hour
+    #- speaker: Teddy E
+    #  time: 12:00-13:00
+    #  duration: one-hour
 
-    - speaker: Marco Vale 
+    - name: Shutix - Prototipagem rápida
+      speaker: Marco Vale 
       time: 14:00-15:00
       duration: one-hour
 
@@ -93,9 +98,9 @@
   date: 8 FEV
   dayOfWeek: QUARTA
   activities:
-    - name: SmithMicro
-      time: 9:30-10:30
-      duration: one-hour
+    #- name: SmithMicro
+    #  time: 9:30-10:30
+    #  duration: one-hour
 
     - name: Coffe Break 
       time: 11:00-11:30
@@ -152,11 +157,13 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       time: 11:00-11:30
       duration: half-hour
 
-    - name: ACCENTURE
+    - name: “… e a tua WEB, tira cafés?”
+      speaker: Pedro Couto
       time: 11:30-13:00
       duration: one-half-hour
 
-    - speaker: Miguel Regedor
+    - name: “O percurso de uma ideia até milhões de utilizadores"
+      speaker: Miguel Regedor
       time: 14:00-15:00
       duration: one-hour
 
