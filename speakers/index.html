@@ -66,21 +66,23 @@ layout: default
                             </div>
                         </div>
                     </div>
-        
-                    <div class="speaker-about">    
-                        <button type="button" class ="btn-readMore btn btn-info btn-sei" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
-                            Read More..
-                        </button>
+                    <div class="modal" id="animatedModal{{ speaker.id }}">
+                        <div class="modal-dialog  speaker-about-modal">
+                            <div class="modal-content speaker-about-modal">
+                                {% include speakers-content.html %}
+                            </div>
+                        </div>
                     </div>
 
-                </div>
-            </div>
 
-            <div class="modal" id="animatedModal{{ speaker.id }}">
-                <div class="modal-dialog  speaker-about-modal">
-                    <div class="modal-content speaker-about-modal">
-                            {% include speakers-content.html %}
-                    </div>
+                    {% if speaker.about %}
+                        <div class="speaker-about">    
+                            <button type="button" class ="btn-readMore btn btn-info btn-sei" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
+                                Read More..
+                            </button>
+                        </div>
+                    {% endif %}
+
                 </div>
             </div>
         {% endfor %}
