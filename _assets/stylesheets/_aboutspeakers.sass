@@ -44,6 +44,9 @@
 .modal-backdrop
   z-index: -1
 
+.modal-content
+  height: 98%
+
 .speakers-content-span
   height: 75px
 
@@ -78,6 +81,15 @@
   margin-top: 50px
   margin-bottom: 100px
 
+@media (max-width: 1190px)
+  .speaker-about-modal
+    height: 120%
+
+@media (max-width: 830px)
+  .speaker-about-modal
+    height: 150%
+
+
 @media (max-width: 767px)
   .aboutspeaker
     padding: 0
@@ -88,3 +100,13 @@
     line-height: 30px
   ul.speakers-carousel
     height: 400px
+
+
+@media (max-width: 530px)
+  .speaker-about-modal
+    height: 180%
+
+
+@media (max-width: 385px)
+  .speaker-about-modal
+    height: 230%
