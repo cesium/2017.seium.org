@@ -1,8 +1,14 @@
 /* Footer Styles*/
 
 footer
-  background: #191919 url(image_path("backgrounds/footer.png")) no-repeat bottom
+  &.hackathon
+    background-image: url(image_path("backgrounds/hackathon-footer.png"))
+  &.sei
+    background-image: url(image_path("backgrounds/footer.png"))
   background-attachment: fixed
+  background-repeat: no-repeat
+  background-position: bottom
+  background-color: #191919 
   padding-bottom: 11%
   background-size: 100%
   width: 100%

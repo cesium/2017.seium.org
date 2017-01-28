@@ -1,4 +1,8 @@
+{% if page.path == 'hackathon/index.html' %}
+<nav class="navbar navbar-custom navbar-hackathon navbar-fixed-top" role="navigation">
+{% else %}
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+{% endif %}
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
