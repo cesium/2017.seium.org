@@ -85,13 +85,10 @@
       time: 16:30-17:30 
       duration: one-hour
 
-    - name: Game Dev Meetup
+    - name: Game Dev Meetup / Arraial 
       time: 21:00-00:00
       duration: three-hours
 
-    - name: Arraial 
-      time: 21:00-00:00
-      duration: three-hours
 - wednesday:
   date: 8 FEV
   dayOfWeek: QUARTA
@@ -109,6 +106,10 @@
       time: 11:30-13:00
       duration: one-and-half-hour
     
+    - name: Bit Sonae
+      time: 14:00-15:00
+      duration: one-hour
+
     - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
@@ -135,10 +136,26 @@ Portanto, indicadores-padrão para medir os benefícios de soluções inteligent
 
 Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO."
 
+    - name: Rally das Tascas
+      time: 21:00-00:00
+      duration: three-hours
+
 - thursday:
   date: 9 FEV
   dayOfWeek: QUINTA
   activities:
+    - name: Workshope BLIP (Node)
+      time: 9:30-11:00
+      duration: one-half-hour
+
+    - name: Coffe Break 
+      time: 11:00-11:30
+      duration: half-hour
+
+    - name: ACCENTURE
+      time: 11:30-13:00
+      duration: one-half-hour
+
     - speaker: Miguel Regedor
       time: 14:00-15:00
       duration: one-hour
@@ -148,6 +165,10 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       time: 15:00-16:00
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
+
+    - name: Subvisual - React
+      time: 16:30-17:30
+      duration: one-hour
 
     - name: Front-end Foundations - Folder structure, grids, naming conventions and best practices
       speaker: João Sardinha
@@ -159,8 +180,20 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 10 FEV
   dayOfWeek: SEXTA
   activities:
+    - name: SafeCloud
+      time: 12:00-13:00
+      duration: one-hour
+
+    - name: Hackathon 
+      time: 18:00-00:00
+      duration: six-hours
+      
+
 
 - saturday11:
   date: 11 FEV
   dayOfWeek: SÁBADO
   activities:
+    - name: Hackathon 
+      time: 00:00-23:59
+      duration: twenty-hours 
