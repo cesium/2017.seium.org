@@ -27,9 +27,9 @@
       time: 11:30-12:00
       duration: half-hour
 
-    - speaker: Dinis Cruz
-      time: 12:00-13:00
-      duration: one-hour
+    #- speaker: Dinis Cruz
+    #  time: 12:00-13:00
+    #  duration: one-hour
 
     - speaker: Pedro Vilaça 
       time: 14:00-15:00
