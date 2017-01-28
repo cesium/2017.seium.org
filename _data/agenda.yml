@@ -2,6 +2,9 @@
   date: 4 FEV
   dayOfWeek: SÁBADO
   activities:
+    - name: CoderDojo
+      time: 10:00-12:00
+      duration: two-hours 
 
 - sunday:
   date: 5 FEV
@@ -12,8 +15,28 @@
   date: 6 FEV
   dayOfWeek: SEGUNDA
   activities:
+    - name: Sessão de Abertura / Tertúlia
+      time: 9:30-10:00
+      duration: half-hour
+
+    - name: EUROTUX 
+      time: 10:00-11:30
+      duration: one-hour
+
+    - name: Coffe Break 
+      time: 11:30-12:00
+      duration: half-hour
+
+    - speaker: Dinis Cruz
+      time: 12:00-13:00
+      duration: one-hour
+
     - speaker: Pedro Vilaça 
       time: 14:00-15:00
+      duration: one-hour
+
+    - speaker: Francisco Franco
+      time: 15:00-16:00
       duration: one-hour
           
     - name: How cognitive services are changing the world
@@ -22,24 +45,75 @@
       duration: one-hour
       about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
 
+    - speaker: João Pena Gil
+      time: 17:30-18:30
+      duration: one-hour     
+
+    - name: Quiz Gaming Night
+      time: 21:00-00:00
+      duration: three-hours
+
 - tuesday:
   date: 7 FEV
   dayOfWeek: TERÇA
   activities:
+    - name: Altice Labs 
+      time: 9:30-10:30
+      duration: one-hour
+
+    - name: Farfetch 
+      time: 10:30-11:30
+      duration: one-hour
+
+    - name: Coffe Break 
+      time: 11:30-12:00
+      duration: half-hour
+
+    - speaker: Teddy E
+      time: 12:00-13:00
+      duration: one-hour
+
+    - speaker: Marco Vale 
+      time: 14:00-15:00
+      duration: one-hour
+
+    - speaker: Tiago Loureiro 
+      time: 15:00-16:00 
+      duration: one-hour
+
+    - name: Microsoft Holo Lens 
+      time: 16:30-17:30 
+      duration: one-hour
+
+    - name: Game Dev Meetup / Arraial 
+      time: 21:00-00:00
+      duration: three-hours
 
 - wednesday:
   date: 8 FEV
   dayOfWeek: QUARTA
   activities:
+    - name: SmithMicro
+      time: 9:30-10:30
+      duration: one-hour
+
+    - name: Coffe Break 
+      time: 11:00-11:30
+      duration: half-hour
+
     - name: BI & Big Data – Solving Real World Problems with Pentaho & Tableau
       speaker: Boris Tchikoulaev
       time: 11:30-13:00
-      duration: one-hour
+      duration: one-and-half-hour
     
+    - name: Bit Sonae
+      time: 14:00-15:00
+      duration: one-hour
+
     - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
-      duration: five-minutes
+      duration: two-hours 
 
     - name: E-Government Development Complexity and Continuous Change Challenge
       speaker: Soumaya Ben Dhaou
@@ -62,10 +136,26 @@ Portanto, indicadores-padrão para medir os benefícios de soluções inteligent
 
 Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO."
 
+    - name: Rally das Tascas
+      time: 21:00-00:00
+      duration: three-hours
+
 - thursday:
   date: 9 FEV
   dayOfWeek: QUINTA
   activities:
+    - name: Workshope BLIP (Node)
+      time: 9:30-11:00
+      duration: one-half-hour
+
+    - name: Coffe Break 
+      time: 11:00-11:30
+      duration: half-hour
+
+    - name: ACCENTURE
+      time: 11:30-13:00
+      duration: one-half-hour
+
     - speaker: Miguel Regedor
       time: 14:00-15:00
       duration: one-hour
@@ -75,6 +165,10 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       time: 15:00-16:00
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
+
+    - name: Subvisual - React
+      time: 16:30-17:30
+      duration: one-hour
 
     - name: Front-end Foundations - Folder structure, grids, naming conventions and best practices
       speaker: João Sardinha
@@ -86,8 +180,20 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 10 FEV
   dayOfWeek: SEXTA
   activities:
+    - name: SafeCloud
+      time: 12:00-13:00
+      duration: one-hour
+
+    - name: Hackathon 
+      time: 18:00-00:00
+      duration: six-hours
+      
+
 
 - saturday11:
   date: 11 FEV
   dayOfWeek: SÁBADO
   activities:
+    - name: Hackathon 
+      time: 00:00-23:59
+      duration: twenty-hours 
