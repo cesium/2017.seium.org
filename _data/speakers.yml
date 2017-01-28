@@ -4,8 +4,7 @@
   enterprise: Xpand IT
   enterpriseURL: http://www.xpand-it.com/
   twitter: https://twitter.com/bvtchikoulaev  
-  about-small:  "Boris Tchikoulaev é ex-aluno da Universidade do Minho e um profissional de IT com 7 anos de experiência em vários ramos, tais como BI e soluções Big Data (Pentaho, Cloudera), Processos de Integração de Dados, Administração de Bases de Dados (MS SQL Server, MySQL, PostgreSQL) e Web/Software Development (Java, JavaScript)."
-  about-long: "Boris Tchikoulaev é ex-aluno da Universidade do Minho e um profissional de IT com 7 anos de experiência em vários ramos, tais como BI e soluções Big Data (Pentaho, Cloudera), Processos de Integração de Dados, Administração de Bases de Dados (MS SQL Server, MySQL, PostgreSQL) e Web/Software Development (Java, JavaScript). Para além de consultadoria de software, é também responsável pela gestão de vários projetos durante todo o seu ciclo de vida, construindo relacionamentos confiáveis com clientes e liderando equipes internas de desenvolvimento, usando as melhores práticas das metodologias Agile."
+  about: "Boris Tchikoulaev é ex-aluno da Universidade do Minho e um profissional de IT com 7 anos de experiência em vários ramos, tais como BI e soluções Big Data (Pentaho, Cloudera), Processos de Integração de Dados, Administração de Bases de Dados (MS SQL Server, MySQL, PostgreSQL) e Web/Software Development (Java, JavaScript). Para além de consultadoria de software, é também responsável pela gestão de vários projetos durante todo o seu ciclo de vida, construindo relacionamentos confiáveis com clientes e liderando equipes internas de desenvolvimento, usando as melhores práticas das metodologias Agile."
   id: 1
 
 - name: Soumaya Ben Dhaou
@@ -16,8 +15,7 @@
   web:
   twitter:
   github:
-  about-small: "Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead,.."
-  about-long: "Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada \"Building Change Capabilities for e-Government Continuous Development\". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas."
+  about: "Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada \"Building Change Capabilities for e-Government Continuous Development\". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas."
   id: 2
 
 - name: Nuno Lopes
@@ -28,8 +26,7 @@
   web:
   twitter:
   github:
-  about-small: "Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013."
-  about-long: "Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University. Os seus atuais interesses de pesquisa centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal."
+  about: "Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University. Os seus atuais interesses de pesquisa centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal."
   id: 3
 
 - name: Pedro Vilaça
@@ -37,8 +34,7 @@
   position: Mac Malware Hunter
   enterprise: SentinelOne
   enterpriseURL: https://sentinelone.com/
-  about-small: "Pedro Vilaça, autor de um blog de OS X, é um especialista líder no campo de não ser um especialista, brinca com computadores a mais de 30 anos, possui um diploma em Economia e um MBA e demonstra um interesse em melhorar a segurança do OS X e em investigar malware. Faz atualmente parte da SentinelOne, uma empresa dedicada a produtos anti-vírus, onde co-criou o seu produto inicial Mac."
-  about-long:
+  about: "Pedro Vilaça, autor de um blog de OS X, é um especialista líder no campo de não ser um especialista, brinca com computadores a mais de 30 anos, possui um diploma em Economia e um MBA e demonstra um interesse em melhorar a segurança do OS X e em investigar malware. Faz atualmente parte da SentinelOne, uma empresa dedicada a produtos anti-vírus, onde co-criou o seu produto inicial Mac."
   id: 4
 
 - name: Luís Calado
@@ -46,8 +42,7 @@
   position: Technical Evangelist
   enterprise: Microsoft Portugal
   enterpriseURL: https://www.microsoft.com/pt-pt/
-  about-small: "Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema startup. Tem formação em Engenharia Informática e de Computadores pelo Instituto Superior Técnico, acumulando 20 anos de experiência na área das Tecnologias da Informação."
-  about-long: "Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema startup. Tem formação em Engenharia Informática e de Computadores pelo Instituto Superior Técnico, acumulando 20 anos de experiência na área das Tecnologias da Informação. Para além de uma vasta experiência em tecnologias Microsoft (C#, SQL Server, Azure), é também um entusiasta developer, fotógrafo e cozinheiro."
+  about: "Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema startup. Tem formação em Engenharia Informática e de Computadores pelo Instituto Superior Técnico, acumulando 20 anos de experiência na área das Tecnologias da Informação. Para além de uma vasta experiência em tecnologias Microsoft (C#, SQL Server, Azure), é também um entusiasta developer, fotógrafo e cozinheiro."
   id: 5
 
 - name: Miguel Regedor
@@ -55,8 +50,7 @@
   position: Lead of Backend Engineering
   enterprise: Freeletics
   enterpriseURL: https://www.freeletics.com/en
-  about-small: "Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. "
-  about-long: "Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova York enquanto participava na escrita do livro \"Getting Started with Ruby on Rails (IBM free ebook)\". Trabalhou em diversos projetos de investigação, com a Universidade Aberta, FEUP, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, actualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada) criou o \"Cá Vou EU\", \"Blue Heart Explosion\", é atualmente líder das equipas de Backend e Technical Operations da Freeletics, start-up que em 4 anos chegou aos 14 milhões de utilizadores."
+  about: "Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projectos em Flash, em 2007 optou por Ruby on Rails. Um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova York enquanto participava na escrita do livro \"Getting Started with Ruby on Rails (IBM free ebook)\". Trabalhou em diversos projetos de investigação, com a Universidade Aberta, FEUP, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, actualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada) criou o \"Cá Vou EU\", \"Blue Heart Explosion\", é atualmente líder das equipas de Backend e Technical Operations da Freeletics, start-up que em 4 anos chegou aos 14 milhões de utilizadores."
   id: 6
 
 - name: Daniela Matos de Carvalho
@@ -66,8 +60,7 @@
   enterpriseURL: https://www.yld.io
   twitter: https://twitter.com/sericaia
   github: https://github.com/sericaia
-  about-small: "A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo."
-  about-long: "A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup Require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!"
+  about: "A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup Require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!"
   id: 7
 
 - name: João Sardinha
@@ -78,8 +71,7 @@
   web: http://johnsardine.com/ 
   twitter: http://twitter.com/johnsardine 
   github: https://github.com/johnsardine 
-  about-small: "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel."
-  about-long:  "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
+  about:  "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
   id: 8
 
 - name: TBA
@@ -90,4 +82,4 @@
   web:
   twitter:
   github:
-  about-small:
+  about:
