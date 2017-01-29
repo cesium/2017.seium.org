@@ -5,7 +5,9 @@
     - name: CoderDojo
       time: 10:00-12:00
       duration: two-hours 
+      about: "O CoderDojo é uma rede global de clubes de programação gratuitos e sem fins lucrativos com o objetivo de ensinar jovens dos 7 aos 17 a programar. Fundado em 2011 este movimento conta já com mais de 600 Dojos (clubes) dispersos por 60 países. Em Braga, desde 2013 que o CoderDojo Minho tem trabalhado de perto com vários jovens criando pequenas apps, websites, jogos, e outras plataformas. Os participantes, apelidados “ninjas”, aprendem assim com a ajuda de vários mentores que a programação é uma força capaz de mudar o mundo."
       image: coderdojo.png
+      type: social
 
 - sunday:
   date: 5 FEV
@@ -20,6 +22,7 @@
       time: 9:30-10:00
       duration: half-hour
       image: abertura.png
+      about: "Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas."
 
     - name: TBA 
       time: 10:00-11:30
@@ -33,22 +36,29 @@
     #  time: 12:00-13:00
     #  duration: one-hour
 
-    - speaker: Pedro Vilaça 
+    - name: Escolhido pelo público
+      speaker: Pedro Vilaça 
       time: 14:00-15:00
       duration: one-hour
-      image: tec.png
+      image: security.png
+      type: Segurança
+      about: "Serás capaz de escolher, no local, uma de duas apresentações. Aquele com mais mãos no ar ganha!
+Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de computação de baixo nível hardcore, para te mostrar a investigação de segurança topo de gama."
 
-    - speaker: Francisco Franco
+    - name: TBA
+      speaker: Francisco Franco
       time: 15:00-16:00
       duration: one-hour
-      image: android.png
+      #image: android.png
   
     - name: How cognitive services are changing the world
-      speaker: Luís Calado
+      speaker: Luís Calado de Sousa
+      enterprise: Microsoft Portugal
       time: 16:30-17h30
       duration: one-hour
       about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
       image: realworld.png
+
 
     - name: Hacking an Application with a Browser and a Zebra
       speaker: João Pena Gil
@@ -56,6 +66,7 @@
       duration: one-hour 
       about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
       image: tec.png
+      enterprise: Checkmarx
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
@@ -72,6 +83,7 @@
       duration: one-hour
       about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
       image: devops.png
+      enterprise: Altice Labs
 
     - name: TBA 
       time: 10:30-11:30
@@ -94,6 +106,7 @@
       #speaker: Tiago Loureiro 
       time: 15:00-16:00 
       duration: one-hour
+      enterprise: Collide
 
     - name: Microsoft Holo Lens 
       time: 16:30-17:30 
@@ -122,6 +135,7 @@
       time: 11:30-13:00
       duration: one-and-half-hour
       image: realworld.png
+      enterprise: Xpand IT
     
     # name: Bit Sonae
     - name: TBA
@@ -179,12 +193,14 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       time: 11:30-13:00
       duration: one-half-hour
       image: offwebapps.png
+      enterprise: Accenture
 
     - name: “O percurso de uma ideia até milhões de utilizadores"
       speaker: Miguel Regedor
       time: 14:00-15:00
       duration: one-hour
       image: today.png
+      enterprise: Freelics
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
       speaker: Daniela Matos
@@ -203,6 +219,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       duration: one-hour 
       about: "Aprender como estruturar o teu projeto front-end, entender a importância de nomear e a semântica ao escrever o teu código, aprender como delegar o teu layout num sistema de rede, entender porque deves escrever o menor CSS possível, introdução à especificidade do seletor."
       image: offwebapps.png
+      enterprise: Unbabel
 
 - friday:
   date: 10 FEV
@@ -216,14 +233,17 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       time: 18:00-00:00
       duration: six-hours
       image: hackathon.png
-      
+      register: http://seium.org/hackathon/
+      about: A Return Hackathon é uma maratona de programação gratuita, organizada pelo Centro de estudantes de Engenharia Informática da Universidade do Minho (CeSIUM), cujo tema é o Bem Social, onde os participantes são desafiados a “devolver” à sociedade em geral parte do bem que esta lhes trouxe.
+      type: Concurso
 
 
 - saturday11:
   date: 11 FEV
   dayOfWeek: SÁBADO
   activities:
-    - name: Hackathon 
+    - name: Hackathon (Continuação)
       time: 00:00-23:59
       duration: twenty-hours 
       image: hackathon.png
+      type: Concurso
