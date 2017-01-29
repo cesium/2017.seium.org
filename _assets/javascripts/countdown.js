@@ -40,7 +40,7 @@ $(document).ready ( function() {
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse(new Date(2016, 1, 13, 18)));
+  var deadline = new Date(Date.parse(new Date(2017, 2, 10, 19)));
   initializeClock('clock', deadline);
 
 });
