@@ -19,7 +19,7 @@
       time: 9:30-10:00
       duration: half-hour
 
-    - name: EUROTUX 
+    - name: TBA 
       time: 10:00-11:30
       duration: one-hour
 
@@ -65,7 +65,7 @@
       duration: one-hour
       about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
 
-    - name: Farfetch 
+    - name: TBA 
       time: 10:30-11:30
       duration: one-hour
 
@@ -82,7 +82,8 @@
       time: 14:00-15:00
       duration: one-hour
 
-    - speaker: Tiago Loureiro 
+    - name: TBA
+      #speaker: Tiago Loureiro 
       time: 15:00-16:00 
       duration: one-hour
 
@@ -149,7 +150,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 9 FEV
   dayOfWeek: QUINTA
   activities:
-    - name: Workshope BLIP (Node)
+    - name: TBA
       time: 9:30-11:00
       duration: one-half-hour
 
@@ -173,7 +174,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
 
-    - name: Subvisual - React
+    - name: TBA
       time: 16:30-17:30
       duration: one-hour
 
@@ -187,7 +188,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 10 FEV
   dayOfWeek: SEXTA
   activities:
-    - name: SafeCloud
+    - name: TBA
       time: 12:00-13:00
       duration: one-hour
 
