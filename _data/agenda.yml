@@ -5,6 +5,7 @@
     - name: CoderDojo
       time: 10:00-12:00
       duration: two-hours 
+      image: coderdojo.png
 
 - sunday:
   date: 5 FEV
@@ -18,6 +19,7 @@
     - name: Sessão de Abertura / Tertúlia
       time: 9:30-10:00
       duration: half-hour
+      image: abertura.png
 
     - name: TBA 
       time: 10:00-11:30
@@ -34,26 +36,31 @@
     - speaker: Pedro Vilaça 
       time: 14:00-15:00
       duration: one-hour
+      image: tec.png
 
     - speaker: Francisco Franco
       time: 15:00-16:00
       duration: one-hour
+      image: android.png
   
     - name: How cognitive services are changing the world
       speaker: Luís Calado
       time: 16:30-17h30
       duration: one-hour
       about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
+      image: realworld.png
 
     - name: Hacking an Application with a Browser and a Zebra
       speaker: João Pena Gil
       time: 17:30-18:30
       duration: one-hour 
       about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
+      image: tec.png
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
       duration: three-hours
+      image: gaming.png
 
 - tuesday:
   date: 7 FEV
@@ -64,6 +71,7 @@
       time: 9:30-10:30
       duration: one-hour
       about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
+      image: devops.png
 
     - name: TBA 
       time: 10:30-11:30
@@ -90,10 +98,12 @@
     - name: Microsoft Holo Lens 
       time: 16:30-17:30 
       duration: one-hour
+      image: tec.png
 
     - name: Game Dev Meetup / Arraial 
       time: 21:00-00:00
       duration: three-hours
+      image: gamedev.png
 
 - wednesday:
   date: 8 FEV
@@ -111,8 +121,10 @@
       speaker: Boris Tchikoulaev
       time: 11:30-13:00
       duration: one-and-half-hour
+      image: realworld.png
     
-    - name: Bit Sonae
+    # name: Bit Sonae
+    - name: TBA
       time: 14:00-15:00
       duration: one-hour
 
@@ -120,12 +132,14 @@
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
       duration: two-hours 
+      image: marketing.png
 
     - name: E-Government Development Complexity and Continuous Change Challenge
       speaker: Soumaya Ben Dhaou
       time: 15:05-15:25
       duration: twenty-minutes
       about: "O objetivo da palestra é entender como os projetos de governo eletrónico envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do governo eletrónico, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica.
+      image: realworld.png
 
 Com base num estudo de caso estruturado, abordagem iterativa da pesquisa IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de governo eletrónico em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento do governo eletrónico: uma perspetiva convencional 'de cima para baixo' de um projeto de desenvolvimento de governo eletrónico e comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento do governo eletrónico."
 
@@ -133,6 +147,7 @@ Com base num estudo de caso estruturado, abordagem iterativa da pesquisa IS e an
       speaker: Nuno Lopes
       time: 15:25-18:00
       duration: thirty-minutes
+      image: realworld.png
       about: "A rápida taxa de urbanização traz desafios sem precedentes para a obtenção de cidades sustentáveis e prósperas. Soluções inteligentes estão a ser adotadas em todo o mundo para enfrentar esses desafios. Tais soluções são fortemente apoiadas pelos novos avanços da tecnologia como forma de melhorar a eficiência das operações das cidades e otimizar os recursos humanos e naturais.
 
 Inovações transversais estão a inspirar outras cidades em todo o mundo a adotar melhores práticas semelhantes em soluções.
@@ -145,6 +160,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
     - name: Rally das Tascas
       time: 21:00-00:00
       duration: three-hours
+      image: diner.png
 
 - thursday:
   date: 9 FEV
@@ -162,17 +178,20 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       speaker: Pedro Couto
       time: 11:30-13:00
       duration: one-half-hour
+      image: offwebapps.png
 
     - name: “O percurso de uma ideia até milhões de utilizadores"
       speaker: Miguel Regedor
       time: 14:00-15:00
       duration: one-hour
+      image: today.png
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
       speaker: Daniela Matos
       time: 15:00-16:00
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
+      image: tec.png
 
     - name: TBA
       time: 16:30-17:30
@@ -183,6 +202,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       time: 17:30-18:30
       duration: one-hour 
       about: "Aprender como estruturar o teu projeto front-end, entender a importância de nomear e a semântica ao escrever o teu código, aprender como delegar o teu layout num sistema de rede, entender porque deves escrever o menor CSS possível, introdução à especificidade do seletor."
+      image: offwebapps.png
 
 - friday:
   date: 10 FEV
@@ -195,6 +215,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
     - name: Hackathon 
       time: 18:00-00:00
       duration: six-hours
+      image: hackathon.png
       
 
 
@@ -205,3 +226,4 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
     - name: Hackathon 
       time: 00:00-23:59
       duration: twenty-hours 
+      image: hackathon.png
