@@ -15,8 +15,8 @@ layout: withModals
         </div>
         <div class="speakers-list">
         {% for speaker in site.data.speakers %}
-            <div class ="speakers-list-cell speakers-container">
-                <div id="{{ speaker.name | slugify }}" class="speak-list" type="button" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
+            <div class ="speakers-list-cell speakers-container" class="speak-list" >
+                <div id="{{ speaker.name | slugify }}" type="button" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
                     <div class="col-md-12 col-md-offset-1">
                         <div class="speaker-img">
                             {% image 'speakers/{{ speaker.pic }}' class:'speaker-pic' %}
@@ -49,6 +49,7 @@ layout: withModals
                             </div>
                         </div>
                     </div>
+<<<<<<< f9bb33df1df430001c3c5cffd30ae90074d7f5d4
                 </div>
                 {% if speaker.about %}
                     <div class="speaker-about">    
@@ -67,7 +68,16 @@ layout: withModals
                         </div>
                     {% endif %}
 
+=======
+>>>>>>> speaker is modal and struture fixes
                 </div>
+                {% if speaker.about %}
+                    <div class="speaker-about">    
+                        <button type="button" class ="btn-readMore btn btn-info btn-sei" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
+                            Ler Mais..
+                        </button>
+                    </div>
+                {% endif %}
             </div>
         {% endfor %}
         </div>
