@@ -15,8 +15,8 @@ layout: withModals
         </div>
         <div class="speakers-list">
         {% for speaker in site.data.speakers %}
-            <div class ="speakers-list-cell speakers-container" class="speak-list" >
-                <div id="{{ speaker.name | slugify }}" type="button" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
+            <div class ="speakers-list-cell speakers-container">
+                <div id="{{ speaker.name | slugify }}" class="speak-list" type="button" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
                     <div class="col-md-12 col-md-offset-1">
                         <div class="speaker-img">
                             {% image 'speakers/{{ speaker.pic }}' class:'speaker-pic' %}
@@ -62,7 +62,7 @@ layout: withModals
                     {% if speaker.about %}
                         <div class="speaker-about">    
                             <button type="button" class ="btn-readMore btn btn-info btn-sei" data-toggle="modal" data-target="#animatedModal{{ speaker.id }}">
-                                Read More..
+                                Ler Mais..
                             </button>
                         </div>
                     {% endif %}
