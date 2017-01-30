@@ -15,7 +15,9 @@
             <div class="activity-info">
               <div class="activity-datetime">
                 <p>
+                  {% if act.place %}
                   <i class="fa fa-map-marker"></i><span> {{ act.place }}</span>
+                  {% endif %}
                 </p>
                 <p>
                   <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
@@ -29,7 +31,7 @@
                 {% endif %}
                 {% if act.enterprise %}
                 <div class="activity-enterprise">
-                  <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span>
+                  <a href="{{ act.enterprise_url }}" target="_blank"><i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span></a>
                 </div>
                 {% endif %}
               </div>
@@ -43,11 +45,13 @@
             </div>
             <div class="hidden-lg hidden-md hidden-sm activity-info">
               <div class="activity-datetime">
-                <div class="col-xs-5">
-                  <i class="fa fa-map-marker"></i><span>{{ act.place }}</span>
-                </div>
-                <div class="col-xs-7 text-right">
+                <div class="col-xs-7 ">
                   <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
+                </div>
+                <div class="col-xs-5">
+                  {% if act.place %}
+                    <i class="fa fa-map-marker"></i><span>{{ act.place }}</span>
+                  {% endif %}
                 </div>
               </div>
               <div class="col-xs-12 activity-speaker">
@@ -56,13 +60,13 @@
                 {% endif %}
                 {% if act.enterprise %}
                 <div class="activity-enterprise">
-                  <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span>
+                  <a href="{{ act.enterprise_url }}" target="_blank"><i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span></a>
                 </div>
                 {% endif %}
               </div>
             </div>
             {% endif %}
-            <p class="col-xs-12 activity-text">{{ act.text }}</p>
+            <p class="col-xs-12 activity-text">{{ act.about }}</p>
             {% if act.register %}
             <a href="{{ act.register }}" target="_blank">
               <button class="btn btn-info btn-sei">Inscrição</button>
