@@ -39,7 +39,12 @@ layout: withModals
                     </div>
                     <div class="modal" id="animatedModal{{ speaker.id }}">
                         <div class="modal-dialog  speaker-about-modal">
+                            
                             <div class="modal-content speaker-about-modal">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">{{ speaker.name }}</h4>
+                                </div>
                                 {% include speakers-content.html %}
                             </div>
                         </div>
