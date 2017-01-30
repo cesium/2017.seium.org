@@ -45,11 +45,13 @@
             </div>
             <div class="hidden-lg hidden-md hidden-sm activity-info">
               <div class="activity-datetime">
-                <div class="col-xs-5">
-                  <i class="fa fa-map-marker"></i><span>{{ act.place }}</span>
-                </div>
-                <div class="col-xs-7 text-right">
+                <div class="col-xs-7 ">
                   <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
+                </div>
+                <div class="col-xs-5">
+                  {% if act.place %}
+                    <i class="fa fa-map-marker"></i><span>{{ act.place }}</span>
+                  {% endif %}
                 </div>
               </div>
               <div class="col-xs-12 activity-speaker">
