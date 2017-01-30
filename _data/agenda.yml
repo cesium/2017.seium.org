@@ -9,11 +9,6 @@
       image: coderdojo.png
       type: social
 
-#- sunday:
-#  date: 5 FEV
-#  dayOfWeek: DOMINGO
-#  activities:
-
 - monday:
   date: 6 FEV
   dayOfWeek: SEGUNDA
@@ -49,6 +44,8 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       speaker: Francisco Franco
       time: 15:00-16:00
       duration: one-hour
+
+    - coffee: true
   
     - name: How cognitive services are changing the world
       speaker: Luís Calado
@@ -68,6 +65,8 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       image: tec.png
       enterprise: Checkmarx
       enterprise_url: https://www.checkmarx.com/ 
+
+    - meal: true
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
@@ -108,15 +107,19 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       time: 15:00-16:00 
       duration: one-hour
       
+    - coffee: true
+
     - name: HoloLens 
       time: 16:30-17:30 
       duration: one-hour
       image: tec.png
 
     - name: Game Dev Meetup 
-      time: 21:00-00:00
+      time: 19:00-21:00
       duration: three-hours
       image: gamedev.png
+
+    - meal: true
 
     - name: Arraial 
       time: 21:00-00:00
@@ -175,6 +178,10 @@ Contudo, ainda não é possível saber exatamente quais os benefícios alcançad
 Portanto, indicadores-padrão para medir os benefícios de soluções inteligentes são necessários para comparar diferentes soluções em termos de resultados e também avaliar a sua eficiência e eficácia.
 
 Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO."
+
+    - coffee: true
+
+    - meal: true
 
     - name: Rally das Tascas
       time: 21:00-00:00
