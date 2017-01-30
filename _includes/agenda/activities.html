@@ -31,7 +31,7 @@
                 {% endif %}
                 {% if act.enterprise %}
                 <div class="activity-enterprise">
-                  <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span>
+                  <a href="{{ act.enterprise_url }}" target="_blank"><i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span></a>
                 </div>
                 {% endif %}
               </div>
@@ -58,7 +58,8 @@
                 {% endif %}
                 {% if act.enterprise %}
                 <div class="activity-enterprise">
-                  <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span>
+                  <a href="{{ act.enterprise_url }}" target="_blank"><i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span></a>
+                  <!-- <i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span> -->
                 </div>
                 {% endif %}
               </div>

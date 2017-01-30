@@ -61,6 +61,7 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       enterprise: Microsoft Portugal
       time: 16:30-17h30
       duration: one-hour
+      enterprise_url: https://www.microsoft.com/pt-pt/
       about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
       image: realworld.png
 
@@ -72,6 +73,7 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
       image: tec.png
       enterprise: Checkmarx
+      enterprise_url: https://www.checkmarx.com/ 
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
@@ -89,6 +91,7 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
       image: devops.png
       enterprise: Altice Labs
+      enterprise_url: http://www.alticelabs.com/pt/
 
     - name: TBA 
       time: 10:30-11:30
@@ -115,7 +118,8 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       #speaker: Tiago Loureiro 
       time: 15:00-16:00 
       duration: one-hour
-      enterprise: Collide
+      #enterprise: Collide
+      
 
     - name: HoloLens 
       time: 16:30-17:30 
@@ -152,6 +156,7 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       duration: one-and-half-hour
       image: realworld.png
       enterprise: Xpand IT
+      enterprise_url: http://www.xpand-it.com/ 
     
     - meal: true
 
@@ -214,6 +219,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       duration: one-half-hour
       image: offwebapps.png
       enterprise: Accenture
+      enterprise_url: http://www.accenture.pt
 
     - meal: true
 
@@ -223,6 +229,8 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       duration: one-hour
       image: today.png
       enterprise: Freeletics
+      enterprise_url: https://www.freeletics.com/pt
+      
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
       speaker: Daniela Matos
@@ -242,6 +250,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       about: "Aprender como estruturar o teu projeto front-end, entender a importância de nomear e a semântica ao escrever o teu código, aprender como delegar o teu layout num sistema de rede, entender porque deves escrever o menor CSS possível, introdução à especificidade do seletor."
       image: offwebapps.png
       enterprise: Unbabel
+      enterprise_url: https://unbabel.com/pt
 
 - friday:
   date: 10 FEV
@@ -266,8 +275,9 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 11 FEV
   dayOfWeek: SÁBADO
   activities:
-    - name: Hackathon (Continuação)
+    - name: Hackathon 
       time: 00:00-23:59
       duration: twenty-hours 
       image: hackathon.png
       type: Concurso
+      about: A Return Hackathon é uma maratona de programação gratuita, organizada pelo Centro de estudantes de Engenharia Informática da Universidade do Minho (CeSIUM), cujo tema é o Bem Social, onde os participantes são desafiados a “devolver” à sociedade em geral parte do bem que esta lhes trouxe.
