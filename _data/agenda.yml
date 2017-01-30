@@ -18,7 +18,7 @@
   date: 6 FEV
   dayOfWeek: SEGUNDA
   activities:
-    - name: Sessão de Abertura / Tertúlia
+    - name: Sessão de Abertura 
       time: 9:30-10:00
       duration: half-hour
       image: abertura.png
@@ -28,14 +28,9 @@
       time: 10:00-11:30
       duration: one-hour
 
-    #- name: Coffe Break 
-    #  time: 11:30-12:00
-    #  duration: half-hour
-
     - coffee: true
 
     - name: TBA
-    #- speaker: Dinis Cruz
       time: 12:00-13:00
       duration: one-hour
 
@@ -54,7 +49,6 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       speaker: Francisco Franco
       time: 15:00-16:00
       duration: one-hour
-      #image: android.png
   
     - name: How cognitive services are changing the world
       speaker: Luís Calado de Sousa
@@ -97,13 +91,9 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       time: 10:30-11:30
       duration: one-hour
 
-    #- name: Coffe Break 
-    #  time: 11:30-12:00
-    #  duration: half-hour
     - coffee: true
 
     - name: TBA
-    #- speaker: Teddy E
       time: 12:00-13:00
       duration: one-hour
 
@@ -115,12 +105,9 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       duration: one-hour
 
     - name: TBA
-      #speaker: Tiago Loureiro 
       time: 15:00-16:00 
       duration: one-hour
-      #enterprise: Collide
       
-
     - name: HoloLens 
       time: 16:30-17:30 
       duration: one-hour
@@ -141,13 +128,9 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
   dayOfWeek: QUARTA
   activities:
     - name: TBA
-    #- name: SmithMicro
       time: 9:30-10:30
       duration: one-hour
 
-    #- name: Coffe Break 
-    #  time: 11:00-11:30
-    #  duration: half-hour
     - coffee: true
 
     - name: BI & Big Data – Solving Real World Problems with Pentaho & Tableau
@@ -160,12 +143,10 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
     
     - meal: true
 
-    # name: Bit Sonae
     - name: TBA
       time: 14:00-15:00
       duration: one-hour
 
-#    - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
     - name: United Nations University Operational Unit on Policy-driven Electronic Governance
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
@@ -207,10 +188,6 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
     - name: TBA
       time: 9:30-11:00
       duration: one-half-hour
-
-    #- name: Coffe Break 
-    #  time: 11:00-11:30
-    #  duration: half-hour
 
     - coffee: true
 
