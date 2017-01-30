@@ -165,7 +165,8 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       time: 14:00-15:00
       duration: one-hour
 
-    - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
+#    - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
+    - name: United Nations University Operational Unit on Policy-driven Electronic Governance
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
       duration: two-hours 
