@@ -4,9 +4,23 @@
   github: https://github.com/martinhoaragao
   linkedin: https://pt.linkedin.com/in/martinhoaragao
 
+- name: André Gonçalves
+  pic: andre-goncalves.jpg
+  github: https://github.com/Simbs38
+  twitter: https://twitter.com/simbs38
+
 - name: João Costa
   pic: joao-costa.jpg
   github: https://github.com/JoaoFCosta
+
+- name: Gil Gonçalves
+  pic: gil-goncalves.jpg
+  github: https://github.com/GIlGoncalves
+  linkedin: https://www.linkedin.com/profile/view?id=AAMAABuOz5YBiDT6gTHn9ugA4OCrTqW1ezGPQYc
+
+- name: Joana Arantes
+  pic: joana-arantes.jpg
+  github: https://github.com/joanaarantes
 
 - name: Paulo Cardoso
   pic: paulo-cardoso.jpg
@@ -14,15 +28,17 @@
   github: https://github.com/pcardosolei
   linkedin: https://pt.linkedin.com/in/pcardosolei
 
-- name: Gil Gonçalves
-  pic: gil-goncalves.jpg
-  github: https://github.com/GIlGoncalves
-  linkedin: https://www.linkedin.com/profile/view?id=AAMAABuOz5YBiDT6gTHn9ugA4OCrTqW1ezGPQYc&trk=hp-identity-photo
+- name: André Teixeira
+  pic: andre-teixeira.jpg
 
-- name: André Gonçalves
-  pic: andre-goncalves.jpg
-  github: https://github.com/Simbs38
-  twitter: https://twitter.com/simbs38
+- name: José Bastos
+  pic: jose-bastos.png
+  github: https://github.com/zbastos
+  linkedin: https://www.linkedin.com/in/zbastos
+
+- name: Pedro Fortes
+  pic: pedro-fortes.jpg
+  github: https://github.com/playerVfox
 
 - name: Bruno Azevedo
   pic: bruno-azevedo.jpg
@@ -31,57 +47,19 @@
 - name: Ricardo Certo
   pic: ricardo-certo.jpg
 
-- name: André Teixeira
-  pic: andre-teixeira.jpg
-
-- name: Joana Arantes
-  pic: joana-arantes.jpg
-  github: https://github.com/joanaarantes
-
-- name: Pedro Fortes
-  pic: pedro-fortes.jpg
-  github: https://github.com/playerVfox
-
 - name: Eduardo Semanas
   pic: eduardo-semanas.jpg
-
-- name: Luis Fonseca
-  pic: luis-fonseca.png
-
-- name: André Santos
-  pic: andre-santos.jpg
-  github: https://github.com/andrerfcsantos
-  twitter: https://twitter.com/andrerfcsantos
 
 - name: Guilherme Guerreiro
   pic: guilherme-guerreiro.jpg
   github: https://github.com/houdini39
   linkedin: https://www.linkedin.com/in/guilherme-guerreiro-343aa0119
 
-- name: João Pereira
-  pic: joao-pereira.jpg
-  github: https://github.com/jcp19
-  linkedin: https://pt.linkedin.com/in/joão-pereira-513a63b8
-
-- name: José Bastos
-  pic: jose-bastos.png
-  github: https://github.com/zbastos
-  linkedin: https://www.linkedin.com/in/zbastos 
-
 - name: Inês Sampaio
   pic: ines-sampaio.jpg
   twitter: https://twitter.com/InesSampaio9
   github: https://github.com/ines36
   linkedin: https://www.linkedin.com/in/in%C3%AAs-sampaio-19790955/
-
-- name: Lúcia Abreu
-  pic: lucia-abreu.jpg
-  twitter: https://twitter.com/lmvda17
-  linkedin: https://www.linkedin.com/in/lmvda
-
-- name: Daniel Tinoco
-  pic: daniel-tinoco.png
-  github: https://github.com/0urobor0s
 
 - name: Bruno Cancelinha
   pic: bruno-cancelinha.jpg
@@ -96,3 +74,25 @@
 - name: Filipe Fortunato
   pic: filipe-fortunato.jpg
 
+- name: Luis Fonseca
+  pic: luis-fonseca.png
+
+- name: André Santos
+  pic: andre-santos.jpg
+  github: https://github.com/andrerfcsantos
+  twitter: https://twitter.com/andrerfcsantos
+
+- name: João Pereira
+  pic: joao-pereira.jpg
+  github: https://github.com/jcp19
+  linkedin: https://pt.linkedin.com/in/joão-pereira-513a63b8
+
+- name: Lúcia Abreu
+  pic: lucia-abreu.jpg
+  twitter: https://twitter.com/lmvda17
+  linkedin: https://www.linkedin.com/in/lmvda
+
+- name: Daniel Tinoco
+  pic: daniel-tinoco.png
+  github: https://github.com/0urobor0s
+  
