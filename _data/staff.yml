@@ -22,6 +22,7 @@
 - name: André Gonçalves
   pic: andre-goncalves.jpg
   github: https://github.com/Simbs38
+  twitter: https://twitter.com/simbs38
 
 - name: Bruno Azevedo
   pic: bruno-azevedo.jpg
@@ -38,10 +39,60 @@
   github: https://github.com/joanaarantes
 
 - name: Pedro Fortes
-  pic: pedro-fortes.png
+  pic: pedro-fortes.jpg
+  github: https://github.com/playerVfox
 
 - name: Eduardo Semanas
   pic: eduardo-semanas.jpg
 
 - name: Luis Fonseca
   pic: luis-fonseca.png
+
+- name: André Santos
+  pic: andre-santos.jpg
+  github: https://github.com/andrerfcsantos
+  twitter: https://twitter.com/andrerfcsantos
+
+- name: Guilherme Guerreiro
+  pic: guilherme-guerreiro.jpg
+  github: https://github.com/houdini39
+  linkedin: https://www.linkedin.com/in/guilherme-guerreiro-343aa0119
+
+- name: João Pereira
+  pic: joao-pereira.jpg
+  github: https://github.com/jcp19
+  linkedin: https://pt.linkedin.com/in/joão-pereira-513a63b8
+
+- name: José Bastos
+  pic: jose-bastos.png
+  github: https://github.com/zbastos
+  linkedin: https://www.linkedin.com/in/zbastos 
+
+- name: Inês Sampaio
+  pic: ines-sampaio.jpg
+  twitter: https://twitter.com/InesSampaio9
+  github: https://github.com/ines36
+  linkedin: https://www.linkedin.com/in/in%C3%AAs-sampaio-19790955/
+
+- name: Lúcia Abreu
+  pic: lucia-abreu.jpg
+  twitter: https://twitter.com/lmvda17
+  linkedin: https://www.linkedin.com/in/lmvda
+
+- name: Daniel Tinoco
+  pic: daniel-tinoco.png
+  github: https://github.com/0urobor0s
+
+- name: Bruno Cancelinha
+  pic: bruno-cancelinha.jpg
+  github: https://github.com/9thScientist
+
+- name: Dinis Peixoto
+  pic: dinis-peixoto.jpg
+  twitter: https://twitter.com/DinisPeixoto
+  github: https://github.com/dinispeixoto
+  linkedin: https://www.linkedin.com/in/dinispeixoto
+
+- name: Filipe Fortunato
+  pic: filipe-fortunato.jpg
+
