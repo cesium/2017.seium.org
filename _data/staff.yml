@@ -4,6 +4,11 @@
   github: https://github.com/martinhoaragao
   linkedin: https://pt.linkedin.com/in/martinhoaragao
 
+- name: Guilherme Guerreiro
+  pic: guilherme-guerreiro.jpg
+  github: https://github.com/houdini39
+  linkedin: https://www.linkedin.com/in/guilherme-guerreiro-343aa0119
+
 - name: André Gonçalves
   pic: andre-goncalves.jpg
   github: https://github.com/Simbs38
@@ -44,16 +49,20 @@
   pic: bruno-azevedo.jpg
   github: https://github.com/BrunoJAzevedo
 
+- name: Dinis Peixoto
+  pic: dinis-peixoto.jpg
+  twitter: https://twitter.com/DinisPeixoto
+  github: https://github.com/dinispeixoto
+  linkedin: https://www.linkedin.com/in/dinispeixoto
+
 - name: Ricardo Certo
   pic: ricardo-certo.jpg
 
+- name: Filipe Fortunato
+  pic: filipe-fortunato.jpg
+
 - name: Eduardo Semanas
   pic: eduardo-semanas.jpg
-
-- name: Guilherme Guerreiro
-  pic: guilherme-guerreiro.jpg
-  github: https://github.com/houdini39
-  linkedin: https://www.linkedin.com/in/guilherme-guerreiro-343aa0119
 
 - name: Inês Sampaio
   pic: ines-sampaio.jpg
@@ -64,15 +73,6 @@
 - name: Bruno Cancelinha
   pic: bruno-cancelinha.jpg
   github: https://github.com/9thScientist
-
-- name: Dinis Peixoto
-  pic: dinis-peixoto.jpg
-  twitter: https://twitter.com/DinisPeixoto
-  github: https://github.com/dinispeixoto
-  linkedin: https://www.linkedin.com/in/dinispeixoto
-
-- name: Filipe Fortunato
-  pic: filipe-fortunato.jpg
 
 - name: Luis Fonseca
   pic: luis-fonseca.png
