@@ -2,57 +2,187 @@
   date: 4 FEV
   dayOfWeek: SÁBADO
   activities:
-
-- sunday:
-  date: 5 FEV
-  dayOfWeek: DOMINGO
-  activities:
+    - name: CoderDojo
+      time: 10:00-12:00
+      duration: two-hours 
+      about: "O CoderDojo é uma rede global de clubes de programação gratuitos e sem fins lucrativos com o objetivo de ensinar jovens dos 7 aos 17 a programar. Fundado em 2011 este movimento conta já com mais de 600 Dojos (clubes) dispersos por 60 países. Em Braga, desde 2013 que o CoderDojo Minho tem trabalhado de perto com vários jovens criando pequenas apps, websites, jogos, e outras plataformas. Os participantes, apelidados “ninjas”, aprendem assim com a ajuda de vários mentores que a programação é uma força capaz de mudar o mundo."
+      image: coderdojo.png
+      type: social
 
 - monday:
   date: 6 FEV
   dayOfWeek: SEGUNDA
   activities:
-      #- speaker: Pedro Vilaça 
-      #      time: 14:00-15:00
-      #      duration: one-hour
-          
+    - name: Sessão de Abertura 
+      time: 9:30-10:00
+      duration: half-hour
+      image: abertura.png
+      about: "Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas."
+
+    - name: TBA 
+      time: 10:00-11:30
+      duration: one-hour
+
+    - coffee: true
+
+    - name: TBA
+      time: 12:00-13:00
+      duration: one-hour
+
+    - meal: true
+
+    - name: Escolhido pelo público
+      speaker: Pedro Vilaça 
+      time: 14:00-15:00
+      duration: one-hour
+      image: security.png
+      type: talk 
+      about: "Serás capaz de escolher, no local, uma de duas apresentações. Aquela com mais mãos no ar ganha!
+Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de computação de baixo nível hardcore, para te mostrar a investigação de segurança topo de gama."
+
+    - name: TBA
+      speaker: Francisco Franco
+      time: 15:00-16:00
+      duration: one-hour
+
+    - coffee: true
+  
     - name: How cognitive services are changing the world
       speaker: Luís Calado
+      enterprise: Microsoft Portugal
       time: 16:30-17h30
       duration: one-hour
+      enterprise_url: https://www.microsoft.com/pt-pt/
+      type: talk
       about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
+      image: realworld.png
+
+
+    - name: Hacking an Application with a Browser and a Zebra
+      speaker: João Pena Gil
+      time: 17:30-18:30
+      duration: one-hour 
+      type: talk
+      about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
+      image: tec.png
+      enterprise: Checkmarx
+      enterprise_url: https://www.checkmarx.com/ 
+      type: talk 
+
+    - meal: true
+
+    - name: Quiz Gaming Night
+      time: 21:00-00:00
+      duration: three-hours
+      image: gaming.png
+      type: social
 
 - tuesday:
   date: 7 FEV
   dayOfWeek: TERÇA
   activities:
+    - name: "DevOps: A journey, not an event"
+      speaker: José Bonnet
+      time: 9:30-10:30
+      duration: one-hour
+      type: talk
+      about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
+      image: devops.png
+      enterprise: Altice Labs
+      enterprise_url: http://www.alticelabs.com/pt/
+
+    - name: TBA 
+      time: 10:30-11:30
+      duration: one-hour
+
+    - coffee: true
+
+    - name: TBA
+      time: 12:00-13:00
+      duration: one-hour
+
+    - meal: true
+
+    - name: Shutix - Prototipagem rápida
+      speaker: Marco Vale 
+      time: 14:00-15:00
+      duration: one-hour
+      type: talk
+
+    - name: TBA
+      time: 15:00-16:00 
+      duration: one-hour
+      
+    - coffee: true
+
+    - name: HoloLens 
+      time: 16:30-17:30 
+      duration: one-hour
+      image: tec.png
+      type: talk
+
+    - name: Game Dev Meetup 
+      time: 19:00-21:00
+      duration: three-hours
+      image: gamedev.png
+      type: social
+
+    - meal: true
+
+    - name: Arraial 
+      time: 21:00-00:00
+      duration: three-hours
+      image: diner.png
+      type: social
 
 - wednesday:
   date: 8 FEV
   dayOfWeek: QUARTA
   activities:
+    - name: TBA
+      time: 9:30-10:30
+      duration: one-hour
+
+    - coffee: true
+
     - name: BI & Big Data – Solving Real World Problems with Pentaho & Tableau
       speaker: Boris Tchikoulaev
       time: 11:30-13:00
-      duration: one-hour
+      duration: one-and-half-hour
+      image: realworld.png
+      enterprise: Xpand IT
+      enterprise_url: http://www.xpand-it.com/ 
+      type: talk
     
-    - name: Introduction to the United Nations University Operational Unit on Policy-driven Electronic Governance
-      speaker: Luís Soares Barbosa
+    - meal: true
+
+    - name: TBA
+      time: 14:00-15:00
+      duration: one-hour
+
+    - name: United Nations University Operational Unit on Policy-driven Electronic Governance
+      speaker: Luis Soares Barbosa
       time: 15:00-15:05
-      duration: five-minutes
+      duration: two-hours 
+      image: marketing.png
+      type: talk
 
     - name: E-Government Development Complexity and Continuous Change Challenge
       speaker: Soumaya Ben Dhaou
       time: 15:05-15:25
       duration: twenty-minutes
+      type: talk
       about: "O objetivo da palestra é entender como os projetos de governo eletrónico envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do governo eletrónico, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica.
+      image: realworld.png
 
 Com base num estudo de caso estruturado, abordagem iterativa da pesquisa IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de governo eletrónico em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento do governo eletrónico: uma perspetiva convencional 'de cima para baixo' de um projeto de desenvolvimento de governo eletrónico e comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento do governo eletrónico."
 
     - name: Urbanization Challenges, Smart Solutions and Smart Measurements
       speaker: Nuno Lopes
-      time: 15:25-18:00
+      time: 15:25-16:00
+      type: talk
       duration: thirty-minutes
+      image: realworld.png
       about: "A rápida taxa de urbanização traz desafios sem precedentes para a obtenção de cidades sustentáveis e prósperas. Soluções inteligentes estão a ser adotadas em todo o mundo para enfrentar esses desafios. Tais soluções são fortemente apoiadas pelos novos avanços da tecnologia como forma de melhorar a eficiência das operações das cidades e otimizar os recursos humanos e naturais.
 
 Inovações transversais estão a inspirar outras cidades em todo o mundo a adotar melhores práticas semelhantes em soluções.
@@ -62,32 +192,94 @@ Portanto, indicadores-padrão para medir os benefícios de soluções inteligent
 
 Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO."
 
+    - coffee: true
+
+    - meal: true
+
+    - name: Rally das Tascas
+      time: 21:00-00:00
+      duration: three-hours
+      image: diner.png
+      type: social
+
 - thursday:
   date: 9 FEV
   dayOfWeek: QUINTA
   activities:
-      #- speaker: Miguel Regedor
-      #time: 14:00-15:00
-      #      duration: one-hour
+    - name: TBA
+      time: 9:30-11:00
+      duration: one-half-hour
+
+    - coffee: true
+
+    - name: “… e a tua WEB, tira cafés?”
+      speaker: Pedro Couto
+      time: 11:30-13:00
+      duration: one-half-hour
+      image: offwebapps.png
+      enterprise: Accenture
+      enterprise_url: http://www.accenture.pt
+      type: talk
+
+    - meal: true
+
+    - name: “O percurso de uma ideia até milhões de utilizadores"
+      speaker: Miguel Regedor
+      time: 14:00-15:00
+      duration: one-hour
+      image: today.png
+      enterprise: Freeletics
+      type: talk
+      enterprise_url: https://www.freeletics.com/pt
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
       speaker: Daniela Matos
       time: 15:00-16:00
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
+      type: talk
+      image: tec.png
+
+    - name: TBA
+      time: 16:30-17:30
+      duration: one-hour
 
     - name: Front-end Foundations - Folder structure, grids, naming conventions and best practices
       speaker: João Sardinha
       time: 17:30-18:30
       duration: one-hour 
       about: "Aprender como estruturar o teu projeto front-end, entender a importância de nomear e a semântica ao escrever o teu código, aprender como delegar o teu layout num sistema de rede, entender porque deves escrever o menor CSS possível, introdução à especificidade do seletor."
+      image: offwebapps.png
+      enterprise: Unbabel
+      enterprise_url: https://unbabel.com/pt
+      type: workshop 
 
 - friday:
   date: 10 FEV
   dayOfWeek: SEXTA
   activities:
+    - name: TBA
+      time: 12:00-13:00
+      duration: one-hour
+
+    - meal: true
+
+    - name: Hackathon 
+      time: 18:00-00:00
+      duration: six-hours
+      image: hackathon.png
+      register: http://seium.org/hackathon/
+      about: A Return Hackathon é uma maratona de programação gratuita, organizada pelo Centro de estudantes de Engenharia Informática da Universidade do Minho (CeSIUM), cujo tema é o Bem Social, onde os participantes são desafiados a “devolver” à sociedade em geral parte do bem que esta lhes trouxe.
+      type: Concurso
+
 
 - saturday11:
   date: 11 FEV
   dayOfWeek: SÁBADO
   activities:
+    - name: Hackathon 
+      time: 00:00-23:59
+      duration: twenty-hours 
+      image: hackathon.png
+      type: Concurso
+      about: A Return Hackathon é uma maratona de programação gratuita, organizada pelo Centro de estudantes de Engenharia Informática da Universidade do Minho (CeSIUM), cujo tema é o Bem Social, onde os participantes são desafiados a “devolver” à sociedade em geral parte do bem que esta lhes trouxe.
