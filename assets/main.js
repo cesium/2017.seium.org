@@ -16004,29 +16004,6 @@ if (typeof jQuery === 'undefined') {
     };
 
 }));
-$(document).ready(function(){
-  $('.partners-carousel').slick({
-    autoplay: true,
-    slidesToShow: 3,
-    responsive: [{
-      breakpoint: 778,
-      settings: {
-        slidesToShow: 2,
-        arrows: false,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 450,
-      settings: {
-        slidesToShow: 1,
-        arrows: false,
-        dots: true
-      }
-    }
-  ]
-  });
-});
 /*!
  * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -16129,11 +16106,10 @@ $(document).ready ( function() {
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse(new Date(2017, 1, 3, 23, 59)));
+  var deadline = new Date(Date.parse(new Date(2016, 1, 13, 18)));
   initializeClock('clock', deadline);
 
 });
-
 
 
 
