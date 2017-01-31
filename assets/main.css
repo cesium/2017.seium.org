@@ -9306,7 +9306,7 @@ div.organization-indicators span:hover, div.organization-indicators span:focus {
     max-width: 320px; } }
 @media(min-width: 1200px) {
   .speakers-list-cell {
-    margin: 0px 30px 0px 20px; } }
+    margin: 0px 30px 50px 20px; } }
 /* Medium */
 @media (min-width: 992px) and (max-width: 1199px) {
   div.staff-info-container {
@@ -10220,8 +10220,7 @@ button.btn.btn-info.btn-sei {
     height: 20px;
     font-size: 16px;
     padding: 0px 85px 25px 25px;
-    text-transform: none;
-    margin: 100% 35% 30% 32%; }
+    text-transform: none; }
   #aboutspeakers .btn-more {
     background: transparent;
     margin-left: -15px;
@@ -10235,7 +10234,7 @@ button.btn.btn-info.btn-sei {
     color: #fff; }
 
 .speaker-about {
-  margin: 50px 0px 0px 40px; }
+  margin: 0px 0px 0px 40px; }
 
 .social-container {
   min-height: 75px; }
@@ -10312,10 +10311,7 @@ button.btn.btn-info.btn-sei {
     line-height: 30px; }
 
   ul.speakers-carousel {
-    height: 400px; }
-
-  #aboutspeakers .btn-readMore {
-    margin: 0; } }
+    height: 400px; } }
 @media (max-width: 530px) {
   .speaker-about-modal {
     height: 180%; } }
