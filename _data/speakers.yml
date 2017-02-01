@@ -66,6 +66,43 @@
   github: https://github.com/johnsardine 
   about: "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
 
+- name: André Azevedo
+  pic: andre-azevedo.jpg
+  position: Production, Supply Chain & Merchandising BI Manager
+  enterprise: BIT Sonae
+  enterpriseURL: https://www.sonae.pt/pt/
+  about: "Engenheiro Mecânico de formação e com Mestrado em Ciências Farmacêuticas, fez também um MBA pela Porto Business School. Depois de uma passagem pelo mundo farmacêutico, integrou uma equipa de consultoria focada na evolução, crescimento sustentado e recuperação financeira de empresas no retalho e logística farmacêutica. No final do MBA juntou-se à equipa da BIT Sonae para desenvolver o programa de informação de gestão da SportZone. Devido à experiência e conhecimento prévio na área de BI, integrou a equipa de BI  acabando por assumir a equipa de Production, Supply Chain & Merchandising com foco em implementações tecnológicas na área de informação de gestão. Ao longo do seu percurso fundou duas empresas, uma na área do retalho tecnológico e outra na área de produção alimentar. Define-se como um apaixonado pelo empreendedorismo e inovação."
+  id: 9
+
+- name: Pedro Couto
+  pic: pedro-couto.jpg
+  position: Senior Manager
+  enterprise: Accenture
+  enterpriseURL: https://www.accenture.com/pt-pt
+  twitter:
+  about: "Pedro Couto é licenciado em Informática, pela Faculdade de Ciências da Universidade de Lisboa, e Senior Manager na Accenture. Tendo ingressado nesta empresa em 1998, desenvolveu a fase inicial da sua carreira na unidade de Health & Public Service, na área da tecnologia. Com uma larga experiência em implementações baseadas em stacks de Open-Source, foi o responsável por diversos projetos web, em clientes de diversas indústrias. Desde 2016 é um dos responsáveis pela implementação do NanoLabs Lisboa, uma unidade de divulgação da inovação desenvolvida pela Accenture. Foi ainda professor convidado da Universidade Europeia de Lisboa e membro da equipa de formadores do projeto DISLOGO da Universidade Católica Portuguesa, de ensino a distância para executivos."
+  id: 10
+
+- name: João Pena Gil
+  pic: joao-pena-gil.jpg
+  position: Application Security Analysis Team Leader
+  enterprise: Checkmarx
+  enterpriseURL: https://www.checkmarx.com/
+  twitter: https://twitter.com/penagil/
+  github: https://github.com/Jack64
+  about: "João Pena Gil trabalha atualmente na Checkmarx como Application Security Analysis Team Leader. A sua paixão pela informática começou desde muito pequeno, quando os seus pais trouxeram o primeiro computador para casa, um Pentium I MMX com o Windows 3.1. Começou a fazer os seus primeiros programas aos 15 anos, numa calculadora TI-83, e decidiu que queria uma carreira na área da Engenharia Informática, o que o levou ao ingresso no curso de Engenharia Informática e Computação na Faculdade de Engenharia da Faculdade do Porto. Aí aprendeu o básico sobre programação e teoria computacional, mas rapidamente descobriu que a sua vocação era “quebrar” código ao invés de o construir, o que despertou uma enorme vontade de aprender mais sobre segurança da informação em geral e impulsionou uma fase auto-didacta, onde investigou várias áreas da segurança da informação, desde ataques de injeção de pacotes Wi-Fi até à quebra de algoritmos criptográficos com falhas de implementação. Começou então a sua carreira numa empresa que produzia soluções de Internet Banking para vários clientes da área financeira, fazendo testes de segurança internos (Penetration Testing & Application Security) e nos últimos 6 meses pertence à equipa da Checkmarx, onde aplica os seus conhecimentos para efeitos de controlo de qualidade dos resultados do produto de análise estática de código."
+  id: 11
+
+- name: José Bonnet
+  pic: jose-bonnet.jpg
+  position: Senior Technology Consultant
+  enterprise: Altice Labs
+  enterpriseURL: http://www.alticelabs.com/pt/
+  twitter: https://twitter.com/jbonnet
+  github: https://github.com/jbonnet
+  about: "José Bonnet tem recentemente trabalhado em projetos europeus nas áreas de Virtualização de Funções de Rede e Redes Definidas por Software, áreas estas que são fundamentais para as operadoras de telecomunicações do futuro. Parte do desafio destas áreas tem a ver com a necessidade do aumento em geral da eficiência dos processos, em que o DevOps se enquadra. Anteriormente trabalhou na definição de produtos e na implementação de serviços para diversos clientes da Altice Labs (anteriormente, PT Inovação) e atualmente é Senior Technology Consultant na Altice Labs."
+  id: 12
+
 - name: TBA
   pic: tba.png
   position: TBA
