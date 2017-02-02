@@ -86,8 +86,11 @@ layout: default
         <div class="col-md-4 activities-container">
 
           <i class="fa {{ prize.img }} fa-4x"></i>
-          <h5>{{ prize.num }}.º Prémio</h5>
-
+          {% if prize.num %}
+            <h5>{{ prize.num }}.º Prémio</h5>
+          {% else %}
+            <h5>Prémio</h5>
+          {% endif %}
           <a href="{{ prize.link }}" target="_blank">
             <button class="btn btn-info btn-sei">{{ prize.name }}</button>
           </a>
