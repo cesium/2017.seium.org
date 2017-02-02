@@ -103,6 +103,34 @@
   about: "José Bonnet tem recentemente trabalhado em projetos europeus nas áreas de Virtualização de Funções de Rede e Redes Definidas por Software, áreas estas que são fundamentais para as operadoras de telecomunicações do futuro. Parte do desafio destas áreas tem a ver com a necessidade do aumento em geral da eficiência dos processos, em que o DevOps se enquadra. Anteriormente trabalhou na definição de produtos e na implementação de serviços para diversos clientes da Altice Labs (anteriormente, PT Inovação) e atualmente é Senior Technology Consultant na Altice Labs."
   id: 12
 
+- name: Jorge Soares
+  pic: jorge-soares.jpg
+  position: Solutions Architect
+  enterprise: IBM Watson
+  enterpriseURL: https://www.ibm.com/watson/
+  twitter: https://twitter.com/jorge_soares/
+  about: "Jorge Soares trabalha no grupo de software da IBM Portugal como Arquiteto de Soluções há mais de 10 anos. Desde o desenvolvimento de aplicações, por onde começou, passando por trabalhos de consultoria, e até à arquitetura de soluções, tem tido experiência de cerca de 29 anos em diversas indústrias, com maior predominância no setor bancário. Nos últimos anos teve maior envolvimento em temas de integração de sistemas e aplicações, arquiteturas SOA e empresariais, bem como em cidades inteligentes. Nos últimos meses tem também dedicado algum tempo aos sistemas cognitivos."
+  id: 13
+
+- name: Marco Vale
+  pic: marco-vale.png
+  position: Game Artist
+  enterprise: 
+  enterpriseURL:
+  web: http://marcovale.com/
+  twitter: https://twitter.com/MarcoValeKaz/
+  about: "Marco Vale é Artista de Videojogos desde 2003. Iniciou a sua carreira na Eworks Studios e desde então tem participado em dezenas de projetos. Com mais de 40 jogos lançados, está neste momento a colaborar com a Indot Studio no desenvolvimento do jogo Shutix."
+  id: 14
+
+- name: Francisco Franco
+  pic: francisco-franco.png
+  position: Android Developer
+  enterprise:
+  enterpriseURL:
+  twitter: https://twitter.com/franciscof_1990/
+  about: "Francisco Franco é um Android Developer com seis anos de experiência na construção de aplicações e kernels personalizados para dispositivos Nexus, com foco na melhoria da vida útil da bateria e na melhoria da extensibilidade dos recursos na plataforma. Construiu várias aplicações e serviços, sendo o mais popular o FKUpdater, que serve como uma interface para a gestão dos seus kernels personalizados e oferece uma maneira fácil para os utilizadores ficarem atualizados. Também criou o Focus, uma inovadora substituição de galeria de foto/vídeo que exibe o design de materiais no seu melhor, e tem experiência com startups na Silicon Valley, contribuindo para o projeto que começou e que é agora conhecido como Android Auto. Francisco gasta o seu tempo livre encontrando novos desafios para enfrentar, sendo a mais recente uma exploração em design mutativo com Liam Spradlin."
+  id: 15
+
 - name: TBA
   pic: tba.png
   position: TBA
