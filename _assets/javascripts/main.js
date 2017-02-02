@@ -2,6 +2,7 @@
 //= require vendor/bootstrap.js
 
 //= require vendor/slick.js
+//= require carousel.js
 
 //= require nav-var.js
 //= require about-text.js
