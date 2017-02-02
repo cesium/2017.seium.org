@@ -15,6 +15,12 @@
               
               <i class="fa {{ act.icon }} fa-5x"></i>
               
+              {% if act.icon %}
+                <i class="fa {{ act.icon }} fa-5x"></i>
+              {% else %}
+                <i class="fa fa-desktop fa-5x"></i>
+              {% endif %}
+
             </div>
             <div class="activity-info">
               <div class="activity-datetime">

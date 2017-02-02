@@ -1,72 +1,85 @@
+
 - name: Maior Número de Badges
   desc: Durante a semana temos várias badges que podes obter participando nas atividades, falando com as empresas, vencendo desafios e concursos mas também com algumas surpresas! Diverte-te à procura das badges, os verdadeiros colecionadores irão obter prémios muito tentadores para adicionar à coleção!
   class: dark
   prizes:
-    - name: Alcatel One Touch
+    - name: Polaroid
       num: 1
-      link: http://www.alcatelonetouch.us/alcatel-onetouch-watch-small-medium-band-black
-      img: fa-trophy
-
-    - name: Chromecast 2
-      num: 2
-      link: https://www.google.com/intl/pt_pt/chromecast/tv/
+      link: https://www.amazon.co.uk/Polaroid-1080p-Lifestyle-Action-Camera/dp/B00NEZ8JAQ/ref=sr_1_1?s=photo&ie=UTF8&qid=1485889418&sr=1-1-spons&keywords=polaroid&psc=1
       img: fa-star
 
-    - name: Arduino Lisbon MakerFair
+    - name: Fitbit Flex 2
+      num: 2
+      link: https://www.amazon.co.uk/gp/product/B01LW2TH3Y/ref=ox_sc_act_title_1?ie=UTF8&psc=1&smid=A3P5ROKL5A1OLE
+      img: fa-trophy
+
+    - name: Auscultadores JBL
       num: 3
-      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
+      link: http://www.fnac.pt/Auscultadores-Bluetooth-JBL-T450BT-Preto-Auriculares-Hi-Fi-Auscultador-Sem-Fios/a998168#
       img: fa-gift
 
-    - name: Vale Fnac 20 euros
+    - name: Chromecast
       num: 4
-      link: http://www.fnac.pt/
+      link: https://store.google.com/product/chromecast_2015
       img: fa-gift
 
-    - name: T-shirt SEI + Mochila Pt
+    - name: Adaptador de cabos + Mochila
       num: 5
-      link: https://i.imgur.com/Lxo68Qj.jpg
+      link: ----
       img: fa-gift
 
+    - name: Adaptadores + T-Shirt CeSIUM
+      num: 6
+      link: ------
+      img: fa-gift
 
 
 - name: Melhor Fotografia
-  desc: Gostas de tirar fotografias? Então este desafio é para ti, publica a melhor foto no facebook da SEI para vencer este desafio! Para isso usa a hashtag '#SEI16' em publicações públicas.
+  desc: Gostas de tirar fotografia? Então este desafio é para ti! Publica a melhor foto no facebook da SEI ou no instagram para vencer este desafio! Para isso, no facebook usa a hashtag '#SEI17' em publicações públicas e no instagram identifica o Cesium e certifica-te que tens o perifl público.
   class: light
   prizes:
-    - name: Raspberry Pi 2 B
+    - name: Amazon Echo Dot
       num: 1
-      link: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
+      link: https://www.amazon.com/dp/B01DFKC2SO
       img: fa-trophy
 
-    - name: Sennheiser HD 429
+    - name: Betron B750s Earphones
       num: 2
-      link: http://en-us.sennheiser.com/over-ear-headphones-ambient-noise-isolation-hd-429
+      link: https://www.amazon.co.uk/gp/product/B00NEYPWGG/ref=od_aui_detailpages00?ie=UTF8&psc=1
       img: fa-star
 
-    - name: T-Shirt da SEI
+    - name: Powerbank + Adaptador USB + Mochila
       num: 3
-      link: https://i.imgur.com/r9PLuFW.jpg
+      link: -----
       img: fa-gift
 
 
-- name: Declaração de Amor
-  desc: E porque o dia dos namorados está à porta, mostra-nos o amor que tens pela SEI. Caso sejas um dos melhores pretendentes, a SEI expressa o seu amor por ti também com estes prémios! Para isso usa a hashtag '#SEI16' em publicações públicas no teu facebook.
+- name: Sorteio de Xbox One
+  desc: Lembras-te das badges que colecionaste? Tens mais do que 10? Ainda não? Garante um mínimo de 10 badges para te hablitares a ganhares uma Xbox One, já sabes! Quantas mais Badges colecionares, mais hipóteses tens de ganhar! Não te esqueças de registar as Badges!
   class: dark
   prizes:
-    - name: Arduino Lisbon MakerFair + Rosas
+    - name: Xbox One
       num: 1
-      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
-      img: fa-trophy
-
-    - name: Vale Steam 20 euros
-      num: 2
-      link: http://store.steampowered.com/
+      link: http://www.xbox.com/pt-PT/xbox-one
+      #link errado? link: https://i.imgur.com/Lxo68Qj.jpg
       img: fa-star
 
-    - name: Mochila PT
-      num: 3
-      link: https://i.imgur.com/1bMVVUU.jpg
-      img: fa-gift
+- name: 2º Sorteio de X-Box One
+  desc: Passaste pelo CP2 e viste a empresa Accenture? Eles querem o teu Currículo! Envia-o para cv@cesium.di.uminho.pt e hablita-te a ganhar uma Xbox One!
+  class: light
+  prizes:
+    - name: Xbox One
+      num: 1
+      link: http://www.xbox.com/pt-PT/xbox-one
+      img: fa-star
+
+
+
+
+
+
+# Preciso obter informações para isto!
+
 
 - name: Eurotux Desafio de Segurança
   desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP ( 193.136.19.37 ). Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail.
@@ -77,13 +90,14 @@
     - task: Demonstração que conseguiram obter shell no servidor
     - task: Demonstração que chegar a root
     - task: Demonstração que chegaram ao segredo
-    - task: Elemento de bónus
-    - task: Quarto desafio
-    - task: Quinto desafio
-    - task: Sexto desafio
-    - task: Sétimo desafio
+    - task: Primeira flag
+    - task: Segunda flag
+    - task: Terceira flag
+    - task: Quarta flag
+    - task: Quinta flag
+    - task: Sexta flag
   submit: mailto:securitychallenge@cesium.di.uminho.pt
-  class: light
+  class: dark
   sub: yes
   prizes:
     - name: Vale Fnac 100 euros
@@ -93,28 +107,131 @@
 
     - name: Vale Fnac 50 euros
       num: 2
-      linK: http://www.fnac.pt
+      link: http://www.fnac.pt
       img: fa-star
+
+
+# Falta receber enunciado e submissão
 
 - name: DPUM
-  desc: E como não podia deixar de ser, temos mais um desafio algorítmico para ti durante esta semana, usa a linguagem em que te sentes mais confortável e resolve o problema. A submissão está disponível. Não é necessário incluir o pdf.
-  enunciado: Uma agência de viagens, está a organizar uma volta ao mundo e para tal o roteiro deve passar por vários pontos turísticos. No entanto, de forma a rentabilizar esta viagem, o trajeto deve ser o mais curto possível, regressando ainda assim ao ponto de partida. Os pontos são descritos por coordenadas geográficas em graus. O cálculo das distâncias entre as localidades é feito pela fórmula de 'haversine' e deverá imprimir as localidades pela ordem correta. Desempates serão realizado pela eficiência do código. Revejam o ficheiro de input, pois pode ter sido alterado.
-  input: https://drive.google.com/open?id=0B3_r_ZU5WoqwRTNMcmdFcVRvVUU
-  submit: http://dpum.seium.org
-  class: lastdark
-  sub: yes
+  desc: <p>E como não podia deixar de ser, temos não 1, não mais 2, mas sim 5! </p><p> 5 desafios algorítmicos para ti durante esta semana, usa a linguagem em que te sentes mais confortável e resolve os problema.</p><p> Obtém o máximo de pontuação nos cinco problemas e obtem o teclado que tu precisas para aquelas noites duras de programção.</p><p> Podes já começar a trabalhar nas tuas soluçoes, as plataformas de submissão estão prestes a arrancar!! </p>
+  class: light
   prizes:
-    - name: Mi Band 1S
-      num: 1
-      link: http://www.mi.com/en/miband/
+    - name: Razer Mechanical Keyboard
+      link: https://www.amazon.co.uk/Razer-BlackWidow-Tournament-Essential-Mechanical/dp/B00L5J21LG/ref=sr_1_1?s=computers&ie=UTF8&qid=1485601774&sr=1-1&keywords=Razer%2BBlackWidow%2BTournament&th=1
       img: fa-trophy
 
-    - name: T-Shirt da SEI
+
+- name: DPUM Big
+  desc: <p>Este é o desafio que te vai dar mais trabalho, podes ate ter de soar um pouco, mas há de valer a pena, alem do premio que podes ganhar neste desafio, este desafio pode te até valer 30 pontos!</p><p>Metodo de classificação- tempo de cpu, desempate por rapidez de submissão</p></p> <p>O teu amigo do curso de electrónica está a montar um circuito e precisa da tua ajuda.</p>
+  class: dark
+  submit: https://www.codechef.com/SEID2017/problems/SEIMAIN
+  enunciado: <p> O circuito que ele está a montar é constituido por fios e <a href="https://en.wikipedia.org/wiki/Logic_gate"><b>portas lógicas</b></a>.</p><p> Cada fio tem um identificador (string de letras minúsculas) e recebe sinais representados por um inteiro sem sinal de 16 bits (número de 0 a 65535).</p><p> O sinal que chega a cada fio pode ser o output de uma porta lógica, o sinal de outro fio ou um valor inteiro passado directamente.</p><p> As portas lógicas apenas produzem output caso todos os seus inputs tenham um sinal.</p><p> O teu amigo deu-te as instruções de montagem do circuito e precisa da tua ajuda para descobrir qual o sinal que chega ao fio identificado pela string <b>a</b>.</p><p> Acede a pagina de submissões para mais informações.</p>
+  sub: yes
+
+  prizes:
+    - name: Raspberry Pi 3
+      num: 1
+      link: https://www.amazon.co.uk/Raspberry-Pi-Model-Quad-Motherboard/dp/B01CCOXV34/ref=sr_1_4?s=computers&ie=UTF8&qid=1485889260&sr=1-4&keywords=Raspberry+Pi++3
+      img: fa-trophy
+
+    - name: Arduino Lisbon Maker Fair + Kit Electrónico
       num: 2
-      linK: https://i.imgur.com/r9PLuFW.jpg
+      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
       img: fa-star
 
-    - name: Mochila PT
+    - name: Nes Controler For PC
       num: 3
-      link: https://i.imgur.com/1bMVVUU.jpg
+      link: https://images-na.ssl-images-amazon.com/images/I/71jW9hmmHpL._SL1500_.jpg
+      img: fa-gift
+
+
+- name: DPUM Small nº1
+  desc: <p>Este é o desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Alem do premio que podes ganhar neste desafio, este desafio pode te até valer 10 pontos!</p> <p> Metodo de avaliação- menor codigo possivel(code Golf), desempate por rapidez de submissão.</p>
+  class: light
+  enunciado: <p>O C9-Beta é um robot em desenvolvimento.</p><p> Embora os seus criadores tenham muitas funcionalidades planeadas, a única coisa que este robot sabe fazer actualmente é mover-se para cima, para baixo, para a esquerda e para a direita.</p><p> Para testar a inteligência artificial do robot, foram feitos testes em que o robot era comandado a ir de um ponto A para um ponto B, sendo a inteligência artifical do robot responsável pelo conjunto de movimentos necessários para que isso aconteça.</p><p> Os testes foram um sucesso, o C9-Beta foi capaz de realizar os movimentos necessários para chegar de A a B em todas as experiências realizadas.</p><p> No entanto, a equipa responsável pelo robot notou que muitas das vezes o C9-Beta não escolhia o caminho óptimo para a sua rota.</p> <p>Por exemplo, se imaginarmos que o robot se move numa matriz de pontos e que começa no ponto (0,0) e pretende chegar ao ponto imediatamente acima dele (0,1) o robot muitas vezes ia para a direita primeiro ficando no ponto (1,0), depois para cima (1,1), e depois para a esquerda onde chegava ao destino (0,1). Neste exemplo o robot gastou 3 movimentos, quando na verdade apenas precisava de ter gasto 1 (ir para cima directamente!).</p><p> Acede a pagina de submissões para mais informações.</p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA01
+  prizes:
+    - name: Arduino Lisbon Maker Fair
+      num: 1
+      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
+      img: fa-trophy
+
+    - name: Powerbank 
+      num: 2
+      link: 
+      img: fa-star
+
+    - name: T-shirt SEI
+      num: 3
+      link: 
+      img: fa-gift
+
+- name: DPUM Small nº2
+  desc: <p>Este é o desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Alem do premio que podes ganhar neste desafio, este desafio pode te até valer 10 pontos!</p> <p>Metodo de avaliação- menor codigo possivel(code Golf), desempate por rapidez de submissão.</p>
+  class: dark
+  enunciado: <p>Na remota vila de Pelican é organizada anualmente uma corrida de resistência na qual todos os habitantes da vila podem participar.</p><p> Ao contrário de uma corrida habitual, não existe uma meta. Em vez disso, a corrida tem a duração de 30 minutos e o vencedor é aquele que nesse tempo tiver percorrido a maior distância.</p><p> Além disso, os habitantes da vila cansam-se rapidamente e por isso não podem passar os 30 minutos seguidos a correr!</p><p> Por exemplo, Abigail, a vencedora do ano passado é uma excelente corredora que consegue correr a uns impressionantes 3 m/s durante 40 segundos, mas ao fim desse tempo tem que parar completamente para descansar por 20 segundos. Ao fim desses 20 segundos pode voltar a corrar durante mais 40 segundos até ter que parar novamente.</p><p> Acede a pagina de submissões para mais informações. </p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA02
+  prizes:
+    - name: Arduino Lisbon Maker Fair
+      num: 1
+      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
+      img: fa-trophy
+
+    - name: Powerbank 
+      num: 2
+      link: 
+      img: fa-star
+
+    - name: T-shirt SEI
+      num: 3
+      link: 
+      img: fa-gift
+
+
+- name: DPUM Small nº3
+  desc: <p>Este é o desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Alem do premio que podes ganhar neste desafio, este desafio pode te até valer 10 pontos!</p> <p>Metodo de avaliação- menor memoria utilizada, desempate por rapidez de submissão.</p>
+  class: light
+  enunciado: <p>Apesar de terem uma definição matemática formal, as <a href="https://en.wikipedia.org/wiki/Look-and-say_sequence"><b>sequências Look-and-say</b></a> são interessantes pela forma informal como os seus números podem ser gerados.</p><p> Neste tipo de sequência, dado um número, o número seguinte na sequência é obtido pela forma como se diz o número actual da sequência.</p><p> Por exemplo, se considerarmos o número 112, facilmente se percebe que neste número há 2 ocorrências do número 1 e 1 ocorrência do número 2.</p><p> Ou seja podemos dizer que "há 2 uns e 1 dois" e portanto o número seguinte a 112 na sequência fica 2112 ("2 uns e 1 dois").</p><p> Para obter o número seguinte da sequência aplica-se o mesmo processo agora ao número 2112. Um aspecto a notar desta sequência é que o tamanho dos elementos(número de digitos) tende a crescer.</p><p> Por exemplo, se partindo do número 112 repetirmos o processo de look-and-say 40 vezes o número resultante tem 100.230 dígitos!</p> <p> Acede a pagina de submissões para mais informações.</p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA03
+  prizes:
+    - name: Arduino Lisbon Maker Fair
+      num: 1
+      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
+      img: fa-trophy
+
+    - name: Powerbank 
+      num: 2
+      link: 
+      img: fa-star
+
+    - name: T-shirt SEI
+      num: 3
+      link: 
+      img: fa-gift
+
+
+- name: DPUM Small nº4
+  desc: <p>Este é o desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Alem do premio que podes ganhar neste desafio, este desafio pode te até valer 10 pontos!</p>  <p>Metodo de avaliação- menor memoria utilizada, desempate por rapidez de submissão.</p>
+  class: dark
+  enunciado: <p>O <a href="https://en.wikipedia.org/wiki/MD5">algoritmo MD5</a> é geralmente usado como função de hash que pega num determinado conjunto de dados e devolve um digest de 32 caracteres.</p><p> Este algoritmo é usado geralmente para verificar a integridade de ficheiros. No entanto, muitas vezes é usado por alguns sites para armazenar passwords, embora tal prática seja altamente desaconselhada.</p><p> Estes sites em geral pegam na password que o utilizador indica no registo e em vez de guardarem a password directamente na base de dados guardam o digest MD5 da password.</p><p> Por exemplo, se um utilizador tiver como password a string 'password123', na base de dados é guardada a string '482c811da5d5b4bc6d497ffa98491e38', que corresponde ao digest MD5 da password do utilizador que neste caso é a string 'password123'.</p> Acede a pagina de submissões para mais informações.</p>           <p>Um amigo teu administra um site que guarda as passwords usando MD5. Ele deu-te uma lista de passwords que muitas pessoas usam e que por isso são consideradas inseguras. Deu-te ainda acesso aos digest MD5 das passwords dos utilizadores do site. O que ele pretende saber é quantos utilizadores do site dele usam passwords consideradas inseguras.</p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA04
+  prizes:
+    - name: Arduino Lisbon Maker Fair
+      num: 1
+      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
+      img: fa-trophy
+
+    - name: Powerbank 
+      num: 2
+      link: 
+      img: fa-star
+
+    - name: T-shirt SEI
+      num: 3
+      link: 
       img: fa-gift
