@@ -131,6 +131,16 @@
   about: "Francisco Franco é um Android Developer com seis anos de experiência na construção de aplicações e kernels personalizados para dispositivos Nexus, com foco na melhoria da vida útil da bateria e na melhoria da extensibilidade dos recursos na plataforma. Construiu várias aplicações e serviços, sendo o mais popular o FKUpdater, que serve como uma interface para a gestão dos seus kernels personalizados e oferece uma maneira fácil para os utilizadores ficarem atualizados. Também criou o Focus, uma inovadora substituição de galeria de foto/vídeo que exibe o design de materiais no seu melhor, e tem experiência com startups na Silicon Valley, contribuindo para o projeto que começou e que é agora conhecido como Android Auto. Francisco gasta o seu tempo livre encontrando novos desafios para enfrentar, sendo a mais recente uma exploração em design mutativo com Liam Spradlin."
   id: 15
 
+- name: Tiago Loureiro
+  pic: tiago-loureiro.jpg
+  position: Managing Director
+  enterprise: Collide
+  enterpriseURL: https://collide.rocks/
+  web: https://deprofundiis.wordpress.com/
+  twitter: https://twitter.com/tiagomploureiro
+  about: "Tiago Loureiro é um profissional de TIC com mais de 20 anos de experiência de mercado, tendo passado os últimos 13 anos na indústria de videojogos. No seu portfólio constam títulos que vão desde mobile a consola. Neste momento é Diretor da Collide, co-coordenador da licenciatura em Aplicações Multimédia e Videojogos na Universidade Lusófona em Lisboa e membro do Nordic Educators Group."
+  id: 16
+
 - name: TBA
   pic: tba.png
   position: TBA
