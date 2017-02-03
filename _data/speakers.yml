@@ -3,7 +3,7 @@
   position: Senior BI & big Data Consultant
   enterprise: Xpand IT
   enterpriseURL: http://www.xpand-it.com/
-  twitter: https://twitter.com/bvtchikoulaev  
+  twitter: https://twitter.com/bvtchikoulaev
   about: "Boris Tchikoulaev é ex-aluno da Universidade do Minho e um profissional de IT com 7 anos de experiência em vários ramos, tais como BI e soluções Big Data (Pentaho, Cloudera), Processos de Integração de Dados, Administração de Bases de Dados (MS SQL Server, MySQL, PostgreSQL) e Web/Software Development (Java, JavaScript). Para além de consultadoria de software, é também responsável pela gestão de vários projetos durante todo o seu ciclo de vida, construindo relacionamentos confiáveis com clientes e liderando equipes internas de desenvolvimento, usando as melhores práticas das metodologias Agile."
 
 - name: Soumaya Ben Dhaou
@@ -61,9 +61,9 @@
   position: Front-end developer
   enterprise: Unbabel
   enterpriseURL: https://unbabel.com
-  web: http://johnsardine.com/ 
-  twitter: http://twitter.com/johnsardine 
-  github: https://github.com/johnsardine 
+  web: http://johnsardine.com/
+  twitter: http://twitter.com/johnsardine
+  github: https://github.com/johnsardine
   about: "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
 
 - name: André Azevedo
@@ -115,8 +115,8 @@
 - name: Marco Vale
   pic: marco-vale.png
   position: Game Artist
-  enterprise: 
-  enterpriseURL:
+  enterprise: Indot Studio
+  enterpriseURL: http://indotgamestudio.com
   web: http://marcovale.com/
   twitter: https://twitter.com/MarcoValeKaz/
   about: "Marco Vale é Artista de Videojogos desde 2003. Iniciou a sua carreira na Eworks Studios e desde então tem participado em dezenas de projetos. Com mais de 40 jogos lançados, está neste momento a colaborar com a Indot Studio no desenvolvimento do jogo Shutix."
