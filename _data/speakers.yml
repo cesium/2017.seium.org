@@ -141,6 +141,39 @@
   about: "Tiago Loureiro é um profissional de TIC com mais de 20 anos de experiência de mercado, tendo passado os últimos 13 anos na indústria de videojogos. No seu portfólio constam títulos que vão desde mobile a consola. Neste momento é Diretor da Collide, co-coordenador da licenciatura em Aplicações Multimédia e Videojogos na Universidade Lusófona em Lisboa e membro do Nordic Educators Group."
   id: 16
 
+- name: Nelson Pinto
+  pic: nelson-pinto.png
+  position: Developer de Aplicações Móveis
+  enterprise: Smith Micro Software
+  enterpriseURL: http://www.smithmicro.com/
+  web:
+  twitter:
+  github:
+  about: "Nelson Pinto é licenciado em Engenharia de Telecomunicações pela Universidade do Minho e é Developer de Aplicações Móveis na Smith Micro Software. Com participação no desenvolvimento de diversas aplicações móveis em vários projetos (Skyüber, Vodafone Mexefest 2016, Little Culture App, SafePath, entre outros), tem experiência no desenvolvimento de aplicações nativas iOS e Android, tendo também experiência na utilização da framework React Native no desenvolvimento de aplicações híbridas."
+  id: 17
+
+- name: Nuno Sousa
+  pic: nuno-sousa.png
+  position: Software Developer
+  enterprise: CCG
+  enterpriseURL: http://www.ccg.pt/
+  web:
+  twitter:
+  github:
+  about: "Nuno Sousa ocupa o cargo de desenvolvedor de software no CCG em Portugal. A nível académico recebeu um diploma de cinco anos e um mestrado em Engenharia Informática na Universidade do Minho. No mestrado tirou especializações em Engenharia de Aplicações e em Análise e Concepção de Software. Nos últimos 8 anos, ele esteve envolvido no desenvolvimento e implementação de vários projectos nas áreas de Realidade Aumentada, Desenvolvimento de Software (Web e Desktop), Bases de Dados, Interacção Humano-Computador, Computação Móvel, Domótica, Sistemas de Informação e Engenharia de Software. As suas principais áreas de interesse são: Interfaces Gráficas de Utilizador com .Net (C# e WPF), Aplicações Multitoque com WPF, Jogos Sérios com o motor de jogos Unity 3d, Aplicações Móveis e de Realidade Aumentada com Unity3d e SDK’s Vuforia e Android."
+  id: 18
+
+- name: Mike Elsmore
+  pic: mike-elsmore.jpg
+  position: Developer Advocate
+  enterprise: IBM Cloud Data Services
+  enterpriseURL: http://www.ibm.com/
+  web: http://elsmore.me/
+  twitter: https://twitter.com/ukmadlz
+  github: https://github.com/ukmadlz
+  about: "Mike é um Software Developer e Hacker, atualmente a trabalhar como Developer Advocate para a IBM Cloud Data Services, usando o seu tempo para partilhar conhecimentos sobre desenvolvimento rápido e bases de dados diferentes. Na maioria das vezes, pode ser encontrado no meio de um protótipo com alguma combinação de JavaScript, tecnologias de servidor e APIs estranhas. Tem vindo a construir sites e aplicações, principalmente em tecnologias baseadas na web, desde que se formou na universidade em 2008. Tem ajudado a criar aplicações para cadeias de abastecimento e desempenho empresarial. É também uma parte ativa da subcultura hacker, participando em hackathons e conferências de desenvolvimento."
+  id: 19
+
 - name: TBA
   pic: tba.png
   position: TBA
