@@ -11,9 +11,6 @@
   position: Researcher
   enterprise: United Nations University
   enterpriseURL: https://unu.edu
-  web:
-  twitter:
-  github:
   about: "Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada \"Building Change Capabilities for e-Government Continuous Development\". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas."
 
 - name: Nuno Lopes
@@ -21,9 +18,6 @@
   position: Researcher
   enterprise: United Nations University
   enterpriseURL: https://unu.edu
-  web:
-  twitter:
-  github:
   about: "Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). Os seus atuais interesses de investigação centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal."
 
 - name: Pedro Vilaça
@@ -125,8 +119,6 @@
 - name: Francisco Franco
   pic: francisco-franco.png
   position: Android Developer
-  enterprise:
-  enterpriseURL:
   twitter: https://twitter.com/franciscof_1990/
   about: "Francisco Franco é um Android Developer com seis anos de experiência na construção de aplicações e kernels personalizados para dispositivos Nexus, com foco na melhoria da vida útil da bateria e na melhoria da extensibilidade dos recursos na plataforma. Construiu várias aplicações e serviços, sendo o mais popular o FKUpdater, que serve como uma interface para a gestão dos seus kernels personalizados e oferece uma maneira fácil para os utilizadores ficarem atualizados. Também criou o Focus, uma inovadora substituição de galeria de foto/vídeo que exibe o design de materiais no seu melhor, e tem experiência com startups na Silicon Valley, contribuindo para o projeto que começou e que é agora conhecido como Android Auto. Francisco gasta o seu tempo livre encontrando novos desafios para enfrentar, sendo a mais recente uma exploração em design mutativo com Liam Spradlin."
   id: 15
@@ -146,9 +138,6 @@
   position: Developer de Aplicações Móveis
   enterprise: Smith Micro Software
   enterpriseURL: http://www.smithmicro.com/
-  web:
-  twitter:
-  github:
   about: "Nelson Pinto é licenciado em Engenharia de Telecomunicações pela Universidade do Minho e é Developer de Aplicações Móveis na Smith Micro Software. Com participação no desenvolvimento de diversas aplicações móveis em vários projetos (Skyüber, Vodafone Mexefest 2016, Little Culture App, SafePath, entre outros), tem experiência no desenvolvimento de aplicações nativas iOS e Android, tendo também experiência na utilização da framework React Native no desenvolvimento de aplicações híbridas."
   id: 17
 
@@ -157,9 +146,6 @@
   position: Software Developer
   enterprise: CCG
   enterpriseURL: http://www.ccg.pt/
-  web:
-  twitter:
-  github:
   about: "Nuno Sousa ocupa o cargo de desenvolvedor de software no CCG em Portugal. A nível académico recebeu um diploma de cinco anos e um mestrado em Engenharia Informática na Universidade do Minho. No mestrado tirou especializações em Engenharia de Aplicações e em Análise e Concepção de Software. Nos últimos 8 anos, ele esteve envolvido no desenvolvimento e implementação de vários projectos nas áreas de Realidade Aumentada, Desenvolvimento de Software (Web e Desktop), Bases de Dados, Interacção Humano-Computador, Computação Móvel, Domótica, Sistemas de Informação e Engenharia de Software. As suas principais áreas de interesse são: Interfaces Gráficas de Utilizador com .Net (C# e WPF), Aplicações Multitoque com WPF, Jogos Sérios com o motor de jogos Unity 3d, Aplicações Móveis e de Realidade Aumentada com Unity3d e SDK’s Vuforia e Android."
   id: 18
 
@@ -174,12 +160,58 @@
   about: "Mike é um Software Developer e Hacker, atualmente a trabalhar como Developer Advocate para a IBM Cloud Data Services, usando o seu tempo para partilhar conhecimentos sobre desenvolvimento rápido e bases de dados diferentes. Na maioria das vezes, pode ser encontrado no meio de um protótipo com alguma combinação de JavaScript, tecnologias de servidor e APIs estranhas. Tem vindo a construir sites e aplicações, principalmente em tecnologias baseadas na web, desde que se formou na universidade em 2008. Tem ajudado a criar aplicações para cadeias de abastecimento e desempenho empresarial. É também uma parte ativa da subcultura hacker, participando em hackathons e conferências de desenvolvimento."
   id: 19
 
-- name: TBA
-  pic: tba.png
-  position: TBA
-  enterprise: TBA
-  enterpriseURL:
-  web:
-  twitter:
-  github:
-  about:
+- name: Ricardo Oliveira
+  pic: Ricardo_Oliveira.jpg
+  position: Diretor de Serviços de Consultoria
+  enterprise: Eurotux
+  enterpriseURL: https://eurotux.com/ 
+  about: Ricardo é licenciado em Engenharia de Sistemas e Informática pela Universidade do Minho e mestre em Engenharia Informática também pela Universidade do Minho. Tem várias certificações IBM e atualmente é Diretor de Serviços de Consultoria na Eurotux. Tem experiência em servidores, redes, armazenamento, segurança e serviços, com foco especial em tecnologias open source, e tem elevada experiência em gestão de projetos, liderança de equipas de TI, análise, projeto e implementação de soluções de TI, desenvolvimento de negócios e planeamento estratégico de TI. Consultor sénior e formador de TI, com comprovada capacidade de análise e resolução de problemas e competências interpessoais, apresenta uma elevada experiência, na área de desenvolvimento de negócios, em transformar TI em valor de negócio e vantagem competitiva.
+  id: 20
+
+
+- name: Luis Gomes
+  pic: luis_gomes.png
+  position: Lead Security Engineer
+  enterprise: SCML
+  enterpriseURL: http://www.scml.pt/
+  about: Atualmente desempenha as funções de Lead Security Engineer na SCML. Com mais de 8 anos em projectos/empresas internacionais e nacionais. O sonho no ramo da segurança de informação começou aos 13 anos e hoje com 30 ainda se mantem, os projectos onde desempenhou funções vão desde a segurança de ATM's, Portais de pagamento, até a segurança de Lotarias e Jogos de sorte e azar no mundo nacional.
+  id: 21
+
+- name: Wilson Aberto
+  pic: Wilson_Farfetch.jpg
+  position: UI Developer
+  enterprise: Farfecth
+  enterpriseURL: https://www.farfetch.com/pt/ 
+  github: https://github.com/wilsonmsalberto
+  about: Wilson Alberto é um UI Developer formado em Novas Tecnologias da Informação pela Universidade de Aveiro. Passando por diversas industrias desde o mundo editorial, à educação e à publicidade, atualmente está a ajudar a Farfetch a mudar a face do e-Commerce online de moda de luxo. É um adepto de performance e modularidade de código, sempre com um olhar atento às novas tendências do mundo do Front End / UI.
+  id: 22
+
+- name: José Carlos Castanheira
+  pic: José Castanheira.jpg
+  position: Aluno
+  enterprise: FCT Universidade Nova de Lisboa
+  about: José Castanheira é aluno de Engenharia Informática na FCT da Universidade Nova de Lisboa. Utiliza Game Maker desde novo e é apaixonado por game jams, onde costuma participar sozinho. Actualmente é também designer e programador na Nerd Monkeys.
+  id: 23
+
+#- name: Luis Soares Barbosa
+#  pic: tba.png
+#  position:  Acting Director
+#  enterprise: UNU-EGOV
+#  enterpriseURL: http://egov.unu.edu/ 
+#  id: 24
+
+- name: Bruno Araújo
+  pic: bruno.jpg
+  position: frontend developer
+  enterprise: BLIP
+  enterpriseURL: http://www.blip.pt/
+  about: Foi aluno da Universidade Minho e é frontend developer na Blip desde 2015. Apaixonado por aplicações escaláveis e modulares, encontrou na Blip o local certo para continuar a trabalhar em JavaScript. Gosta de experimentar todas as frameworks JavaScript para poder dizer mal e odeia ‘spaghetti’ code.
+  id: 25
+
+- name: Jorge Rocha
+  pic: jorge_rocha.jpg
+  position: Web Developer
+  enterprise: BLIP
+  enterpriseURL: http://www.blip.pt/
+  about: Atualmente Web Developer na Blip onde integra o desenvolvimento de um novo Front-End para a empresa de apostas Paddy Power onde a performance é o principal foco. Começou a sua carreira como Android Developer, tendo pouco depois mudando a sua atenção para a Web onde desenvolveu projetos para a banca usando tecnologias Microsoft até que por fim encontrou a Blip e se tornou Javascript fanboy.
+  id: 26
