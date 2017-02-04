@@ -86,7 +86,6 @@
     - name: Quiz Gaming Night
       time: 21:00-00:00
       duration: three-hours
-      image: gaming.png
       type: social
 
 - tuesday:
@@ -152,19 +151,16 @@
       speaker: Nuno Sousa 
       time: 17:30-18:30 
       duration: one-hour
-      image: tec.png
       type: talk
 
     - name: Game Dev Meetup 
       time: 21:00-00:00
       duration: three-hours
-      image: gamedev.png
       type: social
 
     - name: Arraial 
       time: 21:00-00:00
       duration: three-hours
-      image: diner.png
       type: social
 
 - wednesday:
@@ -205,13 +201,11 @@
       speaker: Luis Soares Barbosa
       time: 15:00-15:05
       duration: two-hours 
-      image: marketing.png
       type: talk
 
     - name: E-Government Development Complexity and Continuous Change Challenge
       speaker: Soumaya Ben Dhaou
       time: 15:05-15:25
-      image: realworld.png
       duration: twenty-minutes
       type: talk
       about: O objetivo da palestra é entender como os projetos de e-Government envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do e-Government, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica. Com base num estudo de caso estruturado, abordagem iterativa da investigação IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de e-Government em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento de e-Government - uma perspetiva convencional "de cima para baixo" de um projeto de desenvolvimento de e-Government e um comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento de e-Government.
@@ -230,15 +224,21 @@
       time: 16:30-17:30
       type: talk
       duration: one-hour
-      image: realworld.png
       about: 
+    
+    - name: Watson e a computação cognitiva
+      speaker: Jorge Soares
+      time: 17:30-18:30
+      type: talk
+      duration: one-hour
+      icon: fa-laptop
+      about: Porque é que os sistemas cognitivos vão ser importantes? O que é o Watson, como nasceu, como funciona e para onde vai? Saberemos o que nos reserva o futuro?
 
     - coffee: true
 
     - name: Rally das Tascas
       time: 21:00-00:00
       duration: three-hours
-      image: diner.png
       type: social
 
 - thursday:
@@ -276,7 +276,7 @@
       enterprise_url: https://www.freeletics.com/pt
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
-      speaker: Daniela Matos
+      speaker: Daniela Matos de Carvalho
       time: 15:00-16:00
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
