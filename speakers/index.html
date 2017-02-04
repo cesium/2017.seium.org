@@ -7,16 +7,13 @@ layout: default
       <h1 class="section-title">Oradores</h1>
     </div>
 
-    <div class="speakers-def col-md-8 col-md-offset-2">
+    <div class="speakers-def col-md-8 col-md-offset-2 ">
       Durante esta semana vais ter a oportunidade de conhecer muitos oradores nacionais e internacionais reconhecidos e de empresas notórias, mas até lá, vai dando uma vista de olhos para saberes o que podes esperar desta edição.
-    </div>
-    <div class="speakers-def col-md-8 col-md-offset-2">
-      Mais oradores a serem anunciados regularmente!
     </div>
 
     {% for speaker in site.data.speakers %}
     <div id="{{ speaker.name | slugify }}" class="col-md-12 speak-list">
-      <div class="col-md-3 col-md-offset-1">
+      <div class="col-md-3 vcenter">
         <div class="speaker-img">
           {% image 'speakers/{{ speaker.pic }}' class:'speaker-pic' %}
         </div>
@@ -52,8 +49,8 @@ layout: default
           </ul>
         </div>
 
-      </div>
-      <div class="col-md-6">
+      </div><!--
+   --><div class="col-md-9 vcenter">
         <span class="aboutspeaker">{{ speaker.about }}</span>
       </div>
     </div>
