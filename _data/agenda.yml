@@ -17,33 +17,45 @@
       time: 9:30-10:00
       duration: half-hour
       image: abertura.png
-      about: "Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas."
+      about: Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas.
 
-    - name: TBA 
+    - name: Ameaças de segurança emergentes
+      speaker: Ricardo Oliveira
+      enterprise: Eurotux
       time: 10:00-11:30
       duration: one-hour
+      about: Apresentação das ameaças emergentes a nível global e análise de incidentes ocorridos em organizações portuguesas.
 
     - coffee: true
 
-    - name: TBA
-      time: 12:00-13:00
-      duration: one-hour
+    - name: Hacking an Application with a Browser and a Zebra
+      speaker: João Pena Gil
+      time: 12:00-13:30
+      duration: one-hour 
+      type: talk
+      about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
+      image: tec.png
+      enterprise: Checkmarx
+      enterprise_url: https://www.checkmarx.com/ 
+      type: talk 
 
     - meal: true
 
     - name: Escolhido pelo público
       speaker: Pedro Vilaça 
+      enterprise: Apple
       time: 14:00-15:00
       duration: one-hour
       image: security.png
       type: talk 
-      about: "Serás capaz de escolher, no local, uma de duas apresentações. Aquela com mais mãos no ar ganha!
-Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de computação de baixo nível hardcore, para te mostrar a investigação de segurança topo de gama."
+      about: Serás capaz de escolher, no local, uma de duas apresentações. Aquela com mais mãos no ar ganha! Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de computação de baixo nível hardcore, para te mostrar a investigação de segurança topo de gama.
 
-    - name: TBA
+    - name: The mysterious world of the Android Kernel
       speaker: Francisco Franco
+      enterprise: Kernel
       time: 15:00-16:00
       duration: one-hour
+      about: Vamos mergulhar profundamente no que torna o Kernel tão importante, como realmente construí-lo e instalá-lo, como é trabalhar nele, armadilhas comuns e como será o futuro.
 
     - coffee: true
   
@@ -54,22 +66,17 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       duration: one-hour
       enterprise_url: https://www.microsoft.com/pt-pt/
       type: talk
-      about: "Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações."
+      about: Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações.
       image: realworld.png
-
-
-    - name: Hacking an Application with a Browser and a Zebra
-      speaker: João Pena Gil
-      time: 17:30-18:30
-      duration: one-hour 
+    
+    - name: TBA
+      speaker: Luís Gomes
+      enterprise: Santa Casa
+      time: 17:30-18h30
+      duration: one-hour
       type: talk
-      about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
-      image: tec.png
-      enterprise: Checkmarx
-      enterprise_url: https://www.checkmarx.com/ 
-      type: talk 
-
-    - meal: true
+      about: Um play-by-play de uma auditoria a um device sem qualquer tipo de informação prévia (black box testing), com o objetivo de controlar a informação e obter um lucro financeiro imediato que poderia ascender a milhões de euros.
+      image: 
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
@@ -86,20 +93,25 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       time: 9:30-10:30
       duration: one-hour
       type: talk
-      about: "O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda."
+      about: O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda.
       image: devops.png
       enterprise: Altice Labs
       enterprise_url: http://www.alticelabs.com/pt/
 
-    - name: TBA 
+    - name: 
+      enterprise: Farfetch
+      type: talk 
       time: 10:30-11:30
       duration: one-hour
 
     - coffee: true
 
-    - name: TBA
+    - name:  Introdução ao Game Maker- Studio
+      speaker: José Carlos Castanheira
+      type: talk
       time: 12:00-13:00
       duration: one-hour
+      about: Ao longo do tempo da talk, José Castanheira irá construir um jogo utilizando a ferramenta de desenvolvimento Game Maker - Studio, onde irá explicar as várias componentes do programa ao longo da criação.
 
     - meal: true
 
@@ -109,25 +121,32 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       duration: one-hour
       type: talk
 
-    - name: TBA
+    - name: Through the Looking Glass- Decomposing VR tech, case studies and market analysis.
+      speaker: Tiago Loureiro
       time: 15:00-16:00 
       duration: one-hour
-      
+      about: O desenvolvimento de projetos de realidade virtual apresenta muitos desafios diferentes. Esta palestra aborda não só a tecnologia e as melhores práticas de desenvolvimento, mas também princípios básicos que são específicos da realidade virtual e também partilha algumas informações sobre o que está a acontecer atualmente no mercado.
+
     - coffee: true
 
-    - name: HoloLens 
+    - name: Utilização de Oculus Rift e Kinect em projetos de IDT (Investigação e Desenvolvimento Tecnológico) 
       time: 16:30-17:30 
+      duration: one-hour
+      image: tec.png
+      type: talk
+    
+    - name: 
+      speaker: Nuno Sousa 
+      time: 17:30-18:30 
       duration: one-hour
       image: tec.png
       type: talk
 
     - name: Game Dev Meetup 
-      time: 19:00-21:00
+      time: 21:00-00:00
       duration: three-hours
       image: gamedev.png
       type: social
-
-    - meal: true
 
     - name: Arraial 
       time: 21:00-00:00
@@ -139,9 +158,12 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
   date: 8 FEV
   dayOfWeek: QUARTA
   activities:
-    - name: TBA
-      time: 9:30-10:30
-      duration: one-hour
+    - name: Aplicações Móveis Nativas em React Native
+      speaker: Nelson Pinto
+      type: workshop
+      time: 9:30-11:00
+      duration: one-and-half-hour
+      about: Desenvolvimento de aplicações móveis nativas recorrendo a Javascript e React.
 
     - coffee: true
 
@@ -156,9 +178,13 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
     
     - meal: true
 
-    - name: TBA
+    - name: Big Data – What´s in for Retail?
+      speaker: André Azevedo
+      enterprise: Bit Sonae
+      type: talk
       time: 14:00-15:00
       duration: one-hour
+      about: Após um breve enquadramento sobre a BIT na Sonae, será explorado o tema da Big Data no retalho. Trazemos uma abordagem muito funcional com exemplos do impacto deste movimento no retalho e o que nos permitiu fazer em resposta a uma procura cada vez mais exigente e necessidades comunicativas cada vez mais simples. Será explorada a abordagem da Sonae ao tema Big Data, partilhando um pouco sobre o que tem sido a experiência e necessidades tecnológicas para resposta à estratégia BI da Sonae.
 
     - name: United Nations University Operational Unit on Policy-driven Electronic Governance
       speaker: Luis Soares Barbosa
@@ -172,10 +198,8 @@ Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de
       time: 15:05-15:25
       duration: twenty-minutes
       type: talk
-      about: "O objetivo da palestra é entender como os projetos de governo eletrónico envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do governo eletrónico, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica.
+      about: O objetivo da palestra é entender como os projetos de e-Government envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do e-Government, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica. Com base num estudo de caso estruturado, abordagem iterativa da investigação IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de e-Government em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento de e-Government - uma perspetiva convencional "de cima para baixo" de um projeto de desenvolvimento de e-Government e um comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento de e-Government.
       image: realworld.png
-
-Com base num estudo de caso estruturado, abordagem iterativa da pesquisa IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de governo eletrónico em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento do governo eletrónico: uma perspetiva convencional 'de cima para baixo' de um projeto de desenvolvimento de governo eletrónico e comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento do governo eletrónico."
 
     - name: Urbanization Challenges, Smart Solutions and Smart Measurements
       speaker: Nuno Lopes
@@ -183,18 +207,9 @@ Com base num estudo de caso estruturado, abordagem iterativa da pesquisa IS e an
       type: talk
       duration: thirty-minutes
       image: realworld.png
-      about: "A rápida taxa de urbanização traz desafios sem precedentes para a obtenção de cidades sustentáveis e prósperas. Soluções inteligentes estão a ser adotadas em todo o mundo para enfrentar esses desafios. Tais soluções são fortemente apoiadas pelos novos avanços da tecnologia como forma de melhorar a eficiência das operações das cidades e otimizar os recursos humanos e naturais.
-
-Inovações transversais estão a inspirar outras cidades em todo o mundo a adotar melhores práticas semelhantes em soluções.
-Contudo, ainda não é possível saber exatamente quais os benefícios alcançados e em que medida.
-
-Portanto, indicadores-padrão para medir os benefícios de soluções inteligentes são necessários para comparar diferentes soluções em termos de resultados e também avaliar a sua eficiência e eficácia.
-
-Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO."
-
+      about: A rápida taxa de urbanização traz desafios sem precedentes para a obtenção de cidades prósperas e sustentáveis. Soluções inteligentes estão a ser adotadas em todo o mundo para enfrentar esses desafios. Tais soluções são fortemente apoiadas pelos novos avanços da tecnologia como forma de melhorar a eficiência das operações das cidades e otimizar os recursos humanos e naturais. Inovações transversais estão a inspirar outras cidades em todo o mundo a adotar melhores soluções e práticas semelhantes. Contudo, ainda não é possível saber exatamente quais os benefícios alcançados e em que medida. Portanto, indicadores-padrão para medir os benefícios de soluções inteligentes são necessários para comparar diferentes soluções em termos de resultados e também avaliar a sua eficiência e eficácia. Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO.
+  
     - coffee: true
-
-    - meal: true
 
     - name: Rally das Tascas
       time: 21:00-00:00
@@ -206,13 +221,14 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 9 FEV
   dayOfWeek: QUINTA
   activities:
-    - name: TBA
+    - name: Node.js no contexto da Paddypower Betfair
+      speaker: Jorge Rocha e Bruno Araújo
       time: 9:30-11:00
       duration: one-half-hour
 
     - coffee: true
 
-    - name: “… e a tua WEB, tira cafés?”
+    - name: Internet of Things- "...e a tua net tira cafes?"
       speaker: Pedro Couto
       time: 11:30-13:00
       duration: one-half-hour
@@ -220,6 +236,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       enterprise: Accenture
       enterprise_url: http://www.accenture.pt
       type: talk
+      about: Uma abordagem sobre como as inovações de hoje irão impactar a forma como os humanos, os computadores e outras entidades se relacionarão no futuro. Estamos preparados para assistir a uma invasão de “inteligências artificiais”, processos de robotização e que sejam as máquinas as principais utilizadoras da Internet?  E as empresas, estão preparadas para esta nova revolução digital?
 
     - meal: true
 
@@ -229,7 +246,7 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       duration: one-hour
       image: today.png
       enterprise: Freeletics
-      type: talk
+      type: <p>A palestra será dividida em duas partes<p/> <p><strong>Parte 1.</strong> Num período de 4 anos, como se transformou uma ideia numa empresa com mais de 14 milhões de utilizadores? A história da Freeletics e os principais fatores para o seu sucesso.</p> <p><strong>Parte 2.</strong> Apresentação da infraestrutura técnica da Freeletics, apresentando as respostas ao desafio de escalar um backend Ruby on Rails para responder a milhões de requests. Será dada uma curta introdução a Docker, Kubernetes, Terraform e AWS.</p>
       enterprise_url: https://www.freeletics.com/pt
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
@@ -240,7 +257,9 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
       type: talk
       image: tec.png
 
-    - name: TBA
+    - name: Composing Interfaces with React
+      speaker: João Justo
+      enterprise: SubVisual
       time: 16:30-17:30
       duration: one-hour
 
@@ -258,11 +277,22 @@ Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV par
   date: 10 FEV
   dayOfWeek: SEXTA
   activities:
-    - name: TBA
+    - name: SafeCloud
       time: 12:00-13:00
       duration: one-hour
 
     - meal: true
+
+    - name: NoSQL is a Lie
+      speaker: Mike Elsmore
+      type: talk
+      enterprise: IBM
+      time: 14:00-15:00
+      duration: one-hour
+
+    - name: Entrega de Premios
+      type: social
+      time: 15:00-16:00
 
     - name: Hackathon 
       time: 18:00-00:00
