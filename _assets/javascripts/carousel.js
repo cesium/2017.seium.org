@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('.partners-carousel').slick({
     autoplay: true,
     slidesToShow: 3,
@@ -20,4 +21,27 @@ $(document).ready(function(){
     }
   ]
   });
+
+  var slickOpts = {
+    initialSlide: 2,
+    dots: true,
+    autoplay: false,
+    slidesToShow: 2,
+    responsive: [{
+      breakpoint: 450,
+      settings: {
+        slidesToShow: 1,
+        arrows: true,
+        dots: false
+      }
+    }
+  ]};
+
+
+  $('.agenda-carousel').slick(slickOpts);
+
+
 });
+
+
+
