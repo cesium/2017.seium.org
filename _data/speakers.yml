@@ -18,11 +18,7 @@
   position: Researcher
   enterprise: United Nations University
   enterpriseURL: https://unu.edu
-<<<<<<< HEAD
   about: Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). Os seus atuais interesses de investigação centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal.
-=======
-  about: "Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University. Os seus atuais interesses de pesquisa centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal."
->>>>>>> 81abbdb... fixed soumaya bug
 
 - name: Pedro Vilaça
   pic: pedro_vilaca.png
@@ -59,7 +55,6 @@
   position: Front-end developer
   enterprise: Unbabel
   enterpriseURL: https://unbabel.com
-<<<<<<< HEAD
   web: http://johnsardine.com/
   twitter: http://twitter.com/johnsardine
   github: https://github.com/johnsardine
@@ -224,14 +219,3 @@
   enterpriseURL: http://www.blip.pt/
   about: Atualmente Web Developer na Blip onde integra o desenvolvimento de um novo Front-End para a empresa de apostas Paddy Power onde a performance é o principal foco. Começou a sua carreira como Android Developer, tendo pouco depois mudando a sua atenção para a Web onde desenvolveu projetos para a banca usando tecnologias Microsoft até que por fim encontrou a Blip e se tornou Javascript fanboy.
   id: 26
-=======
-  web: http://johnsardine.com/ 
-  twitter: http://twitter.com/johnsardine 
-  github: https://github.com/johnsardine 
-  about: "João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress."
-
-- name: TBA
-  pic: tba.png
-  position: TBA
-  enterprise: TBA
->>>>>>> 81abbdb... fixed soumaya bug

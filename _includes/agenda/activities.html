@@ -13,12 +13,8 @@
           <div class="col-sm-3 hidden-xs activity-img">
             <div class=" col-md-offset-4">
               
-              {% if act.image %}
-                {% image 'activities/{{ act.image }}' %}
-              {% else %}
-                  <i class="fa {{ act.icon }} fa-5x"></i>
-              {% endif %}
-
+              <i class="fa {{ act.icon }} fa-5x"></i>
+              
             </div>
             <div class="activity-info">
               <div class="activity-datetime">
