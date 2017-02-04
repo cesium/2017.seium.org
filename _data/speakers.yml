@@ -219,3 +219,13 @@
   enterpriseURL: http://www.blip.pt/
   about: Atualmente Web Developer na Blip onde integra o desenvolvimento de um novo Front-End para a empresa de apostas Paddy Power onde a performance é o principal foco. Começou a sua carreira como Android Developer, tendo pouco depois mudando a sua atenção para a Web onde desenvolveu projetos para a banca usando tecnologias Microsoft até que por fim encontrou a Blip e se tornou Javascript fanboy.
   id: 26
+
+- name: João Justo
+  pic: joao-justo.jpg
+  position: Developer
+  enterprise: Subvisual
+  enterpriseURL: https://subvisual.co/
+  github: https://github.com/joaojusto
+  twitter: https://twitter.com/jpjustonunes
+  about: Estudante de Engenharia de Informática e Computação na U.P. Os seus principais interesses são aplicações móveis e jogos. Ganhou uma especial curiosidade por tecnologias web, tendo entrado para a Subvisual como apprentice, onde atualmente ocupa um lugar como developer.
+  id: 26
