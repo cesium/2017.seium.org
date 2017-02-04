@@ -6,7 +6,7 @@
       time: 10:00-12:00
       duration: two-hours 
       about: "O CoderDojo é uma rede global de clubes de programação gratuitos e sem fins lucrativos com o objetivo de ensinar jovens dos 7 aos 17 a programar. Fundado em 2011 este movimento conta já com mais de 600 Dojos (clubes) dispersos por 60 países. Em Braga, desde 2013 que o CoderDojo Minho tem trabalhado de perto com vários jovens criando pequenas apps, websites, jogos, e outras plataformas. Os participantes, apelidados “ninjas”, aprendem assim com a ajuda de vários mentores que a programação é uma força capaz de mudar o mundo."
-      image: coderdojo.png
+      icon: fa-users
       type: social
 
 - monday:
@@ -16,15 +16,18 @@
     - name: Sessão de Abertura 
       time: 9:30-10:00
       duration: half-hour
-      image: abertura.png
+      icon: fa-scissors
       about: Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas.
+      type: social
 
     - name: Ameaças de segurança emergentes
       speaker: Ricardo Oliveira
       enterprise: Eurotux
       time: 10:00-11:30
       duration: one-hour
+      icon: fa-shield
       about: Apresentação das ameaças emergentes a nível global e análise de incidentes ocorridos em organizações portuguesas.
+      type: talk
 
     - coffee: true
 
@@ -34,7 +37,7 @@
       duration: one-hour 
       type: talk
       about: Irá ser apresentado o Zebromat, um site simples desenvolvido pela Checkmarx que demonstra ao vivo como podemos facilmente assumir o servidor em minutos através de uma combo box. Irá também ser mostrado como aplicações protegidas são invadidas devido a outras aplicações vulneráveis hospedadas no mesmo servidor. Irá-se falar sobre o que as empresas devem fazer para garantir a segurança do seu software.
-      image: tec.png
+      icon: fa-user-secret
       enterprise: Checkmarx
       enterprise_url: https://www.checkmarx.com/ 
       type: talk 
@@ -46,7 +49,7 @@
       enterprise: Apple
       time: 14:00-15:00
       duration: one-hour
-      image: security.png
+      icon: fa-question-circle
       type: talk 
       about: Serás capaz de escolher, no local, uma de duas apresentações. Aquela com mais mãos no ar ganha! Uma é mais amigável para o cérebro. A outra é basicamente uma brincadeira de computação de baixo nível hardcore, para te mostrar a investigação de segurança topo de gama.
 
@@ -56,6 +59,8 @@
       time: 15:00-16:00
       duration: one-hour
       about: Vamos mergulhar profundamente no que torna o Kernel tão importante, como realmente construí-lo e instalá-lo, como é trabalhar nele, armadilhas comuns e como será o futuro.
+      icon: fa-microchip
+      type: talk
 
     - coffee: true
   
@@ -67,16 +72,16 @@
       enterprise_url: https://www.microsoft.com/pt-pt/
       type: talk
       about: Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações.
-      image: realworld.png
+      icon: fa-cloud-upload
     
-    - name: TBA
+    - name: Sorte Minha
       speaker: Luís Gomes
       enterprise: Santa Casa
       time: 17:30-18h30
       duration: one-hour
       type: talk
       about: Um play-by-play de uma auditoria a um device sem qualquer tipo de informação prévia (black box testing), com o objetivo de controlar a informação e obter um lucro financeiro imediato que poderia ascender a milhões de euros.
-      image: 
+      icon: fa-desktop
 
     - name: Quiz Gaming Night
       time: 21:00-00:00
@@ -94,15 +99,18 @@
       duration: one-hour
       type: talk
       about: O excessivo tempo entre a ideia original e a disponibilização do software que a suporta mostra que a forma como temos desenvolvido software nas últimas décadas não é eficiente. A esse excesso de tempo acresce muitas vezes a falta de qualidade do software entregue, quer devido a erros existentes, quer por não implementar exatamente a ideia original, o que aumenta ainda mais o tempo de entrega. Para resolver este problema, a comunidade das metodologias ágeis sugere que o fosso entre quem desenvolve o software (Development) e quem o instala e opera (Operations) seja eliminado, pela utilização de um conjunto de ferramentas e métodos de trabalho que, apesar de não serem individualmente disruptivos, exigem esforço e disciplina na sua utilização contínua e eficaz. Esta palestra mostra que esta mudança é um caminho que é preciso percorrer e não um evento súbito que tudo muda.
-      image: devops.png
+      icon: fa-road
       enterprise: Altice Labs
       enterprise_url: http://www.alticelabs.com/pt/
 
-    - name: 
+    - name: Building React applications at scale
+      speaker: Wilson Alberto
       enterprise: Farfetch
       type: talk 
       time: 10:30-11:30
       duration: one-hour
+      icon: fa-arrows-alt
+      about: Atualmente, há uma procura crescente por aplicações web altamente escaláveis e com uma grande performance. Escolher o melhor software e abordagem para resolver estes problemas pode tornar-se uma tarefa assustadora com o aumento cada vez maior de frameworks e tecnologias disponíveis. Na Farfetch, escolhemos React e Webpack para nos ajudar a atingir esses objetivos. Vamos guiar-te através do processo por trás dessa escolha, que desafios superamos, as vantagens de usar essas tecnologias e como construímos uma infraestrutura escalável para aplicações de alto tráfego.
 
     - coffee: true
 
@@ -112,6 +120,7 @@
       time: 12:00-13:00
       duration: one-hour
       about: Ao longo do tempo da talk, José Castanheira irá construir um jogo utilizando a ferramenta de desenvolvimento Game Maker - Studio, onde irá explicar as várias componentes do programa ao longo da criação.
+      icon: fa-gamepad
 
     - meal: true
 
@@ -120,12 +129,16 @@
       time: 14:00-15:00
       duration: one-hour
       type: talk
+      icon: fa-level-up
+      about: Truques e dicas usadas no desenvolvimento do Shutix para obter um protótipo de uma forma rápida e objetiva, com aspeto polido.
 
     - name: Through the Looking Glass- Decomposing VR tech, case studies and market analysis.
       speaker: Tiago Loureiro
       time: 15:00-16:00 
       duration: one-hour
       about: O desenvolvimento de projetos de realidade virtual apresenta muitos desafios diferentes. Esta palestra aborda não só a tecnologia e as melhores práticas de desenvolvimento, mas também princípios básicos que são específicos da realidade virtual e também partilha algumas informações sobre o que está a acontecer atualmente no mercado.
+      icon: fa-briefcase
+      type: talk
 
     - coffee: true
 
@@ -134,7 +147,7 @@
       duration: one-hour
       image: tec.png
       type: talk
-    
+      
     - name: 
       speaker: Nuno Sousa 
       time: 17:30-18:30 
@@ -163,6 +176,7 @@
       type: workshop
       time: 9:30-11:00
       duration: one-and-half-hour
+      icon: fa-mobile
       about: Desenvolvimento de aplicações móveis nativas recorrendo a Javascript e React.
 
     - coffee: true
@@ -171,7 +185,7 @@
       speaker: Boris Tchikoulaev
       time: 11:30-13:00
       duration: one-and-half-hour
-      image: realworld.png
+      icon: fa-table
       enterprise: Xpand IT
       enterprise_url: http://www.xpand-it.com/ 
       type: talk
@@ -184,6 +198,7 @@
       type: talk
       time: 14:00-15:00
       duration: one-hour
+      icon: fa-database
       about: Após um breve enquadramento sobre a BIT na Sonae, será explorado o tema da Big Data no retalho. Trazemos uma abordagem muito funcional com exemplos do impacto deste movimento no retalho e o que nos permitiu fazer em resposta a uma procura cada vez mais exigente e necessidades comunicativas cada vez mais simples. Será explorada a abordagem da Sonae ao tema Big Data, partilhando um pouco sobre o que tem sido a experiência e necessidades tecnológicas para resposta à estratégia BI da Sonae.
 
     - name: United Nations University Operational Unit on Policy-driven Electronic Governance
@@ -199,16 +214,24 @@
       duration: twenty-minutes
       type: talk
       about: O objetivo da palestra é entender como os projetos de e-Government envolvem organizações públicas num desafio de mudança contínua. Esta pesquisa enfatiza a relação entre a crescente complexidade do desenvolvimento do e-Government, a mudança contínua, bem como a necessidade de construir capacidades de mudança. Este estudo examina as capacidades de mudança necessárias para sustentar o progresso e renovar a mudança organizacional e tecnológica. Com base num estudo de caso estruturado, abordagem iterativa da investigação IS e análise de teoria fundamentada, foram estudados projetos de desenvolvimento de e-Government em duas organizações públicas canadenses diferentes. Uma análise comparativa desses casos de estudo em profundidade revelou duas estratégias distintas de desenvolvimento de e-Government - uma perspetiva convencional "de cima para baixo" de um projeto de desenvolvimento de e-Government e um comportamento co-evolutivo que ajudou as organizações públicas a lidar melhor com a crescente complexidade do desenvolvimento de e-Government.
-      image: realworld.png
+      icon: fa-suitcase
 
     - name: Urbanization Challenges, Smart Solutions and Smart Measurements
       speaker: Nuno Lopes
       time: 15:25-16:00
       type: talk
       duration: thirty-minutes
-      image: realworld.png
+      icon: fa-building-o
       about: A rápida taxa de urbanização traz desafios sem precedentes para a obtenção de cidades prósperas e sustentáveis. Soluções inteligentes estão a ser adotadas em todo o mundo para enfrentar esses desafios. Tais soluções são fortemente apoiadas pelos novos avanços da tecnologia como forma de melhorar a eficiência das operações das cidades e otimizar os recursos humanos e naturais. Inovações transversais estão a inspirar outras cidades em todo o mundo a adotar melhores soluções e práticas semelhantes. Contudo, ainda não é possível saber exatamente quais os benefícios alcançados e em que medida. Portanto, indicadores-padrão para medir os benefícios de soluções inteligentes são necessários para comparar diferentes soluções em termos de resultados e também avaliar a sua eficiência e eficácia. Os desafios da urbanização serão apresentados, bem como o quadro UNU-EGOV para cidades inteligentes e sustentáveis, que aborda todos estes desafios. Por último, serão discutidos os indicadores internacionais das cidades inteligentes da UIT e da ISO.
   
+    - name: TBA
+      speaker: Carlos Barreiras & João Lopes
+      time: 16:30-17:30
+      type: talk
+      duration: one-hour
+      image: realworld.png
+      about: 
+
     - coffee: true
 
     - name: Rally das Tascas
@@ -225,14 +248,15 @@
       speaker: Jorge Rocha e Bruno Araújo
       time: 9:30-11:00
       duration: one-half-hour
+      type: talk
 
     - coffee: true
 
-    - name: Internet of Things- "...e a tua net tira cafes?"
+    - name: Internet of things -  "… e a tua Web, tira cafés?”
       speaker: Pedro Couto
       time: 11:30-13:00
       duration: one-half-hour
-      image: offwebapps.png
+      icon: fa-coffee
       enterprise: Accenture
       enterprise_url: http://www.accenture.pt
       type: talk
@@ -244,9 +268,10 @@
       speaker: Miguel Regedor
       time: 14:00-15:00
       duration: one-hour
-      image: today.png
+      icon: fa-lightbulb-o
       enterprise: Freeletics
-      type: <p>A palestra será dividida em duas partes<p/> <p><strong>Parte 1.</strong> Num período de 4 anos, como se transformou uma ideia numa empresa com mais de 14 milhões de utilizadores? A história da Freeletics e os principais fatores para o seu sucesso.</p> <p><strong>Parte 2.</strong> Apresentação da infraestrutura técnica da Freeletics, apresentando as respostas ao desafio de escalar um backend Ruby on Rails para responder a milhões de requests. Será dada uma curta introdução a Docker, Kubernetes, Terraform e AWS.</p>
+      type: talk
+      about: <p>A palestra será dividida em duas partes<p/> <p><strong>Parte 1.</strong> Num período de 4 anos, como se transformou uma ideia numa empresa com mais de 14 milhões de utilizadores? A história da Freeletics e os principais fatores para o seu sucesso.</p> <p><strong>Parte 2.</strong> Apresentação da infraestrutura técnica da Freeletics, apresentando as respostas ao desafio de escalar um backend Ruby on Rails para responder a milhões de requests. Será dada uma curta introdução a Docker, Kubernetes, Terraform e AWS.</p>
       enterprise_url: https://www.freeletics.com/pt
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
@@ -255,20 +280,23 @@
       duration: one-hour
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
       type: talk
-      image: tec.png
+      icon: fa-share-alt
 
     - name: Composing Interfaces with React
       speaker: João Justo
       enterprise: SubVisual
       time: 16:30-17:30
       duration: one-hour
+      about: Using react as a pure functional component interface builder.
+      icon: fa-keyboard-o
+      type: talk
 
     - name: Front-end Foundations - Folder structure, grids, naming conventions and best practices
       speaker: João Sardinha
       time: 17:30-18:30
       duration: one-hour 
       about: "Aprender como estruturar o teu projeto front-end, entender a importância de nomear e a semântica ao escrever o teu código, aprender como delegar o teu layout num sistema de rede, entender porque deves escrever o menor CSS possível, introdução à especificidade do seletor."
-      image: offwebapps.png
+      icon: fa-file-code-o
       enterprise: Unbabel
       enterprise_url: https://unbabel.com/pt
       type: workshop 
@@ -289,6 +317,8 @@
       enterprise: IBM
       time: 14:00-15:00
       duration: one-hour
+      icon: fa-table
+      about: NoSQL é um termo em ascensão, e é uma mentira. NoSQL é um termo “catch-all” e vou apontar porquê que um “catch-all” significa faltar ferramentas que podem ajudar a resolver os teus problemas. Passando por alguns DB’s populares, vamos caminhar através dos casos de uso e porquê que eles são bons no que fazem.
 
     - name: Entrega de Premios
       type: social
@@ -297,7 +327,7 @@
     - name: Hackathon 
       time: 18:00-00:00
       duration: six-hours
-      image: hackathon.png
+      icon: fa-code
       register: http://seium.org/hackathon/
       about: A Return Hackathon é uma maratona de programação gratuita, organizada pelo Centro de estudantes de Engenharia Informática da Universidade do Minho (CeSIUM), cujo tema é o Bem Social, onde os participantes são desafiados a “devolver” à sociedade em geral parte do bem que esta lhes trouxe.
       type: Concurso
@@ -310,6 +340,6 @@
     - name: Hackathon 
       time: 00:00-23:59
       duration: twenty-hours 
-      image: hackathon.png
+      icon: fa-code
       type: Concurso
       about: A Return Hackathon é uma maratona de programação gratuita, organizada pelo Centro de estudantes de Engenharia Informática da Universidade do Minho (CeSIUM), cujo tema é o Bem Social, onde os participantes são desafiados a “devolver” à sociedade em geral parte do bem que esta lhes trouxe.

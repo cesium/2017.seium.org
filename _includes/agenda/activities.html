@@ -3,15 +3,23 @@
     {% for day in site.data.agenda %}
     <div class="container">
       <div class="section-title-container">
-        <h1 class="section-title">{{ day.date }}</h1>
+        <h1 class="section-title">{{ day.date }} {{ day.dayOfWeek }}</h1>
       </div>
 
       {% for act in day.activities %}
-      {% if act.image %}
+      {% if act.about %}
       <div id="{{ act.name | slugify }}" class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 activity-box">
           <div class="col-sm-3 hidden-xs activity-img">
-            {% image 'activities/{{ act.image }}' %}
+            <div class=" col-md-offset-4">
+              
+              {% if act.image %}
+                {% image 'activities/{{ act.image }}' %}
+              {% else %}
+                  <i class="fa {{ act.icon }} fa-5x"></i>
+              {% endif %}
+
+            </div>
             <div class="activity-info">
               <div class="activity-datetime">
                 <p>
