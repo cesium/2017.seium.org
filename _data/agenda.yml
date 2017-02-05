@@ -113,12 +113,12 @@
 
     - coffee: true
 
-    - name:  Introdução ao Game Maker- Studio
+    - name:  Introdução ao Game Maker Studio
       speaker: José Carlos Castanheira
       type: talk
       time: 12:00-13:00
       duration: one-hour
-      about: Ao longo do tempo da talk, José Castanheira irá construir um jogo utilizando a ferramenta de desenvolvimento Game Maker - Studio, onde irá explicar as várias componentes do programa ao longo da criação.
+      about: Ao longo do tempo da talk, José Castanheira irá construir um jogo utilizando a ferramenta de desenvolvimento Game Maker Studio, onde irá explicar as várias componentes do programa ao longo da criação.
       icon: fa-gamepad
 
     - meal: true
@@ -185,6 +185,7 @@
       enterprise: Xpand IT
       enterprise_url: http://www.xpand-it.com/ 
       type: talk
+      about: Existem várias ferramentas de exploração e análise de dados para o chamado self-service business intelligence. O software Tableau destaca-se pela simplicidade, robustez e garantia de resultados, para além da sua performance. Numa fase de grande em que o IoT e Big Data tomam um lugar cimeiro no processamento e gestão de grandes clusters de dados, contamos com esta sessão apresentar algumas das soluções e funcionalidades que tornam o Tableau uma das ferramentas de vanguarda do Business Intelligence & Analytics.
     
     - meal: true
 
@@ -283,7 +284,7 @@
       type: talk
       icon: fa-share-alt
 
-    - name: Composing Interfaces with React
+    - name: React como um construtor de interface de componente funcional puro
       speaker: João Justo
       enterprise: SubVisual
       time: 16:30-17:30
