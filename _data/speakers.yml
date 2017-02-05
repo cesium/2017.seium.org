@@ -10,14 +10,14 @@
   pic: soumaya.png
   position: Researcher
   enterprise: United Nations University
-  enterpriseURL: https://unu.edu
+  enterpriseURL: http://egov.unu.edu/ 
   about: "Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada \"Building Change Capabilities for e-Government Continuous Development\". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas."
 
 - name: Nuno Lopes
   pic: nuno_lopes.jpg
   position: Researcher
   enterprise: United Nations University
-  enterpriseURL: https://unu.edu
+  enterpriseURL: http://egov.unu.edu/ 
   about: Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). Os seus atuais interesses de investigação centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal.
 
 - name: Pedro Vilaça
@@ -32,13 +32,17 @@
   position: Technical Evangelist
   enterprise: Microsoft Portugal
   enterpriseURL: https://www.microsoft.com/pt-pt/
+  twitter: https://twitter.com/elcalado
   about: Luís Calado é um Technical Evangelist na Microsoft Portugal, onde é responsável pela disseminação cloud, liderando a área, em Portugal, no que toca a iniciativas de apoio ao ecossistema startup. Tem formação em Engenharia Informática e de Computadores pelo Instituto Superior Técnico, acumulando 20 anos de experiência na área das Tecnologias da Informação. Para além de uma vasta experiência em tecnologias Microsoft (C#, SQL Server, Azure), é também um entusiasta developer, fotógrafo e cozinheiro.
 
 - name: Miguel Regedor
   pic: miguel-regedor.jpg
-  position: Lead of Backend Engineering
+  position: Lead of Back-End Engineering
   enterprise: Freeletics
   enterpriseURL: https://www.freeletics.com/en
+  web: http://miguelregedor.com/ 
+  twitter: https://twitter.com/miguelregedor 
+  github: https://github.com/regedor
   about: Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projetos em Flash, em 2007 optou por Ruby on Rails, sendo um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova Iorque enquanto participava na escrita do livro "Getting Started with Ruby on Rails (IBM free ebook)". Trabalhou em diversos projetos de investigação com a Universidade Aberta, Faculdade de Engenharia da Universidade do Porto, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado, acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, atualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada), criou o "Cá Vou EU" e "Blue Heart Explosion" e é atualmente líder das equipas de Backend e Technical Operations da Freeletics.
 
 - name: Daniela Matos de Carvalho
@@ -73,7 +77,7 @@
   position: Senior Manager
   enterprise: Accenture
   enterpriseURL: https://www.accenture.com/pt-pt
-  twitter:
+  twitter: https://twitter.com/pedrommcouto
   about: Pedro Couto é licenciado em Informática, pela Faculdade de Ciências da Universidade de Lisboa, e Senior Manager na Accenture. Tendo ingressado nesta empresa em 1998, desenvolveu a fase inicial da sua carreira na unidade de Health & Public Service, na área da tecnologia. Com uma larga experiência em implementações baseadas em stacks de Open-Source, foi o responsável por diversos projetos web, em clientes de diversas indústrias. Desde 2016 é um dos responsáveis pela implementação do NanoLabs Lisboa, uma unidade de divulgação da inovação desenvolvida pela Accenture. Foi ainda professor convidado da Universidade Europeia de Lisboa e membro da equipa de formadores do projeto DISLOGO da Universidade Católica Portuguesa, de ensino a distância para executivos.
   id: 10
 
@@ -135,7 +139,7 @@
 
 - name: Nelson Pinto
   pic: nelson-pinto.png
-  position: Developer de Aplicações Móveis
+  position: Mobile Application Developer
   enterprise: Smith Micro Software
   enterpriseURL: http://www.smithmicro.com/
   about: Nelson Pinto é licenciado em Engenharia de Telecomunicações pela Universidade do Minho e é Developer de Aplicações Móveis na Smith Micro Software. Com participação no desenvolvimento de diversas aplicações móveis em vários projetos (Skyüber, Vodafone Mexefest 2016, Little Culture App, SafePath, entre outros), tem experiência no desenvolvimento de aplicações nativas iOS e Android, tendo também experiência na utilização da framework React Native no desenvolvimento de aplicações híbridas.
@@ -162,9 +166,11 @@
 
 - name: Ricardo Oliveira
   pic: Ricardo_Oliveira.jpg
-  position: Diretor de Serviços de Consultoria
+  position: Director of Consulting Services
   enterprise: Eurotux
   enterpriseURL: https://eurotux.com/ 
+  twitter: https://twitter.com/rmoliveira 
+  web: https://about.me/ricardoliveira 
   about: Ricardo é licenciado em Engenharia de Sistemas e Informática pela Universidade do Minho e mestre em Engenharia Informática também pela Universidade do Minho. Tem várias certificações IBM e atualmente é Diretor de Serviços de Consultoria na Eurotux. Tem experiência em servidores, redes, armazenamento, segurança e serviços, com foco especial em tecnologias open source, e tem elevada experiência em gestão de projetos, liderança de equipas de TI, análise, projeto e implementação de soluções de TI, desenvolvimento de negócios e planeamento estratégico de TI. Consultor sénior e formador de TI, com comprovada capacidade de análise e resolução de problemas e competências interpessoais, apresenta uma elevada experiência, na área de desenvolvimento de negócios, em transformar TI em valor de negócio e vantagem competitiva.
   id: 20
 
@@ -197,18 +203,19 @@
 
 - name: Luis Soares Barbosa
   pic: lsb.jpg
-  position:  Professor Associado
+  position:  Associate Professor
   enterprise: Departamento Informática Universidade do Minho
-  enterpriseURL: http://www.di.uminho.pt/
+  enterpriseURL:  http://egov.unu.edu/ 
   web: http://lmf.di.uminho.pt/~lsb/
   about: Luís Soares Barbosa é professor associado com habilitação no Departamento de Informática da Universidade do Minho e investigador sénior no HASLab/INESC TEC, Laboratório de Software Confiável do Instituto de Engenharia de Sistemas e Computadores - Tecnologia e Ciência . Desde outubro de 2016 é Diretor Interno da UNU-EGOV (United Nations University Operating Unit on Policy-driven Electronic Governance). Nos últimos anos, coordenou 4 projetos de pesquisa a nível nacional e publicou 5 capítulos de livros, 25 artigos de revistas e mais de 60 trabalhos de conferências internacionais. A sua pesquisa tem como objetivo melhorar os padrões científicos, procurando rigor e simplicidade no design de software e arquitetura através da matemática.
   id: 24
 
 - name: Bruno Araújo
   pic: bruno.jpg
-  position: frontend developer
+  position: Front-End Developer
   enterprise: BLIP
   enterpriseURL: http://www.blip.pt/
+  twitter: https://twitter.com/brunotiagoaa 
   about: Foi aluno da Universidade Minho e é Front-end Developer na Blip desde 2015. Apaixonado por aplicações escaláveis e modulares, encontrou na Blip o local certo para continuar a trabalhar em JavaScript. Gosta de experimentar todas as frameworks JavaScript para poder dizer mal e odeia ‘spaghetti’ code.
   id: 25
 
