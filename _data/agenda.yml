@@ -63,21 +63,11 @@
       type: talk
 
     - coffee: true
-  
-    - name: How cognitive services are changing the world
-      speaker: Luís Calado
-      enterprise: Microsoft Portugal
-      time: 16:30-17h30
-      duration: one-hour
-      enterprise_url: https://www.microsoft.com/pt-pt/
-      type: talk
-      about: Hoje em dia é possível permitir a interação natural e contextual com ferramentas que aumentam a experiência dos utilizadores graças ao poder da inteligência artificial, que submerge numa coleção cada vez maior de poderosos algoritmos de inteligência artificial para visão, fala, linguagem e conhecimento que irão moldar o futuro das aplicações.
-      icon: fa-cloud-upload
     
     - name: Sorte Minha
       speaker: Luís Gomes
       enterprise: Santa Casa
-      time: 17:30-18h30
+      time: 16:30-17:30
       duration: one-hour
       type: talk
       about: Um play-by-play de uma auditoria a um device sem qualquer tipo de informação prévia (black box testing), com o objetivo de controlar a informação e obter um lucro financeiro imediato que poderia ascender a milhões de euros.
