@@ -16129,7 +16129,7 @@ $(document).ready ( function() {
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse(new Date(2016, 1, 13, 18)));
+  var deadline = new Date(Date.parse(new Date(2017, 1, 5, 23, 59)));
   initializeClock('clock', deadline);
 
 });
