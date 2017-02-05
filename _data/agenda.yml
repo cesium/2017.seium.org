@@ -263,7 +263,7 @@
       icon: fa-lightbulb-o
       enterprise: Freeletics
       type: talk
-      about: <p>A palestra será dividida em duas partes<p/> <p><strong>Parte 1.</strong> Num período de 4 anos, como se transformou uma ideia numa empresa com mais de 14 milhões de utilizadores? A história da Freeletics e os principais fatores para o seu sucesso.</p> <p><strong>Parte 2.</strong> Apresentação da infraestrutura técnica da Freeletics, apresentando as respostas ao desafio de escalar um backend Ruby on Rails para responder a milhões de requests. Será dada uma curta introdução a Docker, Kubernetes, Terraform e AWS.</p>
+      about: "<p><br>A palestra será dividida em duas partes:</p><p><strong>Parte 1 -</strong> Num período de 4 anos, como se transformou uma ideia numa empresa com mais de 14 milhões de utilizadores? A história da Freeletics e os principais fatores para o seu sucesso.</p><p><strong>Parte 2 -</strong> Apresentação da infraestrutura técnica da Freeletics, apresentando as respostas ao desafio de escalar um backend Ruby on Rails para responder a milhões de requests. Será dada uma curta introdução a Docker, Kubernetes, Terraform e AWS.</p>"
       enterprise_url: https://www.freeletics.com/pt
 
     - name: HTTP/2 - Gotcha! I finally understand HTTP/2
