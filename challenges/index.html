@@ -59,7 +59,14 @@ layout: default
           {% endif %}
 
           {% if challenge.submit %}
-          <a href="{{ challenge.submit }}" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          <div class="col-md-6">
+            <a href="{{ challenge.submit }}" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          </div>
+          {% endif %}
+          {% if challenge.rank %}
+          <div class="col-md-6">
+            <a href="{{ challenge.submit }}" target="_blank"><button class="btn btn-info btn-sei btn-des">RANKING</button></a>
+          </div>
           {% endif %}
 
       </div>
@@ -76,6 +83,7 @@ layout: default
       </div>
     </div>
     {% endif %}
+
 
   </div>
 
