@@ -9177,11 +9177,7 @@ header {
     height: auto; } }
 @media screen and (max-width: 626px) {
   #agenda .agenda-wrapper .agenda-day {
-    font-size: 0.9em; }
-    #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-time {
-      font-size: 0.8em; }
-    #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block .activity-name, #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block .activity-location, #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block .activity-speaker, #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block h5 {
-      font-size: 0.7em; } }
+    font-size: 0.9em; } }
 #speakers {
   background-attachment: fixed;
   background-image: url("/assets/backgrounds/dark-stuff.png");
