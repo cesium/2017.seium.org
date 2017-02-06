@@ -228,3 +228,14 @@
   twitter: https://twitter.com/jpjustonunes
   about: João Justo é estudante de Engenharia de Informática e Computação da Universidade do Porto. Os seus principais interesses são aplicações móveis e jogos. Ganhou uma especial curiosidade por tecnologias web, tendo entrado para a Subvisual como Apprentice, onde atualmente ocupa um lugar como Developer, onde está habituado a construir aplicações web e móveis. Trabalha principalmente com JavaScript, tanto back-end como front-end, Ruby e Git e é um dos organizadores do RubyConf Portugal e do Braga.JS.
   id: 26
+
+- name: Rui Guedes
+  pic: Rui_Guedes.jpg
+  position: Developer
+  enterprise: Ground Control
+  enterpriseURL: http://www.gcontrolgames.com/
+  github: 
+  twitter: 
+  about: Rui Guedes trabalhou durante alguns anos no desenvolvimento de soluções empresariais e fez algum desenvolvimento e investigação no campo da robótica e inteligência artificial (tema do seu mestrado). Depois decidiu que precisava de mais animação na vida e virou-se para Indie Game Dev, primeiro em telemóveis e agora em PC/Consolas. Também tem experimentado imersão em realidade virtual (Kinect+Rift) e controlo EEG aplicado aos jogos/interação.
+  id: 27
+
