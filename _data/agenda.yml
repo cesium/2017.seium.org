@@ -20,6 +20,8 @@
       about: Sessão inaugural da edição deste ano. Será apresentado o calendário, os desafios e os parceiros da SEI. E, possivelmente, uma ou duas surpresas.
       type: social
 
+    - coffee: true
+
     - name: Ameaças de segurança emergentes
       speaker: Ricardo Oliveira
       enterprise: Eurotux
@@ -28,8 +30,6 @@
       icon: fa-shield
       about: Apresentação das ameaças emergentes a nível global e análise de incidentes ocorridos em organizações portuguesas.
       type: talk
-
-    - coffee: true
 
     - name: Hacking an Application with a Browser and a Zebra
       speaker: João Pena Gil
