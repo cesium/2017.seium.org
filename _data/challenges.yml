@@ -64,7 +64,7 @@
       img: fa-star
 
 
-- name: 2º Sorteio de X-Box One
+- name: 2º Sorteio de Xbox One
   desc: Passaste pelo CP2 e viste a empresa Accenture? Eles querem o teu Currículo! Envia-o para sei+cv@cesium.di.uminho.pt e habilita-te a ganhar uma Xbox One!
   class: light
   prizes:
@@ -75,9 +75,9 @@
 
 
 - name: Eurotux Desafio de Segurança
-  desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP 193.136.19.39. Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail.
+  desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP 193.136.19.39. Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail.
   enunciado: <ul> <li> Atenção! A não ser que haja indicação em contrário as flags são todas no formato "CTF{string}". O prefixo "CTF{" e o sufixo "}" devem ser incluídos ao reportar que conseguiram encontrar a flag. </ul> <li> Ponto de partida <ul> <li> Desafio 1 <ul> <li> http://193.136.19.39/challenge1 </ul> <li> Desafio 2 <ul> <li> http://193.136.19.39/challenge2 </ul> </ul> <li>  Dicas <ul> <li> Desafio 1 <ul> <li> Tenta perguntar alguma coisa. </ul> <li> Desafio 2 <ul> <li> Não há nada escondido no site. <li> ^G2C^HHH^9E>=^492==6?86a^E9:D0D9@F=5?E0360=2J:?802C@F?5 </ul> <li> Desafio 3 <ul><li> ATENÇÂO :a flag não está no formato "CTF{string}" <li> Se resolveste o desafio 2 não estás muito longe de resolver este. <li> Procura mesmo bem, já que às vezes as coisas estão escondidas à nossa vista. </ul>
-  rules: Apenas pessoas ligadas à universidade poderão concorrer (alunos, bolseiros, etc). Não é permitido qualquer tipo de ataque de negação de serviço, vulgo DoS. Não é permitido o acesso físico ao servidor (onde quer que esteja). Não é permitido após aceder ao servidor e efetuar ataques a outros servidores. Não é permitido desligar o servidor ou impedir que outras equipas lá acedam.
+  rules: Apenas pessoas ligadas à universidade poderão concorrer (alunos, bolseiros, etc). Não é permitido qualquer tipo de ataque de negação de serviço, vulgo DoS. Não é permitido o acesso físico ao servidor (onde quer que esteja). Não é permitido após aceder ao servidor e efetuar ataques a outros servidores. Não é permitido desligar o servidor ou impedir que outras equipas lá acedam.
   points:
     - task: Demonstração que conseguiram aceder ao conteúdo privado do servidor
     - task: Demonstração que conseguiram obter shell no servidor
@@ -109,7 +109,9 @@
   class: light
   prizes:
     - name: Razer Mechanical Keyboard
-      link: http://www.razerzone.com/gaming-keyboards-keypads/razer-blackwidow-tournament-edition
+
+      num: 1
+      link: https://www.amazon.co.uk/Razer-BlackWidow-Tournament-Essential-Mechanical/dp/B00L5J21LG/ref=sr_1_1?s=computers&ie=UTF8&qid=1485601774&sr=1-1&keywords=Razer%2BBlackWidow%2BTournament&th=1
       img: fa-trophy
 
     - name: Raspberry Pi 3
@@ -150,7 +152,7 @@
   prizes:
     - name: Powerbank
       num: 1
-      link:
+      link: http://i.imgur.com/QRGu9kT.jpg
       img: fa-star
 
 - name: Desafio nº4
