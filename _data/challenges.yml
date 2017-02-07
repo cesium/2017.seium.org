@@ -110,6 +110,7 @@
   class: light
   prizes:
     - name: Razer Mechanical Keyboard
+      num: 1
       link: https://www.amazon.co.uk/Razer-BlackWidow-Tournament-Essential-Mechanical/dp/B00L5J21LG/ref=sr_1_1?s=computers&ie=UTF8&qid=1485601774&sr=1-1&keywords=Razer%2BBlackWidow%2BTournament&th=1
       img: fa-trophy
 
