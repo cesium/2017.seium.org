@@ -55,18 +55,17 @@
 
 
 - name: Sorteio de Xbox One
-  desc: Lembras-te das badges que colecionaste? Tens mais do que 10? Ainda não? Garante um mínimo de 10 badges para te hablitares a ganhares uma Xbox One, já sabes! Quantas mais Badges colecionares, mais hipóteses tens de ganhar! Não te esqueças de registar as Badges!
+  desc: Lembras-te das badges que colecionaste? Tens mais do que 10? Ainda não? Garante um mínimo de 10 badges para te habilitares a ganhares uma Xbox One, já sabes! Quantas mais Badges colecionares, mais hipóteses tens de ganhar! Não te esqueças de registar as Badges!
   class: dark
   prizes:
     - name: Xbox One
       num: 1
-      link: http://www.xbox.com/pt-PT/xbox-one
-      #link errado? link: https://i.imgur.com/Lxo68Qj.jpg
+      link: http://www.xbox.com/pt-PT/xbox-o
       img: fa-star
 
 
 - name: 2º Sorteio de X-Box One
-  desc: Passaste pelo CP2 e viste a empresa Accenture? Eles querem o teu Currículo! Envia-o para sei+cv@cesium.di.uminho.pt e hablita-te a ganhar uma Xbox One!
+  desc: Passaste pelo CP2 e viste a empresa Accenture? Eles querem o teu Currículo! Envia-o para sei+cv@cesium.di.uminho.pt e habilita-te a ganhar uma Xbox One!
   class: light
   prizes:
     - name: Xbox One
@@ -77,7 +76,8 @@
 
 - name: Eurotux Desafio de Segurança
   desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP 193.136.19.39. Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail.
-  enunciado: <ul> <li> Atenção! A não ser que haja indicação em contrário as flags são todas no formato "CTF{string}". O prefixo "CTF{" e o sufixo "}" devem ser incluídos ao reportar que consugiram encontrar a flag. </ul> <li> Ponto de partida <ul> <li> Desafio 1 <ul> <li> http://193.136.19.39/challenge1 </ul> <li> Desafio 2 <ul> <li> http://193.136.19.39/challenge2 </ul> </ul> <li>  Dicas <ul> <li> Desafio 1 <ul> <li> Tenta perguntar alguma coisa. </ul> <li> Desafio 2 <ul> <li> Não há nada escondido no site. <li> ^G2C^HHH^9E>=^492==6?86a^E9:D0D9@F=5?E0360=2J:?802C@F?5 </ul> <li> Desafio 3 <ul><li> ATENÇÂO :a flag não está no formato "CTF{string}" <li> Se resolveste o desafio 2 não estás muito longe de resolver este. <li> Procura mesmo bem, já que às vezes as coisas estão escondidas à nossa vista. </ul>
+
+  enunciado: <ul> <li> Atenção! A não ser que haja indicação em contrário as flags são todas no formato "CTF{string}". O prefixo "CTF{" e o sufixo "}" devem ser incluídos ao reportar que conseguiram encontrar a flag. </ul> <li> Ponto de partida <ul> <li> Desafio 1 <ul> <li> http://193.136.19.39/challenge1 </ul> <li> Desafio 2 <ul> <li> http://193.136.19.39/challenge2 </ul> </ul> <li>  Dicas <ul> <li> Desafio 1 <ul> <li> Tenta perguntar alguma coisa. </ul> <li> Desafio 2 <ul> <li> Não há nada escondido no site. <li> ^G2C^HHH^9E>=^492==6?86a^E9:D0D9@F=5?E0360=2J:?802C@F?5 </ul> <li> Desafio 3 <ul><li> ATENÇÂO :a flag não está no formato "CTF{string}" <li> Se resolveste o desafio 2 não estás muito longe de resolver este. <li> Procura mesmo bem, já que às vezes as coisas estão escondidas à nossa vista. </ul>
   rules: Apenas pessoas ligadas à universidade poderão concorrer (alunos, bolseiros, etc). Não é permitido qualquer tipo de ataque de negação de serviço, vulgo DoS. Não é permitido o acesso físico ao servidor (onde quer que esteja). Não é permitido após aceder ao servidor e efetuar ataques a outros servidores. Não é permitido desligar o servidor ou impedir que outras equipas lá acedam.
   points:
     - task: Demonstração que conseguiram aceder ao conteúdo privado do servidor
@@ -124,10 +124,10 @@
       img: fa-gift
 
 - name: Desafio nº1
-  desc: <p>Este é o desafio que te vai dar mais trabalho, podes até ter de soar um pouco, mas vai valer a pena! Este desafio pode te até valer 30 pontos!</p><p>Método de classificação - tempo de cpu, desempate por rapidez de submissão</p></p> <p>O teu amigo do curso de electrónica está a montar um circuito e precisa da tua ajuda.</p>
+  desc: <p>Este é o desafio que te vai dar mais trabalho, podes até ter de soar um pouco, mas vai valer a pena! Este desafio pode te até valer 30 pontos!</p><p>Método de classificação - tempo de cpu, desempate por rapidez de submissão</p></p>
   class: dark
   submit: https://www.codechef.com/SEID2017/problems/SEIMAIN
-  enunciado: <p> O circuito que ele está a montar é constituido por fios e <a href="https://en.wikipedia.org/wiki/Logic_gate"><b>portas lógicas</b></a>.</p><p> Cada fio tem um identificador (string de letras minúsculas) e recebe sinais representados por um inteiro sem sinal de 16 bits (número de 0 a 65535).</p><p> O sinal que chega a cada fio pode ser o output de uma porta lógica, o sinal de outro fio ou um valor inteiro passado directamente.</p><p> As portas lógicas apenas produzem output caso todos os seus inputs tenham um sinal.</p><p> O teu amigo deu-te as instruções de montagem do circuito e precisa da tua ajuda para descobrir qual o sinal que chega ao fio identificado pela string <b>a</b>.</p><p> Acede a pagina de submissões para mais informações.</p>
+  enunciado: <p> O teu amigo do curso de electrónica está a montar um circuito e precisa da tua ajuda. O circuito que ele está a montar é constituido por fios e <a href="https://en.wikipedia.org/wiki/Logic_gate"><b>portas lógicas</b></a>.</p><p> Cada fio tem um identificador (string de letras minúsculas) e recebe sinais representados por um inteiro sem sinal de 16 bits (número de 0 a 65535).</p><p> O sinal que chega a cada fio pode ser o output de uma porta lógica, o sinal de outro fio ou um valor inteiro passado directamente.</p><p> As portas lógicas apenas produzem output caso todos os seus inputs tenham um sinal.</p><p> O teu amigo deu-te as instruções de montagem do circuito e precisa da tua ajuda para descobrir qual o sinal que chega ao fio identificado pela string <b>a</b>.</p><p> Acede a pagina de submissões para mais informações.</p>
   sub: yes
 
 - name: Desafio nº2
@@ -143,7 +143,7 @@
       img: fa-star
 
 - name: Desafio nº3
-  desc: <p> Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor codigo possivel (Code Golf), desempate por rapidez de submissão.</p>
+  desc: <p> Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possivel (Code Golf), desempate por rapidez de submissão.</p>
   class: dark
   enunciado: <p>Na remota vila de Pelican é organizada anualmente uma corrida de resistência na qual todos os habitantes da vila podem participar.</p><p> Ao contrário de uma corrida habitual, não existe uma meta. Em vez disso, a corrida tem a duração de 30 minutos e o vencedor é aquele que nesse tempo tiver percorrido a maior distância.</p><p> Além disso, os habitantes da vila cansam-se rapidamente e por isso não podem passar os 30 minutos seguidos a correr!</p><p> Por exemplo, Abigail, a vencedora do ano passado é uma excelente corredora que consegue correr a uns impressionantes 3 m/s durante 40 segundos, mas ao fim desse tempo tem que parar completamente para descansar por 20 segundos. Ao fim desses 20 segundos pode voltar a corrar durante mais 40 segundos até ter que parar novamente.</p><p> Acede a pagina de submissões para mais informações. </p>
   sub: yes
