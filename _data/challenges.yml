@@ -60,7 +60,7 @@
   prizes:
     - name: Xbox One
       num: 1
-      link: http://www.xbox.com/pt-PT/xbox-o
+      link: http://www.xbox.com/pt-PT/xbox-one
       img: fa-star
 
 
@@ -109,6 +109,7 @@
   class: light
   prizes:
     - name: Razer Mechanical Keyboard
+      num: 1
       link: https://www.amazon.co.uk/Razer-BlackWidow-Tournament-Essential-Mechanical/dp/B00L5J21LG/ref=sr_1_1?s=computers&ie=UTF8&qid=1485601774&sr=1-1&keywords=Razer%2BBlackWidow%2BTournament&th=1
       img: fa-trophy
 
@@ -136,7 +137,7 @@
   sub: yes
   submit: https://www.codechef.com/SEID2017/problems/SEIDIA01
   prizes:
-    - name: Powerbank 
+    - name: Powerbank
       num: 1
       link: http://i.imgur.com/QRGu9kT.jpg
       img: fa-star
@@ -148,9 +149,9 @@
   sub: yes
   submit: https://www.codechef.com/SEID2017/problems/SEIDIA02
   prizes:
-    - name: Powerbank 
+    - name: Powerbank
       num: 1
-      link: 
+      link:
       img: fa-star
 
 - name: Desafio nº4
@@ -160,7 +161,7 @@
   sub: yes
   submit: https://www.codechef.com/SEID2017/problems/SEIDIA03
   prizes:
-    - name: Powerbank 
+    - name: Powerbank
       num: 1
       link: http://i.imgur.com/QRGu9kT.jpg
       img: fa-star
@@ -172,7 +173,7 @@
   sub: yes
   submit: https://www.codechef.com/SEID2017/problems/SEIDIA04
   prizes:
-    - name: Powerbank 
+    - name: Powerbank
       num: 1
       link: http://i.imgur.com/QRGu9kT.jpg
       img: fa-star
