@@ -280,7 +280,9 @@
       about: "Esta palestra pretende explicar que problemas temos hoje em dia na web e que desafios o HTTP/2 se propõe a resolver. Vamos compreender quais as novas características do protocolo em comparação com HTTP/1.x. Também vamos perceber que ações para melhorar a performance estamos a fazer e que não são mais necessárias. A palestra tem alguns conceitos teóricos, mas a ideia principal é que consigamos todos perceber na prática e com alguns exemplos como entender e fazer debug do protocolo!"
       type: talk
       icon: fa-share-alt
-
+    
+    - coffee: true
+    
     - name: React como um construtor de interface de componente funcional puro
       speaker: João Justo
       enterprise: SubVisual
