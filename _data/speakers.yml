@@ -235,7 +235,16 @@
   enterprise: Ground Control
   enterpriseURL: http://www.gcontrolgames.com/
   github: 
-  twitter: 
+  twitter: https://twitter.com/rflguedes
   about: Rui Guedes trabalhou durante alguns anos no desenvolvimento de soluções empresariais e fez algum desenvolvimento e investigação no campo da robótica e inteligência artificial (tema do seu mestrado). Depois decidiu que precisava de mais animação na vida e virou-se para Indie Game Dev, primeiro em telemóveis e agora em PC/Consolas. Também tem experimentado imersão em realidade virtual (Kinect+Rift) e controlo EEG aplicado aos jogos/interação.
   id: 27
 
+- name: Ernesto Pedrosa
+  pic: ernesto_pedrosa.jpg
+  position: Co-founder & CTO 
+  enterprise: Agentifai
+  enterpriseURL: http://agentifai.com/
+  github: 
+  twitter: 
+  about: Ernesto tem mais de 14 anos de técnico internacional e management experience na área de produtos mobile e data services. Começou a sua carreira como developer freelancer nos seus anos de universidade. Após este período, em 2003, juntou-se à MobiComp com 3 anos de existência, que hoje é uma referência depois da sua aquisição pela Microsoft em 2008. Teve um papel principal na MobileKeeper product suite development, como developer lead. 
+  id: 27
