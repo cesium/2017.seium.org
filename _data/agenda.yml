@@ -218,8 +218,8 @@
       
     - coffee: true
 
-    - name: TBA
-      speaker: Carlos Barreiras & João Lopes
+    - name: AI - The next Steps
+      speaker: Carlos Barreiras & Jorge Soares & Ernesto Pedrosa
       time: 16:30-17:30
       type: Tertulia
       duration: one-hour
