@@ -81,7 +81,7 @@
   points:
     - task: Demonstração que conseguiram aceder ao conteúdo privado do servidor
     - task: Demonstração que conseguiram obter shell no servidor
-    - task: Demonstração que chegar a root
+    - task: Demonstração que conseguiram chegar à root
     - task: Demonstração que chegaram ao segredo
     - task: Primeira flag
     - task: Segunda flag
