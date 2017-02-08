@@ -15,6 +15,7 @@ When deploying with the rake file sometimes you need to force reset the branch `
 To fix it, before deploying run
 
 `git checkout gh-pages`
+
 `git reset --hard origin/gh-pages`
 
 and then deploy.
