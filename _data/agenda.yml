@@ -215,6 +215,11 @@
   
     - name: AI - The next Steps
       speaker: Carlos Barreiras & Jorge Soares & Ernesto Pedrosa
+      
+    - coffee: true
+
+    - name: TBA
+      speaker: Carlos Barreiras & João Lopes
       time: 16:30-17:30
       type: Tertulia
       duration: one-hour
@@ -227,8 +232,6 @@
       duration: one-hour
       icon: fa-laptop
       about: Porque é que os sistemas cognitivos vão ser importantes? O que é o Watson, como nasceu, como funciona e para onde vai? Saberemos o que nos reserva o futuro?
-
-    - coffee: true
 
     - name: Rally das Tascas
       time: 21:00-00:00
