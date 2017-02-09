@@ -320,6 +320,9 @@
     - name: SafeCloud
       time: 12:00-13:00
       duration: one-hour
+      speaker: Rogério Pontes & Francisco Neves
+      about: A cloud é apenas um computador de um desconhecido. Darias a tua chave de casa a um estranho? Vem conhecer o SafeCloud e descobre como podes proteger os teus dados!
+      icon: fa-cloud-upload
 
     - meal: true
 
