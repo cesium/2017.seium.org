@@ -23,7 +23,7 @@ $(document).ready(function(){
   });
 
   var slickOpts = {
-    initialSlide: 3,
+    initialSlide: 4,
     dots: true,
     autoplay: false,
     slidesToShow: 2,

@@ -304,34 +304,28 @@
   date: 10 FEV
   dayOfWeek: SEXTA
   activities:
-    - name: TBA
-      time: 9:30-10:30
-      duration: one-hour
-  
-    - name: TBA
+    - name: Centro de Investigação ALGORITMI
+      speaker: José Machado
+      type: talk
+      enterprise: CAlg
       time: 10:30-11:30
       duration: one-hour
+      icon: fa-table
+      about: O Centro de Investigação ALGORITMI (CAlg) é um dos maiores centros de investigação em Portugal reconhecidos pela Fundação para a Ciência e Tecnologia na área das Tecnologias da Informação, Comunicação e Electrónica (TICE). É constituído por 6 linhas de investigação heterogéneas e complementares. Vários docentes e bolseiros do Departamento de Informática (DI) investigam em pelo menos 3 linhas do CAlg. Nesta breve apresentação, a missão do CAlg, a organização interno do centro de investigação e a linha de investigação em Ciências da Computação e Tecnologias serão descritas. Entre os vários projectos em que o CAlg participa, o projecto iFactory (uma co-promoção entre a Bosch e a Universidade do Minho) será exemplificado, em particular um dos seus sub-projectos onde participam vários elementos do DI.
 
     - coffee: true
 
-    - name: SafeCloud
+    - name: O futuro da segurança e privacidade dos dados na cloud
+      speaker: Rogério Pontes e Francisco Neves
+      type: talk
+      enterprise: SafeCloud
       time: 12:00-13:00
       duration: one-hour
+      speaker: Rogério Pontes & Francisco Neves
+      about: A cloud é apenas um computador de um desconhecido. Darias a tua chave de casa a um estranho? Vem conhecer o SafeCloud e descobre como podes proteger os teus dados!
+      icon: fa-cloud-upload
 
     - meal: true
-
-    - name: NoSQL is a Lie
-      speaker: Mike Elsmore
-      type: talk
-      enterprise: IBM
-      time: 14:00-15:00
-      duration: one-hour
-      icon: fa-table
-      about: NoSQL é um termo em ascensão, e é uma mentira. NoSQL é um termo “catch-all” e vou apontar porquê que um “catch-all” significa faltar ferramentas que podem ajudar a resolver os teus problemas. Passando por alguns DB’s populares, vamos caminhar através dos casos de uso e porquê que eles são bons no que fazem.
-
-    - name: Entrega de Premios
-      type: social
-      time: 15:00-16:00
 
     - name: Hackathon 
       time: 18:00-00:00

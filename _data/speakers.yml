@@ -145,17 +145,6 @@
   about: Nuno Sousa é um Developer de Software atualmente a trabalhar na CCG em Portugal. Obteve um diploma de cinco anos e um mestrado em Engenharia Informática pela Universidade do Minho. No mestrado tirou especializações em Engenharia de Aplicações e em Análise e Conceção de Software. Nos últimos 8 anos, esteve envolvido no desenvolvimento de vários projetos nas áreas de Realidade Aumentada, Desenvolvimento de Software (desktop e web), Interação Humano-Computador, Bases de Dados, Computação Móvel, Domótica, Sistemas de Informação e Engenharia de Software. As suas principais áreas de interesse são Interfaces Gráficas de Utilizador com .Net (C# e WPF), Aplicações Multitouch com WPF, Jogos Sérios com o motor de jogos Unity 3D e Aplicações Móveis e de Realidade Aumentada (Unity3D e SDKs Vuforia e Android). 
   id: 18
 
-- name: Mike Elsmore
-  pic: mike-elsmore.jpg
-  position: Developer Advocate
-  enterprise: IBM Cloud Data Services
-  enterpriseURL: http://www.ibm.com/
-  web: http://elsmore.me/
-  twitter: https://twitter.com/ukmadlz
-  github: https://github.com/ukmadlz
-  about: "Mike é um Software Developer e Hacker, atualmente a trabalhar como Developer Advocate para a IBM Cloud Data Services, usando o seu tempo para partilhar conhecimentos sobre desenvolvimento rápido e bases de dados diferentes. Na maioria das vezes, pode ser encontrado no meio de um protótipo com alguma combinação de JavaScript, tecnologias de servidor e APIs estranhas. Tem vindo a construir sites e aplicações, principalmente em tecnologias baseadas na web, desde que se formou na universidade em 2008. Tem ajudado a criar aplicações para cadeias de abastecimento e desempenho empresarial. É também uma parte ativa da subcultura hacker, participando em hackathons e conferências de desenvolvimento."
-  id: 19
-
 - name: Ricardo Oliveira
   pic: Ricardo_Oliveira.jpg
   position: Director of Consulting Services
@@ -247,4 +236,24 @@
   github: 
   twitter: 
   about: Ernesto tem mais de 14 anos de técnico internacional e management experience na área de produtos mobile e data services. Começou a sua carreira como developer freelancer nos seus anos de universidade. Após este período, em 2003, juntou-se à MobiComp com 3 anos de existência, que hoje é uma referência depois da sua aquisição pela Microsoft em 2008. Teve um papel principal na MobileKeeper product suite development, como developer lead. 
-  id: 27
+  id: 28
+
+- name: Francisco Neves
+  pic: Francisco_Neves.jpeg
+  position: Investigador 
+  enterprise: HASLab
+  enterpriseURL: http://haslab.uminho.pt/
+  github: https://github.com/fntneves
+  twitter: https://twitter.com/fntneves
+  about: Francisco Neves é um entusiasta do mundo Web. É aluno do programa doutoral de informática MAP-i e investigador no Laboratório Software Confiável (HASLab), centro I&D integrado do INESC TEC e subunidade orgânica da Universidade do Minho. Durante o seu percurso, colaborou em projetos de investigação e integrou equipas de desenvolvimento de projetos direcionados para os utilizadores finais no contexto de diversas áreas, como tecnologia médica, social e outras. Atualmente, para além da atividade de investigação, é um dos responsáveis pela equipa desenvolvimento da aplicação SafeCloud Photos, uma aplicação que tem como objetivo guardar fotografias de forma segura na nuvem.
+  id: 29
+ 
+- name: Rogério Pontes
+  pic: Rogerio_Pontes.jpeg
+  position: Investigador 
+  enterprise: HASLab
+  enterpriseURL: http://haslab.uminho.pt/
+  github: 
+  twitter: 
+  about: Rogério Pontes é aluno de doutoramento e investigador no Laboratório de Software Confiável da Universidade do Minho (HASLab), centro I&D integrado do INESC TEC e subunidade orgânica da Universidade do Minho. Colabora há três anos em projetos nacionais e europeus que geram novo conhecimento nos domínios de computação na nuvem e privacidade de dados. Neste momento, é um dos investigadores principais do projeto europeu SafeCloud, cujo objetivo é fortalecer os níveis de segurança fornecidos pelas aplicações que estão dependentes da nuvem. Dentro do projeto, é responsável por desenvolver novas soluções de armazenamento seguras e capazes de fazer de processamento sobre dados protegidos sem menosprezar a eficiência e escalabilidade exigida pelas aplicações.
+  id: 30
