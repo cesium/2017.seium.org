@@ -129,6 +129,11 @@
   submit: https://www.codechef.com/SEID2017/problems/SEIMAIN
   enunciado: <p> O teu amigo do curso de electrónica está a montar um circuito e precisa da tua ajuda. O circuito que ele está a montar é constituido por fios e <a href="https://en.wikipedia.org/wiki/Logic_gate"><b>portas lógicas</b></a>.</p><p> Cada fio tem um identificador (string de letras minúsculas) e recebe sinais representados por um inteiro sem sinal de 16 bits (número de 0 a 65535).</p><p> O sinal que chega a cada fio pode ser o output de uma porta lógica, o sinal de outro fio ou um valor inteiro passado directamente.</p><p> As portas lógicas apenas produzem output caso todos os seus inputs tenham um sinal.</p><p> O teu amigo deu-te as instruções de montagem do circuito e precisa da tua ajuda para descobrir qual o sinal que chega ao fio identificado pela string <b>a</b>.</p><p> Acede a pagina de submissões para mais informações.</p>
   sub: yes
+  prizes:
+    - name: Cartão Fnac 20 Euros 
+      num: 1
+      link: http://i.imgur.com/QRGu9kT.jpg
+      img: fa-star
 
 - name: Desafio nº2
   desc: <p>Este desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Este desafio pode te valer 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
