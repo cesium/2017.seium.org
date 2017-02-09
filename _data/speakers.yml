@@ -247,4 +247,24 @@
   github: 
   twitter: 
   about: Ernesto tem mais de 14 anos de técnico internacional e management experience na área de produtos mobile e data services. Começou a sua carreira como developer freelancer nos seus anos de universidade. Após este período, em 2003, juntou-se à MobiComp com 3 anos de existência, que hoje é uma referência depois da sua aquisição pela Microsoft em 2008. Teve um papel principal na MobileKeeper product suite development, como developer lead. 
-  id: 27
+  id: 28
+
+- name: Francisco Neves
+  pic: Francisco_Neves.jpeg
+  position: Investigador 
+  enterprise: HASLab
+  enterpriseURL: http://haslab.uminho.pt/
+  github: https://github.com/fntneves
+  twitter: https://twitter.com/fntneves
+  about: Francisco Neves é um entusiasta do mundo Web. É aluno do programa doutoral de informática MAP-i e investigador no Laboratório Software Confiável (HASLab), centro I&D integrado do INESC TEC e subunidade orgânica da Universidade do Minho. Durante o seu percurso, colaborou em projetos de investigação e integrou equipas de desenvolvimento de projetos direcionados para os utilizadores finais no contexto de diversas áreas, como tecnologia médica, social e outras. Atualmente, para além da atividade de investigação, é um dos responsáveis pela equipa desenvolvimento da aplicação SafeCloud Photos, uma aplicação que tem como objetivo guardar fotografias de forma segura na nuvem.
+  id: 29
+ 
+- name: Rogério Pontes
+  pic: Rogerio_Pontes.jpeg
+  position: Investigador 
+  enterprise: HASLab
+  enterpriseURL: http://haslab.uminho.pt/
+  github: 
+  twitter: 
+  about: Rogério Pontes é aluno de doutoramento e investigador no Laboratório de Software Confiável da Universidade do Minho (HASLab), centro I&D integrado do INESC TEC e subunidade orgânica da Universidade do Minho. Colabora há três anos em projetos nacionais e europeus que geram novo conhecimento nos domínios de computação na nuvem e privacidade de dados. Neste momento, é um dos investigadores principais do projeto europeu SafeCloud, cujo objetivo é fortalecer os níveis de segurança fornecidos pelas aplicações que estão dependentes da nuvem. Dentro do projeto, é responsável por desenvolver novas soluções de armazenamento seguras e capazes de fazer de processamento sobre dados protegidos sem menosprezar a eficiência e escalabilidade exigida pelas aplicações.
+  id: 30
