@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+
+
+
+<meta property="og:locale" content="pt_PT">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEI 17 - Semana da Engenharia Informática">
+
+
+
+<title>SEI 17 - Semana da Engenharia Informática</title>
+
+<meta property="og:title" content="SEI 17 - Semana da Engenharia Informática">
+<meta name="description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocobrre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
+<meta name="keywords" content="cesium, hackathon, sei, sei17, uminho">
+
+<meta property="og:description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocorre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
+<meta property="og:url" content="http://seium.org/challenges/">
+<meta property="og:image" content="http://seium.org/assets/banner-01c30267943627bad78dd7655312e40a4c36c94bec5a81fca5946e422ecb1eb7.png">
+
+
+
+<link rel="shortcut icon" href="/assets/favicon-8208803ef6a73a665d32175ccf761c5c52fa1d67c15fe81a4d9bf3f7a89dc3d6.ico">
+
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+
+<!-- endcut-->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Custom CSS -->
+<link type="text/css" rel="stylesheet" href="/assets/main-796ce3e902c520e385576eeb2946c33ad68833da431fac479d4194c7890dfedb.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67237593-5', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+  <body id="page-top" class="index" ng-app="sei-app">
+
+    
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="/" id="nav-logo">
+        <img src="/assets/nav-logo-8a230ad681ce95cd9d2f2fe24d944565d2b57c894f5cbb02e3b9d2e8dbdd77de.png" width="336" height="336" alt="nav-logo.png">
+        <div>
+          <span>
+            SEMANA DA<br>
+            ENGENHARIA INFORMÁTICA<br>
+            <strong>UNIVERSIDADE DO MINHO<br>
+              2017</strong>
+            </span>
+          </div>
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav nav-item">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/agenda">Agenda</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/speakers">Oradores</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/hackathon">Hackathon</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/challenges">Desafios</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/accommodation">Alojamento</a>
+          </li>
+          <!--<li>
+            <a class="page-scroll" href="http://intra.seium.org" target="_blank">IntraNet</a>
+          </li>-->
+          <li>
+            <a class="page-scroll" href="https://seium17.eventbrite.pt/" target="_blank">Inscrições</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="http://intra.seium.org/users/sign_in" target="_blank">Badges</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+    
+    <section id="challenges">
+
+  <div class="container">
+    <div class="section-title-container text-center">
+      <h1 class="section-title">Desafios</h1>
+    </div>
+
+    <div class="col-md-offset-2 col-md-8 def-text">
+
+      Somos de opinião que mais interessante que palestras e workshops, são desafios e concursos! Por essa razão, e já como vem sendo tradição, decidimos criar várias competições amigáveis. Destaca-te numa destas áreas mas, mais importante ainda, diverte-te!
+
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="dark col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Maior Número de Badges
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      Durante a semana temos várias badges que podes obter participando nas atividades, falando com as empresas, vencendo desafios e concursos mas também com algumas surpresas! Diverte-te à procura das badges, os verdadeiros colecionadores irão obter prémios muito tentadores para adicionar à coleção!
+    </span>
+
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://www.polaroid.com/cube" target="_blank">
+            <button class="btn btn-info btn-sei">Polaroid Cube</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-trophy fa-4x"></i>
+          
+            <h5>2.º Prémio</h5>
+          
+          <a href="https://www.fitbit.com/eu/flex2" target="_blank">
+            <button class="btn btn-info btn-sei">Fitbit Flex 2</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          
+            <h5>3.º Prémio</h5>
+          
+          <a href="http://uk.jbl.com/headphones-wireless/JBL+T450BT.html" target="_blank">
+            <button class="btn btn-info btn-sei">Auscultadores JBL</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          
+            <h5>4.º Prémio</h5>
+          
+          <a href="https://www.google.com/intl/pt_pt/chromecast/tv" target="_blank">
+            <button class="btn btn-info btn-sei">Chromecast</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          
+            <h5>5.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/kCtH217.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Adaptador de cabos + Mochila</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          
+            <h5>6.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/Pxy536D.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Adaptadores + T-Shirt CeSIUM</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="light col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Melhor Fotografia
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      Gostas de tirar fotografias? Então este desafio é para ti! Publica a melhor foto no facebook da SEI ou no instagram para vencer este desafio! Para isso, no facebook usa a hashtag '#SEI17' em publicações públicas e no instagram identifica o @cesiuminho e certifica-te que tens o perfil público.
+    </span>
+
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-trophy fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="https://www.parrot.com/us/minidrones/parrot-airborne-night-blaze" target="_blank">
+            <button class="btn btn-info btn-sei">Parrot Drone</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>2.º Prémio</h5>
+          
+          <a href="http://www.betronstore.co.uk/earphones-headphones/betron-b750-earphones-headphones-with-microphone-white.html" target="_blank">
+            <button class="btn btn-info btn-sei">Betron B750s Earphones</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          
+            <h5>3.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/XHmT9AP.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Powerbank + Adaptador USB + Mochila</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="dark col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Sorteio de Xbox One
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      Lembras-te das badges que colecionaste? Tens mais do que 10? Ainda não? Garante um mínimo de 10 badges para te habilitares a ganhares uma Xbox One! Já sabes, quantas mais Badges colecionares, mais hipóteses tens de ganhar! Não te esqueças de registar as Badges!
+    </span>
+
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://www.xbox.com/pt-PT/xbox-one" target="_blank">
+            <button class="btn btn-info btn-sei">Xbox One</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="light col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      2º Sorteio de Xbox One
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      Passaste pelo CP2 e viste a empresa Accenture? Eles querem o teu Currículo! Envia-o para sei+cv@cesium.di.uminho.pt e habilita-te a ganhar uma Xbox One!
+    </span>
+
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://www.xbox.com/pt-PT/xbox-one" target="_blank">
+            <button class="btn btn-info btn-sei">Xbox One</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="dark col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Eurotux Desafio de Segurança
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP 193.136.19.39. Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail.
+    </span>
+
+
+    
+    <div class="col-md-5 col-md-offset-1 ac-container">
+      <div>
+        <button data-toggle="collapse" data-target="#eurotux-desafio-de-segurança" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="eurotux-desafio-de-segurança">
+          <p><ul> <li> Atenção! A não ser que haja indicação em contrário as flags são todas no formato "CTF{string}". O prefixo "CTF{" e o sufixo "}" devem ser incluídos ao reportar que conseguiram encontrar a flag. </ul> <li> Ponto de partida <ul> <li> Desafio 1 <ul> <li> http://193.136.19.39/challenge1 </ul> <li> Desafio 2 <ul> <li> http://193.136.19.39/challenge2 </ul> </ul> <li>  Dicas <ul> <li> Desafio 1 <ul> <li> Tenta perguntar alguma coisa. </ul> <li> Desafio 2 <ul> <li> Não há nada escondido no site. <li> ^G2C^HHH^9E>=^492==6?86a^E9:D0D9@F=5?E0360=2J:?802C@F?5 </ul> <li> Desafio 3 <ul><li> ATENÇÂO :a flag não está no formato "CTF{string}" <li> Se resolveste o desafio 2 não estás muito longe de resolver este. <li> Procura mesmo bem, já que às vezes as coisas estão escondidas à nossa vista. </ul> <li> Desafio 4 <ul> <li> Depois de perceberes como funciona o desafio 2 só tens de escalar a solução. <li> Conheces o ditado "There's no place like 127.0.0.1"? </ul> <li> Desafio 5 <ul> <li> http://193.136.19.39/challenge2/?p=5 <li> As coisas podem não ser bem o que parecem ou trazer mensagens ocultas. <li> A resposta está na eurotux. </ul> </ul></p>
+          
+          <h5> Pontuação </h5>
+          <ul>
+            
+              <li> Demonstração que conseguiram aceder ao conteúdo privado do servidor </li>
+            
+              <li> Demonstração que conseguiram obter shell no servidor </li>
+            
+              <li> Demonstração que chegar a root </li>
+            
+              <li> Demonstração que chegaram ao segredo </li>
+            
+              <li> Primeira flag </li>
+            
+              <li> Segunda flag </li>
+            
+              <li> Terceira flag </li>
+            
+              <li> Quarta flag </li>
+            
+              <li> Quinta flag </li>
+            
+              <li> Sexta flag </li>
+            
+          </ul>
+          
+          
+          <h5> Regulamento </h5>
+          <p>Apenas pessoas ligadas à universidade poderão concorrer (alunos, bolseiros, etc). Não é permitido qualquer tipo de ataque de negação de serviço, vulgo DoS. Não é permitido o acesso físico ao servidor (onde quer que esteja). Não é permitido, após aceder ao servidor, efetuar ataques a outros servidores. Não é permitido desligar o servidor ou impedir que outras equipas lá acedam.</p>
+          
+          
+
+          
+          <a href="mailto:securitychallenge@cesium.di.uminho.pt1" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          
+
+      </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-trophy fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://www.fnac.pt" target="_blank">
+            <button class="btn btn-info btn-sei">Vale Fnac 100 euros</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>2.º Prémio</h5>
+          
+          <a href="http://www.fnac.pt" target="_blank">
+            <button class="btn btn-info btn-sei">Vale Fnac 50 euros</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="light col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      DPUM
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      <p>E como não podia deixar de ser, temos não 1, não mais 2, mas sim 5! </p><p> 5 desafios algorítmicos para ti durante esta semana. Usa a linguagem em que te sentes mais confortável e resolve os problemas.</p><p> Obtém o máximo de pontuação nos cinco problemas e obtém o teclado que tu precisas para aquelas noites duras de programação.</p><p> Podes já começar a trabalhar nas tuas soluções! As plataformas de submissão estão prestes a arrancar!! </p> <p> Relembramos ainda que o primeiro desafio é o que contém o maior peso avaliativo! </p>
+    </span>
+
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-trophy fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://www.razerzone.com/gaming-keyboards-keypads/razer-blackwidow-tournament-edition" target="_blank">
+            <button class="btn btn-info btn-sei">Razer Mechanical Keyboard</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>2.º Prémio</h5>
+          
+          <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank">
+            <button class="btn btn-info btn-sei">Raspberry Pi 3</button>
+          </a>
+        </div>
+
+
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-gift fa-4x"></i>
+          
+            <h5>3.º Prémio</h5>
+          
+          <a href="http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html" target="_blank">
+            <button class="btn btn-info btn-sei">Caneca + Arduino maker</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="dark col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Desafio nº1
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      <p>Este é o desafio que te vai dar mais trabalho, podes até ter de suar um pouco, mas vai valer a pena! Este desafio pode te até valer 30 pontos!</p><p>Método de classificação - tempo de cpu, desempate por rapidez de submissão</p></p>
+    </span>
+
+
+    
+    <div class="col-md-5 col-md-offset-1 ac-container">
+      <div>
+        <button data-toggle="collapse" data-target="#desafio-nº1" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="desafio-nº1">
+          <p><p> O teu amigo do curso de electrónica está a montar um circuito e precisa da tua ajuda. O circuito que ele está a montar é constituido por fios e <a href="https://en.wikipedia.org/wiki/Logic_gate"><b>portas lógicas</b></a>.</p><p> Cada fio tem um identificador (string de letras minúsculas) e recebe sinais representados por um inteiro sem sinal de 16 bits (número de 0 a 65535).</p><p> O sinal que chega a cada fio pode ser o output de uma porta lógica, o sinal de outro fio ou um valor inteiro passado directamente.</p><p> As portas lógicas apenas produzem output caso todos os seus inputs tenham um sinal.</p><p> O teu amigo deu-te as instruções de montagem do circuito e precisa da tua ajuda para descobrir qual o sinal que chega ao fio identificado pela string <b>a</b>.</p><p> Acede a pagina de submissões para mais informações.</p></p>
+          
+          
+          
+
+          
+          <a href="https://www.codechef.com/SEID2017/problems/SEIMAIN" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          
+
+      </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/QRGu9kT.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Cartão Fnac 20 Euros</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="light col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Desafio nº2
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      <p>Este desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Este desafio pode te valer 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
+    </span>
+
+
+    
+    <div class="col-md-5 col-md-offset-1 ac-container">
+      <div>
+        <button data-toggle="collapse" data-target="#desafio-nº2" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="desafio-nº2">
+          <p><p>O C9-Beta é um robot em desenvolvimento.</p><p> Embora os seus criadores tenham muitas funcionalidades planeadas, a única coisa que este robot sabe fazer actualmente é mover-se para cima, para baixo, para a esquerda e para a direita.</p><p> Para testar a inteligência artificial do robot, foram feitos testes em que o robot era comandado a ir de um ponto A para um ponto B, sendo a inteligência artifical do robot responsável pelo conjunto de movimentos necessários para que isso aconteça.</p><p> Os testes foram um sucesso, o C9-Beta foi capaz de realizar os movimentos necessários para chegar de A a B em todas as experiências realizadas.</p><p> No entanto, a equipa responsável pelo robot notou que muitas das vezes o C9-Beta não escolhia o caminho óptimo para a sua rota.</p> <p>Por exemplo, se imaginarmos que o robot se move numa matriz de pontos e que começa no ponto (0,0) e pretende chegar ao ponto imediatamente acima dele (0,1) o robot muitas vezes ia para a direita primeiro ficando no ponto (1,0), depois para cima (1,1), e depois para a esquerda onde chegava ao destino (0,1). Neste exemplo o robot gastou 3 movimentos, quando na verdade apenas precisava de ter gasto 1 (ir para cima directamente!).</p><p> Acede a pagina de submissões para mais informações.</p></p>
+          
+          
+          
+
+          
+          <a href="https://www.codechef.com/SEID2017/problems/SEIDIA01" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          
+
+      </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/QRGu9kT.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Powerbank</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="dark col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Desafio nº3
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      <p> Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possivel (Code Golf), desempate por rapidez de submissão.</p>
+    </span>
+
+
+    
+    <div class="col-md-5 col-md-offset-1 ac-container">
+      <div>
+        <button data-toggle="collapse" data-target="#desafio-nº3" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="desafio-nº3">
+          <p><p>Na remota vila de Pelican é organizada anualmente uma corrida de resistência na qual todos os habitantes da vila podem participar.</p><p> Ao contrário de uma corrida habitual, não existe uma meta. Em vez disso, a corrida tem a duração de 30 minutos e o vencedor é aquele que nesse tempo tiver percorrido a maior distância.</p><p> Além disso, os habitantes da vila cansam-se rapidamente e por isso não podem passar os 30 minutos seguidos a correr!</p><p> Por exemplo, Abigail, a vencedora do ano passado é uma excelente corredora que consegue correr a uns impressionantes 3 m/s durante 40 segundos, mas ao fim desse tempo tem que parar completamente para descansar por 20 segundos. Ao fim desses 20 segundos pode voltar a corrar durante mais 40 segundos até ter que parar novamente.</p><p> Acede a pagina de submissões para mais informações. </p></p>
+          
+          
+          
+
+          
+          <a href="https://www.codechef.com/SEID2017/problems/SEIDIA02" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          
+
+      </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/QRGu9kT.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Powerbank</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="light col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Desafio nº4
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      <p>Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
+    </span>
+
+
+    
+    <div class="col-md-5 col-md-offset-1 ac-container">
+      <div>
+        <button data-toggle="collapse" data-target="#desafio-nº4" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="desafio-nº4">
+          <p><p>Apesar de terem uma definição matemática formal, as <a href="https://en.wikipedia.org/wiki/Look-and-say_sequence"><b>sequências Look-and-say</b></a> são interessantes pela forma informal como os seus números podem ser gerados.</p><p> Neste tipo de sequência, dado um número, o número seguinte na sequência é obtido pela forma como se diz o número actual da sequência.</p><p> Por exemplo, se considerarmos o número 112, facilmente se percebe que neste número há 2 ocorrências do número 1 e 1 ocorrência do número 2.</p><p> Ou seja podemos dizer que "há 2 uns e 1 dois" e portanto o número seguinte a 112 na sequência fica 2112 ("2 uns e 1 dois").</p><p> Para obter o número seguinte da sequência aplica-se o mesmo processo agora ao número 2112. Um aspecto a notar desta sequência é que o tamanho dos elementos(número de digitos) tende a crescer.</p><p> Por exemplo, se partindo do número 112 repetirmos o processo de look-and-say 40 vezes o número resultante tem 100.230 dígitos!</p> <p> Acede a pagina de submissões para mais informações.</p></p>
+          
+          
+          
+
+          
+          <a href="https://www.codechef.com/SEID2017/problems/SEIDIA03" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          
+
+      </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/QRGu9kT.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Powerbank</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="dark col-md-12">
+
+
+  <div class="col-md-8 col-md-offset-2">
+
+    <div class=" container des-subtitle col-md-12">
+      Desafio nº5
+    </div>
+
+
+
+    <span class="col-md-offset-2 def-text col-md-8">
+      <p>Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
+    </span>
+
+
+    
+    <div class="col-md-5 col-md-offset-1 ac-container">
+      <div>
+        <button data-toggle="collapse" data-target="#desafio-nº5" class="btn btn-info btn-sei">Enunciado</button>
+      <div class="panel-collapse collapse" id="desafio-nº5">
+          <p><p>O <a href="https://en.wikipedia.org/wiki/MD5">algoritmo MD5</a> é geralmente usado como função de hash que pega num determinado conjunto de dados e devolve um digest de 32 caracteres.</p><p> Este algoritmo é usado geralmente para verificar a integridade de ficheiros. No entanto, muitas vezes é usado por alguns sites para armazenar passwords, embora tal prática seja altamente desaconselhada.</p><p> Estes sites em geral pegam na password que o utilizador indica no registo e em vez de guardarem a password directamente na base de dados guardam o digest MD5 da password.</p><p> Por exemplo, se um utilizador tiver como password a string 'password123', na base de dados é guardada a string '482c811da5d5b4bc6d497ffa98491e38', que corresponde ao digest MD5 da password do utilizador que neste caso é a string 'password123'.</p> Acede a pagina de submissões para mais informações.</p>           <p>Um amigo teu administra um site que guarda as passwords usando MD5. Ele deu-te uma lista de passwords que muitas pessoas usam e que por isso são consideradas inseguras. Deu-te ainda acesso aos digest MD5 das passwords dos utilizadores do site. O que ele pretende saber é quantos utilizadores do site dele usam passwords consideradas inseguras.</p></p>
+          
+          
+          
+
+          
+          <a href="https://www.codechef.com/SEID2017/problems/SEIDIA04" target="_blank"><button class="btn btn-info btn-sei btn-des">SUBMETER</button></a>
+          
+
+      </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <div id="hackathon-awards">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4 activities-container">
+
+          <i class="fa fa-star fa-4x"></i>
+          
+            <h5>1.º Prémio</h5>
+          
+          <a href="http://i.imgur.com/QRGu9kT.jpg" target="_blank">
+            <button class="btn btn-info btn-sei">Powerbank</button>
+          </a>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+
+    
+<footer class="sei">
+
+  <div class="container">
+    <div class="col-md-12">
+      <p>Made with ❤ by <a href="http://cesium.di.uminho.pt" target="_blank">CeSIUM</a>. <!--Hosted on <a href="https://github.com/cesium/2017.seium.org" target="_blank">GitHub</a>--></p>
+
+      <a href="http://www.facebook.com/SEI.UMinho"><i class="fa fa-facebook fa-2x"></i></a>
+      <a href="http://www.github.com/cesium"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/cesiuminho"><i class="fa fa-twitter fa-2x"></i></a>
+
+      <p><a href="http://2016.seium.org" target="_blank"> Previous edition</a> ||
+
+      
+
+      <a href="/codeofconduct" target="_blank">Code of Conduct</a>
+
+      
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+    <script type="text/javascript" src="/assets/main-28f20af2d4fc565e264344439837967ed63f5d688dd541fed6935a95fd3f4333.js"></script>
+  </body>
+</html>
