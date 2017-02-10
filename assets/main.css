@@ -9177,11 +9177,7 @@ header {
     height: auto; } }
 @media screen and (max-width: 626px) {
   #agenda .agenda-wrapper .agenda-day {
-    font-size: 0.9em; }
-    #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-time {
-      font-size: 0.8em; }
-    #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block .activity-name, #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block .activity-location, #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block .activity-speaker, #agenda .agenda-wrapper .agenda-day .agenda-activity .activity-block h5 {
-      font-size: 0.7em; } }
+    font-size: 0.9em; } }
 #speakers {
   background-attachment: fixed;
   background-image: url("/assets/backgrounds/dark-stuff.png");
@@ -9949,20 +9945,29 @@ button.btn.btn-info.btn-sei {
     #hackathon #hackathon-header .header-body .brand.big-title {
       font-family: "Oswald";
       font-size: 60px; }
+    #hackathon #hackathon-header .header-body #date {
+      font-family: "Oswald";
+      font-size: 40px;
+      margin-bottom: 10px; }
     #hackathon #hackathon-header .header-body #clock {
       font-family: "Oswald";
       display: inline-block;
-      font-size: 30px; }
+      font-size: 50px; }
       #hackathon #hackathon-header .header-body #clock .clock-segment {
         padding: 10px;
         display: inline-block; }
         #hackathon #hackathon-header .header-body #clock .clock-segment .clock-unit {
           padding-top: 5px;
           font-size: 14px; }
+    #hackathon #hackathon-header .header-body #call {
+      font-family: "Oswald";
+      font-size: 40px;
+      margin-bottom: 10px;
+      margin-top: 10px; }
     #hackathon #hackathon-header .header-body .register {
       margin-top: 10px;
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 50px;
       font-weight: 700;
       color: #0d1a23;
       -webkit-transition: 0.5s ease;
@@ -9972,7 +9977,8 @@ button.btn.btn-info.btn-sei {
         color: #fff;
         border-bottom: 1px solid #EAEAEA; }
     #hackathon #hackathon-header .header-body #registerbutton {
-      margin-top: 30px; }
+      margin-top: 30px;
+      font-size: 20px; }
 #hackathon #hackathon-info {
   text-align: justify;
   padding: 100px 0;
@@ -10227,7 +10233,6 @@ button.btn.btn-info.btn-sei {
 
 .aboutspeaker {
   color: #fff;
-  margin-top: 30px;
   text-align: justify;
   line-height: 150%;
   font-weight: bold;
@@ -10509,7 +10514,9 @@ button.btn.btn-info.btn-sei.btn-des {
 .def-text {
   font-size: 16px;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: justify;
+  text-justify: inter-word; }
 
 #agenda.hackathon-schedule {
   padding-bottom: 75px; }

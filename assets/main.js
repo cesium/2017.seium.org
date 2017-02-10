@@ -16005,6 +16005,7 @@ if (typeof jQuery === 'undefined') {
 
 }));
 $(document).ready(function(){
+
   $('.partners-carousel').slick({
     autoplay: true,
     slidesToShow: 3,
@@ -16026,7 +16027,30 @@ $(document).ready(function(){
     }
   ]
   });
+
+  var slickOpts = {
+    initialSlide: 4,
+    dots: true,
+    autoplay: false,
+    slidesToShow: 2,
+    responsive: [{
+      breakpoint: 450,
+      settings: {
+        slidesToShow: 1,
+        arrows: true,
+        dots: false
+      }
+    }
+  ]};
+
+
+  $('.agenda-carousel').slick(slickOpts);
+
+
 });
+
+
+
 /*!
  * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -16107,7 +16131,7 @@ $(document).ready ( function() {
     var clock = document.getElementById(id);
     if (clock == null)
       return;
-    var daysSpan = clock.querySelector('.days');
+    //var daysSpan = clock.querySelector('.days');
     var hoursSpan = clock.querySelector('.hours');
     var minutesSpan = clock.querySelector('.minutes');
     var secondsSpan = clock.querySelector('.seconds');
@@ -16115,7 +16139,7 @@ $(document).ready ( function() {
     function updateClock() {
       var t = getTimeRemaining(endtime);
 
-      daysSpan.innerHTML = t.days;
+      //daysSpan.innerHTML = t.days;
       hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
       minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
       secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
@@ -16129,7 +16153,7 @@ $(document).ready ( function() {
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = new Date(Date.parse(new Date(2017, 1, 10, 19)));
+  var deadline = new Date(Date.parse(new Date(2017, 1, 11, 17, 59)));
   initializeClock('clock', deadline);
 
 });
