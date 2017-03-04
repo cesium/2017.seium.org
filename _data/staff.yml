@@ -93,15 +93,9 @@
 - name: Eduardo Semanas
   pic: eduardo-semanas.jpg
 
-- name: Pedro Duarte
-  pic: pedro-duarte.jpg
-
 - name: Bruno Cancelinha
   pic: bruno-cancelinha.jpg
   github: https://github.com/9thScientist
-
-- name: Sandra Ferreira
-  pic: sandra-ferreira.jpg
 
 - name: Marcelo Miranda
   pic: marcelo-miranda.jpg
@@ -111,7 +105,7 @@
   github: https://github.com/andrerfcsantos
   twitter: https://twitter.com/andrerfcsantos
 
-- name: Daniel Tinoco  
+- name: Daniel Tinoco
   pic: daniel-tinoco.jpg
   github: https://github.com/0urobor0s
 
@@ -136,11 +130,11 @@
   pic: marco-goncalves.jpg
   github: https://github.com/Barca88
 
-- name: Francisco Neves 
+- name: Francisco Neves
   pic: francisco-neves.jpg
   github: https://github.com/fntneves
 
-- name: Diogo Vilaça 
+- name: Diogo Vilaça
   pic: diogo-vilaca.jpg
 
 - name: Francisco Lira
@@ -148,7 +142,7 @@
   github: https://github.com/FranciscoLira
   twitter: franlira12
 
-- name: Francisco Ribeiro 
+- name: Francisco Ribeiro
   pic: francisco-ribeiro.jpg
   github: https://github.com/FranciscoRibeiro
 
@@ -169,11 +163,11 @@
   pic: jose-macedo.jpg
   github: https://github.com/zenunomacedo
 
-- name: José Monteiro 
+- name: José Monteiro
   pic: jose-monteiro.jpg
   github: https://github.com/JosePedro90
 
-- name: José Resende 
+- name: José Resende
   pic: jose-resende.jpg
   github: https://github.com/ZePedroResende
 
@@ -202,5 +196,11 @@
 - name: Susana Mendes
   pic: susana-mendes.jpg
 
-# - name: Tiago Carvalhais 
+# - name: Tiago Carvalhais
 #   pic: tiago-carvalhais.jpg
+
+- name: Pedro Duarte
+  pic: pedro-duarte.jpg
+  
+- name: Sandra Ferreira
+  pic: sandra-ferreira.jpg
