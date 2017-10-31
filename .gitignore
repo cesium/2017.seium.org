@@ -2,6 +2,10 @@ _site/
 .sass-cache/
 .asset-cache/
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.swp
 =======
 >>>>>>> e72b494d79fbab173edb61547a32d1fd88fe2321
+=======
+*.swp
+>>>>>>> master

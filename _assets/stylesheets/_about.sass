@@ -1,0 +1,89 @@
+#about
+  background-attachment: fixed
+  background-image: url(image_path("backgrounds/dark-stuff.png"))
+  background-position: center center
+  background-repeat: none
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-color: #222
+  padding-bottom: 100px
+  .aboutsei-img
+    margin-top: 30px
+  .about-container
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    text-transform: uppercase
+    vertical-align: middle
+    text-align: center
+    width: 100%
+    font-family: "Open Sans", sans-serif
+    font-size: 150px
+    text-stroke: .5px
+    color: #fff
+    .about-bracket
+      font-weight: lighter
+      font-family: "Lato", sans-serif
+    .change-text
+      display: flex
+      margin-top: 20px
+      position: relative
+      .about-info
+        display: none
+        font-size: 30px
+        min-width: 600px
+      .active
+        display: inline-block
+        animation: fade 1.5s
+      @keyframes fade
+        0%
+          opacity: 0
+        100%
+          opacity: 1
+
+@media (max-width: 1200px)
+  #about
+    .about-container
+      font-size: 120px
+      .change-text .about-info
+        font-size: 20px
+        min-width: 400px
+
+@media (max-width: 992px)
+  .aboutseipic
+    margin: 50 0 0 0
+    height: 300px
+    width: 300px
+
+@media (max-width: 563px)
+  #about
+    .about-container
+      font-size: 80px
+      .change-text .about-info
+        font-size: 15px
+        min-width: 300px
+
+@media (max-width: 438px)
+  #about
+    .about-container
+      font-size: 50px
+      .change-text
+        margin-top: 10px
+        .about-info
+          font-size: 13px
+          min-width: 260px
+
+@media (max-width: 380px)
+  #about
+    .about-container
+      .about-bracket
+        display: none
+
+@media (max-width: 370px)
+  .aboutseipic
+    height: 150px
+    width: 150px

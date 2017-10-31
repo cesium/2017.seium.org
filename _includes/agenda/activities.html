@@ -1,0 +1,87 @@
+<section id="activities">
+  <div class="container">
+    {% for day in site.data.agenda %}
+    <div class="container">
+      <div class="section-title-container">
+        <h1 class="section-title text-center">{{ day.date }} - {{ day.dayOfWeek }}</h1>
+      </div>
+
+      {% for act in day.activities %}
+      {% if act.about %}
+      <div id="{{ act.name | slugify }}" class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 activity-box">
+          <div class="col-sm-3 hidden-xs activity-img">
+            <div class=" col-md-offset-4">
+              
+              <i class="fa {{ act.icon }} fa-5x"></i>
+              
+            </div>
+            <div class="activity-info">
+              <div class="activity-datetime">
+                <p>
+                  {% if act.place %}
+                  <i class="fa fa-map-marker"></i><span> {{ act.place }}</span>
+                  {% endif %}
+                </p>
+                <p>
+                  <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
+                </p>
+              </div>
+              <div class="activity-speaker">
+                {% if act.speaker %}
+                <a href="/speakers/#{{ act.speaker | slugify }}">
+                  <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
+                </a>
+                {% endif %}
+                {% if act.enterprise %}
+                <div class="activity-enterprise">
+                  <a href="{{ act.enterprise_url }}" target="_blank"><i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span></a>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-9 activity-text">
+            <p class="activity-title">{{ act.name }}</p>
+            {% if act.type %}
+            <div class="activity-type">
+              <p>{{ act.type }}</p>
+            </div>
+            <div class="hidden-lg hidden-md hidden-sm activity-info">
+              <div class="activity-datetime">
+                <div class="col-xs-7 ">
+                  <i class="fa fa-clock-o"></i><span>{{ act.time }}</span>
+                </div>
+                <div class="col-xs-5">
+                  {% if act.place %}
+                    <i class="fa fa-map-marker"></i><span>{{ act.place }}</span>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-xs-12 activity-speaker">
+                {% if act.speaker %}
+                <i class="fa fa-user"></i><span>{{ act.speaker }}</span>
+                {% endif %}
+                {% if act.enterprise %}
+                <div class="activity-enterprise">
+                  <a href="{{ act.enterprise_url }}" target="_blank"><i class="fa fa-building-o"></i><span>{{ act.enterprise }}</span></a>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            {% endif %}
+            <p class="col-xs-12 activity-text">{{ act.about }}</p>
+            {% if act.register %}
+            <a href="{{ act.register }}" target="_blank">
+              <button class="btn btn-info btn-sei">Inscrição</button>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

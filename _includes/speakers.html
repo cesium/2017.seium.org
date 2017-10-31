@@ -1,0 +1,48 @@
+<!-- speakers Section -->
+<section id="speakers" controller="speakerCtrl">
+  <div class="container">
+    <div class="section-title-container">
+      <h1 class="section-title">Oradores</h1>
+    </div>
+    <div class="speakers-list">
+      {% for speaker in site.data.speakers %}
+      <div class="speakers-list-cell speakers-container">
+        <div class="speaker-img">
+          {% image 'speakers/{{ speaker.pic }}' class:speaker-pic %}
+        </div>
+        <span class="speaker-name">{{ speaker.name }}</span>
+        <span class="speaker-position">{{speaker.position}}</span>
+        {% if speaker.enterprise %}
+        <p class="speaker-company">
+          <a target="_blank" href="{{ speaker.enterpriseURL }}">
+            {{ speaker.enterprise }}
+          </a>
+        </p>
+        {% endif %}
+        <div class="col-lg-12 ">
+          <ul class="list-inline social-buttons speaker-social">
+            {% if speaker.web %}
+            <li>
+              <a if="speaker.web" target="_blank" href="{{ speaker.web }}"><i class="fa fa-globe"></i></a>
+            </li>
+            {% endif %} {% if speaker.twitter %}
+            <li>
+              <a if="speaker.twitter" target="_blank" href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+            </li>
+            {% endif %} {% if speaker.github %}
+            <li>
+              <a if="speaker.github" target="_blank" href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-md-12">
+      <a href="/speakers">
+        <button class="btn btn-info btn-sei" href="/speakers" >Sabe Mais</button>
+      </a>
+    </div>
+  </div>
+</section>

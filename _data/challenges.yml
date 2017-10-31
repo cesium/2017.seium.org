@@ -1,0 +1,184 @@
+
+- name: Maior Número de Badges
+  desc: Durante a semana temos várias badges que podes obter participando nas atividades, falando com as empresas, vencendo desafios e concursos mas também com algumas surpresas! Diverte-te à procura das badges, os verdadeiros colecionadores irão obter prémios muito tentadores para adicionar à coleção!
+  class: dark
+  prizes:
+    - name: Polaroid Cube
+      num: 1
+      link: http://www.polaroid.com/cube
+      img: fa-star
+
+    - name: Fitbit Flex 2
+      num: 2
+      link: https://www.fitbit.com/eu/flex2
+      img: fa-trophy
+
+    - name: Auscultadores JBL
+      num: 3
+      link: http://uk.jbl.com/headphones-wireless/JBL+T450BT.html
+      img: fa-gift
+
+    - name: Chromecast
+      num: 4
+      link: https://www.google.com/intl/pt_pt/chromecast/tv
+      img: fa-gift
+
+    - name: Adaptador de cabos + Mochila
+      num: 5
+      link: http://i.imgur.com/kCtH217.jpg
+      img: fa-gift
+
+    - name: Adaptadores + T-Shirt CeSIUM
+      num: 6
+      link: http://i.imgur.com/Pxy536D.jpg
+      img: fa-gift
+
+
+- name: Melhor Fotografia
+  desc: Gostas de tirar fotografias? Então este desafio é para ti! Publica a melhor foto no facebook da SEI ou no instagram para vencer este desafio! Para isso, no facebook usa a hashtag '#SEI17' em publicações públicas e no instagram identifica o @cesiuminho e certifica-te que tens o perfil público.
+  class: light
+  prizes:
+    - name: Parrot Drone
+      num: 1
+      link: https://www.parrot.com/us/minidrones/parrot-airborne-night-blaze
+      img: fa-trophy
+
+    - name: Betron B750s Earphones
+      num: 2
+      link: http://www.betronstore.co.uk/earphones-headphones/betron-b750-earphones-headphones-with-microphone-white.html
+      img: fa-star
+
+    - name: Powerbank + Adaptador USB + Mochila
+      num: 3
+      link: http://i.imgur.com/XHmT9AP.jpg
+      img: fa-gift
+
+
+- name: Sorteio de Xbox One
+  desc: Lembras-te das badges que colecionaste? Tens mais do que 10? Ainda não? Garante um mínimo de 10 badges para te habilitares a ganhares uma Xbox One! Já sabes, quantas mais Badges colecionares, mais hipóteses tens de ganhar! Não te esqueças de registar as Badges!
+  class: dark
+  prizes:
+    - name: Xbox One
+      num: 1
+      link: http://www.xbox.com/pt-PT/xbox-one
+      img: fa-star
+
+
+- name: 2º Sorteio de Xbox One
+  desc: Passaste pelo CP2 e viste a empresa Accenture? Eles querem o teu Currículo! Envia-o para sei+cv@cesium.di.uminho.pt e habilita-te a ganhar uma Xbox One!
+  class: light
+  prizes:
+    - name: Xbox One
+      num: 1
+      link: http://www.xbox.com/pt-PT/xbox-one
+      img: fa-star
+
+
+- name: Eurotux Desafio de Segurança
+  desc: Este desafio, composto por vários passos, promete destacar os melhores hackers! Para participares, junta-te numa equipa de dois a três elementos e envia um e-mail para securitychallenge@cesium.di.uminho.pt com o nome da equipa, nome e emails dos membros. Existe um servidor instalado no IP 193.136.19.39. Abre o enunciado para saber o que fazer! Cada demonstração que a equipa consiga fazer deverá ser enviada por e-mail. O Desafio encontra-se aberto até à próxima quarta-feira!
+  enunciado: <ul> <li> Atenção! A não ser que haja indicação em contrário as flags são todas no formato "CTF{string}". O prefixo "CTF{" e o sufixo "}" devem ser incluídos ao reportar que conseguiram encontrar a flag. </ul> <li> Ponto de partida <ul> <li> Desafio 1 <ul> <li> http://193.136.19.39/challenge1 </ul> <li> Desafio 2 <ul> <li> http://193.136.19.39/challenge2 </ul> </ul> <li>  Dicas <ul> <li> Desafio 1 <ul> <li> Tenta perguntar alguma coisa. </ul> <li> Desafio 2 <ul> <li> Não há nada escondido no site. <li> ^G2C^HHH^9E>=^492==6?86a^E9:D0D9@F=5?E0360=2J:?802C@F?5 </ul> <li> Desafio 3 <ul><li> ATENÇÂO :a flag não está no formato "CTF{string}" <li> Se resolveste o desafio 2 não estás muito longe de resolver este. <li> Procura mesmo bem, já que às vezes as coisas estão escondidas à nossa vista. </ul> <li> Desafio 4 <ul> <li> Depois de perceberes como funciona o desafio 2 só tens de escalar a solução. <li> Conheces o ditado "There's no place like 127.0.0.1"? </ul> <li> Desafio 5 <ul> <li> http://193.136.19.39/challenge2/?p=5 <li> As coisas podem não ser bem o que parecem ou trazer mensagens ocultas. <li> A resposta está na eurotux. </ul> <li> Desafio 6 <ul> <li> ATENÇÃO :a flag não está no formato "CTF{String}" <li> Revê as pistas do desafio 4 e procura bem <li> Há criptógrafos que não dão nomes às cifras que inventam </ul> </ul>
+  rules: Apenas pessoas ligadas à universidade poderão concorrer (alunos, bolseiros, etc). Não é permitido qualquer tipo de ataque de negação de serviço, vulgo DoS. Não é permitido o acesso físico ao servidor (onde quer que esteja). Não é permitido, após aceder ao servidor, efetuar ataques a outros servidores. Não é permitido desligar o servidor ou impedir que outras equipas lá acedam.
+  points:
+    - task: Demonstração que conseguiram aceder ao conteúdo privado do servidor
+    - task: Demonstração que conseguiram obter shell no servidor
+    - task: Demonstração que conseguiram chegar à root
+    - task: Demonstração que chegaram ao segredo
+    - task: Primeira flag
+    - task: Segunda flag
+    - task: Terceira flag
+    - task: Quarta flag
+    - task: Quinta flag
+    - task: Sexta flag
+  submit: mailto:securitychallenge@cesium.di.uminho.pt1
+  class: dark
+  sub: yes
+  prizes:
+    - name: Vale Fnac 100 euros
+      num: 1
+      link: http://www.fnac.pt
+      img: fa-trophy
+
+    - name: Vale Fnac 50 euros
+      num: 2
+      link: http://www.fnac.pt
+      img: fa-star
+
+
+- name: DPUM
+  desc: <p>E como não podia deixar de ser, temos não 1, não mais 2, mas sim 5! </p><p> 5 desafios algorítmicos para ti durante esta semana. Usa a linguagem em que te sentes mais confortável e resolve os problemas.</p><p> Obtém o máximo de pontuação nos cinco problemas e obtém o teclado que tu precisas para aquelas noites duras de programação.</p><p> Podes já começar a trabalhar nas tuas soluções! As plataformas de submissão estão prestes a arrancar!! </p> <p> Relembramos ainda que o primeiro desafio é o que contém o maior peso avaliativo! </p>
+  class: light
+  prizes:
+    - name: Razer Mechanical Keyboard
+      num: 1
+      link: http://www.razerzone.com/gaming-keyboards-keypads/razer-blackwidow-tournament-edition
+      img: fa-trophy
+
+    - name: Raspberry Pi 3
+      num: 2
+      link: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+      img: fa-star
+
+    - name: Caneca + Arduino maker
+      num: 3
+      link: http://makerfairelisbon.com/en/2014/09/16/arduino-inmotion.html
+      img: fa-gift
+
+- name: Desafio nº1
+  desc: <p>Este é o desafio que te vai dar mais trabalho, podes até ter de suar um pouco, mas vai valer a pena! Este desafio pode te até valer 30 pontos!</p><p>Método de classificação - tempo de cpu, desempate por rapidez de submissão</p></p>
+  class: dark
+  submit: https://www.codechef.com/SEID2017/problems/SEIMAIN
+  enunciado: <p> O teu amigo do curso de electrónica está a montar um circuito e precisa da tua ajuda. O circuito que ele está a montar é constituido por fios e <a href="https://en.wikipedia.org/wiki/Logic_gate"><b>portas lógicas</b></a>.</p><p> Cada fio tem um identificador (string de letras minúsculas) e recebe sinais representados por um inteiro sem sinal de 16 bits (número de 0 a 65535).</p><p> O sinal que chega a cada fio pode ser o output de uma porta lógica, o sinal de outro fio ou um valor inteiro passado directamente.</p><p> As portas lógicas apenas produzem output caso todos os seus inputs tenham um sinal.</p><p> O teu amigo deu-te as instruções de montagem do circuito e precisa da tua ajuda para descobrir qual o sinal que chega ao fio identificado pela string <b>a</b>.</p><p> Acede a pagina de submissões para mais informações.</p>
+  sub: yes
+  prizes:
+    - name: Cartão Fnac 20 Euros
+      num: 1
+      link: http://i.imgur.com/QRGu9kT.jpg
+      img: fa-star
+
+- name: Desafio nº2
+  desc: <p>Este desafio é um pouco mais simples e temos a certeza que qualquer um o poderá resolver, agora a melhor resposta....isso já é diferente, tenta a tua sorte! Este desafio pode te valer 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
+  class: light
+  enunciado: <p>O C9-Beta é um robot em desenvolvimento.</p><p> Embora os seus criadores tenham muitas funcionalidades planeadas, a única coisa que este robot sabe fazer actualmente é mover-se para cima, para baixo, para a esquerda e para a direita.</p><p> Para testar a inteligência artificial do robot, foram feitos testes em que o robot era comandado a ir de um ponto A para um ponto B, sendo a inteligência artifical do robot responsável pelo conjunto de movimentos necessários para que isso aconteça.</p><p> Os testes foram um sucesso, o C9-Beta foi capaz de realizar os movimentos necessários para chegar de A a B em todas as experiências realizadas.</p><p> No entanto, a equipa responsável pelo robot notou que muitas das vezes o C9-Beta não escolhia o caminho óptimo para a sua rota.</p> <p>Por exemplo, se imaginarmos que o robot se move numa matriz de pontos e que começa no ponto (0,0) e pretende chegar ao ponto imediatamente acima dele (0,1) o robot muitas vezes ia para a direita primeiro ficando no ponto (1,0), depois para cima (1,1), e depois para a esquerda onde chegava ao destino (0,1). Neste exemplo o robot gastou 3 movimentos, quando na verdade apenas precisava de ter gasto 1 (ir para cima directamente!).</p><p> Acede a pagina de submissões para mais informações.</p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA01
+  prizes:
+    - name: Powerbank
+      num: 1
+      link: http://i.imgur.com/QRGu9kT.jpg
+      img: fa-star
+
+- name: Desafio nº3
+  desc: <p> Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possivel (Code Golf), desempate por rapidez de submissão.</p>
+  class: dark
+  enunciado: <p>Na remota vila de Pelican é organizada anualmente uma corrida de resistência na qual todos os habitantes da vila podem participar.</p><p> Ao contrário de uma corrida habitual, não existe uma meta. Em vez disso, a corrida tem a duração de 30 minutos e o vencedor é aquele que nesse tempo tiver percorrido a maior distância.</p><p> Além disso, os habitantes da vila cansam-se rapidamente e por isso não podem passar os 30 minutos seguidos a correr!</p><p> Por exemplo, Abigail, a vencedora do ano passado é uma excelente corredora que consegue correr a uns impressionantes 3 m/s durante 40 segundos, mas ao fim desse tempo tem que parar completamente para descansar por 20 segundos. Ao fim desses 20 segundos pode voltar a corrar durante mais 40 segundos até ter que parar novamente.</p><p> Acede a pagina de submissões para mais informações. </p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA02
+  prizes:
+    - name: Powerbank
+      num: 1
+      link: http://i.imgur.com/QRGu9kT.jpg
+      img: fa-star
+
+- name: Desafio nº4
+  desc: <p>Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
+  class: light
+  enunciado: <p>Apesar de terem uma definição matemática formal, as <a href="https://en.wikipedia.org/wiki/Look-and-say_sequence"><b>sequências Look-and-say</b></a> são interessantes pela forma informal como os seus números podem ser gerados.</p><p> Neste tipo de sequência, dado um número, o número seguinte na sequência é obtido pela forma como se diz o número actual da sequência.</p><p> Por exemplo, se considerarmos o número 112, facilmente se percebe que neste número há 2 ocorrências do número 1 e 1 ocorrência do número 2.</p><p> Ou seja podemos dizer que "há 2 uns e 1 dois" e portanto o número seguinte a 112 na sequência fica 2112 ("2 uns e 1 dois").</p><p> Para obter o número seguinte da sequência aplica-se o mesmo processo agora ao número 2112. Um aspecto a notar desta sequência é que o tamanho dos elementos(número de digitos) tende a crescer.</p><p> Por exemplo, se partindo do número 112 repetirmos o processo de look-and-say 40 vezes o número resultante tem 100.230 dígitos!</p> <p> Acede a pagina de submissões para mais informações.</p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA03
+  prizes:
+    - name: Powerbank
+      num: 1
+      link: http://i.imgur.com/QRGu9kT.jpg
+      img: fa-star
+
+- name: Desafio nº5
+  desc: <p>Este desafio pode te dar 10 pontos!</p> <p> Método de avaliação - menor código possível (Code Golf), desempate por rapidez de submissão.</p>
+  class: dark
+  enunciado: <p>O <a href="https://en.wikipedia.org/wiki/MD5">algoritmo MD5</a> é geralmente usado como função de hash que pega num determinado conjunto de dados e devolve um digest de 32 caracteres.</p><p> Este algoritmo é usado geralmente para verificar a integridade de ficheiros. No entanto, muitas vezes é usado por alguns sites para armazenar passwords, embora tal prática seja altamente desaconselhada.</p><p> Estes sites em geral pegam na password que o utilizador indica no registo e em vez de guardarem a password directamente na base de dados guardam o digest MD5 da password.</p><p> Por exemplo, se um utilizador tiver como password a string 'password123', na base de dados é guardada a string '482c811da5d5b4bc6d497ffa98491e38', que corresponde ao digest MD5 da password do utilizador que neste caso é a string 'password123'.</p> Acede a pagina de submissões para mais informações.</p>           <p>Um amigo teu administra um site que guarda as passwords usando MD5. Ele deu-te uma lista de passwords que muitas pessoas usam e que por isso são consideradas inseguras. Deu-te ainda acesso aos digest MD5 das passwords dos utilizadores do site. O que ele pretende saber é quantos utilizadores do site dele usam passwords consideradas inseguras.</p>
+  sub: yes
+  submit: https://www.codechef.com/SEID2017/problems/SEIDIA04
+  prizes:
+    - name: Powerbank
+      num: 1
+      link: http://i.imgur.com/QRGu9kT.jpg
+      img: fa-star

@@ -1,0 +1,131 @@
+#challenges
+  text-align: center
+  background-image: url(image_path("backgrounds/light-stuff.png"))
+  background-attachment: fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-repeat: none
+  color: #fff
+  padding-top: 50px
+  background-color: #222
+  .section-title
+    margin-top: 50px
+
+
+.dark
+  background-image: url(image_path("backgrounds/dark-stuff.png"))
+  background-attachment: fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-repeat: none
+  padding-bottom: 20px
+
+
+.lastdark
+  background-image: url(image_path("backgrounds/dark-stuff.png"))
+  background-attachment: fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-repeat: none
+  padding-bottom: 20px
+
+@media (min-width: 992px)
+  .lastdark
+    margin-bottom: 20px
+
+.light
+  background-image: url(image_path("backgrounds/light-stuff.png"))
+  background-attachment: fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-repeat: none
+  padding-bottom: 20px
+
+.ac-container
+  margin: 20px 0px 30px 0px
+  width: 100%
+  .title
+    font-size: 30px
+    &:hover
+      color: #0E95EF
+    display: block
+    height: 40px
+    cursor: pointer
+    color: white
+    line-height: 33px
+    text-align: center
+  input:checked + label
+    &:hover
+      color: #0E95EF
+  label:hover:after
+    content: ''
+    position: absolute
+    width: 24px
+    height: 24px
+    right: 13px
+    top: 7px
+  input
+    &:checked + label:hover:after
+      content: ''
+      position: absolute
+      width: 24px
+      height: 24px
+      right: 13px
+      top: 7px
+    display: none
+  article
+    overflow: hidden
+    height: 0px
+    position: relative
+    z-index: 10
+    -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear
+    -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear
+    -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear
+    -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear
+    transition: height 0.3s ease-in-out, box-shadow 0.6s linear
+    des-text
+      margin: 10px 10px 10px 10px
+  input:checked ~ article
+    -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear
+    -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear
+    -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear
+    -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear
+    transition: height 0.5s ease-in-out, box-shadow 0.1s linear
+    height: 350px
+
+
+.deftit
+  margin: 0px 0px 0px 15px
+  font-size: 20px
+  text-align: left
+
+.des-subtitle
+  font-size: 30px
+  font-weight: bold
+  text-align: left
+  margin: 50px auto
+
+button.btn.btn-info.btn-sei.btn-des
+  margin: 25px auto
+
+
+.ac-small
+  height: 250px
+
+.def-text
+  font-size: 16px
+  margin-top: 30px
+  margin-bottom: 30px
+  text-align: justify
+  text-justify: inter-word
+
+li
+  word-wrap: break-word

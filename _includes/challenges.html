@@ -1,0 +1,29 @@
+  <div id="main">
+    {% for page in site.data %}
+      {% capture id %}{{ page.id }}{% endcapture %}
+      <div id="{{ id }}" class="section p-{{ id }}">
+        {% if page.icon %}
+        <div class="subtlecircle sectiondivider">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa-stack-1x icon">
+              {% image '{{ page.icon }}' %}
+            </i>
+          </span>
+          <h5 class="icon-title">{{ page.title }}</h5>
+        </div>
+        {% elsif page.fa-icon %}
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">{{ page.title }}</h5>
+        </div>
+        {% endif %}
+        <div class="container {{ page.style }}">
+          {{ page.content }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>

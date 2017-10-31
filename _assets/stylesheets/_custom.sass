@@ -1,0 +1,116 @@
+.center-no-float
+  display: block
+  margin-right: auto
+  margin-left: auto
+  float: none
+
+.section-title-container
+  .section-title
+    border: 4px solid #0098ff
+    display: inline-block
+    padding: 15px 25px 15px 25px
+    text-transform: uppercase
+    margin-bottom: 20px
+    @media (max-width: 767px)
+      font-size: 28px
+
+button
+  a
+    color: inherit
+    &:hover, &:focus
+      text-decoration: none
+      color: inherit
+  &.btn.btn-info.btn-sei
+    display: block
+    margin: 5px auto
+    padding: 10px 30px 10px 30px
+    cursor: pointer
+    background: none
+    border: 2px solid #fff
+    color: #fff
+    outline: none
+    text-transform: uppercase
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease
+    transition: all 0.3s ease
+    &:hover
+      background: #fff
+      color: #0098ff
+    &.disabled
+      pointer-events: auto
+      cursor: auto
+      &:hover
+        background: none
+        color: #fff
+        &::before
+          border: solid
+          border-color: #333 transparent
+          border-width: 0px 6px 6px 6px
+          bottom: -5px
+          right: 55%
+          content: ""
+          position: absolute
+          z-index: 99
+          transition: all 0.3s ease
+          -webkit-transition: all 0.3s ease
+          -moz-transition: all 0.3s ease
+          -o-transition: all 0.3s ease
+          -webkit-transform: translateY(-10px)
+          -moz-transform: translateY(-10px)
+          transform: translateY(-10px)
+          -webkit-transform: translateY(0px)
+          -moz-transform: translateY(0px)
+          transform: translateY(0px)
+      &::after
+        background: #333
+        border-radius: 5px
+        bottom: -30px
+        font-size: 12px
+        right: 44%
+        height: 25px
+        color: #fff
+        content: attr(tip)
+        padding: 5px
+        position: absolute
+        z-index: 98
+        width: inherit
+        opacity: 0
+        transition: all 0.3s ease
+        -webkit-transition: all 0.3s ease
+        -moz-transition: all 0.3s ease
+        -o-transition: all 0.3s ease
+        -webkit-transform: translateY(-10px)
+        -moz-transform: translateY(-10px)
+        transform: translateY(-10px)
+      &:hover::after, &:focus::after
+        opacity: 1
+        -webkit-transform: translateY(0px)
+        -moz-transform: translateY(0px)
+        transform: translateY(0px)
+
+@media (max-width: 992px)
+  section
+    ul.social-buttons li
+      a
+        height: 40px
+        width: 40px
+        font-size: 18px
+        line-height: 40px
+      padding: 0
+  button.btn.btn-info.btn-sei
+    font-size: 12px
+
+@media (max-width: 768px)
+  section ul.social-buttons li a
+    height: 30px
+    width: 30px
+    font-size: 14px
+    line-height: 30px
+
+@media (max-width: 507px)
+  section ul.social-buttons li a
+    height: 20px
+    width: 20px
+    font-size: 12px
+    line-height: 20px

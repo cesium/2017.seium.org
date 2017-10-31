@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -121,6 +122,12 @@ ga('send', 'pageview');
 
     
     <section id="aboutspeakers" controller="speakerCtrl">
+=======
+---
+layout: default
+---
+<section id="aboutspeakers" controller="speakerCtrl">
+>>>>>>> master
   <div class="container">
     <div class="section-title-container text-center">
       <h1 class="section-title">Oradores</h1>
@@ -130,6 +137,7 @@ ga('send', 'pageview');
       Durante esta semana vais ter a oportunidade de conhecer muitos oradores nacionais e internacionais reconhecidos e de empresas notórias, mas até lá, vai dando uma vista de olhos para saberes o que podes esperar desta edição.
     </div>
 
+<<<<<<< HEAD
     
     <div id="boris-tchikoulaev" class="col-md-12 speak-list">
       <div class="col-md-3 vcenter">
@@ -565,11 +573,49 @@ ga('send', 'pageview');
             </li>
             
             
+=======
+    {% for speaker in site.data.speakers %}
+    <div id="{{ speaker.name | slugify }}" class="col-md-12 speak-list">
+      <div class="col-md-3 vcenter">
+        <div class="speaker-img">
+          {% image 'speakers/{{ speaker.pic }}' class:'speaker-pic' %}
+        </div>
+        <span class="speaker-name">{{ speaker.name }}</span>
+
+        {% if speaker.position %}
+        <span class="speaker-position">{{ speaker.position }}</span>
+        {% endif %}
+        {% if speaker.enterprise %}
+        <p class="speaker-company">
+          <a href="{{ speaker.enterpriseURL }}" target="_blank">
+            {{ speaker.enterprise }}
+          </a>
+        </p>
+        {% endif %}
+        <div class="col-lg-12 ">
+          <ul class="list-inline social-buttons speaker-social">
+            {% if speaker.web %}
+            <li>
+              <a if="speaker.web" target="_blank" href="{{ speaker.web }}"><i class="fa fa-globe"></i></a>
+            </li>
+            {% endif %}
+            {% if speaker.twitter %}
+            <li>
+              <a if="speaker.twitter" target="_blank" href="{{ speaker.twitter }}"><i class="fa fa-twitter"></i></a>
+            </li>
+            {% endif %}
+            {% if speaker.github %}
+            <li>
+              <a if="speaker.github" target="_blank" href="{{ speaker.github }}"><i class="fa fa-github"></i></a>
+            </li>
+            {% endif %}
+>>>>>>> master
           </ul>
         </div>
 
       </div><!--
    --><div class="col-md-9 vcenter">
+<<<<<<< HEAD
         <span class="aboutspeaker">Jorge Soares trabalha no grupo de software da IBM Portugal como Arquiteto de Soluções há mais de 10 anos. Desde o desenvolvimento de aplicações, por onde começou, passando por trabalhos de consultoria, e até à arquitetura de soluções, tem tido experiência de cerca de 29 anos em diversas indústrias, com maior predominância no setor bancário. Nos últimos anos teve maior envolvimento em temas de integração de sistemas e aplicações, arquiteturas SOA e empresariais, bem como em cidades inteligentes. Nos últimos meses tem também dedicado algum tempo aos sistemas cognitivos.</span>
       </div>
     </div>
@@ -1210,3 +1256,13 @@ ga('send', 'pageview');
     <script type="text/javascript" src="/assets/main-c88ae9b001fab716295f5a8888810ece5ac56d59818f5eb2f6fa1ed511468d19.js"></script>
   </body>
 </html>
+=======
+        <span class="aboutspeaker">{{ speaker.about }}</span>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>
+>>>>>>> master

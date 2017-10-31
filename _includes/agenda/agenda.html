@@ -1,0 +1,49 @@
+<section id="agenda">
+  <div class="container">
+    <div class="section-title-container">
+      <h1 class="section-title">Agenda</h1>
+    </div>
+
+    <div class="col-md-12">
+      <div class="col-md-10 col-md-offset-1">
+       <div class="col-md-12 agenda-carousel agenda-wrapper">
+
+
+            {% for day in site.data.agenda %}
+            <div class="col-sm-3 agenda-day">
+              <h4 class="center-block agenda-date"> {{ day.date }}. <br><span>{{ day.dayOfWeek }}</span></h4>
+              {% for act in day.activities %}
+              {% if act.coffee %}
+              <h5 class="agenda-coffee">
+                  <span>COFFEE-BREAK</span>
+              </h5>
+              {% elsif act.meal %}
+              <div class="agenda-meal"></div>
+              {% else %}
+              {% if act.offset %}
+              <div class="{{ act.offset }}"></div>
+              {% endif %}
+              <div class="agenda-activity">
+                <div class="activity-time">{{ act.time }}</div>
+                <a href="#{{ act.name | slugify }}">
+                  <div class="activity-block {{ act.duration }} text-left">
+                    <div class="activity-border"></div>
+                    <div class="activity-name"><b>{{ act.name }}</b></div>
+                    {% if (act.speaker and act.enterprise) %}
+                    <div class="activity-speaker">{{ act.speaker }}</div>
+                    {% else %}
+                    <div class="activity-speaker">{{ act.speaker }}</div>
+                    {% endif %}
+                  </div>
+                </a>
+                <div class="activity-location">{{ act.place }}</div>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

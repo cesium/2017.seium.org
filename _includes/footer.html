@@ -1,0 +1,29 @@
+{% if page.path == 'hackathon/index.html' %}
+<footer class="hackathon">
+{% else %}
+<footer class="sei">
+{% endif %}
+  <div class="container">
+    <div class="col-md-12">
+      <p>Made with ❤ by <a href="http://cesium.di.uminho.pt" target="_blank">CeSIUM</a>. <!--Hosted on <a href="https://github.com/cesium/2017.seium.org" target="_blank">GitHub</a>--></p>
+
+      <a href="http://www.facebook.com/SEI.UMinho"><i class="fa fa-facebook fa-2x"></i></a>
+      <a href="http://www.github.com/cesium"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/cesiuminho"><i class="fa fa-twitter fa-2x"></i></a>
+
+      <p><a href="http://2016.seium.org" target="_blank"> Previous edition</a> ||
+
+      {% if page.path == 'hackathon/index.html' %}
+
+      <a href="https://drive.google.com/open?id=0B98jlL4oJiLlUHpnOENrTTM4bkU" target="_blank">Code of Conduct</a>
+
+      {% else %}
+
+      <a href="/codeofconduct" target="_blank">Code of Conduct</a>
+
+      {% endif %}
+      </p>
+    </div>
+
+  </div>
+</footer>

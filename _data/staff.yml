@@ -1,0 +1,206 @@
+- name: Martinho Aragão
+  pic: martinho-aragao.jpg
+  website: http://martinhoaragao.me
+  github: https://github.com/martinhoaragao
+  linkedin: https://pt.linkedin.com/in/martinhoaragao
+
+- name: Paulo Cardoso
+  pic: paulo-cardoso.jpg
+  website: https://about.me/pcardoso.lei
+  github: https://github.com/pcardosolei
+  linkedin: https://pt.linkedin.com/in/pcardosolei
+
+- name: João Costa
+  pic: joao-costa.jpg
+  github: https://github.com/JoaoFCosta
+
+- name: Gil Gonçalves
+  pic: gil-goncalves.jpg
+  github: https://github.com/GIlGoncalves
+  linkedin: https://www.linkedin.com/profile/view?id=AAMAABuOz5YBiDT6gTHn9ugA4OCrTqW1ezGPQYc
+
+- name: Adriana Guedes
+  pic: adriana-guedes.jpg
+
+- name: Inês Sampaio
+  pic: ines-sampaio.jpg
+  twitter: https://twitter.com/InesSampaio9
+  github: https://github.com/ines36
+  linkedin: https://www.linkedin.com/in/in%C3%AAs-sampaio-19790955/
+
+- name: Luis Fonseca
+  pic: luis-fonseca.jpg
+  github: https://github.com/Pirata156
+
+- name: Hugo Gonçalves
+  pic: hugo-goncalves.jpg
+  github: https://github.com/Hugainz
+
+- name: Lúcia Abreu
+  pic: lucia-abreu.jpg
+  twitter: https://twitter.com/lmvda17
+  linkedin: https://www.linkedin.com/in/lmvda
+
+- name: Francisco Costa
+  pic: francisco-costa.jpg
+  github: https://github.com/xicon73
+
+- name: André Gonçalves
+  pic: andre-goncalves.jpg
+  github: https://github.com/Simbs38
+  twitter: https://twitter.com/simbs38
+
+- name: Miguel Lobo
+  pic: miguel-lobo.jpg
+  github: https://github.com/MLobo1997
+
+- name: Bruno Azevedo
+  pic: bruno-azevedo.jpg
+  github: https://github.com/BrunoJAzevedo
+
+- name: Dinis Peixoto
+  pic: dinis-peixoto.jpg
+  twitter: https://twitter.com/DinisPeixoto
+  github: https://github.com/dinispeixoto
+  linkedin: https://www.linkedin.com/in/dinispeixoto
+
+- name: Ricardo Certo
+  pic: ricardo-certo.jpg
+
+- name: Filipe Fortunato
+  pic: filipe-fortunato.jpg
+
+- name: Pedro Almeida
+  pic: pedro-almeida.jpg
+
+- name: André Teixeira
+  pic: andre-teixeira.jpg
+  github: https://github.com/Nein
+
+- name: Joana Arantes
+  pic: joana-arantes.jpg
+  github: https://github.com/joanaarantes
+
+- name: Guilherme Guerreiro
+  pic: guilherme-guerreiro.jpg
+  github: https://github.com/houdini39
+  linkedin: https://www.linkedin.com/in/guilherme-guerreiro-343aa0119
+
+- name: Pedro Fortes
+  pic: pedro-fortes.jpg
+  github: https://github.com/playerVfox
+
+- name: Eduardo Semanas
+  pic: eduardo-semanas.jpg
+
+- name: Bruno Cancelinha
+  pic: bruno-cancelinha.jpg
+  github: https://github.com/9thScientist
+
+- name: Marcelo Miranda
+  pic: marcelo-miranda.jpg
+
+- name: André Santos
+  pic: andre-santos.jpg
+  github: https://github.com/andrerfcsantos
+  twitter: https://twitter.com/andrerfcsantos
+
+- name: Daniel Tinoco
+  pic: daniel-tinoco.jpg
+  github: https://github.com/0urobor0s
+
+- name: André Brandão
+  pic: andre-brandao.jpg
+  github: https://github.com/andrebrandao21
+
+- name: Miguel Pinto
+  pic: miguel-pinto.jpg
+  github: https://github.com/miguelpinto98
+
+- name: João Pereira
+  pic: joao-pereira.jpg
+  github: https://github.com/jcp19
+  linkedin: https://pt.linkedin.com/in/joão-pereira-513a63b8
+
+- name: Bruno Ferraz
+  pic: bruno-ferraz.jpg
+  github: https://github.com/brunomaf
+
+- name: Marco Gonçalves
+  pic: marco-goncalves.jpg
+  github: https://github.com/Barca88
+
+- name: Francisco Neves
+  pic: francisco-neves.jpg
+  github: https://github.com/fntneves
+
+- name: Diogo Vilaça
+  pic: diogo-vilaca.jpg
+
+- name: Francisco Lira
+  pic: francisco-lira.jpg
+  github: https://github.com/FranciscoLira
+  twitter: franlira12
+
+- name: Francisco Ribeiro
+  pic: francisco-ribeiro.jpg
+  github: https://github.com/FranciscoRibeiro
+
+- name: Hugo Brandão
+  pic: hugo-brandao.jpg
+  github: https://github.com/jhugobb
+
+# - name: João Cabo
+#   pic: joao-cabo.jpg
+#   github: https://github.com/45Yoda
+
+- name: José Bastos
+  pic: jose-bastos.jpg
+  github: https://github.com/zbastos
+  linkedin: https://www.linkedin.com/in/zbastos
+
+- name: José Macedo
+  pic: jose-macedo.jpg
+  github: https://github.com/zenunomacedo
+
+- name: José Monteiro
+  pic: jose-monteiro.jpg
+  github: https://github.com/JosePedro90
+
+- name: José Resende
+  pic: jose-resende.jpg
+  github: https://github.com/ZePedroResende
+
+- name: Madalena Castro
+  pic: madalena-castro.jpg
+
+# - name: Mariana Fontainha
+#   pic: mariana-fontainha.jpg
+
+- name: Miguel Cunha
+  pic: miguel-cunha.jpg
+
+# - name: Nelson Sousa
+#   pic: nelson-sousa.jpg
+
+- name: Ricardo Pereira
+  pic: ricardo-pereira.jpg
+  github: https://github.com/ricardopereira33
+
+- name: Sara Pereira
+  pic: sara-pereira.jpg
+
+- name: Sérgio Alves
+  pic: sergio-alves.jpg
+
+- name: Susana Mendes
+  pic: susana-mendes.jpg
+
+# - name: Tiago Carvalhais
+#   pic: tiago-carvalhais.jpg
+
+- name: Pedro Duarte
+  pic: pedro-duarte.jpg
+  
+- name: Sandra Ferreira
+  pic: sandra-ferreira.jpg

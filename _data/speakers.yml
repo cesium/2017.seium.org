@@ -1,0 +1,259 @@
+- name: Boris Tchikoulaev
+  pic: boris.png
+  position: Senior BI & big Data Consultant
+  enterprise: Xpand IT
+  enterpriseURL: http://www.xpand-it.com/
+  twitter: https://twitter.com/bvtchikoulaev
+  about: Boris Tchikoulaev é ex-aluno da Universidade do Minho e um profissional de IT com 7 anos de experiência em vários ramos, tais como BI e soluções Big Data (Pentaho, Cloudera), Processos de Integração de Dados, Administração de Bases de Dados (MS SQL Server, MySQL, PostgreSQL) e Web/Software Development (Java, JavaScript). Para além de consultadoria de software, é também responsável pela gestão de vários projetos durante todo o seu ciclo de vida, construindo relacionamentos confiáveis com clientes e liderando equipes internas de desenvolvimento, usando as melhores práticas das metodologias Agile.
+
+- name: Soumaya Ben Dhaou
+  pic: soumaya.png
+  position: Researcher
+  enterprise: United Nations University
+  enterpriseURL: http://egov.unu.edu/ 
+  about: "Soumaya Ben Dhaou é atualmente uma bolseira investigadora na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). É também professora assistente na South Mediterranean University, onde detém a posição de Management of Information Systems Discipline Lead, e coordena o programa em Master Business Management in Big Data and Business Analytics na  Mediterranean School of Business. É doutorada em Sistemas de Informação e Tecnologia pela Universidade do Quebec em Montreal e obteve ao mesmo tempo um PhD em Gestão de Sistemas de Informação da Universidade Paris-Dauphine, em França, com uma tese intitulada \"Building Change Capabilities for e-Government Continuous Development\". Os interesses de pesquisa da Soumaya incluem, entre outros, e-Government, inovação, gestão de sistemas de informação, gestão de processos de negócios, modelagem e análise, transformação organizacional e digital e capacidades organizacionais e dinâmicas."
+
+- name: Nuno Lopes
+  pic: nuno_lopes.jpg
+  position: Researcher
+  enterprise: United Nations University
+  enterpriseURL: http://egov.unu.edu/ 
+  about: Nuno Vasco Lopes é licenciado em Engenharia Elétrica pela Universidade de Trás-os-Montes e Alto Douro em 1998 e obteve um MSc em Telemática pela Universidade de Vigo em 2003, um doutoramento em Ciência da Computação pela Universidade do Minho em 2011 e um pós-doutoramento em Ciência da Computação pela Universidade de Coimbra em 2013. É professor em universidades públicas e privadas desde 1998 e trabalha atualmente na Universidade do Minho e na United Nations University Operating Unit on Policy Driven Electronic Governance (UNU-EGOV). Os seus atuais interesses de investigação centram-se em Cidades Inteligentes, Redes Móveis, Qualidade de Serviço, Serviços em Tempo Real, Redes Veiculares, Nano-Comunicação e Internet das Coisas. É Editor-Chefe da ACEEE (Associação de Informática Eletrónica e Engenheiros Elétricos) e Editor Convidado numa edição especial sobre Cloud Computing e Internet das Coisas no Cluster Computing Journal.
+
+- name: Pedro Vilaça
+  pic: pedro_vilaca.png
+  position: Mac Malware Hunter
+  enterprise: SentinelOne
+  enterpriseURL: https://sentinelone.com/
+  about: Pedro Vilaça, autor de um blog de OS X, é um líder especialista no campo de não ser um especialista, brinca com computadores há mais de 30 anos, possui um diploma em Economia e um MBA. Demonstra um interesse em melhorar a segurança do OS X e em investigar malware. Faz atualmente parte da SentinelOne, uma empresa dedicada a produtos anti-vírus, onde co-criou o seu produto inicial Mac.
+
+- name: Miguel Regedor
+  pic: miguel-regedor.jpg
+  position: Lead of Back-End Engineering
+  enterprise: Freeletics
+  enterpriseURL: https://www.freeletics.com/en
+  web: http://miguelregedor.com/ 
+  twitter: https://twitter.com/miguelregedor 
+  github: https://github.com/regedor
+  about: Miguel Regedor começou cedo como Freelancer Web Designer. Após dezenas de projetos em Flash, em 2007 optou por Ruby on Rails, sendo um dos pioneiros a utilizar Ruby profissionalmente em Portugal. Após a licenciatura, trabalhou em Inglaterra como Rails Developer, andou por Nova Iorque enquanto participava na escrita do livro "Getting Started with Ruby on Rails (IBM free ebook)". Trabalhou em diversos projetos de investigação com a Universidade Aberta, Faculdade de Engenharia da Universidade do Porto, Universidade Minho e Sapo. De volta a Portugal, durante o mestrado, acabou por criar a sua própria empresa com colegas de curso, a Group Buddies, atualmente Subvisual. Na Alemanha trabalhou para a Pro7.Sat1 (estação de televisão privada), criou o "Cá Vou EU" e "Blue Heart Explosion" e é atualmente líder das equipas de Backend e Technical Operations da Freeletics.
+
+- name: Daniela Matos de Carvalho
+  pic: daniela.png
+  position: JS Developer
+  enterprise: YLD
+  enterpriseURL: https://www.yld.io
+  twitter: https://twitter.com/sericaia
+  github: https://github.com/sericaia
+  about: A Daniela é uma developer de JavaScript e está sempre à procura de aprender algo novo. Correr, dançar e fotografar nos seus tempos livres permite-lhe relaxar e perceber melhor o mundo. É organizadora do meetup Require-lx e mentora no Coderdojo LX, uma organização que fornece educação gratuita a crianças e jovens, explicando-lhes quão importante e desafiante a programação pode ser!
+
+- name: João Sardinha
+  pic: sardinha.jpg
+  position: Front-end developer
+  enterprise: Unbabel
+  enterpriseURL: https://unbabel.com
+  web: http://johnsardine.com/
+  twitter: http://twitter.com/johnsardine
+  github: https://github.com/johnsardine
+  about: João Sardinha é web developer, focado em arquiteturas front-end modulares e escaláveis. Orgulhoso membro da equipa que construiu uma estrutura front-end para a RTP, atualmente é front-end developer na Unbabel. João cria soluções web personalizadas e o seu conhecimento vai desde a criação de HTML sólido e semântico, CSS flexível e funcionalidade JavaScript personalizada, fundido-a num CMS adaptado às necessidades dos clientes ou integrando-o com o WordPress.
+
+- name: André Azevedo
+  pic: andre-azevedo.jpg
+  position: Production, Supply Chain & Merchandising BI Manager
+  enterprise: BIT Sonae
+  enterpriseURL: https://www.sonae.pt/pt/
+  about: Engenheiro Mecânico de formação e com Mestrado em Ciências Farmacêuticas, fez também um MBA pela Porto Business School. Depois de uma passagem pelo mundo farmacêutico, integrou uma equipa de consultoria focada na evolução, crescimento sustentado e recuperação financeira de empresas no retalho e logística farmacêutica. No final do MBA juntou-se à equipa da BIT Sonae para desenvolver o programa de informação de gestão da SportZone. Devido à experiência e conhecimento prévio na área de BI, integrou a equipa de BI  acabando por assumir a equipa de Production, Supply Chain & Merchandising com foco em implementações tecnológicas na área de informação de gestão. Ao longo do seu percurso fundou duas empresas, uma na área do retalho tecnológico e outra na área de produção alimentar. Define-se como um apaixonado pelo empreendedorismo e inovação.
+  id: 9
+
+- name: Pedro Couto
+  pic: pedro-couto.jpg
+  position: Senior Manager
+  enterprise: Accenture
+  enterpriseURL: https://www.accenture.com/pt-pt
+  twitter: https://twitter.com/pedrommcouto
+  about: Pedro Couto é licenciado em Informática, pela Faculdade de Ciências da Universidade de Lisboa, e Senior Manager na Accenture. Tendo ingressado nesta empresa em 1998, desenvolveu a fase inicial da sua carreira na unidade de Health & Public Service, na área da tecnologia. Com uma larga experiência em implementações baseadas em stacks de Open-Source, foi o responsável por diversos projetos web, em clientes de diversas indústrias. Desde 2016 é um dos responsáveis pela implementação do NanoLabs Lisboa, uma unidade de divulgação da inovação desenvolvida pela Accenture. Foi ainda professor convidado da Universidade Europeia de Lisboa e membro da equipa de formadores do projeto DISLOGO da Universidade Católica Portuguesa, de ensino a distância para executivos.
+  id: 10
+
+- name: João Pena Gil
+  pic: joao-pena-gil.jpg
+  position: Application Security Analysis Team Leader
+  enterprise: Checkmarx
+  enterpriseURL: https://www.checkmarx.com/
+  twitter: https://twitter.com/penagil/
+  github: https://github.com/Jack64
+  about: João Pena Gil trabalha atualmente na Checkmarx como Application Security Analysis Team Leader. A sua paixão pela informática começou desde muito pequeno, quando os seus pais trouxeram o primeiro computador para casa, um Pentium I MMX com o Windows 3.1. Começou a fazer os seus primeiros programas aos 15 anos, numa calculadora TI-83, e decidiu que queria uma carreira na área da Engenharia Informática, o que o levou ao ingresso no curso de Engenharia Informática e Computação na Faculdade de Engenharia da Faculdade do Porto. Aí aprendeu o básico sobre programação e teoria computacional, mas rapidamente descobriu que a sua vocação era “quebrar” código ao invés de o construir, o que despertou uma enorme vontade de aprender mais sobre segurança da informação em geral e impulsionou uma fase auto-didacta, onde investigou várias áreas da segurança da informação, desde ataques de injeção de pacotes Wi-Fi até à quebra de algoritmos criptográficos com falhas de implementação. Começou então a sua carreira numa empresa que produzia soluções de Internet Banking para vários clientes da área financeira, fazendo testes de segurança internos (Penetration Testing & Application Security) e nos últimos 6 meses pertence à equipa da Checkmarx, onde aplica os seus conhecimentos para efeitos de controlo de qualidade dos resultados do produto de análise estática de código.
+  id: 11
+
+- name: José Bonnet
+  pic: jose-bonnet.jpg
+  position: Senior Technology Consultant
+  enterprise: Altice Labs
+  enterpriseURL: http://www.alticelabs.com/pt/
+  twitter: https://twitter.com/jbonnet
+  github: https://github.com/jbonnet
+  about: José Bonnet tem recentemente trabalhado em projetos europeus nas áreas de Virtualização de Funções de Rede e Redes Definidas por Software, áreas estas que são fundamentais para as operadoras de telecomunicações do futuro. Parte do desafio destas áreas tem a ver com a necessidade do aumento em geral da eficiência dos processos, em que o DevOps se enquadra. Anteriormente trabalhou na definição de produtos e na implementação de serviços para diversos clientes da Altice Labs (anteriormente, PT Inovação) e atualmente é Senior Technology Consultant na Altice Labs.
+  id: 12
+
+- name: Jorge Soares
+  pic: jorge-soares.jpg
+  position: Solutions Architect
+  enterprise: IBM Watson
+  enterpriseURL: https://www.ibm.com/watson/
+  twitter: https://twitter.com/jorge_soares/
+  about: Jorge Soares trabalha no grupo de software da IBM Portugal como Arquiteto de Soluções há mais de 10 anos. Desde o desenvolvimento de aplicações, por onde começou, passando por trabalhos de consultoria, e até à arquitetura de soluções, tem tido experiência de cerca de 29 anos em diversas indústrias, com maior predominância no setor bancário. Nos últimos anos teve maior envolvimento em temas de integração de sistemas e aplicações, arquiteturas SOA e empresariais, bem como em cidades inteligentes. Nos últimos meses tem também dedicado algum tempo aos sistemas cognitivos.
+  id: 13
+
+- name: Marco Vale
+  pic: marco-vale.png
+  position: Game Artist
+  enterprise: Indot Studio
+  enterpriseURL: http://indotgamestudio.com
+  web: http://marcovale.com/
+  twitter: https://twitter.com/MarcoValeKaz/
+  about: Marco Vale é Artista de Videojogos desde 2003. Iniciou a sua carreira na Eworks Studios e desde então tem participado em dezenas de projetos. Com mais de 40 jogos lançados, está neste momento a colaborar com a Indot Studio no desenvolvimento do jogo Shutix.
+  id: 14
+
+- name: Francisco Franco
+  pic: francisco-franco.png
+  position: Android Developer
+  twitter: https://twitter.com/franciscof_1990/
+  about: Francisco Franco é um Android Developer com seis anos de experiência na construção de aplicações e kernels personalizados para dispositivos Nexus, com foco na melhoria da vida útil da bateria e na melhoria da extensibilidade dos recursos na plataforma. Construiu várias aplicações e serviços, sendo o mais popular o FKUpdater, que serve como uma interface para a gestão dos seus kernels personalizados e oferece uma maneira fácil para os utilizadores ficarem atualizados. Também criou o Focus, uma inovadora substituição de galeria de foto/vídeo que exibe o design de materiais no seu melhor, e tem experiência com startups na Silicon Valley, contribuindo para o projeto que começou e que é agora conhecido como Android Auto. Francisco gasta o seu tempo livre encontrando novos desafios para enfrentar, sendo a mais recente uma exploração em design mutativo com Liam Spradlin."
+  id: 15
+
+- name: Tiago Loureiro
+  pic: tiago-loureiro.jpg
+  position: Managing Director
+  enterprise: Collide
+  enterpriseURL: https://collide.rocks/
+  web: https://deprofundiis.wordpress.com/
+  twitter: https://twitter.com/tiagomploureiro
+  about: Tiago Loureiro é um profissional de TIC com mais de 20 anos de experiência de mercado, tendo passado os últimos 13 anos na indústria de videojogos. No seu portfólio constam títulos que vão desde mobile a consola. Neste momento é Diretor da Collide, co-coordenador da licenciatura em Aplicações Multimédia e Videojogos na Universidade Lusófona em Lisboa e membro do Nordic Educators Group.
+  id: 16
+
+- name: Nelson Pinto
+  pic: nelson-pinto.png
+  position: Mobile Application Developer
+  enterprise: Smith Micro Software
+  enterpriseURL: http://www.smithmicro.com/
+  about: Nelson Pinto é licenciado em Engenharia de Telecomunicações pela Universidade do Minho e é Developer de Aplicações Móveis na Smith Micro Software. Com participação no desenvolvimento de diversas aplicações móveis em vários projetos (Skyüber, Vodafone Mexefest 2016, Little Culture App, SafePath, entre outros), tem experiência no desenvolvimento de aplicações nativas iOS e Android, tendo também experiência na utilização da framework React Native no desenvolvimento de aplicações híbridas.
+  id: 17
+
+- name: Nuno Sousa
+  pic: nuno-sousa.png
+  position: Software Developer
+  enterprise: CCG
+  enterpriseURL: http://www.ccg.pt/ 
+  about: Nuno Sousa é um Developer de Software atualmente a trabalhar na CCG em Portugal. Obteve um diploma de cinco anos e um mestrado em Engenharia Informática pela Universidade do Minho. No mestrado tirou especializações em Engenharia de Aplicações e em Análise e Conceção de Software. Nos últimos 8 anos, esteve envolvido no desenvolvimento de vários projetos nas áreas de Realidade Aumentada, Desenvolvimento de Software (desktop e web), Interação Humano-Computador, Bases de Dados, Computação Móvel, Domótica, Sistemas de Informação e Engenharia de Software. As suas principais áreas de interesse são Interfaces Gráficas de Utilizador com .Net (C# e WPF), Aplicações Multitouch com WPF, Jogos Sérios com o motor de jogos Unity 3D e Aplicações Móveis e de Realidade Aumentada (Unity3D e SDKs Vuforia e Android). 
+  id: 18
+
+- name: Ricardo Oliveira
+  pic: Ricardo_Oliveira.jpg
+  position: Director of Consulting Services
+  enterprise: Eurotux
+  enterpriseURL: https://eurotux.com/ 
+  twitter: https://twitter.com/rmoliveira 
+  web: https://about.me/ricardoliveira 
+  about: Ricardo é licenciado em Engenharia de Sistemas e Informática pela Universidade do Minho e mestre em Engenharia Informática também pela Universidade do Minho. Tem várias certificações IBM e atualmente é Diretor de Serviços de Consultoria na Eurotux. Tem experiência em servidores, redes, armazenamento, segurança e serviços, com foco especial em tecnologias open source, e tem elevada experiência em gestão de projetos, liderança de equipas de TI, análise, projeto e implementação de soluções de TI, desenvolvimento de negócios e planeamento estratégico de TI. Consultor sénior e formador de TI, com comprovada capacidade de análise e resolução de problemas e competências interpessoais, apresenta uma elevada experiência, na área de desenvolvimento de negócios, em transformar TI em valor de negócio e vantagem competitiva.
+  id: 20
+
+
+- name: Luís Gomes
+  pic: luis_gomes.png
+  position: Lead Security Engineer
+  enterprise: SCML
+  enterpriseURL: http://www.scml.pt/
+  about: Com mais de 8 anos em projetos/empresas internacionais e nacionais, atualmente desempenha as funções de Lead Security Engineer na SCML. O sonho no ramo da segurança de informação começou aos 13 anos e hoje com 30 ainda se mantém nesse ramo. Os projetos onde desempenhou funções vão desde a segurança de ATMs e portais de pagamento até a segurança de lotarias e jogos de sorte e azar no mundo nacional.
+  id: 21
+
+- name: Wilson Alberto
+  pic: Wilson_Farfetch.jpg
+  position: UI Developer
+  enterprise: Farfetch
+  enterpriseURL: https://www.farfetch.com/pt/ 
+  github: https://github.com/wilsonmsalberto
+  about: Wilson Alberto é um UI Developer formado em Novas Tecnologias da Informação pela Universidade de Aveiro. Passando por diversas indústrias, desde o mundo editorial, à educação e à publicidade, atualmente está a ajudar a Farfetch a mudar a face do e-Commerce online de moda de luxo. É um adepto de performance e modularidade de código, sempre com um olhar atento às novas tendências do mundo do front-end/UI.
+  id: 22
+
+- name: José Carlos Castanheira
+  pic: José Castanheira.jpg
+  position: Designer & Programmer
+  enterprise: Nerd Monkeys
+  enterpriseURL: http://blog.nerdmonkeys.pt/
+  twitter: https://twitter.com/jcccastanheira  
+  about: José Castanheira é aluno de Engenharia Informática na FCT da Universidade Nova de Lisboa. Utiliza Game Maker desde novo e é apaixonado por game jams, onde costuma participar sozinho. Atualmente é também Designer e Programador na Nerd Monkeys.
+  id: 23
+
+- name: Luis Soares Barbosa
+  pic: lsb.jpg
+  position:  Associate Professor
+  enterprise: Departamento Informática Universidade do Minho
+  enterpriseURL:  http://di.uminho.pt/ 
+  web: http://lmf.di.uminho.pt/~lsb/
+  about: Luís Soares Barbosa é professor associado com habilitação no Departamento de Informática da Universidade do Minho e investigador sénior no HASLab/INESC TEC, Laboratório de Software Confiável do Instituto de Engenharia de Sistemas e Computadores - Tecnologia e Ciência . Desde outubro de 2016 é Diretor Interno da UNU-EGOV (United Nations University Operating Unit on Policy-driven Electronic Governance). Nos últimos anos, coordenou 4 projetos de pesquisa a nível nacional e publicou 5 capítulos de livros, 25 artigos de revistas e mais de 60 trabalhos de conferências internacionais. A sua pesquisa tem como objetivo melhorar os padrões científicos, procurando rigor e simplicidade no design de software e arquitetura através da matemática.
+  id: 24
+
+- name: Bruno Araújo
+  pic: bruno.jpg
+  position: Front-End Developer
+  enterprise: BLIP
+  enterpriseURL: http://www.blip.pt/
+  twitter: https://twitter.com/brunotiagoaa 
+  about: Foi aluno da Universidade Minho e é Front-end Developer na Blip desde 2015. Apaixonado por aplicações escaláveis e modulares, encontrou na Blip o local certo para continuar a trabalhar em JavaScript. Gosta de experimentar todas as frameworks JavaScript para poder dizer mal e odeia ‘spaghetti’ code.
+  id: 25
+
+- name: Jorge Rocha
+  pic: jorge_rocha.jpg
+  position: Web Developer
+  enterprise: BLIP
+  enterpriseURL: http://www.blip.pt/
+  about: Atualmente Web Developer na Blip onde integra o desenvolvimento de um novo Front-End para a empresa de apostas Paddy Power onde a performance é o principal foco. Começou a sua carreira como Android Developer, tendo pouco depois mudando a sua atenção para a Web onde desenvolveu projetos para a banca usando tecnologias Microsoft até que por fim encontrou a Blip e se tornou Javascript fanboy.
+  id: 26
+
+- name: João Justo
+  pic: joao-justo.jpg
+  position: Developer
+  enterprise: Subvisual
+  enterpriseURL: https://subvisual.co/
+  github: https://github.com/joaojusto
+  twitter: https://twitter.com/jpjustonunes
+  about: João Justo é estudante de Engenharia de Informática e Computação da Universidade do Porto. Os seus principais interesses são aplicações móveis e jogos. Ganhou uma especial curiosidade por tecnologias web, tendo entrado para a Subvisual como Apprentice, onde atualmente ocupa um lugar como Developer, onde está habituado a construir aplicações web e móveis. Trabalha principalmente com JavaScript, tanto back-end como front-end, Ruby e Git e é um dos organizadores do RubyConf Portugal e do Braga.JS.
+  id: 26
+
+- name: Rui Guedes
+  pic: Rui_Guedes.jpg
+  position: Developer
+  enterprise: Ground Control
+  enterpriseURL: http://www.gcontrolgames.com/
+  github: 
+  twitter: https://twitter.com/rflguedes
+  about: Rui Guedes trabalhou durante alguns anos no desenvolvimento de soluções empresariais e fez algum desenvolvimento e investigação no campo da robótica e inteligência artificial (tema do seu mestrado). Depois decidiu que precisava de mais animação na vida e virou-se para Indie Game Dev, primeiro em telemóveis e agora em PC/Consolas. Também tem experimentado imersão em realidade virtual (Kinect+Rift) e controlo EEG aplicado aos jogos/interação.
+  id: 27
+
+- name: Ernesto Pedrosa
+  pic: ernesto_pedrosa.jpg
+  position: Co-founder & CTO 
+  enterprise: Agentifai
+  enterpriseURL: http://agentifai.com/
+  github: 
+  twitter: 
+  about: Ernesto tem mais de 14 anos de técnico internacional e management experience na área de produtos mobile e data services. Começou a sua carreira como developer freelancer nos seus anos de universidade. Após este período, em 2003, juntou-se à MobiComp com 3 anos de existência, que hoje é uma referência depois da sua aquisição pela Microsoft em 2008. Teve um papel principal na MobileKeeper product suite development, como developer lead. 
+  id: 28
+
+- name: Francisco Neves
+  pic: Francisco_Neves.jpeg
+  position: Investigador 
+  enterprise: HASLab
+  enterpriseURL: http://haslab.uminho.pt/
+  github: https://github.com/fntneves
+  twitter: https://twitter.com/fntneves
+  about: Francisco Neves é um entusiasta do mundo Web. É aluno do programa doutoral de informática MAP-i e investigador no Laboratório Software Confiável (HASLab), centro I&D integrado do INESC TEC e subunidade orgânica da Universidade do Minho. Durante o seu percurso, colaborou em projetos de investigação e integrou equipas de desenvolvimento de projetos direcionados para os utilizadores finais no contexto de diversas áreas, como tecnologia médica, social e outras. Atualmente, para além da atividade de investigação, é um dos responsáveis pela equipa desenvolvimento da aplicação SafeCloud Photos, uma aplicação que tem como objetivo guardar fotografias de forma segura na nuvem.
+  id: 29
+ 
+- name: Rogério Pontes
+  pic: Rogerio_Pontes.jpeg
+  position: Investigador 
+  enterprise: HASLab
+  enterpriseURL: http://haslab.uminho.pt/
+  github: 
+  twitter: 
+  about: Rogério Pontes é aluno de doutoramento e investigador no Laboratório de Software Confiável da Universidade do Minho (HASLab), centro I&D integrado do INESC TEC e subunidade orgânica da Universidade do Minho. Colabora há três anos em projetos nacionais e europeus que geram novo conhecimento nos domínios de computação na nuvem e privacidade de dados. Neste momento, é um dos investigadores principais do projeto europeu SafeCloud, cujo objetivo é fortalecer os níveis de segurança fornecidos pelas aplicações que estão dependentes da nuvem. Dentro do projeto, é responsável por desenvolver novas soluções de armazenamento seguras e capazes de fazer de processamento sobre dados protegidos sem menosprezar a eficiência e escalabilidade exigida pelas aplicações.
+  id: 30

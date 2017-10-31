@@ -1,0 +1,59 @@
+{% if page.path == 'hackathon/index.html' %}
+<nav class="navbar navbar-custom navbar-hackathon navbar-fixed-top" role="navigation">
+{% else %}
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+{% endif %}
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="/" id="nav-logo">
+        {% image nav-logo.png %}
+        <div>
+          <span>
+            SEMANA DA<br>
+            ENGENHARIA INFORMÁTICA<br>
+            <strong>UNIVERSIDADE DO MINHO<br>
+              2017</strong>
+            </span>
+          </div>
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav nav-item">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/agenda">Agenda</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/speakers">Oradores</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/hackathon">Hackathon</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/challenges">Desafios</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/accommodation">Alojamento</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/staff">Equipa</a>
+          </li>
+          <!--<li>
+            <a class="page-scroll" href="http://intra.seium.org" target="_blank">IntraNet</a>
+          </li>-->
+          <li>
+            <a class="page-scroll" href="https://seium17.eventbrite.pt/" target="_blank">Inscrições</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="http://intra.seium.org/users/sign_in" target="_blank">Badges</a>
+          </li>
+        </ul>
+      </div>
+  </nav>

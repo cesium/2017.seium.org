@@ -1,0 +1,85 @@
+#accommodation
+  background-attachment: fixed
+  background-image: url(image_path("backgrounds/dark-stuff.png"))
+  background-position: center center
+  background-repeat: none
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  padding-top: 50px
+  .section-title
+    margin-top: 50px
+  .accommodation-list
+    text-align: center
+    max-width: 1360px
+    min-width: 280px
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
+    margin: 25px auto
+    @media(min-width: 1200px)
+      margin: 0 auto
+      flex-direction: row
+    .accommodation-list-cell
+      text-align: center
+      align-self: flex-start
+      margin: 25px 50px 25px 50px
+      max-width: 350px
+      @media(max-width: 768px)
+        max-width: 320px
+      @media(min-width: 1200px)
+        margin: 0 0 20 0
+      .hotel-name
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 14px
+        color: #0098ff
+        letter-spacing: 1px
+        &::after
+          content: ""
+          display: table
+          clear: both
+          width: 80%
+          max-width: 170px
+          margin: 5px auto
+          margin-bottom: 10px
+          border-bottom: 2px solid #fff
+      .hotel-contact
+        margin-top: 5px
+        font-size: 14px
+        color: #fff
+      .hotelpic
+        border: 4px solid #fff
+        width: 200px
+        height: 200px
+        margin: 0px 0px 10px 0px
+
+
+
+@media (max-width: 992px)
+  #accommodation
+    .hotel-img
+      width: 150px
+      height: 150px
+    #accommodation
+      padding-bottom: 50px
+    .hotel-name
+      font-size: 22px
+    .hotel-contact
+      font-size: 14px
+
+@media (max-width: 767px)
+  #accommodation
+    .hotel-name
+      font-size: 16px
+      &::after
+        border-bottom: 2px solid #fff
+
+
+@media (max-width: 447px)
+  .hotel-name
+    font-size: 14px
+  .hotel-contact
+    font-size: 12px

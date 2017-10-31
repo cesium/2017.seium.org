@@ -1,0 +1,102 @@
+
+#exclusive, #gold, #silver, #bronze, #partners
+  background: url(image_path("backgrounds/light-touch.png")) no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  background-attachment: scroll
+  color: #fff
+  padding-bottom: 20px
+  text-align: center
+  .section-title
+    text-align: center
+    border-color: #EAEAEA
+
+
+#partners-heading
+  border: 5px solid
+  letter-spacing: 0.3em
+  padding-bottom: 10px
+
+.title-container
+  div.partners-title
+    border-color: #EAEAEA
+
+.partners-header
+  overflow: hidden
+  span
+    line-height: 0.5
+    display: inline-block
+    position: relative
+    &:before, &:after
+      content: ""
+      position: absolute
+      height: 5px
+      border-bottom: 1px solid
+      top: 0
+      width: 400px
+    &:before
+      right: 100%
+      margin-right: 15px
+    &:after
+      left: 100%
+      margin-left: 15px
+
+/* To fix image alignment
+
+.flex-wrapper
+  width: 100%
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+
+.partner-img
+  width: 300px
+  margin: 5px 5px 5px 5px
+  img
+    width: 75%
+  #accenture-logo img
+    width: 100%
+
+.vcenter 
+  display: inline-block
+  vertical-align: middle
+  float: none
+
+.hcenter
+  display: block
+  margin: 25px auto 25px auto
+
+.narrow-logo 
+  width: 250px 
+  margin: auto
+  img
+    width: 65%
+
+.wide-logo
+  width: 250px
+  margin: 10px 10px 10px 10px
+
+
+.partners-carousel
+  margin-bottom: 50px
+  .slick-track
+    display: flex
+    align-items: center
+    .slick-arrow::before
+      font-size: 25px
+  .slick-dots
+    margin-bottom: 30px
+    li
+      &.slick-active button, button
+        &::before
+          color: #fff
+          font-size: 20px
+
+
+#critical
+  width: 100px
+  heigth: 100px
