@@ -1,7 +1,126 @@
----
-layout: default
----
-<section id="aboutspeakers" controller="speakerCtrl">
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+
+
+
+<meta property="og:locale" content="pt_PT">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SEI 17 - Semana da Engenharia Informática">
+
+
+
+<title>SEI 17 - Semana da Engenharia Informática</title>
+
+<meta property="og:title" content="SEI 17 - Semana da Engenharia Informática">
+<meta name="description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocobrre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
+<meta name="keywords" content="cesium, hackathon, sei, sei17, uminho">
+
+<meta property="og:description" content="SEI - Semana da Engenharia Informática, uma semana organizada por alunos e para alunos, gratuita e totalmente dedicada a apresentar e aprofundar temas de destaque no panorama atual da informática. Anteriormente chamada Semana da LEI, a SEI ocorre no Departamento de Informática da UMinho. Este ano apresenta uma Hackathon, várias palestras e workshops orientados por oradores de relevo nacional e internacional, momentos de discussão, pró-atividade e de lazer bem como uma abordagem social.">
+<meta property="og:url" content="http://seium.org/staff/">
+<meta property="og:image" content="http://seium.org/assets/banner-01c30267943627bad78dd7655312e40a4c36c94bec5a81fca5946e422ecb1eb7.png">
+
+
+
+<link rel="shortcut icon" href="/assets/favicon-8208803ef6a73a665d32175ccf761c5c52fa1d67c15fe81a4d9bf3f7a89dc3d6.ico">
+
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+
+<!-- endcut-->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Custom CSS -->
+<link type="text/css" rel="stylesheet" href="/assets/main-55ba7209911e84ffdc6c57a067fac734b63b22b7c2cb0d38efdf714a6541e435.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67237593-5', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+  <body id="page-top" class="index" ng-app="sei-app">
+
+    
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="/" id="nav-logo">
+        <img src="/assets/nav-logo-8a230ad681ce95cd9d2f2fe24d944565d2b57c894f5cbb02e3b9d2e8dbdd77de.png" width="336" height="336" alt="nav-logo.png">
+        <div>
+          <span>
+            SEMANA DA<br>
+            ENGENHARIA INFORMÁTICA<br>
+            <strong>UNIVERSIDADE DO MINHO<br>
+              2017</strong>
+            </span>
+          </div>
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav nav-item">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/agenda">Agenda</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/speakers">Oradores</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/hackathon">Hackathon</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/challenges">Desafios</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/accommodation">Alojamento</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/staff">Equipa</a>
+          </li>
+          <!--<li>
+            <a class="page-scroll" href="http://intra.seium.org" target="_blank">IntraNet</a>
+          </li>-->
+          <li>
+            <a class="page-scroll" href="https://seium17.eventbrite.pt/" target="_blank">Inscrições</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="http://intra.seium.org/users/sign_in" target="_blank">Badges</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+    
+    <section id="aboutspeakers" controller="speakerCtrl">
   <div class="container">
     <div class="section-title-container text-center">
       <h1 class="section-title">Equipa</h1>
@@ -11,13 +130,1042 @@ layout: default
       Para te trazer esta semana, o CeSIUM juntou a melhor equipa possível. Eles andam por aí, sem dormir há 5 dias, stressados e cheios de trabalho. Se vires algum deles manda-lhes um sorriso, eles agradecem.
     </div>
 
-    {% include staff.html %}
+    <section id="staff">
+  <div class="container">
+    
+    <div class="section-title-container">
+      <h1 class="section-title">Organização</h1>
+    </div>
+
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/martinho-aragao-97ba25c1882bae12c326f8de58c1552193c28f4a45e69b14b42ee7c7e5eb4cd9.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Martinho Aragão</span>
+          <ul class="list-inline social-buttons">
+            
+            <li>
+              <a href="http://martinhoaragao.me" target="_blank"><i class="fa fa-globe"></i></a>
+            </li>
+            
+            
+            
+            <li>
+              <a href="https://github.com/martinhoaragao" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://pt.linkedin.com/in/martinhoaragao" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/paulo-cardoso-a7af8be2a21885fe1a2ebec3804fd59f92cc866ea66e18352800257a2cd9a813.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Paulo Cardoso</span>
+          <ul class="list-inline social-buttons">
+            
+            <li>
+              <a href="https://about.me/pcardoso.lei" target="_blank"><i class="fa fa-globe"></i></a>
+            </li>
+            
+            
+            
+            <li>
+              <a href="https://github.com/pcardosolei" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://pt.linkedin.com/in/pcardosolei" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/joao-costa-547d33bceeeff67ab8366e328bd4f625b7b2763292345a24e33df9f499604d3e.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">João Costa</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/JoaoFCosta" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/gil-goncalves-95a440871222470da4943dd93bad8e6f10e91fd471013c051d638096992bab5d.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Gil Gonçalves</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/GIlGoncalves" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/profile/view?id=AAMAABuOz5YBiDT6gTHn9ugA4OCrTqW1ezGPQYc" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/adriana-guedes-3070dd93a00fc97ed8f174c90e219a95edb532b9d033e2599393e3c8ebb97844.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Adriana Guedes</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/ines-sampaio-b60b71b405d79c4aa13adb39b7b6e336379e74d7a745b3efc23cd770497db99d.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Inês Sampaio</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            <li>
+              <a href="https://twitter.com/InesSampaio9" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://github.com/ines36" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/in%C3%AAs-sampaio-19790955/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/luis-fonseca-5a3170b14ea9e69642762f6eb65ed93cc74ca0aefc901df5cf582f3087487e3e.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Luis Fonseca</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/Pirata156" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/hugo-goncalves-e613a2b3b788be41fd1b4b50d62bf2f181a5d226df219d5f175682f883011031.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Hugo Gonçalves</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/Hugainz" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/lucia-abreu-da0b9a14742abf18820eada2eb76db84b9f64a49d47f28e8ca36b35c34a26df2.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Lúcia Abreu</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            <li>
+              <a href="https://twitter.com/lmvda17" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/lmvda" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/francisco-costa-7027e3a356ceadfdbca8c9062bcfdb7399143f163eefa52d397706f174d0f868.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Francisco Costa</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/xicon73" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/andre-goncalves-eb47f47f3b3e05ef276243790e81e9900300cda9398e64534eef88649e2eb314.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">André Gonçalves</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            <li>
+              <a href="https://twitter.com/simbs38" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://github.com/Simbs38" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/miguel-lobo-08b3dbb66c1f156aa7eeed5c7ec6b2d887f164f76c8ffde430dd740b0a49723d.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Miguel Lobo</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/MLobo1997" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/bruno-azevedo-e2d7bdcaa9ecc5f48ad48999e8bfa21078b2d738021281779ee3142c2ddded49.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Bruno Azevedo</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/BrunoJAzevedo" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/dinis-peixoto-55a1bd6ec389f712caffc6088261e45840cacc59ff65e981d4865392e4913090.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Dinis Peixoto</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            <li>
+              <a href="https://twitter.com/DinisPeixoto" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://github.com/dinispeixoto" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/dinispeixoto" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/ricardo-certo-34445adfb9a46adbf6060b1139ad45453362d0cd8ccba49daab30bb554dc49d4.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Ricardo Certo</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/filipe-fortunato-c30cbcd2a17587baf9dfeb71623bba34398833624589147d9f86260b9100115e.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Filipe Fortunato</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/pedro-almeida-542920034937ae8af54be9b0e2805e30067038fb69caa0ee6eda1ae4366d1cb8.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Pedro Almeida</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/andre-teixeira-e771a8dfc5dab1c9da8a65c4e53793a3a7b4a5251dc217738c580afa1df7e19d.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">André Teixeira</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/Nein" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/joana-arantes-504d3dcace2b57524045abe5706f4fc365ce55c4798cb004328473e1ea500e9f.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Joana Arantes</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/joanaarantes" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/guilherme-guerreiro-cd2862ea42e9903c2118235e807566477af73417f7d54faad12501c8a2e12d3a.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Guilherme Guerreiro</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/houdini39" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/guilherme-guerreiro-343aa0119" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/pedro-fortes-01dbc852c710e9379bfd2e874c61246be43bb818030895b68d4bd02f792e67ff.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Pedro Fortes</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/playerVfox" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/eduardo-semanas-18f79e73c31cb526d74578056cf338b65b4bdf2e9aff3001eeec13991e4821cb.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Eduardo Semanas</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/bruno-cancelinha-5e7491d79774238e274ff28df311a4a16e088bd8ada81d779fb96e3f0f5566fb.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Bruno Cancelinha</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/9thScientist" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/marcelo-miranda-e54964e40ce666b12278e7c148086889847e53098217afbfad01efeb007818fe.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Marcelo Miranda</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/andre-santos-f1c736d48429a92a655dc70525a0d413db5bdf4c0d392c7dae9767fbcb622fe7.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">André Santos</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            <li>
+              <a href="https://twitter.com/andrerfcsantos" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://github.com/andrerfcsantos" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/daniel-tinoco-5eff7929b9c955a3a599b46b7d0c3dce6ec9c6d1131c6579520501b309a94c70.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Daniel Tinoco</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/0urobor0s" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/andre-brandao-18edaff4b57c2f316a6fd160e0642e8730e76ddda35a081843c65c7d643a82f5.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">André Brandão</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/andrebrandao21" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/miguel-pinto-f5d974e2f8de4f2b953e835cbdb6e42446009cc8255b33570ea798967b2fd5a2.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Miguel Pinto</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/miguelpinto98" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/joao-pereira-ddfab8fdde48940fad483c5a16c6b16069cd8c6eb72491c8572e5ab75dfadd5a.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">João Pereira</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/jcp19" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://pt.linkedin.com/in/joão-pereira-513a63b8" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/bruno-ferraz-a6386e1e5ddc62456645945873f323ee8fcec7e6898799cff87b9f56dffce551.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Bruno Ferraz</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/brunomaf" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/marco-goncalves-4ff2b801f0c1b86773fda8b75a5703b5ee9da1151471f890d03ce563a3f29f44.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Marco Gonçalves</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/Barca88" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/francisco-neves-9b7a8b7857d5ee0f447b5c78e97be8a70c6726eb6c9482f58ba8f394c391a1d7.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Francisco Neves</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/fntneves" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/diogo-vilaca-96ea17b4a1153062bec53d2afc9370471ff431569eba07365654600a58acb819.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Diogo Vilaça</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/francisco-lira-d2a6453d7c19e93a574a21a6972ed3807f1c5947cf7dc48e5cc120cabf810542.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Francisco Lira</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            <li>
+              <a href="franlira12" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://github.com/FranciscoLira" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/francisco-ribeiro-f3aaeab1d3df360d20559eadfbefcba6ade4fcf210d54e0af6444c6db91af3d9.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Francisco Ribeiro</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/FranciscoRibeiro" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/hugo-brandao-757e9074e74cb543e959edb70c5278a719ce323828f37f1c1d4c0b6cfbaa2bb0.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Hugo Brandão</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/jhugobb" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/jose-bastos-deec82ebb4c58f41b298eb275394391141e1c448e618cb01ebc243222e417e31.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">José Bastos</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/zbastos" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/zbastos" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/jose-macedo-e851871a9ba6e92582bdae20f43e7c6b52d08a4f10b1781c2ff8829f34bce796.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">José Macedo</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/zenunomacedo" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/jose-monteiro-03fc970ebe30d934b571109630adce6b59925b4e5370a19df3f3df113d69ad5a.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">José Monteiro</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/JosePedro90" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/jose-resende-de15449b532b9169c0bbbde01fd1f403455449a5002d96b68391532456b3414d.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">José Resende</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/ZePedroResende" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/madalena-castro-394374e902ef178974e77ef5e65c6841f6dd21d586401260234d8d59baceca48.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Madalena Castro</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/miguel-cunha-cd73de725b092764e82e4edfe65340ded3236956fdae0fac1783c313f9240e53.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Miguel Cunha</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/ricardo-pereira-8d961025270dbf81fa51a881b9b976e03a32c2d8db2f2b138c8fb808197c43fd.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Ricardo Pereira</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            <li>
+              <a href="https://github.com/ricardopereira33" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/sara-pereira-cd59d8635e6bf9369078ec213ce9cf93d80c9766b7e841c0c768ffade20e419b.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Sara Pereira</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/sergio-alves-1bead41834269613dd801aa1afa62e6f40980e0316ed166e7228187507043636.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Sérgio Alves</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/susana-mendes-5d671d7fec40ccb3b15e34b740922801b3e4923accf253ed5acbcdcdad587b1d.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Susana Mendes</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/pedro-duarte-8be3bbf23aa2210e30a2217c943920604fd88ee50b10b1e7d0c86217979aef8f.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Pedro Duarte</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff">
+      <div class="staff-info-container" style="background-image: url( /assets/staff/sandra-ferreira-2ecbc2d1d59d5fe91164413e7244837afae4fdefc327bb9026f38f9380ed99cf.jpg )">
+        <div class="staff-info">
+          <span class="col-md-12 staff-name">Sandra Ferreira</span>
+          <ul class="list-inline social-buttons">
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</section>
+
 
     <div class="section-title-container text-center">
       <h1 class="section-title">Como nos encontrar</h1>
     </div>
 
-    {% include contacts.html %}
+    <section id="contacts">
+  <div class="container">
+    <div class="col-xs-12">
+      <a href="http://www.cesium.di.uminho.pt/" target="_blank">
+        <div id="cesium-circle">
+          <img src="/assets/logos/cesium-icon-white-5b4445454db912ab88c9022801bc0e6ca161514882c3d9acc638cb7b8b0511f7.png" id="logo" width="219" height="253" alt="logos/cesium-icon-white.png">
+        </div>
+      </a>
+    </div>
+
+      <div class="col-xs-12 cesium-info">
+          <h5>Centro de Estudantes de Engenharia Informática </h5>
+          <p> <strong>E-MAIL: </strong> <a href="mailto:cesium@di.uminho.pt">cesium@di.uminho.pt </a></p>
+          <p> <strong>TELEFONE: </strong> +351 253 604 448 </p>
+          <p> A SEI é gratuita para os participantes, sendo organizada por voluntários do CeSIUM. </p>
+      </div>
+
+      <iframe class="center-block" id="google-map" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL4bubp3-JA0RIa4y7zUxqng&key=AIzaSyDh4ixf3YXb8V63gppWG_jsyy6xguk9UbQ" allowfullscreen></iframe>
+
+    </div>
+</section>
+
 
   </div>
 </section>
+
+
+    
+<footer class="sei">
+
+  <div class="container">
+    <div class="col-md-12">
+      <p>Made with ❤ by <a href="http://cesium.di.uminho.pt" target="_blank">CeSIUM</a>. <!--Hosted on <a href="https://github.com/cesium/2017.seium.org" target="_blank">GitHub</a>--></p>
+
+      <a href="http://www.facebook.com/SEI.UMinho"><i class="fa fa-facebook fa-2x"></i></a>
+      <a href="http://www.github.com/cesium"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/cesiuminho"><i class="fa fa-twitter fa-2x"></i></a>
+
+      <p><a href="http://2016.seium.org" target="_blank"> Previous edition</a> ||
+
+      
+
+      <a href="/codeofconduct" target="_blank">Code of Conduct</a>
+
+      
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+    <script type="text/javascript" src="/assets/main-c88ae9b001fab716295f5a8888810ece5ac56d59818f5eb2f6fa1ed511468d19.js"></script>
+  </body>
+</html>
